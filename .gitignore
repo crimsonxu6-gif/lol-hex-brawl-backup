@@ -7,6 +7,7 @@
 # Debug screenshots and temporary recognition artifacts
 debug-*
 brand-detail-*.png
+lol-hex-brawl-backup-*.zip
 
 # Generated review/debug captures
 captures/debug/
