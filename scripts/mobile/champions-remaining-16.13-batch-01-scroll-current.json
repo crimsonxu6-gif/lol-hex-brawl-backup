@@ -1,0 +1,54 @@
+[
+  {
+    "name": "潮汐海灵",
+    "slug": "fizz"
+  },
+  {
+    "name": "战争之影",
+    "slug": "hecarim"
+  },
+  {
+    "name": "德玛西亚皇子",
+    "slug": "jarvan-iv"
+  },
+  {
+    "name": "灵罗娃娃",
+    "slug": "gwen"
+  },
+  {
+    "name": "殇之木乃伊",
+    "slug": "amumu"
+  },
+  {
+    "name": "虚空恐惧",
+    "slug": "chogath"
+  },
+  {
+    "name": "武器大师",
+    "slug": "jax"
+  },
+  {
+    "name": "大发明家",
+    "slug": "heimerdinger"
+  },
+  {
+    "name": "风暴之怒",
+    "slug": "janna"
+  },
+  {
+    "name": "酒桶",
+    "slug": "gragas"
+  },
+  {
+    "name": "狂厄蔷薇",
+    "slug": "briar"
+  },
+  {
+    "name": "迷失之牙",
+    "slug": "gnar"
+  },
+  {
+    "name": "未来守护者",
+    "slug": "jayce"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "影哨",
+    "slug": "akshan"
+  },
+  {
+    "name": "牛头酋长",
+    "slug": "alistar"
+  },
+  {
+    "name": "铁血狼母",
+    "slug": "ambessa"
+  },
+  {
+    "name": "殇之木乃伊",
+    "slug": "amumu"
+  },
+  {
+    "name": "残月之肃",
+    "slug": "aphelios"
+  },
+  {
+    "name": "双界灵兔",
+    "slug": "aurora"
+  },
+  {
+    "name": "沙漠皇帝",
+    "slug": "azir"
+  },
+  {
+    "name": "蒸汽机器人",
+    "slug": "blitzcrank"
+  },
+  {
+    "name": "狂厄蔷薇",
+    "slug": "briar"
+  },
+  {
+    "name": "皮城女警",
+    "slug": "caitlyn"
+  },
+  {
+    "name": "虚空恐惧",
+    "slug": "chogath"
+  },
+  {
+    "name": "英勇投弹手",
+    "slug": "corki"
+  },
+  {
+    "name": "荣耀行刑官",
+    "slug": "draven"
+  },
+  {
+    "name": "时间刺客",
+    "slug": "ekko"
+  },
+  {
+    "name": "远古恐惧",
+    "slug": "fiddlesticks"
+  },
+  {
+    "name": "无双剑姬",
+    "slug": "fiora"
+  },
+  {
+    "name": "潮汐海灵",
+    "slug": "fizz"
+  },
+  {
+    "name": "正义巨像",
+    "slug": "galio"
+  },
+  {
+    "name": "海洋之灾",
+    "slug": "gangplank"
+  },
+  {
+    "name": "迷失之牙",
+    "slug": "gnar"
+  },
+  {
+    "name": "酒桶",
+    "slug": "gragas"
+  },
+  {
+    "name": "灵罗娃娃",
+    "slug": "gwen"
+  },
+  {
+    "name": "战争之影",
+    "slug": "hecarim"
+  },
+  {
+    "name": "大发明家",
+    "slug": "heimerdinger"
+  },
+  {
+    "name": "异画师",
+    "slug": "hwei"
+  },
+  {
+    "name": "海兽祭司",
+    "slug": "illaoi"
+  },
+  {
+    "name": "风暴之怒",
+    "slug": "janna"
+  },
+  {
+    "name": "德玛西亚皇子",
+    "slug": "jarvan-iv"
+  },
+  {
+    "name": "武器大师",
+    "slug": "jax"
+  },
+  {
+    "name": "未来守护者",
+    "slug": "jayce"
+  }
+]

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Kalista",
+    "slug": "kalista",
+    "names": {
+      "zh": "卡莉丝塔 复仇之矛",
+      "en": "the Spear of Vengeance Kalista",
+      "ja": "復讐の槍 カリスタ",
+      "ko": "복수의 화신 칼리스타"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "卡莉丝塔 复仇之矛 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "AD 出装"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "Deft": "灵巧",
+        "Typhoon": "台风",
+        "ScopedWeapons": "万用瞄准镜",
+        "LightemUp": "点亮他们！",
+        "TankItOrLeaveIt": "会心防御",
+        "Upgrade_Collector": "升级：收集者",
+        "BluntForce": "大力",
+        "ShadowRunner": "暗影疾奔",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "CriticalRhythm": "暴击律动",
+        "Upgrade_IE": "升级：无尽之刃",
+        "ItsCritical": "关键暴击",
+        "EtherealWeapon": "虚幻武器",
+        "SpecializedEmpowerment": "威能之追求",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "DoubleTap": "双发快射",
+        "DualWield": "双刀流",
+        "TapDancer": "踢踏舞",
+        "FanTheHammer": "连拨击锤",
+        "GiantSlayer": "巨人杀手",
+        "ScopiestWeapons": "最万用的瞄准镜"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Spear of Vengeance Kalista Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "AD Build"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "Deft": "Deft",
+        "Typhoon": "Typhoon",
+        "ScopedWeapons": "Scoped Weapons",
+        "LightemUp": "Light 'Em Up!",
+        "TankItOrLeaveIt": "Tank It Or Leave It",
+        "Upgrade_Collector": "Upgrade Collector",
+        "BluntForce": "Blunt Force",
+        "ShadowRunner": "Shadow Runner",
+        "ScopierWeapons": "Scopier Weapons",
+        "CriticalRhythm": "Critical Rhythm",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "ItsCritical": "It's Critical",
+        "EtherealWeapon": "Ethereal Weapon",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "DoubleTap": "Double Tap",
+        "DualWield": "Dual Wield",
+        "TapDancer": "Tap Dancer",
+        "FanTheHammer": "Fan The Hammer",
+        "GiantSlayer": "Giant Slayer",
+        "ScopiestWeapons": "Scopiest Weapons"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "復讐の槍 カリスタ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "AD ビルド"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "Deft": "技巧",
+        "Typhoon": "タイフーン",
+        "ScopedWeapons": "スコープ装着",
+        "LightemUp": "光で照らせ！",
+        "TankItOrLeaveIt": "タンクこそ至高",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "BluntForce": "無骨なる力",
+        "ShadowRunner": "影走り",
+        "ScopierWeapons": "改造スコープ装着",
+        "CriticalRhythm": "クリティカルの律動",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "ItsCritical": "まさにクリティカル",
+        "EtherealWeapon": "エーテル武器",
+        "SpecializedEmpowerment": "力の追求",
+        "TransmutePrismatic": "変質: プリズム",
+        "DoubleTap": "ダブルタップ",
+        "DualWield": "二刀流",
+        "TapDancer": "タップダンサー",
+        "FanTheHammer": "ぐるぐるハンマー",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "ScopiestWeapons": "超改造スコープ装着"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "복수의 화신 칼리스타 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "AD 빌드"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "Deft": "능수능란",
+        "Typhoon": "태풍",
+        "ScopedWeapons": "조준경 부착",
+        "LightemUp": "불을 밝혀",
+        "TankItOrLeaveIt": "확률적 방어",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "BluntForce": "육중한 힘",
+        "ShadowRunner": "그림자 질주",
+        "ScopierWeapons": "상급 조준경 부착",
+        "CriticalRhythm": "치명적 리듬",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "ItsCritical": "치명적인 공격",
+        "EtherealWeapon": "환영 무기",
+        "SpecializedEmpowerment": "위력 추구",
+        "TransmutePrismatic": "전환: 프리즘",
+        "DoubleTap": "한 발에 두 놈",
+        "DualWield": "양손잡이",
+        "TapDancer": "탭 댄서",
+        "FanTheHammer": "탄환 세례",
+        "GiantSlayer": "거인 학살자",
+        "ScopiestWeapons": "최상급 조준경 부착"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        3124,
+        3153,
+        3302,
+        3085,
+        6665,
+        3006
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 27.04
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 14.72
+        },
+        {
+          "id": "ScopedWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopedweapons_small.png",
+          "pick": 11.5
+        },
+        {
+          "id": "LightemUp",
+          "icon": "assets/ux/cherry/augments/icons/lightemup_small.png",
+          "pick": 7.42
+        },
+        {
+          "id": "TankItOrLeaveIt",
+          "icon": "assets/ux/cherry/augments/icons/tankitorleaveit_small.png",
+          "pick": 5.25
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 4.2
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 3.68
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 1.79
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 36.84
+        },
+        {
+          "id": "CriticalRhythm",
+          "icon": "assets/ux/kiwi/augments/icons/criticalrhythm_small.png",
+          "pick": 30
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 20.18
+        },
+        {
+          "id": "ItsCritical",
+          "icon": "assets/ux/cherry/augments/icons/itscritical_small.png",
+          "pick": 12.48
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 7.65
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 5.83
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 5.75
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 4.32
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 31.37
+        },
+        {
+          "id": "TapDancer",
+          "icon": "assets/ux/cherry/augments/icons/tapdancer_small.png",
+          "pick": 24.16
+        },
+        {
+          "id": "FanTheHammer",
+          "icon": "assets/ux/cherry/augments/icons/fanthehammer_small.png",
+          "pick": 11.71
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 11.46
+        },
+        {
+          "id": "ScopiestWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopiestweapons_small.png",
+          "pick": 10.7
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "DrMundo",
+    "slug": "dr-mundo",
+    "names": {
+      "zh": "蒙多医生 祖安狂人",
+      "en": "the Madman of Zaun Dr. Mundo",
+      "ja": "ゾウンの狂人 ドクター・ムンド",
+      "ko": "자운의 광인 문도 박사"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "蒙多医生 祖安狂人 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "tank": "肉装"
+      },
+      "buildTags": {
+        "tank": "肉装"
+      },
+      "buildScores": {
+        "tank": "待审核"
+      },
+      "hexNames": {
+        "HeavyHitter": "重量级打击手",
+        "Upgrade_Immolate": "升级：献祭",
+        "BluntForce": "大力",
+        "TransmuteGold": "质变：黄金阶",
+        "ForgedByTheMaster": "大师铸就",
+        "escAPADe": "魔法转物理",
+        "Goredrink": "渴血",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "TankEngine": "坦克引擎",
+        "Quest_SteelYourHeart": "钢化你心",
+        "CelestialBody": "星界躯体",
+        "PressureCooker": "高压锅",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "Bonk": "邦！",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "ApexInventor": "尖端发明家",
+        "Dropkick": "飞身踢",
+        "Goliath": "歌利亚巨人",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "FinalForm": "最终形态",
+        "GiantSlayer": "巨人杀手"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Madman of Zaun Dr. Mundo Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "tank": "Tank Build"
+      },
+      "buildTags": {
+        "tank": "Tank"
+      },
+      "buildScores": {
+        "tank": "Needs review"
+      },
+      "hexNames": {
+        "HeavyHitter": "Heavy Hitter",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "BluntForce": "Blunt Force",
+        "TransmuteGold": "Transmute: Gold",
+        "ForgedByTheMaster": "Forged By The Master",
+        "escAPADe": "escAPADe",
+        "Goredrink": "Goredrink",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "TankEngine": "Tank Engine",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "CelestialBody": "Celestial Body",
+        "PressureCooker": "Pressure Cooker",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "Bonk": "BONK!",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "ApexInventor": "Apex Inventor",
+        "Dropkick": "Dropkick",
+        "Goliath": "Goliath",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "FinalForm": "Final Form",
+        "GiantSlayer": "Giant Slayer"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ゾウンの狂人 ドクター・ムンド Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "tank": "タンクビルド"
+      },
+      "buildTags": {
+        "tank": "タンク"
+      },
+      "buildScores": {
+        "tank": "確認待ち"
+      },
+      "hexNames": {
+        "HeavyHitter": "ヘビーヒッター",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "BluntForce": "無骨なる力",
+        "TransmuteGold": "変質: ゴールド",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "escAPADe": "魔攻のいたずら",
+        "Goredrink": "ゴアドリンク",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "TankEngine": "タンクエンジン",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "CelestialBody": "聖体",
+        "PressureCooker": "圧力鍋",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "Bonk": "ボカッ！",
+        "TransmutePrismatic": "変質: プリズム",
+        "ApexInventor": "至高の発明家",
+        "Dropkick": "ドロップキック",
+        "Goliath": "大巨人",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "FinalForm": "最終形態",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "자운의 광인 문도 박사 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "tank": "탱커 빌드"
+      },
+      "buildTags": {
+        "tank": "탱커"
+      },
+      "buildScores": {
+        "tank": "검토 필요"
+      },
+      "hexNames": {
+        "HeavyHitter": "강타자",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "BluntForce": "육중한 힘",
+        "TransmuteGold": "전환: 골드",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "escAPADe": "마법사 (물리)",
+        "Goredrink": "선혈포식",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "TankEngine": "탱크 엔진",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "CelestialBody": "천상의 신체",
+        "PressureCooker": "압력솥",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "Bonk": "꽁!",
+        "TransmutePrismatic": "전환: 프리즘",
+        "ApexInventor": "최첨단 발명가",
+        "Dropkick": "드롭킥",
+        "Goliath": "거인",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "FinalForm": "최종 형태",
+        "GiantSlayer": "거인 학살자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        3083,
+        2501,
+        3748,
+        2517,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 35.42
+        },
+        {
+          "id": "Upgrade_Immolate",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeimmolate_small.png",
+          "pick": 12.86
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 8.62
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.6
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 2.51
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 2.46
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 2.37
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 2.24
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 50.87
+        },
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": 30.8
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": 21.06
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 14.33
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 10.58
+        },
+        {
+          "id": "Bonk",
+          "icon": "assets/ux/kiwi/augments/icons/bonk_large.png",
+          "pick": 6.25
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 5.75
+        },
+        {
+          "id": "ApexInventor",
+          "icon": "assets/ux/cherry/augments/icons/apexinventor_small.png",
+          "pick": 3.02
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": 38.38
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 25.63
+        },
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": 7.11
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

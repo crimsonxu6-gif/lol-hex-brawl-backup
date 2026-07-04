@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Renekton",
+    "slug": "renekton",
+    "names": {
+      "zh": "雷克顿 荒漠屠夫",
+      "en": "the Butcher of the Sands Renekton",
+      "ja": "砂漠の解体屋 レネクトン",
+      "ko": "사막의 도살자 레넥톤"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "雷克顿 荒漠屠夫 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "战士出装"
+      },
+      "buildTags": {
+        "standard": "战士"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "SpinToWin": "旋转至胜",
+        "Goredrink": "渴血",
+        "HeavyHitter": "重量级打击手",
+        "BluntForce": "大力",
+        "TitansPulse": "保持坚定",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "escAPADe": "魔法转物理",
+        "TransmuteGold": "质变：黄金阶",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "EndlessDecimation": "无尽大杀四方",
+        "Bonk": "邦！",
+        "PressureCooker": "高压锅",
+        "Terror": "惊惧",
+        "LittleExtraHelp": "小小的额外帮助",
+        "ThreadtheNeedle": "穿针引线",
+        "OutlawsGrit": "狂徒豪气",
+        "FinalForm": "最终形态",
+        "MysticPunch": "秘术冲拳",
+        "InfernoTriggered": "扳机炼狱",
+        "UltimateAwakening": "终极唤醒",
+        "GiantSlayer": "巨人杀手"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Butcher of the Sands Renekton Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Bruiser Build"
+      },
+      "buildTags": {
+        "standard": "Bruiser"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "SpinToWin": "Spin To Win",
+        "Goredrink": "Goredrink",
+        "HeavyHitter": "Heavy Hitter",
+        "BluntForce": "Blunt Force",
+        "TitansPulse": "Stay Resolute",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "escAPADe": "escAPADe",
+        "TransmuteGold": "Transmute: Gold",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "EndlessDecimation": "Endless Decimation",
+        "Bonk": "BONK!",
+        "PressureCooker": "Pressure Cooker",
+        "Terror": "Terror",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "ThreadtheNeedle": "Thread the Needle",
+        "OutlawsGrit": "Outlaw's Grit",
+        "FinalForm": "Final Form",
+        "MysticPunch": "Mystic Punch",
+        "InfernoTriggered": "Triggered Inferno",
+        "UltimateAwakening": "Ultimate Awakening",
+        "GiantSlayer": "Giant Slayer"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "砂漠の解体屋 レネクトン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "ファイタービルド"
+      },
+      "buildTags": {
+        "standard": "ファイター"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "SpinToWin": "勝利への回転",
+        "Goredrink": "ゴアドリンク",
+        "HeavyHitter": "ヘビーヒッター",
+        "BluntForce": "無骨なる力",
+        "TitansPulse": "固い決意",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "escAPADe": "魔攻のいたずら",
+        "TransmuteGold": "変質: ゴールド",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "EndlessDecimation": "終わりなき殲滅",
+        "Bonk": "ボカッ！",
+        "PressureCooker": "圧力鍋",
+        "Terror": "恐怖",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "ThreadtheNeedle": "貫通力",
+        "OutlawsGrit": "無法者の気概",
+        "FinalForm": "最終形態",
+        "MysticPunch": "神秘の鉄拳",
+        "InfernoTriggered": "巻き起こるインフェルノ",
+        "UltimateAwakening": "究極の目覚め",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "사막의 도살자 레넥톤 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "브루저 빌드"
+      },
+      "buildTags": {
+        "standard": "브루저"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "SpinToWin": "승리를 위한 회전",
+        "Goredrink": "선혈포식",
+        "HeavyHitter": "강타자",
+        "BluntForce": "육중한 힘",
+        "TitansPulse": "확고한 의지로",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "escAPADe": "마법사 (물리)",
+        "TransmuteGold": "전환: 골드",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "EndlessDecimation": "끝없는 학살",
+        "Bonk": "꽁!",
+        "PressureCooker": "압력솥",
+        "Terror": "공포",
+        "LittleExtraHelp": "작은 도움",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "OutlawsGrit": "무법자의 투지",
+        "FinalForm": "최종 형태",
+        "MysticPunch": "신비한 주먹",
+        "InfernoTriggered": "지옥불 난사 발동",
+        "UltimateAwakening": "궁극의 각성",
+        "GiantSlayer": "거인 학살자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        126697,
+        6610,
+        6333,
+        3071,
+        2517,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "SpinToWin",
+          "icon": "assets/ux/cherry/augments/icons/spintowin_small.png",
+          "pick": 25.32
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 12.41
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 10.69
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 10.12
+        },
+        {
+          "id": "TitansPulse",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 4.81
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 4.59
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 2.44
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.38
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 12.04
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 11.87
+        },
+        {
+          "id": "Bonk",
+          "icon": "assets/ux/kiwi/augments/icons/bonk_large.png",
+          "pick": 11.05
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 9.51
+        },
+        {
+          "id": "Terror",
+          "icon": "assets/ux/cherry/augments/icons/desecrator_large.png",
+          "pick": 9.26
+        },
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 8.98
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 8.96
+        },
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 8.46
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 13.98
+        },
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 9.74
+        },
+        {
+          "id": "InfernoTriggered",
+          "icon": "assets/ux/cherry/augments/icons/madscientist_small.png",
+          "pick": 7.29
+        },
+        {
+          "id": "UltimateAwakening",
+          "icon": "assets/ux/kiwi/augments/icons/zerohour_small.png",
+          "pick": 6.08
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

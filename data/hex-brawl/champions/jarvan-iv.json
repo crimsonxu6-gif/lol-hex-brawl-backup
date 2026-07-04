@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "JarvanIV",
+    "slug": "jarvan-iv",
+    "names": {
+      "zh": "嘉文四世 德玛西亚皇子",
+      "en": "the Exemplar of Demacia Jarvan IV",
+      "ja": "デマーシアの儀範 ジャーヴァンⅣ",
+      "ko": "데마시아의 귀감 자르반 4세"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "嘉文四世 德玛西亚皇子 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "tank": "肉装",
+        "lethality": "AD 出装"
+      },
+      "buildTags": {
+        "tank": "肉装",
+        "lethality": "AD"
+      },
+      "buildScores": {
+        "tank": "待审核",
+        "lethality": "待审核"
+      },
+      "hexNames": {
+        "BluntForce": "大力",
+        "Upgrade_Collector": "升级：收集者",
+        "Upgrade_Immolate": "升级：献祭",
+        "SlapAround": "扇巴掌",
+        "Goredrink": "渴血",
+        "ShadowRunner": "暗影疾奔",
+        "escAPADe": "魔法转物理",
+        "HeavyHitter": "重量级打击手",
+        "Quest_SteelYourHeart": "钢化你心",
+        "CelestialBody": "星界躯体",
+        "ThreadtheNeedle": "穿针引线",
+        "BurstingTeeth": "牙仙子",
+        "PressureCooker": "高压锅",
+        "SoulEater": "吞噬灵魂",
+        "EndlessDecimation": "无尽大杀四方",
+        "TankEngine": "坦克引擎",
+        "Dropkick": "飞身踢",
+        "Goliath": "歌利亚巨人",
+        "DivineDomain": "飞升仪式",
+        "FinalForm": "最终形态",
+        "GiantSlayer": "巨人杀手"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。",
+      "buildNotes": {}
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Exemplar of Demacia Jarvan IV Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "tank": "Tank Build",
+        "lethality": "AD Build"
+      },
+      "buildTags": {
+        "tank": "Tank",
+        "lethality": "AD"
+      },
+      "buildScores": {
+        "tank": "Needs review",
+        "lethality": "Needs review"
+      },
+      "hexNames": {
+        "BluntForce": "Blunt Force",
+        "Upgrade_Collector": "Upgrade Collector",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "SlapAround": "Slap Around",
+        "Goredrink": "Goredrink",
+        "ShadowRunner": "Shadow Runner",
+        "escAPADe": "escAPADe",
+        "HeavyHitter": "Heavy Hitter",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "CelestialBody": "Celestial Body",
+        "ThreadtheNeedle": "Thread the Needle",
+        "BurstingTeeth": "Tooth Fairy",
+        "PressureCooker": "Pressure Cooker",
+        "SoulEater": "Soul Eater",
+        "EndlessDecimation": "Endless Decimation",
+        "TankEngine": "Tank Engine",
+        "Dropkick": "Dropkick",
+        "Goliath": "Goliath",
+        "DivineDomain": "Rite of Ascension",
+        "FinalForm": "Final Form",
+        "GiantSlayer": "Giant Slayer"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data.",
+      "buildNotes": {}
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "デマーシアの儀範 ジャーヴァンⅣ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "tank": "タンクビルド",
+        "lethality": "ADビルド"
+      },
+      "buildTags": {
+        "tank": "タンク",
+        "lethality": "AD"
+      },
+      "buildScores": {
+        "tank": "要確認",
+        "lethality": "要確認"
+      },
+      "hexNames": {
+        "BluntForce": "無骨なる力",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "SlapAround": "叩きまくれ",
+        "Goredrink": "ゴアドリンク",
+        "ShadowRunner": "影走り",
+        "escAPADe": "魔攻のいたずら",
+        "HeavyHitter": "ヘビーヒッター",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "CelestialBody": "聖体",
+        "ThreadtheNeedle": "貫通力",
+        "BurstingTeeth": "歯の妖精",
+        "PressureCooker": "圧力鍋",
+        "SoulEater": "ソウルイーター",
+        "EndlessDecimation": "終わりなき殲滅",
+        "TankEngine": "タンクエンジン",
+        "Dropkick": "ドロップキック",
+        "Goliath": "大巨人",
+        "DivineDomain": "超越の儀式",
+        "FinalForm": "最終形態",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。",
+      "buildNotes": {}
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "데마시아의 귀감 자르반 4세 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "tank": "탱커 빌드",
+        "lethality": "AD 빌드"
+      },
+      "buildTags": {
+        "tank": "탱커",
+        "lethality": "AD"
+      },
+      "buildScores": {
+        "tank": "검토 필요",
+        "lethality": "검토 필요"
+      },
+      "hexNames": {
+        "BluntForce": "육중한 힘",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "SlapAround": "우당탕탕",
+        "Goredrink": "선혈포식",
+        "ShadowRunner": "그림자 질주",
+        "escAPADe": "마법사 (물리)",
+        "HeavyHitter": "강타자",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "CelestialBody": "천상의 신체",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "BurstingTeeth": "이빨 요정",
+        "PressureCooker": "압력솥",
+        "SoulEater": "영혼의 포식자",
+        "EndlessDecimation": "끝없는 학살",
+        "TankEngine": "탱크 엔진",
+        "Dropkick": "드롭킥",
+        "Goliath": "거인",
+        "DivineDomain": "초월 의식",
+        "FinalForm": "최종 형태",
+        "GiantSlayer": "거인 학살자"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다.",
+      "buildNotes": {}
+    }
+  },
+  "builds": [
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        2502,
+        3083,
+        3065,
+        2501,
+        3053
+      ],
+      "type": "tank"
+    },
+    {
+      "key": "lethality",
+      "type": "ad",
+      "items": [
+        6697,
+        6676,
+        6610,
+        6696,
+        6694,
+        3031
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 12.51
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 8.25
+        },
+        {
+          "id": "Upgrade_Immolate",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeimmolate_small.png",
+          "pick": 8.11
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 6.79
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 6.75
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 4.41
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 3.75
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 16.43
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": 14.57
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": 11.53
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 10.31
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 8.58
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 7.34
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 7.28
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 6.75
+        },
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 24.74
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": 21.3
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 13.01
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 5.92
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

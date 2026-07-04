@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Pantheon",
+    "slug": "pantheon",
+    "names": {
+      "zh": "潘森 不屈之枪",
+      "en": "the Unbreakable Spear Pantheon",
+      "ja": "砕けぬ槍 パンテオン",
+      "ko": "불굴의 창 판테온"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "潘森 不屈之枪 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "AD 出装"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "BluntForce": "大力",
+        "Goredrink": "渴血",
+        "Upgrade_Collector": "升级：收集者",
+        "escAPADe": "魔法转物理",
+        "SlapAround": "扇巴掌",
+        "TransmuteGold": "质变：黄金阶",
+        "DiveBomber": "俯冲轰炸",
+        "ForgedByTheMaster": "大师铸就",
+        "ThreadtheNeedle": "穿针引线",
+        "Nightstalking": "夜狩",
+        "DarkWind": "贪欲束缚",
+        "EndlessDecimation": "无尽大杀四方",
+        "Upgrade_IE": "升级：无尽之刃",
+        "GetExcited": "罪恶快感",
+        "SoulEater": "吞噬灵魂",
+        "SpecializedRecursion": "急速之追求",
+        "MysticPunch": "秘术冲拳",
+        "BacktoBasics": "回归基本功",
+        "DivineDomain": "飞升仪式",
+        "Dashing": "全凭身法",
+        "InfernoTriggered": "扳机炼狱",
+        "BladeWaltz": "利刃华尔兹"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Unbreakable Spear Pantheon Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "AD Build"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "BluntForce": "Blunt Force",
+        "Goredrink": "Goredrink",
+        "Upgrade_Collector": "Upgrade Collector",
+        "escAPADe": "escAPADe",
+        "SlapAround": "Slap Around",
+        "TransmuteGold": "Transmute: Gold",
+        "DiveBomber": "Dive Bomber",
+        "ForgedByTheMaster": "Forged By The Master",
+        "ThreadtheNeedle": "Thread the Needle",
+        "Nightstalking": "Nightstalking",
+        "DarkWind": "Ravenous Bind",
+        "EndlessDecimation": "Endless Decimation",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "GetExcited": "Get Excited!",
+        "SoulEater": "Soul Eater",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "MysticPunch": "Mystic Punch",
+        "BacktoBasics": "Back To Basics",
+        "DivineDomain": "Rite of Ascension",
+        "Dashing": "Dashing",
+        "InfernoTriggered": "Triggered Inferno",
+        "BladeWaltz": "Blade Waltz"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "砕けぬ槍 パンテオン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "AD ビルド"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "BluntForce": "無骨なる力",
+        "Goredrink": "ゴアドリンク",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "escAPADe": "魔攻のいたずら",
+        "SlapAround": "叩きまくれ",
+        "TransmuteGold": "変質: ゴールド",
+        "DiveBomber": "急降下爆撃",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "ThreadtheNeedle": "貫通力",
+        "Nightstalking": "ナイトストーク",
+        "DarkWind": "貪欲な束縛",
+        "EndlessDecimation": "終わりなき殲滅",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "GetExcited": "超エキサイティン！",
+        "SoulEater": "ソウルイーター",
+        "SpecializedRecursion": "素早さの追求",
+        "MysticPunch": "神秘の鉄拳",
+        "BacktoBasics": "初志貫徹",
+        "DivineDomain": "超越の儀式",
+        "Dashing": "疾走",
+        "InfernoTriggered": "巻き起こるインフェルノ",
+        "BladeWaltz": "ブレードワルツ"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "불굴의 창 판테온 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "AD 빌드"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "BluntForce": "육중한 힘",
+        "Goredrink": "선혈포식",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "escAPADe": "마법사 (물리)",
+        "SlapAround": "우당탕탕",
+        "TransmuteGold": "전환: 골드",
+        "DiveBomber": "폭격기",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "Nightstalking": "밤의 추적",
+        "DarkWind": "굶주린 속박",
+        "EndlessDecimation": "끝없는 학살",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "GetExcited": "신난다!",
+        "SoulEater": "영혼의 포식자",
+        "SpecializedRecursion": "가속 추구",
+        "MysticPunch": "신비한 주먹",
+        "BacktoBasics": "기본으로 돌아가기",
+        "DivineDomain": "초월 의식",
+        "Dashing": "돌진",
+        "InfernoTriggered": "지옥불 난사 발동",
+        "BladeWaltz": "검무"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        126697,
+        6672,
+        6694,
+        6333,
+        2517,
+        6692
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 22.73
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 11.92
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 11.24
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 8.64
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 5.91
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.66
+        },
+        {
+          "id": "DiveBomber",
+          "icon": "assets/ux/cherry/augments/icons/divebomber_small.png",
+          "pick": 2.52
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 2.36
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 20.77
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 12.41
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 12.25
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 10.47
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 10.41
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 8.8
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 7.74
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 6.86
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 12.33
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 10.92
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 10.43
+        },
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 9.66
+        },
+        {
+          "id": "InfernoTriggered",
+          "icon": "assets/ux/cherry/augments/icons/madscientist_small.png",
+          "pick": 9.64
+        },
+        {
+          "id": "BladeWaltz",
+          "icon": "assets/ux/cherry/augments/icons/bladewaltz_small.png",
+          "pick": 6.32
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Vayne",
+    "slug": "vayne",
+    "names": {
+      "zh": "薇恩 暗夜猎手",
+      "en": "the Night Hunter Vayne",
+      "ja": "ナイトハンター ヴェイン",
+      "ko": "어둠 사냥꾼 베인"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "暗夜猎手 薇恩 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规/爆发出装"
+      },
+      "buildTags": {
+        "standard": "默认"
+      },
+      "buildScores": {
+        "standard": "强"
+      },
+      "hexNames": {
+        "Deft": "灵巧",
+        "Typhoon": "台风",
+        "ScopedWeapons": "万用瞄准镜",
+        "ShadowRunner": "暗影疾奔",
+        "LightemUp": "点亮他们！",
+        "TankItOrLeaveIt": "会心防御",
+        "Upgrade_Collector": "升级：收集者",
+        "BluntForce": "大力",
+        "DoubleTap": "双发快射",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "CriticalMissile": "暴击飞弹",
+        "Bonk": "邦！",
+        "Upgrade_IE": "升级：无尽之刃",
+        "LittleExtraHelp": "小小的额外帮助",
+        "CriticalRhythm": "暴击律动",
+        "SoulSiphon": "灵魂虹吸",
+        "DualWield": "双刀流",
+        "FanTheHammer": "连拨击锤",
+        "GiantSlayer": "巨人杀手",
+        "TapDancer": "踢踏舞",
+        "DrawYourSword": "亮出你的剑",
+        "SymphonyofWar": "战争交响乐",
+        "MysticPunch": "秘术冲拳"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Vayne guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Default"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Deft": "Deft",
+        "Typhoon": "Typhoon",
+        "ScopedWeapons": "Scoped Weapons",
+        "ShadowRunner": "Shadow Runner",
+        "LightemUp": "Light 'Em Up!",
+        "TankItOrLeaveIt": "Tank It Or Leave It",
+        "Upgrade_Collector": "Upgrade Collector",
+        "BluntForce": "Blunt Force",
+        "DoubleTap": "Double Tap",
+        "ScopierWeapons": "Scopier Weapons",
+        "CriticalMissile": "Critical Missile",
+        "Bonk": "BONK!",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "CriticalRhythm": "Critical Rhythm",
+        "SoulSiphon": "Soul Siphon",
+        "DualWield": "Dual Wield",
+        "FanTheHammer": "Fan The Hammer",
+        "GiantSlayer": "Giant Slayer",
+        "TapDancer": "Tap Dancer",
+        "DrawYourSword": "Draw Your Sword",
+        "SymphonyofWar": "Symphony of War",
+        "MysticPunch": "Mystic Punch"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ナイトハンター ヴェイン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Deft": "技巧",
+        "Typhoon": "タイフーン",
+        "ScopedWeapons": "スコープ装着",
+        "ShadowRunner": "影走り",
+        "LightemUp": "光で照らせ！",
+        "TankItOrLeaveIt": "タンクこそ至高",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "BluntForce": "無骨なる力",
+        "DoubleTap": "ダブルタップ",
+        "ScopierWeapons": "改造スコープ装着",
+        "CriticalMissile": "クリティカルミサイル",
+        "Bonk": "ボカッ！",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "CriticalRhythm": "クリティカルの律動",
+        "SoulSiphon": "ソウルサイフォン",
+        "DualWield": "二刀流",
+        "FanTheHammer": "ぐるぐるハンマー",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "TapDancer": "タップダンサー",
+        "DrawYourSword": "剣を構えよ",
+        "SymphonyofWar": "闘争交響曲",
+        "MysticPunch": "神秘の鉄拳"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "어둠 사냥꾼 베인 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Deft": "능수능란",
+        "Typhoon": "태풍",
+        "ScopedWeapons": "조준경 부착",
+        "ShadowRunner": "그림자 질주",
+        "LightemUp": "불을 밝혀",
+        "TankItOrLeaveIt": "확률적 방어",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "BluntForce": "육중한 힘",
+        "DoubleTap": "한 발에 두 놈",
+        "ScopierWeapons": "상급 조준경 부착",
+        "CriticalMissile": "치명적 미사일",
+        "Bonk": "꽁!",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "LittleExtraHelp": "작은 도움",
+        "CriticalRhythm": "치명적 리듬",
+        "SoulSiphon": "영혼 흡수",
+        "DualWield": "양손잡이",
+        "FanTheHammer": "탄환 세례",
+        "GiantSlayer": "거인 학살자",
+        "TapDancer": "탭 댄서",
+        "DrawYourSword": "검을 뽑아라",
+        "SymphonyofWar": "전장의 교향곡",
+        "MysticPunch": "신비한 주먹"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        3153,
+        3124,
+        3302,
+        3091,
+        6665,
+        3006
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 21.53
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 11.89
+        },
+        {
+          "id": "ScopedWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopedweapons_small.png",
+          "pick": 11.07
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 8.83
+        },
+        {
+          "id": "LightemUp",
+          "icon": "assets/ux/cherry/augments/icons/lightemup_small.png",
+          "pick": 6.8
+        },
+        {
+          "id": "TankItOrLeaveIt",
+          "icon": "assets/ux/cherry/augments/icons/tankitorleaveit_small.png",
+          "pick": 6.45
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 5.36
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 3.54
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 34.84
+        },
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 23.47
+        },
+        {
+          "id": "CriticalMissile",
+          "icon": "assets/ux/kiwi/augments/icons/criticalmissile_small.png",
+          "pick": 18.54
+        },
+        {
+          "id": "Bonk",
+          "icon": "assets/ux/kiwi/augments/icons/bonk_large.png",
+          "pick": 17.2
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 16.61
+        },
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 14.11
+        },
+        {
+          "id": "CriticalRhythm",
+          "icon": "assets/ux/kiwi/augments/icons/criticalrhythm_small.png",
+          "pick": 13.74
+        },
+        {
+          "id": "SoulSiphon",
+          "icon": "assets/ux/cherry/augments/icons/soulsiphon_small.png",
+          "pick": 11.52
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 26.12
+        },
+        {
+          "id": "FanTheHammer",
+          "icon": "assets/ux/cherry/augments/icons/fanthehammer_small.png",
+          "pick": 18.52
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 9.5
+        },
+        {
+          "id": "TapDancer",
+          "icon": "assets/ux/cherry/augments/icons/tapdancer_small.png",
+          "pick": 7.18
+        },
+        {
+          "id": "DrawYourSword",
+          "icon": "assets/ux/cherry/augments/icons/drawyoursword_small.png",
+          "pick": 2.96
+        },
+        {
+          "id": "SymphonyofWar",
+          "icon": "assets/ux/cherry/augments/icons/symphonyofwar_small.png",
+          "pick": 0.37
+        },
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 0.32
+        }
+      ]
+    }
+  }
+}

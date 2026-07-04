@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Taliyah",
+    "slug": "taliyah",
+    "names": {
+      "zh": "塔莉垭 岩雀",
+      "en": "the Stoneweaver Taliyah",
+      "ja": "ストーンウィーバー タリヤ",
+      "ko": "바위술사 탈리야"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "塔莉垭 岩雀 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "IceCold": "冰寒",
+        "WitchfulThinking": "巫师式思考",
+        "Upgrade_ZH": "升级：中娅",
+        "SlapAround": "扇巴掌",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "MindtoMatter": "由心及物",
+        "TransmuteGold": "质变：黄金阶",
+        "ForgedByTheMaster": "大师铸就",
+        "MagicMissile": "魔法飞弹",
+        "WarlockJuicebox": "术士果汁盒",
+        "PhenomenalEvil": "超凡邪恶",
+        "BurstingTeeth": "牙仙子",
+        "SpecializedEmpowerment": "威能之追求",
+        "BangBang": "狙神飞星",
+        "WithHaste": "急急小子",
+        "BigBrain": "超强大脑",
+        "Eureka": "尤里卡",
+        "BacktoBasics": "回归基本功",
+        "InfernalConduit": "炼狱导管",
+        "InfiniteRecursion": "无限循环往复",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Stoneweaver Taliyah Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "IceCold": "Ice Cold",
+        "WitchfulThinking": "Witchful Thinking",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "SlapAround": "Slap Around",
+        "Purist_Caster": "Purist - Caster",
+        "MindtoMatter": "Mind to Matter",
+        "TransmuteGold": "Transmute: Gold",
+        "ForgedByTheMaster": "Forged By The Master",
+        "MagicMissile": "Magic Missile",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "BurstingTeeth": "Tooth Fairy",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "BangBang": "From Downtown",
+        "WithHaste": "With Haste",
+        "BigBrain": "Big Brain",
+        "Eureka": "Eureka",
+        "BacktoBasics": "Back To Basics",
+        "InfernalConduit": "Infernal Conduit",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ストーンウィーバー タリヤ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "AP ビルド"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "IceCold": "結氷",
+        "WitchfulThinking": "魔法的思考",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "SlapAround": "叩きまくれ",
+        "Purist_Caster": "純粋なるキャスター",
+        "MindtoMatter": "精神の体現",
+        "TransmuteGold": "変質: ゴールド",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "MagicMissile": "マジックミサイル",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "PhenomenalEvil": "偉大なる悪",
+        "BurstingTeeth": "歯の妖精",
+        "SpecializedEmpowerment": "力の追求",
+        "BangBang": "ロングシュート",
+        "WithHaste": "大急ぎ",
+        "BigBrain": "頭脳派",
+        "Eureka": "エウレカ",
+        "BacktoBasics": "初志貫徹",
+        "InfernalConduit": "獄炎路",
+        "InfiniteRecursion": "無限再帰",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "바위술사 탈리야 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "IceCold": "차가운 냉기",
+        "WitchfulThinking": "사악한 정신",
+        "Upgrade_ZH": "존야 업그레이드",
+        "SlapAround": "우당탕탕",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "MindtoMatter": "정신 변환",
+        "TransmuteGold": "전환: 골드",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "MagicMissile": "마법 미사일",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "PhenomenalEvil": "극악무도",
+        "BurstingTeeth": "이빨 요정",
+        "SpecializedEmpowerment": "위력 추구",
+        "BangBang": "로켓 배송",
+        "WithHaste": "속행",
+        "BigBrain": "전술적 대비",
+        "Eureka": "유레카",
+        "BacktoBasics": "기본으로 돌아가기",
+        "InfernalConduit": "지옥의 전도체",
+        "InfiniteRecursion": "무한 반복",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        2503,
+        4645,
+        3089,
+        3135,
+        4646,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 13.6
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 13.47
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 10.24
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 6.15
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 5.65
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 5.22
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.71
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 2.73
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 27.31
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 24.38
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 19.6
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 9.55
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 8.23
+        },
+        {
+          "id": "BangBang",
+          "icon": "assets/ux/kiwi/augments/icons/questbangbang_small.png",
+          "pick": 7.79
+        },
+        {
+          "id": "WithHaste",
+          "icon": "assets/ux/cherry/augments/icons/withhaste_small.png",
+          "pick": 7.05
+        },
+        {
+          "id": "BigBrain",
+          "icon": "assets/ux/cherry/augments/icons/bigbrain_small.png",
+          "pick": 6.37
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 18.26
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 17.21
+        },
+        {
+          "id": "InfernalConduit",
+          "icon": "assets/ux/cherry/augments/icons/infernalconduit_small.png",
+          "pick": 15.79
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 9.71
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": 7.28
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "魔法猫咪",
+    "slug": "yuumi"
+  },
+  {
+    "name": "解脱者",
+    "slug": "sylas"
+  },
+  {
+    "name": "爆破鬼才",
+    "slug": "ziggs"
+  },
+  {
+    "name": "恶魔小丑",
+    "slug": "shaco"
+  },
+  {
+    "name": "炼金男爵",
+    "slug": "renata-glasc"
+  },
+  {
+    "name": "龙血武姬",
+    "slug": "shyvana"
+  },
+  {
+    "name": "不灭狂雷",
+    "slug": "volibear"
+  },
+  {
+    "name": "虚空行者",
+    "slug": "kassadin"
+  },
+  {
+    "name": "蛮族之王",
+    "slug": "tryndamere"
+  },
+  {
+    "name": "不落魔锋",
+    "slug": "zaahen"
+  },
+  {
+    "name": "明烛",
+    "slug": "milio"
+  },
+  {
+    "name": "齐天大圣",
+    "slug": "wukong"
+  },
+  {
+    "name": "天启者",
+    "slug": "karma"
+  }
+]

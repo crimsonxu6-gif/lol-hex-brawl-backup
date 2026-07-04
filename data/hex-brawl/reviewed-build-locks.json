@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-01",
+  "purpose": "Reviewed build baselines. Batch import scripts must skip these champions unless explicitly forced.",
+  "lockedSlugs": [
+    "brand",
+    "yasuo",
+    "sett",
+    "yone",
+    "garen",
+    "jinx",
+    "ashe",
+    "kaisa",
+    "vayne",
+    "zed",
+    "katarina",
+    "master-yi",
+    "lee-sin",
+    "lux",
+    "ahri",
+    "ezreal",
+    "samira",
+    "darius",
+    "mordekaiser",
+    "veigar",
+    "kayle"
+  ],
+  "builds": {
+    "brand": {
+      "championId": "Brand",
+      "labels": [
+        "常规灼烧",
+        "爆发法穿",
+        "保命替换"
+      ],
+      "builds": [
+        {
+          "key": 0,
+          "items": [
+            6653,
+            2503,
+            3089,
+            3135,
+            3020,
+            3116
+          ]
+        },
+        {
+          "key": 1,
+          "items": [
+            2503,
+            6653,
+            4645,
+            3089,
+            3135,
+            3020
+          ]
+        },
+        {
+          "key": 2,
+          "items": [
+            6653,
+            2503,
+            3157,
+            3089,
+            3135,
+            3020
+          ]
+        }
+      ],
+      "hash": "1cb62249c2bb54d5"
+    },
+    "yasuo": {
+      "championId": "Yasuo",
+      "labels": {
+        "standard": "常规暴击"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            123430,
+            3032,
+            6333,
+            3065,
+            3031,
+            3006
+          ]
+        }
+      ],
+      "hash": "f4d6461812cb0d78"
+    },
+    "sett": {
+      "championId": "Sett",
+      "labels": {
+        "bruiser-tank": "战士/肉装"
+      },
+      "builds": [
+        {
+          "key": "bruiser-tank",
+          "items": [
+            3084,
+            3083,
+            2501,
+            3161,
+            3053,
+            3111
+          ]
+        }
+      ],
+      "hash": "639ae12f8178fb99"
+    },
+    "yone": {
+      "championId": "Yone",
+      "labels": {
+        "standard": "常规出装"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            3032,
+            123430,
+            6333,
+            3153,
+            3033,
+            3006
+          ]
+        }
+      ],
+      "hash": "cd846c7dc91cfed8"
+    },
+    "garen": {
+      "championId": "Garen",
+      "labels": {
+        "crit": "暴击出装"
+      },
+      "builds": [
+        {
+          "key": "crit",
+          "items": [
+            6631,
+            3046,
+            3031,
+            3033,
+            6676,
+            3006
+          ]
+        }
+      ],
+      "hash": "8db9c12d2a5b39b0"
+    },
+    "jinx": {
+      "championId": "Jinx",
+      "labels": {
+        "attack-speed": "攻速/暴击"
+      },
+      "builds": [
+        {
+          "key": "attack-speed",
+          "items": [
+            3032,
+            3031,
+            3033,
+            3085,
+            3153,
+            3006
+          ]
+        }
+      ],
+      "hash": "f6ce6245f3975861"
+    },
+    "ashe": {
+      "championId": "Ashe",
+      "labels": {
+        "crit-onhit": "暴击/特效出装",
+        "ap": "AP 出装"
+      },
+      "builds": [
+        {
+          "key": "crit-onhit",
+          "items": [
+            3032,
+            3031,
+            3033,
+            3085,
+            3153,
+            3006
+          ]
+        },
+        {
+          "key": "ap",
+          "items": [
+            3118,
+            4005,
+            6696,
+            3137,
+            3089,
+            3020
+          ]
+        }
+      ],
+      "hash": "2f5e0f993f80dfeb"
+    },
+    "kaisa": {
+      "championId": "Kaisa",
+      "labels": {
+        "onhit": "特效/暴击出装",
+        "ap": "AP 出装"
+      },
+      "builds": [
+        {
+          "key": "onhit",
+          "items": [
+            6672,
+            3124,
+            3153,
+            3302,
+            3115,
+            3006
+          ]
+        },
+        {
+          "key": "ap",
+          "items": [
+            3042,
+            6655,
+            4645,
+            3137,
+            3089,
+            3020
+          ]
+        }
+      ],
+      "hash": "c46ad00e31a4ebee"
+    },
+    "vayne": {
+      "championId": "Vayne",
+      "labels": {
+        "standard": "常规/爆发出装"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            3153,
+            3124,
+            3302,
+            3091,
+            6665,
+            3006
+          ]
+        }
+      ],
+      "hash": "a52f8f01f0fcaeab"
+    },
+    "zed": {
+      "championId": "Zed",
+      "labels": {
+        "standard": "穿甲爆发"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            126697,
+            6696,
+            6694,
+            6333,
+            2517,
+            3158
+          ]
+        }
+      ],
+      "hash": "c23cd45eea143403"
+    },
+    "katarina": {
+      "championId": "Katarina",
+      "labels": {
+        "standard": "常规出装"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            6631,
+            6672,
+            3153,
+            3302,
+            3073,
+            6333
+          ]
+        }
+      ],
+      "hash": "74f86823b3a6dd01"
+    },
+    "master-yi": {
+      "championId": "MasterYi",
+      "labels": {
+        "standard": "常规/爆穿出装"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            6676,
+            3153,
+            3073,
+            6333,
+            3036,
+            3006
+          ]
+        }
+      ],
+      "hash": "1ad8e76bcc552df6"
+    },
+    "lee-sin": {
+      "championId": "LeeSin",
+      "labels": {
+        "standard": "战士穿甲"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            126697,
+            6610,
+            6333,
+            2517,
+            3036,
+            3111
+          ]
+        }
+      ],
+      "hash": "37bc9ae547306f66"
+    },
+    "lux": {
+      "championId": "Lux",
+      "labels": {
+        "standard": "法穿爆发"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            6655,
+            4645,
+            3089,
+            3135,
+            4646,
+            3020
+          ]
+        }
+      ],
+      "hash": "636fc89dea334907"
+    },
+    "ahri": {
+      "championId": "Ahri",
+      "labels": {
+        "standard": "常规爆发"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            3118,
+            4645,
+            3089,
+            3135,
+            4646,
+            3020
+          ]
+        }
+      ],
+      "hash": "af1b27d7ab3bc9a2"
+    },
+    "ezreal": {
+      "championId": "Ezreal",
+      "labels": {
+        "standard": "常规出装"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            3078,
+            3042,
+            3161,
+            3033,
+            3153,
+            3158
+          ]
+        }
+      ],
+      "hash": "84bd26d1bc6e6c31"
+    },
+    "samira": {
+      "championId": "Samira",
+      "labels": {
+        "standard": "常规出装"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            6676,
+            3031,
+            3033,
+            6673,
+            3072,
+            3006
+          ]
+        }
+      ],
+      "hash": "b6f8e1dfb224087f"
+    },
+    "darius": {
+      "championId": "Darius",
+      "labels": {
+        "standard": "常规出装",
+        "steel-door": "肉装"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            6610,
+            3161,
+            6333,
+            3071,
+            3053,
+            3111
+          ]
+        },
+        {
+          "key": "steel-door",
+          "items": [
+            3084,
+            3083,
+            2501,
+            3161,
+            3053,
+            3111
+          ]
+        }
+      ],
+      "hash": "b0c27dcd9ce95000"
+    },
+    "mordekaiser": {
+      "championId": "Mordekaiser",
+      "labels": {
+        "standard": "常规出装",
+        "steel-door": "肉装"
+      },
+      "builds": [
+        {
+          "key": "standard",
+          "items": [
+            4633,
+            3116,
+            6653,
+            3073,
+            8010,
+            3111
+          ]
+        },
+        {
+          "key": "steel-door",
+          "items": [
+            3084,
+            2502,
+            3065,
+            3083,
+            6665,
+            4633
+          ]
+        }
+      ],
+      "hash": "6239dee8924ecade"
+    },
+    "veigar": {
+      "championId": "Veigar",
+      "labels": {
+        "ap": "AP 出装"
+      },
+      "builds": [
+        {
+          "key": "ap",
+          "items": [
+            6655,
+            4645,
+            3089,
+            3135,
+            4646,
+            3020
+          ]
+        }
+      ],
+      "hash": "bfa90ed69040f628"
+    },
+    "kayle": {
+      "championId": "Kayle",
+      "labels": {
+        "ap": "AP 出装",
+        "crit": "暴击出装"
+      },
+      "builds": [
+        {
+          "key": "ap",
+          "items": [
+            3115,
+            2510,
+            4645,
+            3089,
+            3135,
+            3020
+          ]
+        },
+        {
+          "key": "crit",
+          "items": [
+            3032,
+            6675,
+            3033,
+            3031,
+            3153,
+            3006
+          ]
+        }
+      ],
+      "hash": "d4066a935d16e1e2"
+    }
+  }
+}

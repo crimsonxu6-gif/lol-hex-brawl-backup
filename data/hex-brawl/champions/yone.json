@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Yone",
+    "slug": "yone",
+    "names": {
+      "zh": "永恩 封魔剑魂",
+      "en": "the Unforgotten Yone",
+      "ja": "忘られざる者 ヨネ",
+      "ko": "잊히지 못한 자 요네"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "封魔剑魂 永恩 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装"
+      },
+      "buildTags": {
+        "standard": "默认"
+      },
+      "buildScores": {
+        "standard": "强"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "TankItOrLeaveIt": "会心防御",
+        "BluntForce": "大力",
+        "escAPADe": "魔法转物理",
+        "ShadowRunner": "暗影疾奔",
+        "WardingWeapon": "自适应防护",
+        "CritNCast": "由暴生急",
+        "Upgrade_Collector": "升级：收集者",
+        "SoulSiphon": "灵魂虹吸",
+        "Upgrade_IE": "升级：无尽之刃",
+        "DoubleTap": "双发快射",
+        "Vulnerability": "易损",
+        "GetExcited": "罪恶快感",
+        "ItsCritical": "关键暴击",
+        "BurstingTeeth": "牙仙子",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "MysticPunch": "秘术冲拳",
+        "FinalForm": "最终形态",
+        "DualWield": "双刀流",
+        "Overloaded": "超负荷",
+        "HighRoller": "掷骰狂人",
+        "GiantSlayer": "巨人杀手"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Yone guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Default"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "TankItOrLeaveIt": "Tank It Or Leave It",
+        "BluntForce": "Blunt Force",
+        "escAPADe": "escAPADe",
+        "ShadowRunner": "Shadow Runner",
+        "WardingWeapon": "Adaptive Ward",
+        "CritNCast": "Crit 'n Cast",
+        "Upgrade_Collector": "Upgrade Collector",
+        "SoulSiphon": "Soul Siphon",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "DoubleTap": "Double Tap",
+        "Vulnerability": "Vulnerability",
+        "GetExcited": "Get Excited!",
+        "ItsCritical": "It's Critical",
+        "BurstingTeeth": "Tooth Fairy",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "MysticPunch": "Mystic Punch",
+        "FinalForm": "Final Form",
+        "DualWield": "Dual Wield",
+        "Overloaded": "Overloaded",
+        "HighRoller": "High Roller",
+        "GiantSlayer": "Giant Slayer"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "忘られざる者 ヨネ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "TankItOrLeaveIt": "タンクこそ至高",
+        "BluntForce": "無骨なる力",
+        "escAPADe": "魔攻のいたずら",
+        "ShadowRunner": "影走り",
+        "WardingWeapon": "アダプティブワード",
+        "CritNCast": "クリティカルキャスト",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "SoulSiphon": "ソウルサイフォン",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "DoubleTap": "ダブルタップ",
+        "Vulnerability": "搦め手",
+        "GetExcited": "超エキサイティン！",
+        "ItsCritical": "まさにクリティカル",
+        "BurstingTeeth": "歯の妖精",
+        "TransmutePrismatic": "変質: プリズム",
+        "MysticPunch": "神秘の鉄拳",
+        "FinalForm": "最終形態",
+        "DualWield": "二刀流",
+        "Overloaded": "オーバーロード",
+        "HighRoller": "ギャンブラー",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "잊히지 못한 자 요네 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "TankItOrLeaveIt": "확률적 방어",
+        "BluntForce": "육중한 힘",
+        "escAPADe": "마법사 (물리)",
+        "ShadowRunner": "그림자 질주",
+        "WardingWeapon": "적응형 와드",
+        "CritNCast": "치명적 가속",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "SoulSiphon": "영혼 흡수",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "DoubleTap": "한 발에 두 놈",
+        "Vulnerability": "취약",
+        "GetExcited": "신난다!",
+        "ItsCritical": "치명적인 공격",
+        "BurstingTeeth": "이빨 요정",
+        "TransmutePrismatic": "전환: 프리즘",
+        "MysticPunch": "신비한 주먹",
+        "FinalForm": "최종 형태",
+        "DualWield": "양손잡이",
+        "Overloaded": "과충전",
+        "HighRoller": "도박꾼",
+        "GiantSlayer": "거인 학살자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        3032,
+        123430,
+        6333,
+        3153,
+        3033,
+        3006
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 23.99
+        },
+        {
+          "id": "TankItOrLeaveIt",
+          "icon": "assets/ux/cherry/augments/icons/tankitorleaveit_small.png",
+          "pick": 12.33
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 11.11
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 8.87
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 5.27
+        },
+        {
+          "id": "WardingWeapon",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 4.91
+        },
+        {
+          "id": "CritNCast",
+          "icon": "assets/ux/kiwi/augments/icons/critncast_small.png",
+          "pick": 4.83
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 4.54
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "SoulSiphon",
+          "icon": "assets/ux/cherry/augments/icons/soulsiphon_small.png",
+          "pick": 33.46
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 27.42
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 22.67
+        },
+        {
+          "id": "Vulnerability",
+          "icon": "assets/ux/cherry/augments/icons/vulnerability_small.png",
+          "pick": 15.43
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 12.19
+        },
+        {
+          "id": "ItsCritical",
+          "icon": "assets/ux/cherry/augments/icons/itscritical_small.png",
+          "pick": 12.03
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 8.77
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 5.77
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 23.94
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 7.94
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 7.01
+        },
+        {
+          "id": "Overloaded",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_prismatic.png",
+          "pick": 3.51
+        },
+        {
+          "id": "HighRoller",
+          "icon": "assets/ux/kiwi/augments/icons/highroller_small.png",
+          "pick": 0.77
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 0.7
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Akali",
+    "slug": "akali",
+    "names": {
+      "zh": "阿卡丽 离群之刺",
+      "en": "the Rogue Assassin Akali",
+      "ja": "主なき暗殺者 アカリ",
+      "ko": "섬기는 이 없는 암살자 아칼리"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "阿卡丽 离群之刺 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "ShadowRunner": "暗影疾奔",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "KillSecured": "杀意翻涌",
+        "TransmuteGold": "质变：黄金阶",
+        "ADAPt": "物理转魔法",
+        "ForgedByTheMaster": "大师铸就",
+        "DiveBomber": "俯冲轰炸",
+        "ThreadtheNeedle": "穿针引线",
+        "BurstingTeeth": "牙仙子",
+        "Upgrade_Sheen": "升级：耀光",
+        "Nightstalking": "夜狩",
+        "SpecializedEmpowerment": "威能之追求",
+        "ItsKillingTime": "杀戮时间到了",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "SpiritualPurification": "心灵净化",
+        "Dashing": "全凭身法",
+        "FinalForm": "最终形态",
+        "EndlessHunt": "吃过路兵",
+        "Earthwake": "大地苏醒",
+        "GiantSlayer": "巨人杀手"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Rogue Assassin Akali Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "ShadowRunner": "Shadow Runner",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "KillSecured": "Kill Secured",
+        "TransmuteGold": "Transmute: Gold",
+        "ADAPt": "ADAPt",
+        "ForgedByTheMaster": "Forged By The Master",
+        "DiveBomber": "Dive Bomber",
+        "ThreadtheNeedle": "Thread the Needle",
+        "BurstingTeeth": "Tooth Fairy",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "Nightstalking": "Nightstalking",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "ItsKillingTime": "It's Killing Time",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "SpiritualPurification": "Spiritual Purification",
+        "Dashing": "Dashing",
+        "FinalForm": "Final Form",
+        "EndlessHunt": "En Passant",
+        "Earthwake": "Earthwake",
+        "GiantSlayer": "Giant Slayer"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "主なき暗殺者 アカリ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "AP ビルド"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "ShadowRunner": "影走り",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "KillSecured": "キルを確認",
+        "TransmuteGold": "変質: ゴールド",
+        "ADAPt": "変力装置",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "DiveBomber": "急降下爆撃",
+        "ThreadtheNeedle": "貫通力",
+        "BurstingTeeth": "歯の妖精",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "Nightstalking": "ナイトストーク",
+        "SpecializedEmpowerment": "力の追求",
+        "ItsKillingTime": "殺戮の時",
+        "TransmutePrismatic": "変質: プリズム",
+        "SpiritualPurification": "精霊の浄化",
+        "Dashing": "疾走",
+        "FinalForm": "最終形態",
+        "EndlessHunt": "アンパッサン",
+        "Earthwake": "アースウェイク",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "섬기는 이 없는 암살자 아칼리 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "ShadowRunner": "그림자 질주",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "KillSecured": "확보된 킬",
+        "TransmuteGold": "전환: 골드",
+        "ADAPt": "적응형 능력치",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "DiveBomber": "폭격기",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "BurstingTeeth": "이빨 요정",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "Nightstalking": "밤의 추적",
+        "SpecializedEmpowerment": "위력 추구",
+        "ItsKillingTime": "처형 시간",
+        "TransmutePrismatic": "전환: 프리즘",
+        "SpiritualPurification": "영혼의 정화",
+        "Dashing": "돌진",
+        "FinalForm": "최종 형태",
+        "EndlessHunt": "앙파상",
+        "Earthwake": "대지의 각성",
+        "GiantSlayer": "거인 학살자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        4646,
+        4645,
+        3089,
+        3135,
+        3157,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 18.25
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 16.92
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 7.55
+        },
+        {
+          "id": "KillSecured",
+          "icon": "assets/ux/kiwi/augments/icons/killsecure_small.png",
+          "pick": 4.58
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.79
+        },
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": 2.98
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 2.36
+        },
+        {
+          "id": "DiveBomber",
+          "icon": "assets/ux/cherry/augments/icons/divebomber_small.png",
+          "pick": 2.22
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 23.28
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 18.63
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 17.68
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 12.06
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 8.86
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 8.2
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 6.66
+        },
+        {
+          "id": "SpiritualPurification",
+          "icon": "assets/ux/kiwi/augments/icons/spiritualpurification_small.png",
+          "pick": 5.68
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 18.7
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 13.37
+        },
+        {
+          "id": "EndlessHunt",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 6.8
+        },
+        {
+          "id": "Earthwake",
+          "icon": "assets/ux/cherry/augments/icons/earthwake_small.png",
+          "pick": 4.27
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

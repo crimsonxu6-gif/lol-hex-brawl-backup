@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Teemo",
+    "slug": "teemo",
+    "names": {
+      "zh": "提莫 迅捷斥候",
+      "en": "the Swift Scout Teemo",
+      "ja": "俊足の斥候 ティーモ",
+      "ko": "날쌘 정찰병 티모"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "提莫 迅捷斥候 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装"
+      },
+      "buildTags": {
+        "standard": "常规"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "TankEngine": "坦克引擎",
+        "Dropkick": "飞身踢",
+        "SpinToWin": "旋转至胜",
+        "Quest_SteelYourHeart": "钢化你心",
+        "Goliath": "歌利亚巨人",
+        "HeavyHitter": "重量级打击手",
+        "Upgrade_IE": "升级：无尽之刃",
+        "CelestialBody": "星界躯体",
+        "BluntForce": "大力",
+        "Upgrade_Immolate": "升级：献祭",
+        "Goredrink": "渴血",
+        "TitansPulse": "保持坚定",
+        "Upgrade_Collector": "升级：收集者",
+        "TransmuteGold": "质变：黄金阶",
+        "Quickstep": "快步",
+        "Bonk": "邦！",
+        "PressureCooker": "高压锅",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "Terror": "惊惧",
+        "EscapePlan": "逃跑计划",
+        "ADAPt": "物理转魔法",
+        "ForgedByTheMaster": "大师铸就",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "Firefox": "火狐",
+        "EtherealWeapon": "虚幻武器",
+        "WarlockJuicebox": "术士果汁盒",
+        "PhenomenalEvil": "超凡邪恶",
+        "FromBeginningToEnd": "有始有终",
+        "InfiniteRecursion": "无限循环往复",
+        "ShrinkRay": "缩小射线",
+        "FeyMagic": "精怪魔法",
+        "GiantSlayer": "巨人杀手",
+        "MysticPunch": "秘术冲拳",
+        "InfernalConduit": "炼狱导管",
+        "Eureka": "尤里卡",
+        "BacktoBasics": "回归基本功",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽",
+        "Archmage": "大法师",
+        "Erosion": "侵蚀"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Swift Scout Teemo Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Standard"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "TankEngine": "Tank Engine",
+        "Dropkick": "Dropkick",
+        "SpinToWin": "Spin To Win",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "Goliath": "Goliath",
+        "HeavyHitter": "Heavy Hitter",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "CelestialBody": "Celestial Body",
+        "BluntForce": "Blunt Force",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "Goredrink": "Goredrink",
+        "TitansPulse": "Stay Resolute",
+        "Upgrade_Collector": "Upgrade Collector",
+        "TransmuteGold": "Transmute: Gold",
+        "Quickstep": "Quickstep",
+        "Bonk": "BONK!",
+        "PressureCooker": "Pressure Cooker",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "Terror": "Terror",
+        "EscapePlan": "Escape Plan",
+        "ADAPt": "ADAPt",
+        "ForgedByTheMaster": "Forged By The Master",
+        "Purist_Caster": "Purist - Caster",
+        "Firefox": "FireFox",
+        "EtherealWeapon": "Ethereal Weapon",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "FromBeginningToEnd": "From Beginning To End",
+        "InfiniteRecursion": "Infinite Recursion",
+        "ShrinkRay": "Shrink Ray",
+        "FeyMagic": "Fey Magic",
+        "GiantSlayer": "Giant Slayer",
+        "MysticPunch": "Mystic Punch",
+        "InfernalConduit": "Infernal Conduit",
+        "Eureka": "Eureka",
+        "BacktoBasics": "Back To Basics",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap",
+        "Archmage": "Archmage",
+        "Erosion": "Erosion"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "俊足の斥候 ティーモ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "要確認"
+      },
+      "hexNames": {
+        "TankEngine": "タンクエンジン",
+        "Dropkick": "ドロップキック",
+        "SpinToWin": "勝利への回転",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "Goliath": "大巨人",
+        "HeavyHitter": "ヘビーヒッター",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "CelestialBody": "聖体",
+        "BluntForce": "無骨なる力",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "Goredrink": "ゴアドリンク",
+        "TitansPulse": "固い決意",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "TransmuteGold": "変質: ゴールド",
+        "Quickstep": "クイックステップ",
+        "Bonk": "ボカッ！",
+        "PressureCooker": "圧力鍋",
+        "TransmutePrismatic": "変質: プリズム",
+        "Terror": "恐怖",
+        "EscapePlan": "脱出プラン",
+        "ADAPt": "変力装置",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "Purist_Caster": "純粋なるキャスター",
+        "Firefox": "ファイヤーフォックス",
+        "EtherealWeapon": "エーテル武器",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "PhenomenalEvil": "偉大なる悪",
+        "FromBeginningToEnd": "徹頭徹尾",
+        "InfiniteRecursion": "無限再帰",
+        "ShrinkRay": "縮小光線",
+        "FeyMagic": "神秘の魔法",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "MysticPunch": "神秘の鉄拳",
+        "InfernalConduit": "獄炎路",
+        "Eureka": "エウレカ",
+        "BacktoBasics": "初志貫徹",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ",
+        "Archmage": "魔帝",
+        "Erosion": "Erosion"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "날쌘 정찰병 티모 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "TankEngine": "탱크 엔진",
+        "Dropkick": "드롭킥",
+        "SpinToWin": "승리를 위한 회전",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "Goliath": "거인",
+        "HeavyHitter": "강타자",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "CelestialBody": "천상의 신체",
+        "BluntForce": "육중한 힘",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "Goredrink": "선혈포식",
+        "TitansPulse": "확고한 의지로",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "TransmuteGold": "전환: 골드",
+        "Quickstep": "날쌘걸음",
+        "Bonk": "꽁!",
+        "PressureCooker": "압력솥",
+        "TransmutePrismatic": "전환: 프리즘",
+        "Terror": "공포",
+        "EscapePlan": "도주 계획",
+        "ADAPt": "적응형 능력치",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "Firefox": "불여우",
+        "EtherealWeapon": "환영 무기",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "PhenomenalEvil": "극악무도",
+        "FromBeginningToEnd": "시작부터 끝까지",
+        "InfiniteRecursion": "무한 반복",
+        "ShrinkRay": "감쇠 광선",
+        "FeyMagic": "요정 마법",
+        "GiantSlayer": "거인 학살자",
+        "MysticPunch": "신비한 주먹",
+        "InfernalConduit": "지옥의 전도체",
+        "Eureka": "유레카",
+        "BacktoBasics": "기본으로 돌아가기",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자",
+        "Archmage": "대마법사",
+        "Erosion": "Erosion"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "type": "ap",
+      "items": [
+        3118,
+        6653,
+        4645,
+        8010,
+        3089,
+        3158
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Erosion",
+          "icon": "assets/ux/cherry/augments/icons/erosion_small.png",
+          "pick": null
+        },
+        {
+          "id": "EscapePlan",
+          "icon": "assets/ux/kiwi/augments/icons/escapeplan_small.png",
+          "pick": null
+        },
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": null
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": null
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": null
+        },
+        {
+          "id": "Firefox",
+          "icon": "assets/ux/cherry/augments/icons/firfox_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": null
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": null
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": null
+        },
+        {
+          "id": "FromBeginningToEnd",
+          "icon": "assets/ux/cherry/augments/icons/frombeginningtoend_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": null
+        },
+        {
+          "id": "ShrinkRay",
+          "icon": "assets/ux/cherry/augments/icons/shrinkray_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "FeyMagic",
+          "icon": "assets/ux/cherry/augments/icons/feymagic_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        },
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfernalConduit",
+          "icon": "assets/ux/cherry/augments/icons/infernalconduit_small.png",
+          "pick": null
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": null
+        },
+        {
+          "id": "Archmage",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": null
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-07-04",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

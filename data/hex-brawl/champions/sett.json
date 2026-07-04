@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Sett",
+    "slug": "sett",
+    "names": {
+      "zh": "瑟提 腕豪",
+      "en": "the Boss Sett",
+      "ja": "ザ・ボス セト",
+      "ko": "우두머리 세트"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "腕豪 瑟提 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "bruiser-tank": "战士/肉装"
+      },
+      "buildTags": {
+        "bruiser-tank": "坦度"
+      },
+      "buildScores": {
+        "bruiser-tank": "稳"
+      },
+      "hexNames": {
+        "HeavyHitter": "重量级打击手",
+        "BluntForce": "大力",
+        "Goredrink": "渴血",
+        "Upgrade_Immolate": "升级：献祭",
+        "SlapAround": "扇巴掌",
+        "escAPADe": "魔法转物理",
+        "ItsGoTime": "前进时间到",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "TankEngine": "坦克引擎",
+        "Quest_SteelYourHeart": "钢化你心",
+        "CelestialBody": "星界躯体",
+        "PressureCooker": "高压锅",
+        "LittleExtraHelp": "小小的额外帮助",
+        "SoulEater": "吞噬灵魂",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "GrowthSpurt": "生机迸发",
+        "Dropkick": "飞身踢",
+        "Goliath": "歌利亚巨人",
+        "ImTheJuggernaut": "泰坦的坚决",
+        "HighRoller": "掷骰狂人",
+        "MadScientist": "科学狂人",
+        "InfiniteRecursion": "无限循环往复",
+        "HandOfBaron": "男爵之手"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Sett guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "bruiser-tank": "Bruiser/Tank Build"
+      },
+      "buildTags": {
+        "bruiser-tank": "Durability"
+      },
+      "buildScores": {
+        "bruiser-tank": "Recommended"
+      },
+      "hexNames": {
+        "HeavyHitter": "Heavy Hitter",
+        "BluntForce": "Blunt Force",
+        "Goredrink": "Goredrink",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "SlapAround": "Slap Around",
+        "escAPADe": "escAPADe",
+        "ItsGoTime": "It's Go Time",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "TankEngine": "Tank Engine",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "CelestialBody": "Celestial Body",
+        "PressureCooker": "Pressure Cooker",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "SoulEater": "Soul Eater",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "GrowthSpurt": "Growth Spurt",
+        "Dropkick": "Dropkick",
+        "Goliath": "Goliath",
+        "ImTheJuggernaut": "Titan's Resolve",
+        "HighRoller": "High Roller",
+        "MadScientist": "Mad Scientist",
+        "InfiniteRecursion": "Infinite Recursion",
+        "HandOfBaron": "Hand of Baron"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ザ・ボス セト Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "bruiser-tank": "ファイター/タンクビルド"
+      },
+      "buildTags": {
+        "bruiser-tank": "耐久"
+      },
+      "buildScores": {
+        "bruiser-tank": "Recommended"
+      },
+      "hexNames": {
+        "HeavyHitter": "ヘビーヒッター",
+        "BluntForce": "無骨なる力",
+        "Goredrink": "ゴアドリンク",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "SlapAround": "叩きまくれ",
+        "escAPADe": "魔攻のいたずら",
+        "ItsGoTime": "始まるぞ",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "TankEngine": "タンクエンジン",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "CelestialBody": "聖体",
+        "PressureCooker": "圧力鍋",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "SoulEater": "ソウルイーター",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "GrowthSpurt": "成長期",
+        "Dropkick": "ドロップキック",
+        "Goliath": "大巨人",
+        "ImTheJuggernaut": "巨人の誓い",
+        "HighRoller": "ギャンブラー",
+        "MadScientist": "狂気の化学者",
+        "InfiniteRecursion": "無限再帰",
+        "HandOfBaron": "バロンの牙"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "우두머리 세트 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "bruiser-tank": "브루저/탱커 빌드"
+      },
+      "buildTags": {
+        "bruiser-tank": "내구"
+      },
+      "buildScores": {
+        "bruiser-tank": "Recommended"
+      },
+      "hexNames": {
+        "HeavyHitter": "강타자",
+        "BluntForce": "육중한 힘",
+        "Goredrink": "선혈포식",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "SlapAround": "우당탕탕",
+        "escAPADe": "마법사 (물리)",
+        "ItsGoTime": "출발할 시간",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "TankEngine": "탱크 엔진",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "CelestialBody": "천상의 신체",
+        "PressureCooker": "압력솥",
+        "LittleExtraHelp": "작은 도움",
+        "SoulEater": "영혼의 포식자",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "GrowthSpurt": "급속 성장",
+        "Dropkick": "드롭킥",
+        "Goliath": "거인",
+        "ImTheJuggernaut": "거인의 결의",
+        "HighRoller": "도박꾼",
+        "MadScientist": "미친 과학자",
+        "InfiniteRecursion": "무한 반복",
+        "HandOfBaron": "남작의 도움"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "bruiser-tank",
+      "items": [
+        3084,
+        3083,
+        2501,
+        3161,
+        3053,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 26.2
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 17.7
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 7.25
+        },
+        {
+          "id": "Upgrade_Immolate",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeimmolate_small.png",
+          "pick": 6.45
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 6.17
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 4.91
+        },
+        {
+          "id": "ItsGoTime",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 3.46
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 2.88
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 39.61
+        },
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": 25.48
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": 19
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 13.32
+        },
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 9.39
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 8.86
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 7.57
+        },
+        {
+          "id": "GrowthSpurt",
+          "icon": "assets/ux/kiwi/augments/icons/growthspurt_large.png",
+          "pick": 5.05
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": 21.86
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 16.27
+        },
+        {
+          "id": "ImTheJuggernaut",
+          "icon": "assets/ux/kiwi/augments/icons/iamthejuggernaut_small.png",
+          "pick": 5.78
+        },
+        {
+          "id": "HighRoller",
+          "icon": "assets/ux/kiwi/augments/icons/highroller_small.png",
+          "pick": 0.62
+        },
+        {
+          "id": "MadScientist",
+          "icon": "assets/ux/cherry/augments/icons/madscientist_small.png",
+          "pick": 0.45
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 0.19
+        },
+        {
+          "id": "HandOfBaron",
+          "icon": "assets/ux/kiwi/augments/icons/handofbaron_small.png",
+          "pick": 0.06
+        }
+      ]
+    }
+  }
+}

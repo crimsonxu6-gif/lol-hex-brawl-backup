@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Yunara",
+    "slug": "yunara",
+    "names": {
+      "zh": "芸阿娜 不破之誓",
+      "en": "the Unbroken Faith Yunara",
+      "ja": "揺るがぬ誓い ユナラ",
+      "ko": "꺾이지 않는 신념 유나라"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "芸阿娜 不破之誓 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "wildarrows": "荒野剑出装",
+        "kraken": "海妖出装"
+      },
+      "buildTags": {
+        "wildarrows": "荒野剑",
+        "kraken": "海妖"
+      },
+      "buildScores": {
+        "wildarrows": "待审核",
+        "kraken": "待审核"
+      },
+      "hexNames": {
+        "CriticalMissile": "暴击飞弹",
+        "DualWield": "双刀流",
+        "DoubleTap": "双发快射",
+        "Upgrade_IE": "升级：无尽之刃",
+        "SoulSiphon": "灵魂虹吸",
+        "Deft": "灵巧",
+        "FanTheHammer": "连拨击锤",
+        "TapDancer": "踢踏舞",
+        "Twinfire": "双生火焰",
+        "Typhoon": "台风",
+        "Zealot": "狂热者",
+        "Upgrade_Collector": "升级：收集者",
+        "LightemUp": "点亮他们！",
+        "ScopedWeapons": "万用瞄准镜",
+        "TankItOrLeaveIt": "会心防御",
+        "CriticalRhythm": "暴击律动",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "LittleExtraHelp": "小小的额外帮助",
+        "Vulnerability": "易损",
+        "EscapePlan": "逃跑计划",
+        "Goredrink": "渴血",
+        "GetExcited": "罪恶快感",
+        "EtherealWeapon": "虚幻武器",
+        "CriticalHealing": "会心治疗",
+        "DrawYourSword": "亮出你的剑",
+        "MasterofDuality": "物法皆修",
+        "OutlawsGrit": "狂徒豪气",
+        "MadScientist": "科学狂人",
+        "GiantSlayer": "巨人杀手"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Unbroken Faith Yunara Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "wildarrows": "Yun Tal Build",
+        "kraken": "Kraken Build"
+      },
+      "buildTags": {
+        "wildarrows": "Yun Tal",
+        "kraken": "Kraken"
+      },
+      "buildScores": {
+        "wildarrows": "Needs review",
+        "kraken": "Needs review"
+      },
+      "hexNames": {
+        "CriticalMissile": "Critical Missile",
+        "DualWield": "Dual Wield",
+        "DoubleTap": "Double Tap",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "SoulSiphon": "Soul Siphon",
+        "Deft": "Deft",
+        "FanTheHammer": "Fan The Hammer",
+        "TapDancer": "Tap Dancer",
+        "Twinfire": "Twin Fire",
+        "Typhoon": "Typhoon",
+        "Zealot": "Zealot",
+        "Upgrade_Collector": "Upgrade Collector",
+        "LightemUp": "Light 'Em Up!",
+        "ScopedWeapons": "Scoped Weapons",
+        "TankItOrLeaveIt": "Tank It Or Leave It",
+        "CriticalRhythm": "Critical Rhythm",
+        "ScopierWeapons": "Scopier Weapons",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "Vulnerability": "Vulnerability",
+        "EscapePlan": "Escape Plan",
+        "Goredrink": "Goredrink",
+        "GetExcited": "Get Excited!",
+        "EtherealWeapon": "Ethereal Weapon",
+        "CriticalHealing": "Critical Healing",
+        "DrawYourSword": "Draw Your Sword",
+        "MasterofDuality": "Master of Duality",
+        "OutlawsGrit": "Outlaw's Grit",
+        "MadScientist": "Mad Scientist",
+        "GiantSlayer": "Giant Slayer"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "揺るがぬ誓い ユナラ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "wildarrows": "ユン・タルビルド",
+        "kraken": "クラーケンビルド"
+      },
+      "buildTags": {
+        "wildarrows": "ユン・タル",
+        "kraken": "クラーケン"
+      },
+      "buildScores": {
+        "wildarrows": "要確認",
+        "kraken": "要確認"
+      },
+      "hexNames": {
+        "CriticalMissile": "クリティカルミサイル",
+        "DualWield": "二刀流",
+        "DoubleTap": "ダブルタップ",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "SoulSiphon": "ソウルサイフォン",
+        "Deft": "技巧",
+        "FanTheHammer": "ぐるぐるハンマー",
+        "TapDancer": "タップダンサー",
+        "Twinfire": "ツインファイア",
+        "Typhoon": "タイフーン",
+        "Zealot": "狂信的",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "LightemUp": "光で照らせ！",
+        "ScopedWeapons": "スコープ装着",
+        "TankItOrLeaveIt": "タンクこそ至高",
+        "CriticalRhythm": "クリティカルの律動",
+        "ScopierWeapons": "改造スコープ装着",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "Vulnerability": "搦め手",
+        "EscapePlan": "脱出プラン",
+        "Goredrink": "ゴアドリンク",
+        "GetExcited": "超エキサイティン！",
+        "EtherealWeapon": "エーテル武器",
+        "CriticalHealing": "クリティカルヒール",
+        "DrawYourSword": "剣を構えよ",
+        "MasterofDuality": "文武両道",
+        "OutlawsGrit": "無法者の気概",
+        "MadScientist": "狂気の化学者",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "꺾이지 않는 신념 유나라 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "wildarrows": "윤 탈 빌드",
+        "kraken": "크라켄 빌드"
+      },
+      "buildTags": {
+        "wildarrows": "윤 탈",
+        "kraken": "크라켄"
+      },
+      "buildScores": {
+        "wildarrows": "검토 필요",
+        "kraken": "검토 필요"
+      },
+      "hexNames": {
+        "CriticalMissile": "치명적 미사일",
+        "DualWield": "양손잡이",
+        "DoubleTap": "한 발에 두 놈",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "SoulSiphon": "영혼 흡수",
+        "Deft": "능수능란",
+        "FanTheHammer": "탄환 세례",
+        "TapDancer": "탭 댄서",
+        "Twinfire": "쌍둥이 불꽃",
+        "Typhoon": "태풍",
+        "Zealot": "광신자",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "LightemUp": "불을 밝혀",
+        "ScopedWeapons": "조준경 부착",
+        "TankItOrLeaveIt": "확률적 방어",
+        "CriticalRhythm": "치명적 리듬",
+        "ScopierWeapons": "상급 조준경 부착",
+        "LittleExtraHelp": "작은 도움",
+        "Vulnerability": "취약",
+        "EscapePlan": "도주 계획",
+        "Goredrink": "선혈포식",
+        "GetExcited": "신난다!",
+        "EtherealWeapon": "환영 무기",
+        "CriticalHealing": "치명적 치유",
+        "DrawYourSword": "검을 뽑아라",
+        "MasterofDuality": "결투의 대가",
+        "OutlawsGrit": "무법자의 투지",
+        "MadScientist": "미친 과학자",
+        "GiantSlayer": "거인 학살자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "wildarrows",
+      "type": "crit",
+      "items": [
+        3032,
+        3031,
+        3033,
+        3094,
+        3153,
+        3008
+      ]
+    },
+    {
+      "key": "kraken",
+      "type": "onhit",
+      "items": [
+        6672,
+        3094,
+        3033,
+        3031,
+        3153,
+        3008
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": null
+        },
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": null
+        },
+        {
+          "id": "EscapePlan",
+          "icon": "assets/ux/kiwi/augments/icons/escapeplan_small.png",
+          "pick": null
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": null
+        },
+        {
+          "id": "TankItOrLeaveIt",
+          "icon": "assets/ux/cherry/augments/icons/tankitorleaveit_small.png",
+          "pick": null
+        },
+        {
+          "id": "LightemUp",
+          "icon": "assets/ux/cherry/augments/icons/lightemup_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "CriticalMissile",
+          "icon": "assets/ux/kiwi/augments/icons/criticalmissile_small.png",
+          "pick": null
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": null
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": null
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": null
+        },
+        {
+          "id": "CriticalHealing",
+          "icon": "assets/ux/cherry/augments/icons/criticalhealing_small.png",
+          "pick": null
+        },
+        {
+          "id": "SoulSiphon",
+          "icon": "assets/ux/cherry/augments/icons/soulsiphon_small.png",
+          "pick": null
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": null
+        },
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": null
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": null
+        },
+        {
+          "id": "DrawYourSword",
+          "icon": "assets/ux/cherry/augments/icons/drawyoursword_small.png",
+          "pick": null
+        },
+        {
+          "id": "MasterofDuality",
+          "icon": "assets/ux/cherry/augments/icons/masterofduality_small.png",
+          "pick": null
+        },
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": null
+        },
+        {
+          "id": "MadScientist",
+          "icon": "assets/ux/cherry/augments/icons/madscientist_small.png",
+          "pick": null
+        },
+        {
+          "id": "TapDancer",
+          "icon": "assets/ux/cherry/augments/icons/tapdancer_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-07-04",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

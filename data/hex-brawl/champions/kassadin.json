@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Kassadin",
+    "slug": "kassadin",
+    "names": {
+      "zh": "卡萨丁 虚空行者",
+      "en": "the Void Walker Kassadin",
+      "ja": "ヴォイドを歩む者 カサディン",
+      "ko": "공허의 방랑자 카사딘"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "卡萨丁 虚空行者 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "double-tear": "双女神泪出装"
+      },
+      "buildTags": {
+        "double-tear": "双女神泪"
+      },
+      "buildScores": {
+        "double-tear": "待审核"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "MindtoMatter": "由心及物",
+        "ADAPt": "物理转魔法",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "SwiftAndSafe": "快中求稳",
+        "ShadowRunner": "暗影疾奔",
+        "OceanSoul": "海洋龙魂",
+        "OutlawsGrit": "狂徒豪气",
+        "Overflow": "溢流",
+        "BurstingTeeth": "牙仙子",
+        "Marksmage": "神射法师",
+        "BigBrain": "超强大脑",
+        "FromBeginningToEnd": "有始有终",
+        "WarlockJuicebox": "术士果汁盒",
+        "PhenomenalEvil": "超凡邪恶",
+        "Eureka": "尤里卡",
+        "FinalForm": "最终形态",
+        "GiantSlayer": "巨人杀手",
+        "Dashing": "全凭身法",
+        "CantTouchThis": "你摸不到",
+        "FeyMagic": "精怪魔法",
+        "InfiniteRecursion": "无限循环往复",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Void Walker Kassadin Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "double-tear": "Double Tear Build"
+      },
+      "buildTags": {
+        "double-tear": "Double Tear"
+      },
+      "buildScores": {
+        "double-tear": "Needs review"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "MindtoMatter": "Mind to Matter",
+        "ADAPt": "ADAPt",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "SwiftAndSafe": "Swift and Safe",
+        "ShadowRunner": "Shadow Runner",
+        "OceanSoul": "Ocean Soul",
+        "OutlawsGrit": "Outlaw's Grit",
+        "Overflow": "Overflow",
+        "BurstingTeeth": "Tooth Fairy",
+        "Marksmage": "Marksmage",
+        "BigBrain": "Big Brain",
+        "FromBeginningToEnd": "From Beginning To End",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "Eureka": "Eureka",
+        "FinalForm": "Final Form",
+        "GiantSlayer": "Giant Slayer",
+        "Dashing": "Dashing",
+        "CantTouchThis": "Can't Touch This",
+        "FeyMagic": "Fey Magic",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ヴォイドを歩む者 カサディン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "double-tear": "ダブルティアビルド"
+      },
+      "buildTags": {
+        "double-tear": "ダブルティア"
+      },
+      "buildScores": {
+        "double-tear": "確認待ち"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "MindtoMatter": "精神の体現",
+        "ADAPt": "変力装置",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "SwiftAndSafe": "迅速に安全に",
+        "ShadowRunner": "影走り",
+        "OceanSoul": "オーシャンソウル",
+        "OutlawsGrit": "無法者の気概",
+        "Overflow": "オーバーフロー",
+        "BurstingTeeth": "歯の妖精",
+        "Marksmage": "マークスメイジ",
+        "BigBrain": "頭脳派",
+        "FromBeginningToEnd": "徹頭徹尾",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "PhenomenalEvil": "偉大なる悪",
+        "Eureka": "エウレカ",
+        "FinalForm": "最終形態",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "Dashing": "疾走",
+        "CantTouchThis": "ヤケドするぜ",
+        "FeyMagic": "神秘の魔法",
+        "InfiniteRecursion": "無限再帰",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "공허의 방랑자 카사딘 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "double-tear": "쌍여눈 빌드"
+      },
+      "buildTags": {
+        "double-tear": "쌍여눈"
+      },
+      "buildScores": {
+        "double-tear": "검토 필요"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "MindtoMatter": "정신 변환",
+        "ADAPt": "적응형 능력치",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "SwiftAndSafe": "빠르고 안전하게",
+        "ShadowRunner": "그림자 질주",
+        "OceanSoul": "바다의 영혼",
+        "OutlawsGrit": "무법자의 투지",
+        "Overflow": "범람",
+        "BurstingTeeth": "이빨 요정",
+        "Marksmage": "마법 명사수",
+        "BigBrain": "전술적 대비",
+        "FromBeginningToEnd": "시작부터 끝까지",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "PhenomenalEvil": "극악무도",
+        "Eureka": "유레카",
+        "FinalForm": "최종 형태",
+        "GiantSlayer": "거인 학살자",
+        "Dashing": "돌진",
+        "CantTouchThis": "난공불락",
+        "FeyMagic": "요정 마법",
+        "InfiniteRecursion": "무한 반복",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "double-tear",
+      "items": [
+        6657,
+        3004,
+        3040,
+        3135,
+        4645,
+        3089
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 9.89
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 26.43
+        },
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": 2.13
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 9.09
+        },
+        {
+          "id": "SwiftAndSafe",
+          "icon": "assets/ux/kiwi/augments/icons/swiftandsafe_small.png",
+          "pick": 1.1
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 12.61
+        },
+        {
+          "id": "OceanSoul",
+          "icon": "assets/ux/cherry/augments/icons/oceansoul_small.png",
+          "pick": 0.8
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 10.27
+        },
+        {
+          "id": "Overflow",
+          "icon": "assets/ux/cherry/augments/icons/overflow_small.png",
+          "pick": 10.48
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 13.91
+        },
+        {
+          "id": "Marksmage",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 15.63
+        },
+        {
+          "id": "BigBrain",
+          "icon": "assets/ux/cherry/augments/icons/bigbrain_small.png",
+          "pick": 5.12
+        },
+        {
+          "id": "FromBeginningToEnd",
+          "icon": "assets/ux/cherry/augments/icons/frombeginningtoend_small.png",
+          "pick": null
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 28.08
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 13.96
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 11.95
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 17.1
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        },
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": null
+        },
+        {
+          "id": "CantTouchThis",
+          "icon": "assets/ux/cherry/augments/icons/canttouchthis_small.png",
+          "pick": 6.91
+        },
+        {
+          "id": "FeyMagic",
+          "icon": "assets/ux/cherry/augments/icons/feymagic_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 6.41
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": 6.69
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

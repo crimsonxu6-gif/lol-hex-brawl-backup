@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Kayle",
+    "slug": "kayle",
+    "names": {
+      "zh": "凯尔 正义天使",
+      "en": "the Righteous Kayle",
+      "ja": "天空の正義 ケイル",
+      "ko": "정의로운 자 케일"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "正义天使 凯尔 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装",
+        "crit": "暴击出装"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "AD"
+      },
+      "buildScores": {
+        "ap": "稳",
+        "crit": "可选"
+      },
+      "hexNames": {
+        "Deft": "灵巧",
+        "ScopedWeapons": "万用瞄准镜",
+        "Typhoon": "台风",
+        "LightemUp": "点亮他们！",
+        "Twinfire": "双生火焰",
+        "ADAPt": "物理转魔法",
+        "WitchfulThinking": "巫师式思考",
+        "SustainingStrike": "虹吸",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "Marksmage": "神射法师",
+        "WarlockJuicebox": "术士果汁盒",
+        "EtherealWeapon": "虚幻武器",
+        "PhenomenalEvil": "超凡邪恶",
+        "Upgrade_IE": "升级：无尽之刃",
+        "Upgrade_Sheen": "升级：耀光",
+        "MagicMissile": "魔法飞弹",
+        "DualWield": "双刀流",
+        "MasterofDuality": "物法皆修",
+        "ScopiestWeapons": "最万用的瞄准镜",
+        "TapDancer": "踢踏舞",
+        "GiantSlayer": "巨人杀手",
+        "HighRoller": "掷骰狂人",
+        "MysticPunch": "秘术冲拳",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Kayle guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build",
+        "crit": "Crit Build"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "Burst"
+      },
+      "buildScores": {
+        "ap": "Optional",
+        "crit": "Strong"
+      },
+      "hexNames": {
+        "Deft": "Deft",
+        "ScopedWeapons": "Scoped Weapons",
+        "Typhoon": "Typhoon",
+        "LightemUp": "Light 'Em Up!",
+        "Twinfire": "Twin Fire",
+        "ADAPt": "ADAPt",
+        "WitchfulThinking": "Witchful Thinking",
+        "SustainingStrike": "Siphon",
+        "ScopierWeapons": "Scopier Weapons",
+        "Marksmage": "Marksmage",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "EtherealWeapon": "Ethereal Weapon",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "MagicMissile": "Magic Missile",
+        "DualWield": "Dual Wield",
+        "MasterofDuality": "Master of Duality",
+        "ScopiestWeapons": "Scopiest Weapons",
+        "TapDancer": "Tap Dancer",
+        "GiantSlayer": "Giant Slayer",
+        "HighRoller": "High Roller",
+        "MysticPunch": "Mystic Punch",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "天空の正義 ケイル Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "APビルド",
+        "crit": "クリティカルビルド"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "バースト"
+      },
+      "buildScores": {
+        "ap": "Optional",
+        "crit": "強力"
+      },
+      "hexNames": {
+        "Deft": "技巧",
+        "ScopedWeapons": "スコープ装着",
+        "Typhoon": "タイフーン",
+        "LightemUp": "光で照らせ！",
+        "Twinfire": "ツインファイア",
+        "ADAPt": "変力装置",
+        "WitchfulThinking": "魔法的思考",
+        "SustainingStrike": "サイフォン",
+        "ScopierWeapons": "改造スコープ装着",
+        "Marksmage": "マークスメイジ",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "EtherealWeapon": "エーテル武器",
+        "PhenomenalEvil": "偉大なる悪",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "MagicMissile": "マジックミサイル",
+        "DualWield": "二刀流",
+        "MasterofDuality": "文武両道",
+        "ScopiestWeapons": "超改造スコープ装着",
+        "TapDancer": "タップダンサー",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "HighRoller": "ギャンブラー",
+        "MysticPunch": "神秘の鉄拳",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "정의로운 자 케일 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드",
+        "crit": "치명타 빌드"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "폭딜"
+      },
+      "buildScores": {
+        "ap": "Optional",
+        "crit": "강력"
+      },
+      "hexNames": {
+        "Deft": "능수능란",
+        "ScopedWeapons": "조준경 부착",
+        "Typhoon": "태풍",
+        "LightemUp": "불을 밝혀",
+        "Twinfire": "쌍둥이 불꽃",
+        "ADAPt": "적응형 능력치",
+        "WitchfulThinking": "사악한 정신",
+        "SustainingStrike": "흡수",
+        "ScopierWeapons": "상급 조준경 부착",
+        "Marksmage": "마법 명사수",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "EtherealWeapon": "환영 무기",
+        "PhenomenalEvil": "극악무도",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "MagicMissile": "마법 미사일",
+        "DualWield": "양손잡이",
+        "MasterofDuality": "결투의 대가",
+        "ScopiestWeapons": "최상급 조준경 부착",
+        "TapDancer": "탭 댄서",
+        "GiantSlayer": "거인 학살자",
+        "HighRoller": "도박꾼",
+        "MysticPunch": "신비한 주먹",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        3115,
+        2510,
+        4645,
+        3089,
+        3135,
+        3020
+      ]
+    },
+    {
+      "key": "crit",
+      "items": [
+        3032,
+        6675,
+        3033,
+        3031,
+        3153,
+        3006
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 19.67
+        },
+        {
+          "id": "ScopedWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopedweapons_small.png",
+          "pick": 14.61
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 11.69
+        },
+        {
+          "id": "LightemUp",
+          "icon": "assets/ux/cherry/augments/icons/lightemup_small.png",
+          "pick": 8.44
+        },
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 7.61
+        },
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": 5.07
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 4.38
+        },
+        {
+          "id": "SustainingStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 2.63
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 40.61
+        },
+        {
+          "id": "Marksmage",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 33.54
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 24.23
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 15.82
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 9.91
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 7.65
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 7.42
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 7.33
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 14.24
+        },
+        {
+          "id": "MasterofDuality",
+          "icon": "assets/ux/cherry/augments/icons/masterofduality_small.png",
+          "pick": 12.82
+        },
+        {
+          "id": "ScopiestWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopiestweapons_small.png",
+          "pick": 11.47
+        },
+        {
+          "id": "TapDancer",
+          "icon": "assets/ux/cherry/augments/icons/tapdancer_small.png",
+          "pick": 7.73
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 7.21
+        },
+        {
+          "id": "HighRoller",
+          "icon": "assets/ux/kiwi/augments/icons/highroller_small.png",
+          "pick": 0.48
+        },
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 0.42
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": null
+        }
+      ]
+    }
+  }
+}

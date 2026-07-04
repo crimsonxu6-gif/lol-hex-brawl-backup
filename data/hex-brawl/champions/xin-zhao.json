@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "XinZhao",
+    "slug": "xin-zhao",
+    "names": {
+      "zh": "赵信 德邦总管",
+      "en": "the Seneschal of Demacia Xin Zhao",
+      "ja": "デマーシアの家令長 シン・ジャオ",
+      "ko": "데마시아의 호위무사 신 짜오"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "赵信 德邦总管 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装"
+      },
+      "buildTags": {
+        "standard": "常规"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "Zealot": "狂热者",
+        "WeightedPopoffs": "负重爆气",
+        "EscapePlan": "逃跑计划",
+        "Deft": "灵巧",
+        "FirstAidKit": "急救用具",
+        "Typhoon": "台风",
+        "LightemUp": "点亮他们！",
+        "PhenomenalEvil": "超凡邪恶",
+        "Marksmage": "神射法师",
+        "HolyFire": "圣火",
+        "LightningStrikes": "闪电打击",
+        "DoubleTap": "双发快射",
+        "CriticalHealing": "会心治疗",
+        "EtherealWeapon": "虚幻武器",
+        "TwiceThrice": "接二连三",
+        "MasterofDuality": "物法皆修",
+        "DualWield": "双刀流",
+        "TapDancer": "踢踏舞",
+        "MysticPunch": "秘术冲拳",
+        "BacktoBasics": "回归基本功",
+        "CircleofDeath": "死亡之环",
+        "ProteinShake": "蛋白粉奶昔",
+        "Gash": "砍伤"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Seneschal of Demacia Xin Zhao Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Standard"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "Zealot": "Zealot",
+        "WeightedPopoffs": "Weighted Popoffs",
+        "EscapePlan": "Escape Plan",
+        "Deft": "Deft",
+        "FirstAidKit": "First-Aid Kit",
+        "Typhoon": "Typhoon",
+        "LightemUp": "Light 'Em Up!",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "Marksmage": "Marksmage",
+        "HolyFire": "Holy Fire",
+        "LightningStrikes": "Lightning Strikes",
+        "DoubleTap": "Double Tap",
+        "CriticalHealing": "Critical Healing",
+        "EtherealWeapon": "Ethereal Weapon",
+        "TwiceThrice": "Twice Thrice",
+        "MasterofDuality": "Master of Duality",
+        "DualWield": "Dual Wield",
+        "TapDancer": "Tap Dancer",
+        "MysticPunch": "Mystic Punch",
+        "BacktoBasics": "Back To Basics",
+        "CircleofDeath": "Circle of Death",
+        "ProteinShake": "Protein Shake",
+        "Gash": "Gash"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "デマーシアの家令長 シン・ジャオ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "Zealot": "狂信的",
+        "WeightedPopoffs": "加重ポップオフ",
+        "EscapePlan": "脱出プラン",
+        "Deft": "技巧",
+        "FirstAidKit": "救急セット",
+        "Typhoon": "タイフーン",
+        "LightemUp": "光で照らせ！",
+        "PhenomenalEvil": "偉大なる悪",
+        "Marksmage": "マークスメイジ",
+        "HolyFire": "聖なる炎",
+        "LightningStrikes": "ライトニングストライク",
+        "DoubleTap": "ダブルタップ",
+        "CriticalHealing": "クリティカルヒール",
+        "EtherealWeapon": "エーテル武器",
+        "TwiceThrice": "二度三度",
+        "MasterofDuality": "文武両道",
+        "DualWield": "二刀流",
+        "TapDancer": "タップダンサー",
+        "MysticPunch": "神秘の鉄拳",
+        "BacktoBasics": "初志貫徹",
+        "CircleofDeath": "死者の集い",
+        "ProteinShake": "プロテインシェイク",
+        "Gash": "深手"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "데마시아의 호위무사 신 짜오 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "일반 빌드"
+      },
+      "buildTags": {
+        "standard": "일반"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "Zealot": "광신자",
+        "WeightedPopoffs": "중량 폭주",
+        "EscapePlan": "도주 계획",
+        "Deft": "능수능란",
+        "FirstAidKit": "응급처치 키트",
+        "Typhoon": "태풍",
+        "LightemUp": "불을 밝혀",
+        "PhenomenalEvil": "극악무도",
+        "Marksmage": "마법 명사수",
+        "HolyFire": "신성한 불길",
+        "LightningStrikes": "벼락",
+        "DoubleTap": "한 발에 두 놈",
+        "CriticalHealing": "치명적 치유",
+        "EtherealWeapon": "환영 무기",
+        "TwiceThrice": "두 배 세 배",
+        "MasterofDuality": "결투의 대가",
+        "DualWield": "양손잡이",
+        "TapDancer": "탭 댄서",
+        "MysticPunch": "신비한 주먹",
+        "BacktoBasics": "기본으로 돌아가기",
+        "CircleofDeath": "죽음의 순환",
+        "ProteinShake": "프로틴 음료",
+        "Gash": "깊은 상처"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        3087,
+        2510,
+        3124,
+        6333,
+        3065,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 2.47
+        },
+        {
+          "id": "WeightedPopoffs",
+          "icon": "assets/ux/kiwi/augments/icons/weightedpopoffs_large.png",
+          "pick": null
+        },
+        {
+          "id": "EscapePlan",
+          "icon": "assets/ux/kiwi/augments/icons/escapeplan_small.png",
+          "pick": 1.17
+        },
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 2.02
+        },
+        {
+          "id": "FirstAidKit",
+          "icon": "assets/ux/cherry/augments/icons/firstaidkit_small.png",
+          "pick": null
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 4.72
+        },
+        {
+          "id": "LightemUp",
+          "icon": "assets/ux/cherry/augments/icons/lightemup_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": null
+        },
+        {
+          "id": "Marksmage",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": null
+        },
+        {
+          "id": "HolyFire",
+          "icon": "assets/ux/cherry/augments/icons/holyfire_small.png",
+          "pick": null
+        },
+        {
+          "id": "LightningStrikes",
+          "icon": "assets/ux/cherry/augments/icons/lightningstrikes_small.png",
+          "pick": null
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": null
+        },
+        {
+          "id": "CriticalHealing",
+          "icon": "assets/ux/cherry/augments/icons/criticalhealing_small.png",
+          "pick": null
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 1.58
+        },
+        {
+          "id": "TwiceThrice",
+          "icon": "assets/ux/cherry/augments/icons/twicethrice_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "MasterofDuality",
+          "icon": "assets/ux/cherry/augments/icons/masterofduality_small.png",
+          "pick": 9.76
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": null
+        },
+        {
+          "id": "TapDancer",
+          "icon": "assets/ux/cherry/augments/icons/tapdancer_small.png",
+          "pick": null
+        },
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 13.63
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": null
+        },
+        {
+          "id": "CircleofDeath",
+          "icon": "assets/ux/cherry/augments/icons/circleofdeath_small.png",
+          "pick": null
+        },
+        {
+          "id": "ProteinShake",
+          "icon": "assets/ux/kiwi/augments/icons/proteinshake_small.png",
+          "pick": null
+        },
+        {
+          "id": "Gash",
+          "icon": "assets/ux/kiwi/augments/icons/darksteeltalons_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

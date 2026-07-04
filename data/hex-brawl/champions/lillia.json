@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Lillia",
+    "slug": "lillia",
+    "names": {
+      "zh": "莉莉娅 含羞蓓蕾",
+      "en": "the Bashful Bloom Lillia",
+      "ja": "はにかみ屋の花 リリア",
+      "ko": "수줍은 꽃 릴리아"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "莉莉娅 含羞蓓蕾 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "IceCold": "冰寒",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "Upgrade_ZH": "升级：中娅",
+        "WitchfulThinking": "巫师式思考",
+        "SpinToWin": "旋转至胜",
+        "MindtoMatter": "由心及物",
+        "TransmuteGold": "质变：黄金阶",
+        "WarlockJuicebox": "术士果汁盒",
+        "PhenomenalEvil": "超凡邪恶",
+        "MagicMissile": "魔法飞弹",
+        "EtherealWeapon": "虚幻武器",
+        "WithHaste": "急急小子",
+        "BloodMoneyBurn": "炽燃利息",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "GetExcited": "罪恶快感",
+        "InfernalConduit": "炼狱导管",
+        "Archmage": "大法师",
+        "InfiniteRecursion": "无限循环往复",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽",
+        "BacktoBasics": "回归基本功"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Bashful Bloom Lillia Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "IceCold": "Ice Cold",
+        "Purist_Caster": "Purist - Caster",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "WitchfulThinking": "Witchful Thinking",
+        "SpinToWin": "Spin To Win",
+        "MindtoMatter": "Mind to Matter",
+        "TransmuteGold": "Transmute: Gold",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "MagicMissile": "Magic Missile",
+        "EtherealWeapon": "Ethereal Weapon",
+        "WithHaste": "With Haste",
+        "BloodMoneyBurn": "Combusting Interest",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "GetExcited": "Get Excited!",
+        "InfernalConduit": "Infernal Conduit",
+        "Archmage": "Archmage",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap",
+        "BacktoBasics": "Back To Basics"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "はにかみ屋の花 リリア Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "AP ビルド"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "IceCold": "結氷",
+        "Purist_Caster": "純粋なるキャスター",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "WitchfulThinking": "魔法的思考",
+        "SpinToWin": "勝利への回転",
+        "MindtoMatter": "精神の体現",
+        "TransmuteGold": "変質: ゴールド",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "PhenomenalEvil": "偉大なる悪",
+        "MagicMissile": "マジックミサイル",
+        "EtherealWeapon": "エーテル武器",
+        "WithHaste": "大急ぎ",
+        "BloodMoneyBurn": "燃える利回り",
+        "TransmutePrismatic": "変質: プリズム",
+        "GetExcited": "超エキサイティン！",
+        "InfernalConduit": "獄炎路",
+        "Archmage": "魔帝",
+        "InfiniteRecursion": "無限再帰",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ",
+        "BacktoBasics": "初志貫徹"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "수줍은 꽃 릴리아 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "IceCold": "차가운 냉기",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "Upgrade_ZH": "존야 업그레이드",
+        "WitchfulThinking": "사악한 정신",
+        "SpinToWin": "승리를 위한 회전",
+        "MindtoMatter": "정신 변환",
+        "TransmuteGold": "전환: 골드",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "PhenomenalEvil": "극악무도",
+        "MagicMissile": "마법 미사일",
+        "EtherealWeapon": "환영 무기",
+        "WithHaste": "속행",
+        "BloodMoneyBurn": "타오르는 이자",
+        "TransmutePrismatic": "전환: 프리즘",
+        "GetExcited": "신난다!",
+        "InfernalConduit": "지옥의 전도체",
+        "Archmage": "대마법사",
+        "InfiniteRecursion": "무한 반복",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자",
+        "BacktoBasics": "기본으로 돌아가기"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        2503,
+        6653,
+        4633,
+        3116,
+        4629,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 18.46
+        },
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 17.44
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 7.17
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 6.64
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 5.37
+        },
+        {
+          "id": "SpinToWin",
+          "icon": "assets/ux/cherry/augments/icons/spintowin_small.png",
+          "pick": 3.76
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 3.05
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.88
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 36.76
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 24.43
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 22.74
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 12.67
+        },
+        {
+          "id": "WithHaste",
+          "icon": "assets/ux/cherry/augments/icons/withhaste_small.png",
+          "pick": 12.34
+        },
+        {
+          "id": "BloodMoneyBurn",
+          "icon": "assets/ux/kiwi/augments/icons/bloodmoney2_small.png",
+          "pick": 5.36
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 5.25
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 4.78
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "InfernalConduit",
+          "icon": "assets/ux/cherry/augments/icons/infernalconduit_small.png",
+          "pick": 30.81
+        },
+        {
+          "id": "Archmage",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 13.21
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 10.59
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": 5.06
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 4.77
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

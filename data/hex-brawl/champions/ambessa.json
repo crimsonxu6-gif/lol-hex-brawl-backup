@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Ambessa",
+    "slug": "ambessa",
+    "names": {
+      "zh": "安蓓萨 铁血狼母",
+      "en": "Matriarch of War Ambessa",
+      "ja": "戦乱の母 アンベッサ",
+      "ko": "전장의 우두머리 암베사"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "安蓓萨 铁血狼母 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "bruiser": "战士出装"
+      },
+      "buildTags": {
+        "bruiser": "战士"
+      },
+      "buildScores": {
+        "bruiser": "待审核"
+      },
+      "hexNames": {
+        "SpinToWin": "旋转至胜",
+        "BluntForce": "大力",
+        "ShadowRunner": "暗影疾奔",
+        "escAPADe": "魔法转物理",
+        "Upgrade_Collector": "升级：收集者",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "SustainingStrike": "虹吸",
+        "Goredrink": "渴血",
+        "BurstingTeeth": "牙仙子",
+        "ThreadtheNeedle": "穿针引线",
+        "EndlessDecimation": "无尽大杀四方",
+        "Nightstalking": "夜狩",
+        "GetExcited": "罪恶快感",
+        "SpecializedEmpowerment": "威能之追求",
+        "SpecializedRecursion": "急速之追求",
+        "OutlawsGrit": "狂徒豪气",
+        "InfernoTriggered": "扳机炼狱",
+        "DivineDomain": "飞升仪式",
+        "FinalForm": "最终形态",
+        "Earthwake": "大地苏醒",
+        "BacktoBasics": "回归基本功"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Matriarch of War Ambessa Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "bruiser": "Bruiser Build"
+      },
+      "buildTags": {
+        "bruiser": "Bruiser"
+      },
+      "buildScores": {
+        "bruiser": "Needs review"
+      },
+      "hexNames": {
+        "SpinToWin": "Spin To Win",
+        "BluntForce": "Blunt Force",
+        "ShadowRunner": "Shadow Runner",
+        "escAPADe": "escAPADe",
+        "Upgrade_Collector": "Upgrade Collector",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "SustainingStrike": "Siphon",
+        "Goredrink": "Goredrink",
+        "BurstingTeeth": "Tooth Fairy",
+        "ThreadtheNeedle": "Thread the Needle",
+        "EndlessDecimation": "Endless Decimation",
+        "Nightstalking": "Nightstalking",
+        "GetExcited": "Get Excited!",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "OutlawsGrit": "Outlaw's Grit",
+        "InfernoTriggered": "Triggered Inferno",
+        "DivineDomain": "Rite of Ascension",
+        "FinalForm": "Final Form",
+        "Earthwake": "Earthwake",
+        "BacktoBasics": "Back To Basics"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "戦乱の母 アンベッサ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "bruiser": "ファイタービルド"
+      },
+      "buildTags": {
+        "bruiser": "ファイター"
+      },
+      "buildScores": {
+        "bruiser": "確認待ち"
+      },
+      "hexNames": {
+        "SpinToWin": "勝利への回転",
+        "BluntForce": "無骨なる力",
+        "ShadowRunner": "影走り",
+        "escAPADe": "魔攻のいたずら",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "SustainingStrike": "サイフォン",
+        "Goredrink": "ゴアドリンク",
+        "BurstingTeeth": "歯の妖精",
+        "ThreadtheNeedle": "貫通力",
+        "EndlessDecimation": "終わりなき殲滅",
+        "Nightstalking": "ナイトストーク",
+        "GetExcited": "超エキサイティン！",
+        "SpecializedEmpowerment": "力の追求",
+        "SpecializedRecursion": "素早さの追求",
+        "OutlawsGrit": "無法者の気概",
+        "InfernoTriggered": "巻き起こるインフェルノ",
+        "DivineDomain": "超越の儀式",
+        "FinalForm": "最終形態",
+        "Earthwake": "アースウェイク",
+        "BacktoBasics": "初志貫徹"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "전장의 우두머리 암베사 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "bruiser": "전사 빌드"
+      },
+      "buildTags": {
+        "bruiser": "전사"
+      },
+      "buildScores": {
+        "bruiser": "검토 필요"
+      },
+      "hexNames": {
+        "SpinToWin": "승리를 위한 회전",
+        "BluntForce": "육중한 힘",
+        "ShadowRunner": "그림자 질주",
+        "escAPADe": "마법사 (물리)",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "SustainingStrike": "흡수",
+        "Goredrink": "선혈포식",
+        "BurstingTeeth": "이빨 요정",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "EndlessDecimation": "끝없는 학살",
+        "Nightstalking": "밤의 추적",
+        "GetExcited": "신난다!",
+        "SpecializedEmpowerment": "위력 추구",
+        "SpecializedRecursion": "가속 추구",
+        "OutlawsGrit": "무법자의 투지",
+        "InfernoTriggered": "지옥불 난사 발동",
+        "DivineDomain": "초월 의식",
+        "FinalForm": "최종 형태",
+        "Earthwake": "대지의 각성",
+        "BacktoBasics": "기본으로 돌아가기"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "bruiser",
+      "items": [
+        6697,
+        6333,
+        3161,
+        2517,
+        3071,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "SpinToWin",
+          "icon": "assets/ux/cherry/augments/icons/spintowin_small.png",
+          "pick": 16.7
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 15.35
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 13.24
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 5.75
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 4.4
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 2.2
+        },
+        {
+          "id": "SustainingStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 2.01
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 16.95
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 21.5
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 18.24
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 12.04
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 10.33
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 8.25
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 7.59
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 7.26
+        },
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 26.51
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "InfernoTriggered",
+          "icon": "assets/ux/cherry/augments/icons/madscientist_small.png",
+          "pick": 14.28
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 11.58
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 10.85
+        },
+        {
+          "id": "Earthwake",
+          "icon": "assets/ux/cherry/augments/icons/earthwake_small.png",
+          "pick": 7.79
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 6.59
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

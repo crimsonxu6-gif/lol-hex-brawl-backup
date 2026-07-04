@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Graves",
+    "slug": "graves",
+    "names": {
+      "zh": "格雷福斯 法外狂徒",
+      "en": "the Outlaw Graves",
+      "ja": "無法者 グレイブス",
+      "ko": "무법자 그레이브즈"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "格雷福斯 法外狂徒 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "AD 出装"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "升级：收集者",
+        "TankItOrLeaveIt": "会心防御",
+        "BluntForce": "大力",
+        "ScopedWeapons": "万用瞄准镜",
+        "Deft": "灵巧",
+        "escAPADe": "魔法转物理",
+        "CritNCast": "由暴生急",
+        "TransmuteGold": "质变：黄金阶",
+        "Upgrade_IE": "升级：无尽之刃",
+        "SoulSiphon": "灵魂虹吸",
+        "CriticalMissile": "暴击飞弹",
+        "DoubleTap": "双发快射",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "ItsCritical": "关键暴击",
+        "CriticalRhythm": "暴击律动",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "DrawYourSword": "亮出你的剑",
+        "GiantSlayer": "巨人杀手",
+        "JeweledGauntlet": "珠光护手",
+        "BacktoBasics": "回归基本功",
+        "ScopiestWeapons": "最万用的瞄准镜"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Outlaw Graves Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "AD Build"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "Upgrade Collector",
+        "TankItOrLeaveIt": "Tank It Or Leave It",
+        "BluntForce": "Blunt Force",
+        "ScopedWeapons": "Scoped Weapons",
+        "Deft": "Deft",
+        "escAPADe": "escAPADe",
+        "CritNCast": "Crit 'n Cast",
+        "TransmuteGold": "Transmute: Gold",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "SoulSiphon": "Soul Siphon",
+        "CriticalMissile": "Critical Missile",
+        "DoubleTap": "Double Tap",
+        "ScopierWeapons": "Scopier Weapons",
+        "ItsCritical": "It's Critical",
+        "CriticalRhythm": "Critical Rhythm",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "DrawYourSword": "Draw Your Sword",
+        "GiantSlayer": "Giant Slayer",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "BacktoBasics": "Back To Basics",
+        "ScopiestWeapons": "Scopiest Weapons"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "無法者 グレイブス Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "AD ビルド"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "コレクター アップグレード",
+        "TankItOrLeaveIt": "タンクこそ至高",
+        "BluntForce": "無骨なる力",
+        "ScopedWeapons": "スコープ装着",
+        "Deft": "技巧",
+        "escAPADe": "魔攻のいたずら",
+        "CritNCast": "クリティカルキャスト",
+        "TransmuteGold": "変質: ゴールド",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "SoulSiphon": "ソウルサイフォン",
+        "CriticalMissile": "クリティカルミサイル",
+        "DoubleTap": "ダブルタップ",
+        "ScopierWeapons": "改造スコープ装着",
+        "ItsCritical": "まさにクリティカル",
+        "CriticalRhythm": "クリティカルの律動",
+        "TransmutePrismatic": "変質: プリズム",
+        "DrawYourSword": "剣を構えよ",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "BacktoBasics": "初志貫徹",
+        "ScopiestWeapons": "超改造スコープ装着"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "무법자 그레이브즈 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "AD 빌드"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "TankItOrLeaveIt": "확률적 방어",
+        "BluntForce": "육중한 힘",
+        "ScopedWeapons": "조준경 부착",
+        "Deft": "능수능란",
+        "escAPADe": "마법사 (물리)",
+        "CritNCast": "치명적 가속",
+        "TransmuteGold": "전환: 골드",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "SoulSiphon": "영혼 흡수",
+        "CriticalMissile": "치명적 미사일",
+        "DoubleTap": "한 발에 두 놈",
+        "ScopierWeapons": "상급 조준경 부착",
+        "ItsCritical": "치명적인 공격",
+        "CriticalRhythm": "치명적 리듬",
+        "TransmutePrismatic": "전환: 프리즘",
+        "DrawYourSword": "검을 뽑아라",
+        "GiantSlayer": "거인 학살자",
+        "JeweledGauntlet": "보석 건틀릿",
+        "BacktoBasics": "기본으로 돌아가기",
+        "ScopiestWeapons": "최상급 조준경 부착"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        6676,
+        3031,
+        3033,
+        6673,
+        3072,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 20.94
+        },
+        {
+          "id": "TankItOrLeaveIt",
+          "icon": "assets/ux/cherry/augments/icons/tankitorleaveit_small.png",
+          "pick": 13.24
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 13.18
+        },
+        {
+          "id": "ScopedWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopedweapons_small.png",
+          "pick": 8.1
+        },
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 6.46
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 6.19
+        },
+        {
+          "id": "CritNCast",
+          "icon": "assets/ux/kiwi/augments/icons/critncast_small.png",
+          "pick": 5.88
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 1.85
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 44.58
+        },
+        {
+          "id": "SoulSiphon",
+          "icon": "assets/ux/cherry/augments/icons/soulsiphon_small.png",
+          "pick": 33.97
+        },
+        {
+          "id": "CriticalMissile",
+          "icon": "assets/ux/kiwi/augments/icons/criticalmissile_small.png",
+          "pick": 17.69
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 14.28
+        },
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 13.94
+        },
+        {
+          "id": "ItsCritical",
+          "icon": "assets/ux/cherry/augments/icons/itscritical_small.png",
+          "pick": 8.43
+        },
+        {
+          "id": "CriticalRhythm",
+          "icon": "assets/ux/kiwi/augments/icons/criticalrhythm_small.png",
+          "pick": 7.68
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 5.67
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "DrawYourSword",
+          "icon": "assets/ux/cherry/augments/icons/drawyoursword_small.png",
+          "pick": 44.22
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 14.24
+        },
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 10.46
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 8.13
+        },
+        {
+          "id": "ScopiestWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopiestweapons_small.png",
+          "pick": 6.63
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

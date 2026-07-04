@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "TwistedFate",
+    "slug": "twisted-fate",
+    "names": {
+      "zh": "崔斯特 卡牌大师",
+      "en": "the Card Master Twisted Fate",
+      "ja": "不敗のイカサマ師 ツイステッド・フェイト",
+      "ko": "카드의 달인 트위스티드 페이트"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "崔斯特 卡牌大师 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "Zealot": "狂热者",
+        "WitchfulThinking": "巫师式思考",
+        "ScopedWeapons": "万用瞄准镜",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "Upgrade_ZH": "升级：中娅",
+        "MindtoMatter": "由心及物",
+        "SlapAround": "扇巴掌",
+        "Twinfire": "双生火焰",
+        "MagicMissile": "魔法飞弹",
+        "PhenomenalEvil": "超凡邪恶",
+        "WarlockJuicebox": "术士果汁盒",
+        "BangBang": "狙神飞星",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "WithHaste": "急急小子",
+        "Upgrade_Sheen": "升级：耀光",
+        "SkilledSniper": "老练狙神",
+        "JeweledGauntlet": "珠光护手",
+        "Eureka": "尤里卡",
+        "GiantSlayer": "巨人杀手",
+        "BacktoBasics": "回归基本功",
+        "Ability_SelfAOE_DoubleCast": "回响施放",
+        "InfiniteRecursion": "无限循环往复"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Card Master Twisted Fate Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "Zealot": "Zealot",
+        "WitchfulThinking": "Witchful Thinking",
+        "ScopedWeapons": "Scoped Weapons",
+        "Purist_Caster": "Purist - Caster",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "MindtoMatter": "Mind to Matter",
+        "SlapAround": "Slap Around",
+        "Twinfire": "Twin Fire",
+        "MagicMissile": "Magic Missile",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "BangBang": "From Downtown",
+        "ScopierWeapons": "Scopier Weapons",
+        "WithHaste": "With Haste",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "SkilledSniper": "Skilled Sniper",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "Eureka": "Eureka",
+        "GiantSlayer": "Giant Slayer",
+        "BacktoBasics": "Back To Basics",
+        "Ability_SelfAOE_DoubleCast": "Echo Cast",
+        "InfiniteRecursion": "Infinite Recursion"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "不敗のイカサマ師 ツイステッド・フェイト Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "APビルド"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "Zealot": "狂信的",
+        "WitchfulThinking": "魔法的思考",
+        "ScopedWeapons": "スコープ装着",
+        "Purist_Caster": "純粋なるキャスター",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "MindtoMatter": "精神の体現",
+        "SlapAround": "叩きまくれ",
+        "Twinfire": "ツインファイア",
+        "MagicMissile": "マジックミサイル",
+        "PhenomenalEvil": "偉大なる悪",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "BangBang": "ロングシュート",
+        "ScopierWeapons": "改造スコープ装着",
+        "WithHaste": "大急ぎ",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "SkilledSniper": "腕利きスナイパー",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "Eureka": "エウレカ",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "BacktoBasics": "初志貫徹",
+        "Ability_SelfAOE_DoubleCast": "エコー キャスト",
+        "InfiniteRecursion": "無限再帰"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "카드의 달인 트위스티드 페이트 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "Zealot": "광신자",
+        "WitchfulThinking": "사악한 정신",
+        "ScopedWeapons": "조준경 부착",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "Upgrade_ZH": "존야 업그레이드",
+        "MindtoMatter": "정신 변환",
+        "SlapAround": "우당탕탕",
+        "Twinfire": "쌍둥이 불꽃",
+        "MagicMissile": "마법 미사일",
+        "PhenomenalEvil": "극악무도",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "BangBang": "로켓 배송",
+        "ScopierWeapons": "상급 조준경 부착",
+        "WithHaste": "속행",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "SkilledSniper": "노련한 저격수",
+        "JeweledGauntlet": "보석 건틀릿",
+        "Eureka": "유레카",
+        "GiantSlayer": "거인 학살자",
+        "BacktoBasics": "기본으로 돌아가기",
+        "Ability_SelfAOE_DoubleCast": "메아리 시전",
+        "InfiniteRecursion": "무한 반복"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        2503,
+        6653,
+        4645,
+        3089,
+        3137,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 13.71
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 8.14
+        },
+        {
+          "id": "ScopedWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopedweapons_small.png",
+          "pick": 6.95
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 6.03
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 5.25
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 2.61
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 2.49
+        },
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 16.66
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 21.33
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 15.86
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 13.52
+        },
+        {
+          "id": "BangBang",
+          "icon": "assets/ux/kiwi/augments/icons/questbangbang_small.png",
+          "pick": 13.48
+        },
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 13.32
+        },
+        {
+          "id": "WithHaste",
+          "icon": "assets/ux/cherry/augments/icons/withhaste_small.png",
+          "pick": 5.87
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 5.53
+        },
+        {
+          "id": "SkilledSniper",
+          "icon": "assets/ux/cherry/augments/icons/skilledsniper_small.png",
+          "pick": 22.49
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 20.03
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 13.63
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 9.06
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 8.6
+        },
+        {
+          "id": "Ability_SelfAOE_DoubleCast",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_prismatic.png",
+          "pick": 7.2
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 6.86
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

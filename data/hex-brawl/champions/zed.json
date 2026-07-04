@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Zed",
+    "slug": "zed",
+    "names": {
+      "zh": "劫 影流之主",
+      "en": "the Master of Shadows Zed",
+      "ja": "影の頭領 ゼド",
+      "ko": "그림자의 주인 제드"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "影流之主 劫 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "穿甲爆发"
+      },
+      "buildTags": {
+        "standard": "默认"
+      },
+      "buildScores": {
+        "standard": "强"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "升级：收集者",
+        "Goredrink": "渴血",
+        "BluntForce": "大力",
+        "ShadowRunner": "暗影疾奔",
+        "escAPADe": "魔法转物理",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "TitansPulse": "保持坚定",
+        "KillSecured": "杀意翻涌",
+        "ThreadtheNeedle": "穿针引线",
+        "Nightstalking": "夜狩",
+        "ItsKillingTime": "杀戮时间到了",
+        "BurstingTeeth": "牙仙子",
+        "EtherealWeapon": "虚幻武器",
+        "SpecializedRecursion": "急速之追求",
+        "GetExcited": "罪恶快感",
+        "WithHaste": "急急小子",
+        "JeweledGauntlet": "珠光护手",
+        "Dashing": "全凭身法",
+        "FinalForm": "最终形态",
+        "DivineDomain": "飞升仪式",
+        "InfiniteRecursion": "无限循环往复",
+        "GiantSlayer": "巨人杀手",
+        "BacktoBasics": "回归基本功",
+        "MadScientist": "科学狂人"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Zed guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Default"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "Upgrade Collector",
+        "Goredrink": "Goredrink",
+        "BluntForce": "Blunt Force",
+        "ShadowRunner": "Shadow Runner",
+        "escAPADe": "escAPADe",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "TitansPulse": "Stay Resolute",
+        "KillSecured": "Kill Secured",
+        "ThreadtheNeedle": "Thread the Needle",
+        "Nightstalking": "Nightstalking",
+        "ItsKillingTime": "It's Killing Time",
+        "BurstingTeeth": "Tooth Fairy",
+        "EtherealWeapon": "Ethereal Weapon",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "GetExcited": "Get Excited!",
+        "WithHaste": "With Haste",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "Dashing": "Dashing",
+        "FinalForm": "Final Form",
+        "DivineDomain": "Rite of Ascension",
+        "InfiniteRecursion": "Infinite Recursion",
+        "GiantSlayer": "Giant Slayer",
+        "BacktoBasics": "Back To Basics",
+        "MadScientist": "Mad Scientist"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "影の頭領 ゼド Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "コレクター アップグレード",
+        "Goredrink": "ゴアドリンク",
+        "BluntForce": "無骨なる力",
+        "ShadowRunner": "影走り",
+        "escAPADe": "魔攻のいたずら",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "TitansPulse": "固い決意",
+        "KillSecured": "キルを確認",
+        "ThreadtheNeedle": "貫通力",
+        "Nightstalking": "ナイトストーク",
+        "ItsKillingTime": "殺戮の時",
+        "BurstingTeeth": "歯の妖精",
+        "EtherealWeapon": "エーテル武器",
+        "SpecializedRecursion": "素早さの追求",
+        "GetExcited": "超エキサイティン！",
+        "WithHaste": "大急ぎ",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "Dashing": "疾走",
+        "FinalForm": "最終形態",
+        "DivineDomain": "超越の儀式",
+        "InfiniteRecursion": "無限再帰",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "BacktoBasics": "初志貫徹",
+        "MadScientist": "狂気の化学者"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "그림자의 주인 제드 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "Goredrink": "선혈포식",
+        "BluntForce": "육중한 힘",
+        "ShadowRunner": "그림자 질주",
+        "escAPADe": "마법사 (물리)",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "TitansPulse": "확고한 의지로",
+        "KillSecured": "확보된 킬",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "Nightstalking": "밤의 추적",
+        "ItsKillingTime": "처형 시간",
+        "BurstingTeeth": "이빨 요정",
+        "EtherealWeapon": "환영 무기",
+        "SpecializedRecursion": "가속 추구",
+        "GetExcited": "신난다!",
+        "WithHaste": "속행",
+        "JeweledGauntlet": "보석 건틀릿",
+        "Dashing": "돌진",
+        "FinalForm": "최종 형태",
+        "DivineDomain": "초월 의식",
+        "InfiniteRecursion": "무한 반복",
+        "GiantSlayer": "거인 학살자",
+        "BacktoBasics": "기본으로 돌아가기",
+        "MadScientist": "미친 과학자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        126697,
+        6696,
+        6694,
+        6333,
+        2517,
+        3158
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 18.21
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 15.54
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 14.76
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 7.75
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 7.32
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 4.48
+        },
+        {
+          "id": "TitansPulse",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 3.45
+        },
+        {
+          "id": "KillSecured",
+          "icon": "assets/ux/kiwi/augments/icons/killsecure_small.png",
+          "pick": 2.74
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 22.28
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 18.2
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 17.31
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 14.11
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 13.17
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 9.4
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 6.79
+        },
+        {
+          "id": "WithHaste",
+          "icon": "assets/ux/cherry/augments/icons/withhaste_small.png",
+          "pick": 5.75
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 11.22
+        },
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 9.87
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 8.48
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 6.44
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 6.4
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 0.78
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 0.51
+        },
+        {
+          "id": "MadScientist",
+          "icon": "assets/ux/cherry/augments/icons/madscientist_small.png",
+          "pick": 0.35
+        }
+      ]
+    }
+  }
+}

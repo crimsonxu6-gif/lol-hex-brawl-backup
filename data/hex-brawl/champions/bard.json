@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Bard",
+    "slug": "bard",
+    "names": {
+      "zh": "巴德 星界游神",
+      "en": "the Wandering Caretaker Bard",
+      "ja": "流離いの庇護者 バード",
+      "ko": "영겁의 수호자 바드"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "巴德 星界游神 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "Typhoon": "台风",
+        "FirstAidKit": "急救用具",
+        "SlapAround": "扇巴掌",
+        "SonicBoom": "天音爆",
+        "IceCold": "冰寒",
+        "escAPADe": "魔法转物理",
+        "BluntForce": "大力",
+        "Upgrade_Collector": "升级：收集者",
+        "MercysStrike": "仁慈打击",
+        "EtherealWeapon": "虚幻武器",
+        "Sonata": "咏叹奏鸣",
+        "DarkWind": "贪欲束缚",
+        "DivineIntervention": "神圣干预",
+        "Upgrade_Sheen": "升级：耀光",
+        "SearingDawn": "炽烈黎明",
+        "AllForYou": "全心为你",
+        "DualWield": "双刀流",
+        "InfiniteRecursion": "无限循环往复",
+        "Multishot": "多重射击",
+        "SpiritBomb": "灵魄炸弹",
+        "BacktoBasics": "回归基本功"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Wandering Caretaker Bard Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "Typhoon": "Typhoon",
+        "FirstAidKit": "First-Aid Kit",
+        "SlapAround": "Slap Around",
+        "SonicBoom": "Sonic Boom",
+        "IceCold": "Ice Cold",
+        "escAPADe": "escAPADe",
+        "BluntForce": "Blunt Force",
+        "Upgrade_Collector": "Upgrade Collector",
+        "MercysStrike": "Mercy's Strike",
+        "EtherealWeapon": "Ethereal Weapon",
+        "Sonata": "Sonata",
+        "DarkWind": "Ravenous Bind",
+        "DivineIntervention": "Divine Intervention",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "SearingDawn": "Searing Dawn",
+        "AllForYou": "All For You",
+        "DualWield": "Dual Wield",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Multishot": "Multishot",
+        "SpiritBomb": "Spirit Bomb",
+        "BacktoBasics": "Back To Basics"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "流離いの庇護者 バード Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "AP ビルド"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "Typhoon": "タイフーン",
+        "FirstAidKit": "救急セット",
+        "SlapAround": "叩きまくれ",
+        "SonicBoom": "ソニックブーム",
+        "IceCold": "結氷",
+        "escAPADe": "魔攻のいたずら",
+        "BluntForce": "無骨なる力",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "MercysStrike": "慈悲の一撃",
+        "EtherealWeapon": "エーテル武器",
+        "Sonata": "ソナタ",
+        "DarkWind": "貪欲な束縛",
+        "DivineIntervention": "聖なる介入",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "SearingDawn": "灼熱の夜明け",
+        "AllForYou": "キミのためさ",
+        "DualWield": "二刀流",
+        "InfiniteRecursion": "無限再帰",
+        "Multishot": "マルチショット",
+        "SpiritBomb": "スピリットボム",
+        "BacktoBasics": "初志貫徹"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "영겁의 수호자 바드 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "Typhoon": "태풍",
+        "FirstAidKit": "응급처치 키트",
+        "SlapAround": "우당탕탕",
+        "SonicBoom": "음속 폭발",
+        "IceCold": "차가운 냉기",
+        "escAPADe": "마법사 (물리)",
+        "BluntForce": "육중한 힘",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "MercysStrike": "자비의 일격",
+        "EtherealWeapon": "환영 무기",
+        "Sonata": "소나타",
+        "DarkWind": "굶주린 속박",
+        "DivineIntervention": "신성한 중재",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "SearingDawn": "타오르는 새벽",
+        "AllForYou": "너만을 위해",
+        "DualWield": "양손잡이",
+        "InfiniteRecursion": "무한 반복",
+        "Multishot": "다중 공격",
+        "SpiritBomb": "영혼 폭탄",
+        "BacktoBasics": "기본으로 돌아가기"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        6655,
+        3100,
+        3089,
+        4645,
+        3137,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 12.03
+        },
+        {
+          "id": "FirstAidKit",
+          "icon": "assets/ux/cherry/augments/icons/firstaidkit_small.png",
+          "pick": 10.54
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 9.41
+        },
+        {
+          "id": "SonicBoom",
+          "icon": "assets/ux/cherry/augments/icons/sonicboom_small.png",
+          "pick": 6.08
+        },
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 5.21
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 4.49
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 3.56
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 3.49
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "MercysStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 21.04
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 18.83
+        },
+        {
+          "id": "Sonata",
+          "icon": "assets/ux/kiwi/augments/icons/sonata_large.png",
+          "pick": 12.47
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 11.2
+        },
+        {
+          "id": "DivineIntervention",
+          "icon": "assets/ux/cherry/augments/icons/slowactingpainkillers_small.png",
+          "pick": 9.74
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 8.44
+        },
+        {
+          "id": "SearingDawn",
+          "icon": "assets/ux/cherry/augments/icons/searingdawn_small.png",
+          "pick": 7.42
+        },
+        {
+          "id": "AllForYou",
+          "icon": "assets/ux/cherry/augments/icons/allforyou_small.png",
+          "pick": 6.79
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 9.53
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 5.87
+        },
+        {
+          "id": "Multishot",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_prismatic.png",
+          "pick": 5.79
+        },
+        {
+          "id": "SpiritBomb",
+          "icon": "assets/ux/kiwi/augments/icons/spiritbomb_small.png",
+          "pick": 5.76
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 5.51
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

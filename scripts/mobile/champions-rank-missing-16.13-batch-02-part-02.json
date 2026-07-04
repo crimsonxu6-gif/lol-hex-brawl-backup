@@ -1,0 +1,42 @@
+[
+  {
+    "name": "北地之怒",
+    "slug": "sejuani"
+  },
+  {
+    "name": "时光守护者",
+    "slug": "zilean"
+  },
+  {
+    "name": "虚空之眼",
+    "slug": "velkoz"
+  },
+  {
+    "name": "惩戒之箭",
+    "slug": "varus"
+  },
+  {
+    "name": "涤魂圣枪",
+    "slug": "senna"
+  },
+  {
+    "name": "荆棘之兴",
+    "slug": "zyra"
+  },
+  {
+    "name": "暗黑元首",
+    "slug": "syndra"
+  },
+  {
+    "name": "德邦总管",
+    "slug": "xin-zhao"
+  },
+  {
+    "name": "沙漠死神",
+    "slug": "nasus"
+  },
+  {
+    "name": "奥术先驱",
+    "slug": "viktor"
+  }
+]

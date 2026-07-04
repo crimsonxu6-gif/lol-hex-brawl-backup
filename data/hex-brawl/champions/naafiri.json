@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Naafiri",
+    "slug": "naafiri",
+    "names": {
+      "zh": "纳亚菲利 百裂冥犬",
+      "en": "the Hound of a Hundred Bites Naafiri",
+      "ja": "百刃の猟犬 ナフィーリ",
+      "ko": "백 번 무는 사냥개 나피리"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "纳亚菲利 百裂冥犬 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "AD 出装"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "升级：收集者",
+        "Goredrink": "渴血",
+        "BluntForce": "大力",
+        "ShadowRunner": "暗影疾奔",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "escAPADe": "魔法转物理",
+        "TransmuteGold": "质变：黄金阶",
+        "KillSecured": "杀意翻涌",
+        "BurstingTeeth": "牙仙子",
+        "ThreadtheNeedle": "穿针引线",
+        "Nightstalking": "夜狩",
+        "BloodMoneyBurn": "炽燃利息",
+        "GetExcited": "罪恶快感",
+        "ItsKillingTime": "杀戮时间到了",
+        "SpecializedEmpowerment": "威能之追求",
+        "Upgrade_IE": "升级：无尽之刃",
+        "FinalForm": "最终形态",
+        "Dashing": "全凭身法",
+        "DivineDomain": "飞升仪式",
+        "UltimateAwakening": "终极唤醒",
+        "Missile_Split": "咒语裂变"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Hound of a Hundred Bites Naafiri Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "AD Build"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "Upgrade Collector",
+        "Goredrink": "Goredrink",
+        "BluntForce": "Blunt Force",
+        "ShadowRunner": "Shadow Runner",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "escAPADe": "escAPADe",
+        "TransmuteGold": "Transmute: Gold",
+        "KillSecured": "Kill Secured",
+        "BurstingTeeth": "Tooth Fairy",
+        "ThreadtheNeedle": "Thread the Needle",
+        "Nightstalking": "Nightstalking",
+        "BloodMoneyBurn": "Combusting Interest",
+        "GetExcited": "Get Excited!",
+        "ItsKillingTime": "It's Killing Time",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "FinalForm": "Final Form",
+        "Dashing": "Dashing",
+        "DivineDomain": "Rite of Ascension",
+        "UltimateAwakening": "Ultimate Awakening",
+        "Missile_Split": "Spell Split"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "百刃の猟犬 ナフィーリ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "AD ビルド"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "コレクター アップグレード",
+        "Goredrink": "ゴアドリンク",
+        "BluntForce": "無骨なる力",
+        "ShadowRunner": "影走り",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "escAPADe": "魔攻のいたずら",
+        "TransmuteGold": "変質: ゴールド",
+        "KillSecured": "キルを確認",
+        "BurstingTeeth": "歯の妖精",
+        "ThreadtheNeedle": "貫通力",
+        "Nightstalking": "ナイトストーク",
+        "BloodMoneyBurn": "燃える利回り",
+        "GetExcited": "超エキサイティン！",
+        "ItsKillingTime": "殺戮の時",
+        "SpecializedEmpowerment": "力の追求",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "FinalForm": "最終形態",
+        "Dashing": "疾走",
+        "DivineDomain": "超越の儀式",
+        "UltimateAwakening": "究極の目覚め",
+        "Missile_Split": "スペルスプリット"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "백 번 무는 사냥개 나피리 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "AD 빌드"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "Goredrink": "선혈포식",
+        "BluntForce": "육중한 힘",
+        "ShadowRunner": "그림자 질주",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "escAPADe": "마법사 (물리)",
+        "TransmuteGold": "전환: 골드",
+        "KillSecured": "확보된 킬",
+        "BurstingTeeth": "이빨 요정",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "Nightstalking": "밤의 추적",
+        "BloodMoneyBurn": "타오르는 이자",
+        "GetExcited": "신난다!",
+        "ItsKillingTime": "처형 시간",
+        "SpecializedEmpowerment": "위력 추구",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "FinalForm": "최종 형태",
+        "Dashing": "돌진",
+        "DivineDomain": "초월 의식",
+        "UltimateAwakening": "궁극의 각성",
+        "Missile_Split": "주문 분산"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        126697,
+        6676,
+        6333,
+        3036,
+        2517,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 18.52
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 16.08
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 12.81
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 12.6
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 7.15
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 5.67
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.64
+        },
+        {
+          "id": "KillSecured",
+          "icon": "assets/ux/kiwi/augments/icons/killsecure_small.png",
+          "pick": 1.56
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 24.41
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 20.49
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 17.39
+        },
+        {
+          "id": "BloodMoneyBurn",
+          "icon": "assets/ux/kiwi/augments/icons/bloodmoney2_small.png",
+          "pick": 9.04
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 8.9
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 7.96
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 7.77
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 7.53
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 19.72
+        },
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 16.34
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 14.83
+        },
+        {
+          "id": "UltimateAwakening",
+          "icon": "assets/ux/kiwi/augments/icons/zerohour_small.png",
+          "pick": 6.24
+        },
+        {
+          "id": "Missile_Split",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_prismatic.png",
+          "pick": 5.84
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

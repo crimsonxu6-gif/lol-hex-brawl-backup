@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Evelynn",
+    "slug": "evelynn",
+    "names": {
+      "zh": "伊芙琳 痛苦之拥",
+      "en": "Agony's Embrace Evelynn",
+      "ja": "苦悶の抱擁 イブリン",
+      "ko": "고통스런 포옹 이블린"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "伊芙琳 痛苦之拥 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "ShadowRunner": "暗影疾奔",
+        "WitchfulThinking": "巫师式思考",
+        "KillSecured": "杀意翻涌",
+        "Upgrade_ZH": "升级：中娅",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "TransmuteGold": "质变：黄金阶",
+        "TrustyWeapon": "可靠武器",
+        "ADAPt": "物理转魔法",
+        "WarlockJuicebox": "术士果汁盒",
+        "BurstingTeeth": "牙仙子",
+        "PhenomenalEvil": "超凡邪恶",
+        "EtherealWeapon": "虚幻武器",
+        "Nightstalking": "夜狩",
+        "MagicMissile": "魔法飞弹",
+        "BrushPower": "藏身草丛",
+        "ItsKillingTime": "杀戮时间到了",
+        "Eureka": "尤里卡",
+        "Dashing": "全凭身法",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽",
+        "EndlessHunt": "吃过路兵",
+        "FinalForm": "最终形态"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Agony's Embrace Evelynn Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "ShadowRunner": "Shadow Runner",
+        "WitchfulThinking": "Witchful Thinking",
+        "KillSecured": "Kill Secured",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "Purist_Caster": "Purist - Caster",
+        "TransmuteGold": "Transmute: Gold",
+        "TrustyWeapon": "Trusty Weapon",
+        "ADAPt": "ADAPt",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "BurstingTeeth": "Tooth Fairy",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "EtherealWeapon": "Ethereal Weapon",
+        "Nightstalking": "Nightstalking",
+        "MagicMissile": "Magic Missile",
+        "BrushPower": "Hide on Bush",
+        "ItsKillingTime": "It's Killing Time",
+        "Eureka": "Eureka",
+        "Dashing": "Dashing",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap",
+        "EndlessHunt": "En Passant",
+        "FinalForm": "Final Form"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "苦悶の抱擁 イブリン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "AP ビルド"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "ShadowRunner": "影走り",
+        "WitchfulThinking": "魔法的思考",
+        "KillSecured": "キルを確認",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "Purist_Caster": "純粋なるキャスター",
+        "TransmuteGold": "変質: ゴールド",
+        "TrustyWeapon": "頼れる武器",
+        "ADAPt": "変力装置",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "BurstingTeeth": "歯の妖精",
+        "PhenomenalEvil": "偉大なる悪",
+        "EtherealWeapon": "エーテル武器",
+        "Nightstalking": "ナイトストーク",
+        "MagicMissile": "マジックミサイル",
+        "BrushPower": "Hide on Bush",
+        "ItsKillingTime": "殺戮の時",
+        "Eureka": "エウレカ",
+        "Dashing": "疾走",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ",
+        "EndlessHunt": "アンパッサン",
+        "FinalForm": "最終形態"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "고통스런 포옹 이블린 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "ShadowRunner": "그림자 질주",
+        "WitchfulThinking": "사악한 정신",
+        "KillSecured": "확보된 킬",
+        "Upgrade_ZH": "존야 업그레이드",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "TransmuteGold": "전환: 골드",
+        "TrustyWeapon": "믿음직한 무기",
+        "ADAPt": "적응형 능력치",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "BurstingTeeth": "이빨 요정",
+        "PhenomenalEvil": "극악무도",
+        "EtherealWeapon": "환영 무기",
+        "Nightstalking": "밤의 추적",
+        "MagicMissile": "마법 미사일",
+        "BrushPower": "Hide on bush",
+        "ItsKillingTime": "처형 시간",
+        "Eureka": "유레카",
+        "Dashing": "돌진",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자",
+        "EndlessHunt": "앙파상",
+        "FinalForm": "최종 형태"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        3100,
+        4645,
+        3089,
+        3135,
+        4646,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 15.92
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 15.77
+        },
+        {
+          "id": "KillSecured",
+          "icon": "assets/ux/kiwi/augments/icons/killsecure_small.png",
+          "pick": 8.9
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 7.94
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 4.69
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.58
+        },
+        {
+          "id": "TrustyWeapon",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 2.96
+        },
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": 2.84
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 25.5
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 18.79
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 18.13
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 10.98
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 10.21
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 9.48
+        },
+        {
+          "id": "BrushPower",
+          "icon": "assets/ux/kiwi/augments/icons/brushpower_small.png",
+          "pick": 8.17
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 8.08
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 17.35
+        },
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 11.6
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": 10.42
+        },
+        {
+          "id": "EndlessHunt",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 4.05
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

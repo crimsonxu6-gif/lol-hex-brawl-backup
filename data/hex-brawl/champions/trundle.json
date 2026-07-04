@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Trundle",
+    "slug": "trundle",
+    "names": {
+      "zh": "特朗德尔 巨魔之王",
+      "en": "the Troll King Trundle",
+      "ja": "トロールキング トランドル",
+      "ko": "트롤 왕 트런들"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "特朗德尔 巨魔之王 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "terrain": "地形专家出装",
+        "ap": "无地形专家出装",
+        "bruiser": "战士出装"
+      },
+      "buildTags": {
+        "terrain": "地形专家",
+        "ap": "无地形专家",
+        "bruiser": "战士"
+      },
+      "buildScores": {
+        "terrain": "待审核",
+        "ap": "待审核",
+        "bruiser": "待审核"
+      },
+      "hexNames": {
+        "SlapAround": "扇巴掌",
+        "Goredrink": "渴血",
+        "HeavyHitter": "重量级打击手",
+        "TransmuteGold": "质变：黄金阶",
+        "ForgedByTheMaster": "大师铸就",
+        "IceCold": "冰寒",
+        "BluntForce": "大力",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "Terraind": "地形专家",
+        "BloodMoneyBurn": "炽燃利息",
+        "SoulEater": "吞噬灵魂",
+        "DarkWind": "贪欲束缚",
+        "PressureCooker": "高压锅",
+        "Impassable": "不动如山",
+        "ItsKillingTime": "杀戮时间到了",
+        "SpiritualPurification": "心灵净化",
+        "Cruelty": "残忍",
+        "MysticPunch": "秘术冲拳",
+        "UltimateAwakening": "终极唤醒",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "BacktoBasics": "回归基本功"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Troll King Trundle Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "terrain": "Terrain Expert Build",
+        "ap": "No Terrain Expert Build",
+        "bruiser": "Bruiser Build"
+      },
+      "buildTags": {
+        "terrain": "Terrain",
+        "ap": "No Terrain",
+        "bruiser": "Bruiser"
+      },
+      "buildScores": {
+        "terrain": "Needs review",
+        "ap": "Needs review",
+        "bruiser": "Needs review"
+      },
+      "hexNames": {
+        "SlapAround": "Slap Around",
+        "Goredrink": "Goredrink",
+        "HeavyHitter": "Heavy Hitter",
+        "TransmuteGold": "Transmute: Gold",
+        "ForgedByTheMaster": "Forged By The Master",
+        "IceCold": "Ice Cold",
+        "BluntForce": "Blunt Force",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "Terraind": "Terrain'd",
+        "BloodMoneyBurn": "Combusting Interest",
+        "SoulEater": "Soul Eater",
+        "DarkWind": "Ravenous Bind",
+        "PressureCooker": "Pressure Cooker",
+        "Impassable": "Impassable",
+        "ItsKillingTime": "It's Killing Time",
+        "SpiritualPurification": "Spiritual Purification",
+        "Cruelty": "Cruelty",
+        "MysticPunch": "Mystic Punch",
+        "UltimateAwakening": "Ultimate Awakening",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "BacktoBasics": "Back To Basics"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "トロールキング トランドル Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "terrain": "地形専門ビルド",
+        "ap": "地形専門なしビルド",
+        "bruiser": "ファイタービルド"
+      },
+      "buildTags": {
+        "terrain": "地形",
+        "ap": "地形なし",
+        "bruiser": "ファイター"
+      },
+      "buildScores": {
+        "terrain": "確認待ち",
+        "ap": "確認待ち",
+        "bruiser": "確認待ち"
+      },
+      "hexNames": {
+        "SlapAround": "叩きまくれ",
+        "Goredrink": "ゴアドリンク",
+        "HeavyHitter": "ヘビーヒッター",
+        "TransmuteGold": "変質: ゴールド",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "IceCold": "結氷",
+        "BluntForce": "無骨なる力",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "Terraind": "地形でドン",
+        "BloodMoneyBurn": "燃える利回り",
+        "SoulEater": "ソウルイーター",
+        "DarkWind": "貪欲な束縛",
+        "PressureCooker": "圧力鍋",
+        "Impassable": "通行不可",
+        "ItsKillingTime": "殺戮の時",
+        "SpiritualPurification": "精霊の浄化",
+        "Cruelty": "冷酷な一撃",
+        "MysticPunch": "神秘の鉄拳",
+        "UltimateAwakening": "究極の目覚め",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "BacktoBasics": "初志貫徹"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "트롤 왕 트런들 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "terrain": "지형 전문가 빌드",
+        "ap": "지형 전문가 없음 빌드",
+        "bruiser": "브루저 빌드"
+      },
+      "buildTags": {
+        "terrain": "지형",
+        "ap": "지형 없음",
+        "bruiser": "브루저"
+      },
+      "buildScores": {
+        "terrain": "검토 필요",
+        "ap": "검토 필요",
+        "bruiser": "검토 필요"
+      },
+      "hexNames": {
+        "SlapAround": "우당탕탕",
+        "Goredrink": "선혈포식",
+        "HeavyHitter": "강타자",
+        "TransmuteGold": "전환: 골드",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "IceCold": "차가운 냉기",
+        "BluntForce": "육중한 힘",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "Terraind": "지형 생성됨",
+        "BloodMoneyBurn": "타오르는 이자",
+        "SoulEater": "영혼의 포식자",
+        "DarkWind": "굶주린 속박",
+        "PressureCooker": "압력솥",
+        "Impassable": "넘을 수 없는 벽",
+        "ItsKillingTime": "처형 시간",
+        "SpiritualPurification": "영혼의 정화",
+        "Cruelty": "잔혹 행위",
+        "MysticPunch": "신비한 주먹",
+        "UltimateAwakening": "궁극의 각성",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "BacktoBasics": "기본으로 돌아가기"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "terrain",
+      "items": [
+        4005,
+        2503,
+        6653,
+        4645,
+        3137,
+        3158
+      ]
+    },
+    {
+      "key": "ap",
+      "items": [
+        4005,
+        4645,
+        3089,
+        3118,
+        3137,
+        3020
+      ]
+    },
+    {
+      "key": "bruiser",
+      "items": [
+        3078,
+        6610,
+        3748,
+        6333,
+        3153,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 19.16
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 9
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 7.94
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 4.16
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 3.66
+        },
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 3.1
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 2.8
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 2.32
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Terraind",
+          "icon": "assets/ux/cherry/augments/icons/lightningstrikes_small.png",
+          "pick": 46.3
+        },
+        {
+          "id": "BloodMoneyBurn",
+          "icon": "assets/ux/kiwi/augments/icons/bloodmoney2_small.png",
+          "pick": 28.45
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 8.28
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 6.71
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 5.66
+        },
+        {
+          "id": "Impassable",
+          "icon": "assets/ux/cherry/augments/icons/impassable_small.png",
+          "pick": 5.49
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 5.1
+        },
+        {
+          "id": "SpiritualPurification",
+          "icon": "assets/ux/kiwi/augments/icons/spiritualpurification_small.png",
+          "pick": 4.95
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Cruelty",
+          "icon": "assets/ux/kiwi/augments/icons/cruelty_small.png",
+          "pick": 23.74
+        },
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 10.67
+        },
+        {
+          "id": "UltimateAwakening",
+          "icon": "assets/ux/kiwi/augments/icons/zerohour_small.png",
+          "pick": 7.22
+        },
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": 3.6
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 3.39
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Yorick",
+    "slug": "yorick",
+    "names": {
+      "zh": "约里克 牧魂人",
+      "en": "Shepherd of Souls Yorick",
+      "ja": "魂の導き手 ヨリック",
+      "ko": "영혼의 길잡이 요릭"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "约里克 牧魂人 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "战士出装",
+        "tank": "肉装"
+      },
+      "buildTags": {
+        "standard": "战士",
+        "tank": "肉装"
+      },
+      "buildScores": {
+        "standard": "待审核",
+        "tank": "待审核"
+      },
+      "hexNames": {
+        "HeavyHitter": "重量级打击手",
+        "Goredrink": "渴血",
+        "BluntForce": "大力",
+        "TransmuteGold": "质变：黄金阶",
+        "SustainingStrike": "虹吸",
+        "escAPADe": "魔法转物理",
+        "Upgrade_Collector": "升级：收集者",
+        "ForgedByTheMaster": "大师铸就",
+        "EtherealWeapon": "虚幻武器",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "PressureCooker": "高压锅",
+        "EndlessDecimation": "无尽大杀四方",
+        "MagicMissile": "魔法飞弹",
+        "SpiritualPurification": "心灵净化",
+        "SpecializedRecursion": "急速之追求",
+        "Equilibrium": "我们的治疗",
+        "ImTheJuggernaut": "泰坦的坚决",
+        "MysticPunch": "秘术冲拳",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "InfiniteRecursion": "无限循环往复",
+        "EndlessHunt": "吃过路兵"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Shepherd of Souls Yorick Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Bruiser Build",
+        "tank": "Tank Build"
+      },
+      "buildTags": {
+        "standard": "Bruiser",
+        "tank": "Tank"
+      },
+      "buildScores": {
+        "standard": "Needs review",
+        "tank": "Needs review"
+      },
+      "hexNames": {
+        "HeavyHitter": "Heavy Hitter",
+        "Goredrink": "Goredrink",
+        "BluntForce": "Blunt Force",
+        "TransmuteGold": "Transmute: Gold",
+        "SustainingStrike": "Siphon",
+        "escAPADe": "escAPADe",
+        "Upgrade_Collector": "Upgrade Collector",
+        "ForgedByTheMaster": "Forged By The Master",
+        "EtherealWeapon": "Ethereal Weapon",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "PressureCooker": "Pressure Cooker",
+        "EndlessDecimation": "Endless Decimation",
+        "MagicMissile": "Magic Missile",
+        "SpiritualPurification": "Spiritual Purification",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "Equilibrium": "Our Healing",
+        "ImTheJuggernaut": "Titan's Resolve",
+        "MysticPunch": "Mystic Punch",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "InfiniteRecursion": "Infinite Recursion",
+        "EndlessHunt": "En Passant"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "魂の導き手 ヨリック Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "ファイタービルド",
+        "tank": "タンクビルド"
+      },
+      "buildTags": {
+        "standard": "ファイター",
+        "tank": "タンク"
+      },
+      "buildScores": {
+        "standard": "確認待ち",
+        "tank": "確認待ち"
+      },
+      "hexNames": {
+        "HeavyHitter": "ヘビーヒッター",
+        "Goredrink": "ゴアドリンク",
+        "BluntForce": "無骨なる力",
+        "TransmuteGold": "変質: ゴールド",
+        "SustainingStrike": "サイフォン",
+        "escAPADe": "魔攻のいたずら",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "EtherealWeapon": "エーテル武器",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "PressureCooker": "圧力鍋",
+        "EndlessDecimation": "終わりなき殲滅",
+        "MagicMissile": "マジックミサイル",
+        "SpiritualPurification": "精霊の浄化",
+        "SpecializedRecursion": "素早さの追求",
+        "Equilibrium": "みんなの回復",
+        "ImTheJuggernaut": "巨人の誓い",
+        "MysticPunch": "神秘の鉄拳",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "InfiniteRecursion": "無限再帰",
+        "EndlessHunt": "アンパッサン"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "영혼의 길잡이 요릭 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "브루저 빌드",
+        "tank": "탱커 빌드"
+      },
+      "buildTags": {
+        "standard": "브루저",
+        "tank": "탱커"
+      },
+      "buildScores": {
+        "standard": "검토 필요",
+        "tank": "검토 필요"
+      },
+      "hexNames": {
+        "HeavyHitter": "강타자",
+        "Goredrink": "선혈포식",
+        "BluntForce": "육중한 힘",
+        "TransmuteGold": "전환: 골드",
+        "SustainingStrike": "흡수",
+        "escAPADe": "마법사 (물리)",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "EtherealWeapon": "환영 무기",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "PressureCooker": "압력솥",
+        "EndlessDecimation": "끝없는 학살",
+        "MagicMissile": "마법 미사일",
+        "SpiritualPurification": "영혼의 정화",
+        "SpecializedRecursion": "가속 추구",
+        "Equilibrium": "우리의 치유",
+        "ImTheJuggernaut": "거인의 결의",
+        "MysticPunch": "신비한 주먹",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "InfiniteRecursion": "무한 반복",
+        "EndlessHunt": "앙파상"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        6662,
+        6610,
+        3065,
+        2501,
+        6665,
+        3111
+      ]
+    },
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        2502,
+        3083,
+        3065,
+        2501,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 22.88
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 13.42
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 9.26
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.62
+        },
+        {
+          "id": "SustainingStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 3.4
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 3.32
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 3.3
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 2.41
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 24.38
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 13.79
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 12.85
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 9.35
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 7.37
+        },
+        {
+          "id": "SpiritualPurification",
+          "icon": "assets/ux/kiwi/augments/icons/spiritualpurification_small.png",
+          "pick": 7.16
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 6.87
+        },
+        {
+          "id": "Equilibrium",
+          "icon": "assets/ux/kiwi/augments/icons/equillibrium_small.png",
+          "pick": 6.02
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "ImTheJuggernaut",
+          "icon": "assets/ux/kiwi/augments/icons/iamthejuggernaut_small.png",
+          "pick": 10.73
+        },
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 10.47
+        },
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": 7.49
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 6.99
+        },
+        {
+          "id": "EndlessHunt",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 5.91
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

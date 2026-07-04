@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Taric",
+    "slug": "taric",
+    "names": {
+      "zh": "塔里克 瓦洛兰之盾",
+      "en": "the Shield of Valoran Taric",
+      "ja": "ヴァロランの守護者 タリック",
+      "ko": "발로란의 방패 타릭"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "塔里克 瓦洛兰之盾 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "tank": "肉装"
+      },
+      "buildTags": {
+        "tank": "肉装"
+      },
+      "buildScores": {
+        "tank": "待审核"
+      },
+      "hexNames": {
+        "FirstAidKit": "急救用具",
+        "SonicBoom": "天音爆",
+        "HeavyHitter": "重量级打击手",
+        "SlapAround": "扇巴掌",
+        "MightyShield": "强力护盾",
+        "VeilOfWarding": "防护面纱",
+        "TransmuteGold": "质变：黄金阶",
+        "OceanSoul": "海洋龙魂",
+        "TankEngine": "坦克引擎",
+        "Quest_SteelYourHeart": "钢化你心",
+        "CelestialBody": "星界躯体",
+        "DivineIntervention": "神圣干预",
+        "AllForYou": "全心为你",
+        "PressureCooker": "高压锅",
+        "SoulEater": "吞噬灵魂",
+        "Sonata": "咏叹奏鸣",
+        "Goliath": "歌利亚巨人",
+        "ProteinShake": "蛋白粉奶昔",
+        "SpiritBomb": "灵魄炸弹",
+        "FinalForm": "最终形态",
+        "GiantSlayer": "巨人杀手"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Shield of Valoran Taric Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "tank": "Tank Build"
+      },
+      "buildTags": {
+        "tank": "Tank"
+      },
+      "buildScores": {
+        "tank": "Needs review"
+      },
+      "hexNames": {
+        "FirstAidKit": "First-Aid Kit",
+        "SonicBoom": "Sonic Boom",
+        "HeavyHitter": "Heavy Hitter",
+        "SlapAround": "Slap Around",
+        "MightyShield": "Mighty Shield",
+        "VeilOfWarding": "Veil of Warding",
+        "TransmuteGold": "Transmute: Gold",
+        "OceanSoul": "Ocean Soul",
+        "TankEngine": "Tank Engine",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "CelestialBody": "Celestial Body",
+        "DivineIntervention": "Divine Intervention",
+        "AllForYou": "All For You",
+        "PressureCooker": "Pressure Cooker",
+        "SoulEater": "Soul Eater",
+        "Sonata": "Sonata",
+        "Goliath": "Goliath",
+        "ProteinShake": "Protein Shake",
+        "SpiritBomb": "Spirit Bomb",
+        "FinalForm": "Final Form",
+        "GiantSlayer": "Giant Slayer"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ヴァロランの守護者 タリック Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "tank": "タンクビルド"
+      },
+      "buildTags": {
+        "tank": "タンク"
+      },
+      "buildScores": {
+        "tank": "確認待ち"
+      },
+      "hexNames": {
+        "FirstAidKit": "救急セット",
+        "SonicBoom": "ソニックブーム",
+        "HeavyHitter": "ヘビーヒッター",
+        "SlapAround": "叩きまくれ",
+        "MightyShield": "マイティシールド",
+        "VeilOfWarding": "ワーディングヴェール",
+        "TransmuteGold": "変質: ゴールド",
+        "OceanSoul": "オーシャンソウル",
+        "TankEngine": "タンクエンジン",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "CelestialBody": "聖体",
+        "DivineIntervention": "聖なる介入",
+        "AllForYou": "キミのためさ",
+        "PressureCooker": "圧力鍋",
+        "SoulEater": "ソウルイーター",
+        "Sonata": "ソナタ",
+        "Goliath": "大巨人",
+        "ProteinShake": "プロテインシェイク",
+        "SpiritBomb": "スピリットボム",
+        "FinalForm": "最終形態",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "발로란의 방패 타릭 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "tank": "탱커 빌드"
+      },
+      "buildTags": {
+        "tank": "탱커"
+      },
+      "buildScores": {
+        "tank": "검토 필요"
+      },
+      "hexNames": {
+        "FirstAidKit": "응급처치 키트",
+        "SonicBoom": "음속 폭발",
+        "HeavyHitter": "강타자",
+        "SlapAround": "우당탕탕",
+        "MightyShield": "강력한 방패",
+        "VeilOfWarding": "감시의 장막",
+        "TransmuteGold": "전환: 골드",
+        "OceanSoul": "바다의 영혼",
+        "TankEngine": "탱크 엔진",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "CelestialBody": "천상의 신체",
+        "DivineIntervention": "신성한 중재",
+        "AllForYou": "너만을 위해",
+        "PressureCooker": "압력솥",
+        "SoulEater": "영혼의 포식자",
+        "Sonata": "소나타",
+        "Goliath": "거인",
+        "ProteinShake": "프로틴 음료",
+        "SpiritBomb": "영혼 폭탄",
+        "FinalForm": "최종 형태",
+        "GiantSlayer": "거인 학살자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        2502,
+        3121,
+        3083,
+        3065,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "FirstAidKit",
+          "icon": "assets/ux/cherry/augments/icons/firstaidkit_small.png",
+          "pick": 21.03
+        },
+        {
+          "id": "SonicBoom",
+          "icon": "assets/ux/cherry/augments/icons/sonicboom_small.png",
+          "pick": 17.6
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 16
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 9.08
+        },
+        {
+          "id": "MightyShield",
+          "icon": "assets/ux/kiwi/augments/icons/mightyshield_small.png",
+          "pick": 4.78
+        },
+        {
+          "id": "VeilOfWarding",
+          "icon": "assets/ux/kiwi/augments/icons/poltergeist_small.png",
+          "pick": 2.62
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.03
+        },
+        {
+          "id": "OceanSoul",
+          "icon": "assets/ux/cherry/augments/icons/oceansoul_small.png",
+          "pick": 1.01
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 29.05
+        },
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": 19.4
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": 17.56
+        },
+        {
+          "id": "DivineIntervention",
+          "icon": "assets/ux/cherry/augments/icons/slowactingpainkillers_small.png",
+          "pick": 13.75
+        },
+        {
+          "id": "AllForYou",
+          "icon": "assets/ux/cherry/augments/icons/allforyou_small.png",
+          "pick": 11.78
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 10.54
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 10.52
+        },
+        {
+          "id": "Sonata",
+          "icon": "assets/ux/kiwi/augments/icons/sonata_large.png",
+          "pick": 8.47
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 17.32
+        },
+        {
+          "id": "ProteinShake",
+          "icon": "assets/ux/kiwi/augments/icons/proteinshake_small.png",
+          "pick": 14.85
+        },
+        {
+          "id": "SpiritBomb",
+          "icon": "assets/ux/kiwi/augments/icons/spiritbomb_small.png",
+          "pick": 8.41
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

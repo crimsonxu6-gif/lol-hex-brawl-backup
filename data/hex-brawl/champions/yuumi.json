@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Yuumi",
+    "slug": "yuumi",
+    "names": {
+      "zh": "悠米 魔法猫咪",
+      "en": "the Magical Cat Yuumi",
+      "ja": "マジカルキャット ユーミ",
+      "ko": "마법 고양이 유미"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "悠米 魔法猫咪 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "support": "辅助出装",
+        "death-ring": "死亡之环出装"
+      },
+      "buildTags": {
+        "support": "辅助",
+        "death-ring": "死亡之环"
+      },
+      "buildScores": {
+        "support": "待审核",
+        "death-ring": "待审核"
+      },
+      "hexNames": {
+        "SonicBoom": "天音爆",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "DoubleDefense": "加固护盾",
+        "WitchfulThinking": "巫师式思考",
+        "TransmuteGold": "质变：黄金阶",
+        "MightyShield": "强力护盾",
+        "ForgedByTheMaster": "大师铸就",
+        "FirstAidKit": "急救用具",
+        "Sonata": "咏叹奏鸣",
+        "DivineIntervention": "神圣干预",
+        "WeeWooWeeWoo": "喂呜喂呜",
+        "MagicMissile": "魔法飞弹",
+        "OkBoomerang": "回力OK镖",
+        "SearingDawn": "炽烈黎明",
+        "PhenomenalEvil": "超凡邪恶",
+        "AllForYou": "全心为你",
+        "SpiritBomb": "灵魄炸弹",
+        "EmpoweredByTheFaithful": "信念者的强化",
+        "CircleofDeath": "死亡之环",
+        "WindspeakersBlessing": "风语者的祝福",
+        "FeyMagic": "精怪魔法",
+        "InfiniteRecursion": "无限循环往复"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。",
+      "buildNotes": {
+        "death-ring": "拿到“死亡之环”时使用，堆生命值和治疗护盾装，保证附身队友后的持续保护能力。"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Magical Cat Yuumi Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "support": "Support Build",
+        "death-ring": "Circle of Death Build"
+      },
+      "buildTags": {
+        "support": "Support",
+        "death-ring": "Circle of Death"
+      },
+      "buildScores": {
+        "support": "Needs review",
+        "death-ring": "Needs review"
+      },
+      "hexNames": {
+        "SonicBoom": "Sonic Boom",
+        "Purist_Caster": "Purist - Caster",
+        "DoubleDefense": "Bolstered",
+        "WitchfulThinking": "Witchful Thinking",
+        "TransmuteGold": "Transmute: Gold",
+        "MightyShield": "Mighty Shield",
+        "ForgedByTheMaster": "Forged By The Master",
+        "FirstAidKit": "First-Aid Kit",
+        "Sonata": "Sonata",
+        "DivineIntervention": "Divine Intervention",
+        "WeeWooWeeWoo": "Wee Woo Wee Woo",
+        "MagicMissile": "Magic Missile",
+        "OkBoomerang": "Ok Boomerang",
+        "SearingDawn": "Searing Dawn",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "AllForYou": "All For You",
+        "SpiritBomb": "Spirit Bomb",
+        "EmpoweredByTheFaithful": "Empowered By The Faithful",
+        "CircleofDeath": "Circle of Death",
+        "WindspeakersBlessing": "Windspeaker's Blessing",
+        "FeyMagic": "Fey Magic",
+        "InfiniteRecursion": "Infinite Recursion"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data.",
+      "buildNotes": {
+        "death-ring": "Use when taking Circle of Death: stack health plus healing and shielding items to keep attached allies protected."
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "マジカルキャット ユーミ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "support": "サポートビルド",
+        "death-ring": "死の円環ビルド"
+      },
+      "buildTags": {
+        "support": "サポート",
+        "death-ring": "死の円環"
+      },
+      "buildScores": {
+        "support": "要確認",
+        "death-ring": "要確認"
+      },
+      "hexNames": {
+        "SonicBoom": "ソニックブーム",
+        "Purist_Caster": "純粋なるキャスター",
+        "DoubleDefense": "補強",
+        "WitchfulThinking": "魔法的思考",
+        "TransmuteGold": "変質: ゴールド",
+        "MightyShield": "マイティシールド",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "FirstAidKit": "救急セット",
+        "Sonata": "ソナタ",
+        "DivineIntervention": "聖なる介入",
+        "WeeWooWeeWoo": "うぃ～！おりゃっ！",
+        "MagicMissile": "マジックミサイル",
+        "OkBoomerang": "OKブーメラン",
+        "SearingDawn": "灼熱の夜明け",
+        "PhenomenalEvil": "偉大なる悪",
+        "AllForYou": "キミのためさ",
+        "SpiritBomb": "スピリットボム",
+        "EmpoweredByTheFaithful": "信ずる者の加護",
+        "CircleofDeath": "死者の集い",
+        "WindspeakersBlessing": "風詠みの祝福",
+        "FeyMagic": "神秘の魔法",
+        "InfiniteRecursion": "無限再帰"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。",
+      "buildNotes": {
+        "death-ring": "「死の円環」を取った時用。体力と回復・シールド装備で、味方に付いた後の継続支援を重視します。"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "마법 고양이 유미 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "support": "서포터 빌드",
+        "death-ring": "죽음의 고리 빌드"
+      },
+      "buildTags": {
+        "support": "서포터",
+        "death-ring": "죽음의 고리"
+      },
+      "buildScores": {
+        "support": "검토 필요",
+        "death-ring": "검토 필요"
+      },
+      "hexNames": {
+        "SonicBoom": "음속 폭발",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "DoubleDefense": "보강",
+        "WitchfulThinking": "사악한 정신",
+        "TransmuteGold": "전환: 골드",
+        "MightyShield": "강력한 방패",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "FirstAidKit": "응급처치 키트",
+        "Sonata": "소나타",
+        "DivineIntervention": "신성한 중재",
+        "WeeWooWeeWoo": "삐뽀삐뽀",
+        "MagicMissile": "마법 미사일",
+        "OkBoomerang": "부메랑 투척",
+        "SearingDawn": "타오르는 새벽",
+        "PhenomenalEvil": "극악무도",
+        "AllForYou": "너만을 위해",
+        "SpiritBomb": "영혼 폭탄",
+        "EmpoweredByTheFaithful": "신념을 통한 강화",
+        "CircleofDeath": "죽음의 순환",
+        "WindspeakersBlessing": "바람전달자의 축복",
+        "FeyMagic": "요정 마법",
+        "InfiniteRecursion": "무한 반복"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다.",
+      "buildNotes": {
+        "death-ring": "죽음의 고리를 선택했을 때 사용합니다. 체력과 회복/보호막 아이템으로 붙은 아군을 오래 지켜 줍니다."
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "support",
+      "items": [
+        6617,
+        3504,
+        3107,
+        6616,
+        6621,
+        3222
+      ]
+    },
+    {
+      "key": "death-ring",
+      "type": "support",
+      "items": [
+        3083,
+        3065,
+        3107,
+        3222,
+        6621,
+        3137
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "SonicBoom",
+          "icon": "assets/ux/cherry/augments/icons/sonicboom_small.png",
+          "pick": 22.75
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 4.87
+        },
+        {
+          "id": "DoubleDefense",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 4.84
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 4.17
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.81
+        },
+        {
+          "id": "MightyShield",
+          "icon": "assets/ux/kiwi/augments/icons/mightyshield_small.png",
+          "pick": 1.7
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 1.41
+        },
+        {
+          "id": "FirstAidKit",
+          "icon": "assets/ux/cherry/augments/icons/firstaidkit_small.png",
+          "pick": 34.43
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Sonata",
+          "icon": "assets/ux/kiwi/augments/icons/sonata_large.png",
+          "pick": 35.03
+        },
+        {
+          "id": "DivineIntervention",
+          "icon": "assets/ux/cherry/augments/icons/slowactingpainkillers_small.png",
+          "pick": 22.57
+        },
+        {
+          "id": "WeeWooWeeWoo",
+          "icon": "assets/ux/kiwi/augments/icons/weewooweewoo_small.png",
+          "pick": 18
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 5.49
+        },
+        {
+          "id": "OkBoomerang",
+          "icon": "assets/ux/cherry/augments/icons/okboomerang_small.png",
+          "pick": 5.08
+        },
+        {
+          "id": "SearingDawn",
+          "icon": "assets/ux/cherry/augments/icons/searingdawn_small.png",
+          "pick": 4.87
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 4.71
+        },
+        {
+          "id": "AllForYou",
+          "icon": "assets/ux/cherry/augments/icons/allforyou_small.png",
+          "pick": 35.56
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "SpiritBomb",
+          "icon": "assets/ux/kiwi/augments/icons/spiritbomb_small.png",
+          "pick": 21.39
+        },
+        {
+          "id": "EmpoweredByTheFaithful",
+          "icon": "assets/ux/kiwi/augments/icons/empoweredbythefaithful_large.png",
+          "pick": 19.38
+        },
+        {
+          "id": "CircleofDeath",
+          "icon": "assets/ux/cherry/augments/icons/circleofdeath_small.png",
+          "pick": 10.19
+        },
+        {
+          "id": "WindspeakersBlessing",
+          "icon": "assets/ux/cherry/augments/icons/windspeakersblessing_small.png",
+          "pick": 9.62
+        },
+        {
+          "id": "FeyMagic",
+          "icon": "assets/ux/cherry/augments/icons/feymagic_small.png",
+          "pick": 7.19
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 5.93
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

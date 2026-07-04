@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Kled",
+    "slug": "kled",
+    "names": {
+      "zh": "克烈 暴怒骑士",
+      "en": "the Cantankerous Cavalier Kled",
+      "ja": "狂乱の騎兵 クレッド",
+      "ko": "망나니 기사 클레드"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "克烈 暴怒骑士 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "tank": "肉装"
+      },
+      "buildTags": {
+        "tank": "肉装"
+      },
+      "buildScores": {
+        "tank": "待审核"
+      },
+      "hexNames": {
+        "BluntForce": "大力",
+        "Goredrink": "渴血",
+        "TransmuteGold": "质变：黄金阶",
+        "escAPADe": "魔法转物理",
+        "ForgedByTheMaster": "大师铸就",
+        "Upgrade_Collector": "升级：收集者",
+        "DiveBomber": "俯冲轰炸",
+        "HeavyHitter": "重量级打击手",
+        "PressureCooker": "高压锅",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "GetExcited": "罪恶快感",
+        "OutlawsGrit": "狂徒豪气",
+        "ThreadtheNeedle": "穿针引线",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "Upgrade_IE": "升级：无尽之刃",
+        "EndlessDecimation": "无尽大杀四方",
+        "ImTheJuggernaut": "泰坦的坚决",
+        "SymphonyofWar": "战争交响乐",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "EndlessHunt": "吃过路兵",
+        "BladeWaltz": "利刃华尔兹"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Cantankerous Cavalier Kled Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "tank": "Tank Build"
+      },
+      "buildTags": {
+        "tank": "Tank"
+      },
+      "buildScores": {
+        "tank": "Needs review"
+      },
+      "hexNames": {
+        "BluntForce": "Blunt Force",
+        "Goredrink": "Goredrink",
+        "TransmuteGold": "Transmute: Gold",
+        "escAPADe": "escAPADe",
+        "ForgedByTheMaster": "Forged By The Master",
+        "Upgrade_Collector": "Upgrade Collector",
+        "DiveBomber": "Dive Bomber",
+        "HeavyHitter": "Heavy Hitter",
+        "PressureCooker": "Pressure Cooker",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "GetExcited": "Get Excited!",
+        "OutlawsGrit": "Outlaw's Grit",
+        "ThreadtheNeedle": "Thread the Needle",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "EndlessDecimation": "Endless Decimation",
+        "ImTheJuggernaut": "Titan's Resolve",
+        "SymphonyofWar": "Symphony of War",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "EndlessHunt": "En Passant",
+        "BladeWaltz": "Blade Waltz"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "狂乱の騎兵 クレッド Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "tank": "タンクビルド"
+      },
+      "buildTags": {
+        "tank": "タンク"
+      },
+      "buildScores": {
+        "tank": "確認待ち"
+      },
+      "hexNames": {
+        "BluntForce": "無骨なる力",
+        "Goredrink": "ゴアドリンク",
+        "TransmuteGold": "変質: ゴールド",
+        "escAPADe": "魔攻のいたずら",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "DiveBomber": "急降下爆撃",
+        "HeavyHitter": "ヘビーヒッター",
+        "PressureCooker": "圧力鍋",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "GetExcited": "超エキサイティン！",
+        "OutlawsGrit": "無法者の気概",
+        "ThreadtheNeedle": "貫通力",
+        "TransmutePrismatic": "変質: プリズム",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "EndlessDecimation": "終わりなき殲滅",
+        "ImTheJuggernaut": "巨人の誓い",
+        "SymphonyofWar": "闘争交響曲",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "EndlessHunt": "アンパッサン",
+        "BladeWaltz": "ブレードワルツ"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "망나니 기사 클레드 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "tank": "탱커 빌드"
+      },
+      "buildTags": {
+        "tank": "탱커"
+      },
+      "buildScores": {
+        "tank": "검토 필요"
+      },
+      "hexNames": {
+        "BluntForce": "육중한 힘",
+        "Goredrink": "선혈포식",
+        "TransmuteGold": "전환: 골드",
+        "escAPADe": "마법사 (물리)",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "DiveBomber": "폭격기",
+        "HeavyHitter": "강타자",
+        "PressureCooker": "압력솥",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "GetExcited": "신난다!",
+        "OutlawsGrit": "무법자의 투지",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "TransmutePrismatic": "전환: 프리즘",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "EndlessDecimation": "끝없는 학살",
+        "ImTheJuggernaut": "거인의 결의",
+        "SymphonyofWar": "전장의 교향곡",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "EndlessHunt": "앙파상",
+        "BladeWaltz": "검무"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        3748,
+        3083,
+        2501,
+        3036,
+        3053
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 12.55
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 11.15
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.87
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 3.54
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 2.53
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 2.43
+        },
+        {
+          "id": "DiveBomber",
+          "icon": "assets/ux/cherry/augments/icons/divebomber_small.png",
+          "pick": 1.97
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 30
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 18
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 14.35
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 11.99
+        },
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 9.61
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 8.17
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 6.9
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 6.59
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 18.73
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "ImTheJuggernaut",
+          "icon": "assets/ux/kiwi/augments/icons/iamthejuggernaut_small.png",
+          "pick": 12.92
+        },
+        {
+          "id": "SymphonyofWar",
+          "icon": "assets/ux/cherry/augments/icons/symphonyofwar_small.png",
+          "pick": 8.67
+        },
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": 8.18
+        },
+        {
+          "id": "EndlessHunt",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 5.63
+        },
+        {
+          "id": "BladeWaltz",
+          "icon": "assets/ux/cherry/augments/icons/bladewaltz_small.png",
+          "pick": 5.38
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

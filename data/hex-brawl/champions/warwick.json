@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Warwick",
+    "slug": "warwick",
+    "names": {
+      "zh": "沃里克 祖安怒兽",
+      "en": "the Uncaged Wrath of Zaun Warwick",
+      "ja": "解き放たれたゾウンの激憤 ワーウィック",
+      "ko": "자운의 고삐 풀린 분노 워윅"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "沃里克 祖安怒兽 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "战士出装"
+      },
+      "buildTags": {
+        "standard": "战士"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "HeavyHitter": "重量级打击手",
+        "Goredrink": "渴血",
+        "Upgrade_Immolate": "升级：献祭",
+        "BluntForce": "大力",
+        "SustainingStrike": "虹吸",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "TransmuteGold": "质变：黄金阶",
+        "Typhoon": "台风",
+        "TankEngine": "坦克引擎",
+        "Quest_SteelYourHeart": "钢化你心",
+        "CelestialBody": "星界躯体",
+        "Upgrade_Sheen": "升级：耀光",
+        "GetExcited": "罪恶快感",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "PressureCooker": "高压锅",
+        "LittleExtraHelp": "小小的额外帮助",
+        "Dropkick": "飞身踢",
+        "Goliath": "歌利亚巨人",
+        "MysticPunch": "秘术冲拳",
+        "Dashing": "全凭身法",
+        "SymphonyofWar": "战争交响乐"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Uncaged Wrath of Zaun Warwick Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Bruiser Build"
+      },
+      "buildTags": {
+        "standard": "Bruiser"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "HeavyHitter": "Heavy Hitter",
+        "Goredrink": "Goredrink",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "BluntForce": "Blunt Force",
+        "SustainingStrike": "Siphon",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "TransmuteGold": "Transmute: Gold",
+        "Typhoon": "Typhoon",
+        "TankEngine": "Tank Engine",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "CelestialBody": "Celestial Body",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "GetExcited": "Get Excited!",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "PressureCooker": "Pressure Cooker",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "Dropkick": "Dropkick",
+        "Goliath": "Goliath",
+        "MysticPunch": "Mystic Punch",
+        "Dashing": "Dashing",
+        "SymphonyofWar": "Symphony of War"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "解き放たれたゾウンの激憤 ワーウィック Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "ファイタービルド"
+      },
+      "buildTags": {
+        "standard": "ファイター"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "HeavyHitter": "ヘビーヒッター",
+        "Goredrink": "ゴアドリンク",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "BluntForce": "無骨なる力",
+        "SustainingStrike": "サイフォン",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "TransmuteGold": "変質: ゴールド",
+        "Typhoon": "タイフーン",
+        "TankEngine": "タンクエンジン",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "CelestialBody": "聖体",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "GetExcited": "超エキサイティン！",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "PressureCooker": "圧力鍋",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "Dropkick": "ドロップキック",
+        "Goliath": "大巨人",
+        "MysticPunch": "神秘の鉄拳",
+        "Dashing": "疾走",
+        "SymphonyofWar": "闘争交響曲"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "자운의 고삐 풀린 분노 워윅 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "브루저 빌드"
+      },
+      "buildTags": {
+        "standard": "브루저"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "HeavyHitter": "강타자",
+        "Goredrink": "선혈포식",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "BluntForce": "육중한 힘",
+        "SustainingStrike": "흡수",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "TransmuteGold": "전환: 골드",
+        "Typhoon": "태풍",
+        "TankEngine": "탱크 엔진",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "CelestialBody": "천상의 신체",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "GetExcited": "신난다!",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "PressureCooker": "압력솥",
+        "LittleExtraHelp": "작은 도움",
+        "Dropkick": "드롭킥",
+        "Goliath": "거인",
+        "MysticPunch": "신비한 주먹",
+        "Dashing": "돌진",
+        "SymphonyofWar": "전장의 교향곡"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        6610,
+        3153,
+        6333,
+        3065,
+        3053,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 19.07
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 18.16
+        },
+        {
+          "id": "Upgrade_Immolate",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeimmolate_small.png",
+          "pick": 7.23
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 6.3
+        },
+        {
+          "id": "SustainingStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 3.29
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 2.83
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.58
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 2.55
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 24.27
+        },
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": 17.43
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": 11.69
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 10.67
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 9.36
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 9.11
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 9.03
+        },
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 8.43
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": 21.15
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 12.02
+        },
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 11.15
+        },
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 5.79
+        },
+        {
+          "id": "SymphonyofWar",
+          "icon": "assets/ux/cherry/augments/icons/symphonyofwar_small.png",
+          "pick": 5.53
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

@@ -1,0 +1,55 @@
+{
+  "adbPath": "D:/leidian/LDPlayer14/adb.exe",
+  "deviceId": "emulator-5554",
+  "appPackage": "com.tencent.qt.qtl",
+  "appActivity": "com.tencent.zone.main.LauncherActivity",
+  "patch": "16.12",
+  "outputRoot": "captures/hex-brawl",
+  "screen": {
+    "width": 900,
+    "height": 1600,
+    "density": 240
+  },
+  "runeTierCoordinates": {
+    "silver": [171, 326],
+    "gold": [277, 326],
+    "prismatic": [381, 326]
+  },
+  "navigationCoordinates": {
+    "homeTab": [90, 1558],
+    "hexBrawlTab": [162, 131],
+    "hexRankSeeAll": [837, 629],
+    "heroRankTab": [143, 138],
+    "heroRankAllRole": [48, 255]
+  },
+  "capturePlan": [
+    {
+      "name": "01-current",
+      "note": "The visible state before automated scrolling."
+    },
+    {
+      "name": "02-after-scroll-1",
+      "swipeBefore": {
+        "from": [450, 1317],
+        "to": [450, 433],
+        "durationMs": 550
+      }
+    },
+    {
+      "name": "03-after-scroll-2",
+      "swipeBefore": {
+        "from": [450, 1317],
+        "to": [450, 433],
+        "durationMs": 550
+      }
+    },
+    {
+      "name": "04-after-scroll-3",
+      "swipeBefore": {
+        "from": [450, 1317],
+        "to": [450, 433],
+        "durationMs": 550
+      }
+    }
+  ]
+}

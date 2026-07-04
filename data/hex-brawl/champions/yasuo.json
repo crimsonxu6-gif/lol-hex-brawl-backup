@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Yasuo",
+    "slug": "yasuo",
+    "names": {
+      "zh": "亚索 疾风剑豪",
+      "en": "the Unforgiven Yasuo",
+      "ja": "赦されざる者 ヤスオ",
+      "ko": "용서받지 못한 자 야스오"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "疾风剑豪 亚索 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规暴击"
+      },
+      "buildTags": {
+        "standard": "默认"
+      },
+      "buildScores": {
+        "standard": "稳"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "ShadowRunner": "暗影疾奔",
+        "SwiftAndSafe": "快中求稳",
+        "escAPADe": "魔法转物理",
+        "BluntForce": "大力",
+        "SustainingStrike": "虹吸",
+        "WardingWeapon": "自适应防护",
+        "TransmuteGold": "质变：黄金阶",
+        "Upgrade_IE": "升级：无尽之刃",
+        "OutlawsGrit": "狂徒豪气",
+        "GrowthSpurt": "生机迸发",
+        "GetExcited": "罪恶快感",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "SoulSiphon": "灵魂虹吸",
+        "DoubleTap": "双发快射",
+        "SoulEater": "吞噬灵魂",
+        "MysticPunch": "秘术冲拳",
+        "FinalForm": "最终形态",
+        "DualWield": "双刀流",
+        "Earthwake": "大地苏醒",
+        "HighRoller": "掷骰狂人",
+        "GiantSlayer": "巨人杀手"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Yasuo guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Default"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "ShadowRunner": "Shadow Runner",
+        "SwiftAndSafe": "Swift and Safe",
+        "escAPADe": "escAPADe",
+        "BluntForce": "Blunt Force",
+        "SustainingStrike": "Siphon",
+        "WardingWeapon": "Adaptive Ward",
+        "TransmuteGold": "Transmute: Gold",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "OutlawsGrit": "Outlaw's Grit",
+        "GrowthSpurt": "Growth Spurt",
+        "GetExcited": "Get Excited!",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "SoulSiphon": "Soul Siphon",
+        "DoubleTap": "Double Tap",
+        "SoulEater": "Soul Eater",
+        "MysticPunch": "Mystic Punch",
+        "FinalForm": "Final Form",
+        "DualWield": "Dual Wield",
+        "Earthwake": "Earthwake",
+        "HighRoller": "High Roller",
+        "GiantSlayer": "Giant Slayer"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "赦されざる者 ヤスオ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "ShadowRunner": "影走り",
+        "SwiftAndSafe": "迅速に安全に",
+        "escAPADe": "魔攻のいたずら",
+        "BluntForce": "無骨なる力",
+        "SustainingStrike": "サイフォン",
+        "WardingWeapon": "アダプティブワード",
+        "TransmuteGold": "変質: ゴールド",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "OutlawsGrit": "無法者の気概",
+        "GrowthSpurt": "成長期",
+        "GetExcited": "超エキサイティン！",
+        "TransmutePrismatic": "変質: プリズム",
+        "SoulSiphon": "ソウルサイフォン",
+        "DoubleTap": "ダブルタップ",
+        "SoulEater": "ソウルイーター",
+        "MysticPunch": "神秘の鉄拳",
+        "FinalForm": "最終形態",
+        "DualWield": "二刀流",
+        "Earthwake": "アースウェイク",
+        "HighRoller": "ギャンブラー",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "용서받지 못한 자 야스오 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "ShadowRunner": "그림자 질주",
+        "SwiftAndSafe": "빠르고 안전하게",
+        "escAPADe": "마법사 (물리)",
+        "BluntForce": "육중한 힘",
+        "SustainingStrike": "흡수",
+        "WardingWeapon": "적응형 와드",
+        "TransmuteGold": "전환: 골드",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "OutlawsGrit": "무법자의 투지",
+        "GrowthSpurt": "급속 성장",
+        "GetExcited": "신난다!",
+        "TransmutePrismatic": "전환: 프리즘",
+        "SoulSiphon": "영혼 흡수",
+        "DoubleTap": "한 발에 두 놈",
+        "SoulEater": "영혼의 포식자",
+        "MysticPunch": "신비한 주먹",
+        "FinalForm": "최종 형태",
+        "DualWield": "양손잡이",
+        "Earthwake": "대지의 각성",
+        "HighRoller": "도박꾼",
+        "GiantSlayer": "거인 학살자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        123430,
+        3032,
+        6333,
+        3065,
+        3031,
+        3006
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 21.43
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 12.81
+        },
+        {
+          "id": "SwiftAndSafe",
+          "icon": "assets/ux/kiwi/augments/icons/swiftandsafe_small.png",
+          "pick": 11.67
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 9.27
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 7.83
+        },
+        {
+          "id": "SustainingStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 4.74
+        },
+        {
+          "id": "WardingWeapon",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 4.4
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.24
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 34.61
+        },
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 30.31
+        },
+        {
+          "id": "GrowthSpurt",
+          "icon": "assets/ux/kiwi/augments/icons/growthspurt_large.png",
+          "pick": 15.62
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 11.82
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 10.01
+        },
+        {
+          "id": "SoulSiphon",
+          "icon": "assets/ux/cherry/augments/icons/soulsiphon_small.png",
+          "pick": 7.51
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 4.62
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 4.17
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 25.94
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 7.7
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 5.58
+        },
+        {
+          "id": "Earthwake",
+          "icon": "assets/ux/cherry/augments/icons/earthwake_small.png",
+          "pick": 4.12
+        },
+        {
+          "id": "HighRoller",
+          "icon": "assets/ux/kiwi/augments/icons/highroller_small.png",
+          "pick": 0.9
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 0.7
+        }
+      ]
+    }
+  }
+}

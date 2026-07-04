@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Urgot",
+    "slug": "urgot",
+    "names": {
+      "zh": "厄加特 无畏战车",
+      "en": "the Dreadnought Urgot",
+      "ja": "ドレッドノート アーゴット",
+      "ko": "살상 병기 우르곳"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "厄加特 无畏战车 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "tank": "肉装",
+        "ad": "AD 出装"
+      },
+      "buildTags": {
+        "tank": "肉装",
+        "ad": "AD"
+      },
+      "buildScores": {
+        "tank": "待审核",
+        "ad": "待审核"
+      },
+      "hexNames": {
+        "HeavyHitter": "重量级打击手",
+        "Goredrink": "渴血",
+        "BluntForce": "大力",
+        "ScopedWeapons": "万用瞄准镜",
+        "Typhoon": "台风",
+        "LightemUp": "点亮他们！",
+        "escAPADe": "魔法转物理",
+        "TransmuteGold": "质变：黄金阶",
+        "PressureCooker": "高压锅",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "SoulEater": "吞噬灵魂",
+        "CriticalRhythm": "暴击律动",
+        "TankEngine": "坦克引擎",
+        "DarkWind": "贪欲束缚",
+        "TapDancer": "踢踏舞",
+        "DrawYourSword": "亮出你的剑",
+        "ImTheJuggernaut": "泰坦的坚决",
+        "FanTheHammer": "连拨击锤",
+        "FinalForm": "最终形态"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Dreadnought Urgot Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "tank": "Tank Build",
+        "ad": "AD Build"
+      },
+      "buildTags": {
+        "tank": "Tank",
+        "ad": "AD"
+      },
+      "buildScores": {
+        "tank": "Needs review",
+        "ad": "Needs review"
+      },
+      "hexNames": {
+        "HeavyHitter": "Heavy Hitter",
+        "Goredrink": "Goredrink",
+        "BluntForce": "Blunt Force",
+        "ScopedWeapons": "Scoped Weapons",
+        "Typhoon": "Typhoon",
+        "LightemUp": "Light 'Em Up!",
+        "escAPADe": "escAPADe",
+        "TransmuteGold": "Transmute: Gold",
+        "PressureCooker": "Pressure Cooker",
+        "ScopierWeapons": "Scopier Weapons",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "SoulEater": "Soul Eater",
+        "CriticalRhythm": "Critical Rhythm",
+        "TankEngine": "Tank Engine",
+        "DarkWind": "Ravenous Bind",
+        "TapDancer": "Tap Dancer",
+        "DrawYourSword": "Draw Your Sword",
+        "ImTheJuggernaut": "Titan's Resolve",
+        "FanTheHammer": "Fan The Hammer",
+        "FinalForm": "Final Form"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ドレッドノート アーゴット Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "tank": "タンクビルド",
+        "ad": "AD ビルド"
+      },
+      "buildTags": {
+        "tank": "タンク",
+        "ad": "AD"
+      },
+      "buildScores": {
+        "tank": "確認待ち",
+        "ad": "確認待ち"
+      },
+      "hexNames": {
+        "HeavyHitter": "ヘビーヒッター",
+        "Goredrink": "ゴアドリンク",
+        "BluntForce": "無骨なる力",
+        "ScopedWeapons": "スコープ装着",
+        "Typhoon": "タイフーン",
+        "LightemUp": "光で照らせ！",
+        "escAPADe": "魔攻のいたずら",
+        "TransmuteGold": "変質: ゴールド",
+        "PressureCooker": "圧力鍋",
+        "ScopierWeapons": "改造スコープ装着",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "TransmutePrismatic": "変質: プリズム",
+        "SoulEater": "ソウルイーター",
+        "CriticalRhythm": "クリティカルの律動",
+        "TankEngine": "タンクエンジン",
+        "DarkWind": "貪欲な束縛",
+        "TapDancer": "タップダンサー",
+        "DrawYourSword": "剣を構えよ",
+        "ImTheJuggernaut": "巨人の誓い",
+        "FanTheHammer": "ぐるぐるハンマー",
+        "FinalForm": "最終形態"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "살상 병기 우르곳 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "tank": "탱커 빌드",
+        "ad": "AD 빌드"
+      },
+      "buildTags": {
+        "tank": "탱커",
+        "ad": "AD"
+      },
+      "buildScores": {
+        "tank": "검토 필요",
+        "ad": "검토 필요"
+      },
+      "hexNames": {
+        "HeavyHitter": "강타자",
+        "Goredrink": "선혈포식",
+        "BluntForce": "육중한 힘",
+        "ScopedWeapons": "조준경 부착",
+        "Typhoon": "태풍",
+        "LightemUp": "불을 밝혀",
+        "escAPADe": "마법사 (물리)",
+        "TransmuteGold": "전환: 골드",
+        "PressureCooker": "압력솥",
+        "ScopierWeapons": "상급 조준경 부착",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "TransmutePrismatic": "전환: 프리즘",
+        "SoulEater": "영혼의 포식자",
+        "CriticalRhythm": "치명적 리듬",
+        "TankEngine": "탱크 엔진",
+        "DarkWind": "굶주린 속박",
+        "TapDancer": "탭 댄서",
+        "DrawYourSword": "검을 뽑아라",
+        "ImTheJuggernaut": "거인의 결의",
+        "FanTheHammer": "탄환 세례",
+        "FinalForm": "최종 형태"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        3083,
+        2501,
+        3748,
+        3071,
+        3111
+      ]
+    },
+    {
+      "key": "ad",
+      "items": [
+        126697,
+        6676,
+        3036,
+        6333,
+        2517,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 25.69
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 13.81
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 8.55
+        },
+        {
+          "id": "ScopedWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopedweapons_small.png",
+          "pick": 7.02
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 6.71
+        },
+        {
+          "id": "LightemUp",
+          "icon": "assets/ux/cherry/augments/icons/lightemup_small.png",
+          "pick": 5.31
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 2.48
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.43
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 21.57
+        },
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 20.47
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 15.67
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 7.84
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 6.78
+        },
+        {
+          "id": "CriticalRhythm",
+          "icon": "assets/ux/kiwi/augments/icons/criticalrhythm_small.png",
+          "pick": 6.56
+        },
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 5.95
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 5.71
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "TapDancer",
+          "icon": "assets/ux/cherry/augments/icons/tapdancer_small.png",
+          "pick": 27.65
+        },
+        {
+          "id": "DrawYourSword",
+          "icon": "assets/ux/cherry/augments/icons/drawyoursword_small.png",
+          "pick": 14.35
+        },
+        {
+          "id": "ImTheJuggernaut",
+          "icon": "assets/ux/kiwi/augments/icons/iamthejuggernaut_small.png",
+          "pick": 10.65
+        },
+        {
+          "id": "FanTheHammer",
+          "icon": "assets/ux/cherry/augments/icons/fanthehammer_small.png",
+          "pick": 6.82
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

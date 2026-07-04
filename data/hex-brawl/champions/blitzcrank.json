@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Blitzcrank",
+    "slug": "blitzcrank",
+    "names": {
+      "zh": "布里茨 蒸汽机器人",
+      "en": "the Great Steam Golem Blitzcrank",
+      "ja": "偉大なるスチームゴーレム ブリッツクランク",
+      "ko": "거대 증기 골렘 블리츠크랭크"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "布里茨 蒸汽机器人 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "tank": "肉装",
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "tank": "肉装",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "tank": "待审核",
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "MindtoMatter": "由心及物",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "WitchfulThinking": "巫师式思考",
+        "Upgrade_ZH": "升级：中娅",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "TransmuteGold": "质变：黄金阶",
+        "DiveBomber": "俯冲轰炸",
+        "SlapAround": "扇巴掌",
+        "SoulEater": "吞噬灵魂",
+        "SpecializedRecursion": "急速之追求",
+        "DarkWind": "贪欲束缚",
+        "Impassable": "不动如山",
+        "BurstingTeeth": "牙仙子",
+        "WarlockJuicebox": "术士果汁盒",
+        "SearingDawn": "炽烈黎明",
+        "EtherealWeapon": "虚幻武器",
+        "Archmage": "大法师",
+        "Eureka": "尤里卡",
+        "FeyMagic": "精怪魔法",
+        "InfiniteRecursion": "无限循环往复",
+        "Missile_Split": "咒语裂变",
+        "Multishot": "多重射击",
+        "CourageoftheColossus": "巨像的勇气"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Great Steam Golem Blitzcrank Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "tank": "Tank Build",
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "tank": "Tank",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "tank": "Needs review",
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "MindtoMatter": "Mind to Matter",
+        "Purist_Caster": "Purist - Caster",
+        "WitchfulThinking": "Witchful Thinking",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "TransmuteGold": "Transmute: Gold",
+        "DiveBomber": "Dive Bomber",
+        "SlapAround": "Slap Around",
+        "SoulEater": "Soul Eater",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "DarkWind": "Ravenous Bind",
+        "Impassable": "Impassable",
+        "BurstingTeeth": "Tooth Fairy",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "SearingDawn": "Searing Dawn",
+        "EtherealWeapon": "Ethereal Weapon",
+        "Archmage": "Archmage",
+        "Eureka": "Eureka",
+        "FeyMagic": "Fey Magic",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Missile_Split": "Spell Split",
+        "Multishot": "Multishot",
+        "CourageoftheColossus": "Courage of the Colossus"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "偉大なるスチームゴーレム ブリッツクランク Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "tank": "タンクビルド",
+        "ap": "APビルド"
+      },
+      "buildTags": {
+        "tank": "タンク",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "tank": "確認待ち",
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "MindtoMatter": "精神の体現",
+        "Purist_Caster": "純粋なるキャスター",
+        "WitchfulThinking": "魔法的思考",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "TransmuteGold": "変質: ゴールド",
+        "DiveBomber": "急降下爆撃",
+        "SlapAround": "叩きまくれ",
+        "SoulEater": "ソウルイーター",
+        "SpecializedRecursion": "素早さの追求",
+        "DarkWind": "貪欲な束縛",
+        "Impassable": "通行不可",
+        "BurstingTeeth": "歯の妖精",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "SearingDawn": "灼熱の夜明け",
+        "EtherealWeapon": "エーテル武器",
+        "Archmage": "魔帝",
+        "Eureka": "エウレカ",
+        "FeyMagic": "神秘の魔法",
+        "InfiniteRecursion": "無限再帰",
+        "Missile_Split": "スペルスプリット",
+        "Multishot": "マルチショット",
+        "CourageoftheColossus": "巨人の勇気"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "거대 증기 골렘 블리츠크랭크 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "tank": "탱커 빌드",
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "tank": "탱커",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "tank": "검토 필요",
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "MindtoMatter": "정신 변환",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "WitchfulThinking": "사악한 정신",
+        "Upgrade_ZH": "존야 업그레이드",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "TransmuteGold": "전환: 골드",
+        "DiveBomber": "폭격기",
+        "SlapAround": "우당탕탕",
+        "SoulEater": "영혼의 포식자",
+        "SpecializedRecursion": "가속 추구",
+        "DarkWind": "굶주린 속박",
+        "Impassable": "넘을 수 없는 벽",
+        "BurstingTeeth": "이빨 요정",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "SearingDawn": "타오르는 새벽",
+        "EtherealWeapon": "환영 무기",
+        "Archmage": "대마법사",
+        "Eureka": "유레카",
+        "FeyMagic": "요정 마법",
+        "InfiniteRecursion": "무한 반복",
+        "Missile_Split": "주문 분산",
+        "Multishot": "다중 공격",
+        "CourageoftheColossus": "거석상의 용기"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        2502,
+        3083,
+        3121,
+        3065,
+        3111
+      ]
+    },
+    {
+      "key": "ap",
+      "items": [
+        3118,
+        4645,
+        3089,
+        3135,
+        4646,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 13.74
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 9.96
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 7.63
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 3.87
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 3.67
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.37
+        },
+        {
+          "id": "DiveBomber",
+          "icon": "assets/ux/cherry/augments/icons/divebomber_small.png",
+          "pick": 2.41
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 13.91
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 16.6
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 8.9
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 8.23
+        },
+        {
+          "id": "Impassable",
+          "icon": "assets/ux/cherry/augments/icons/impassable_small.png",
+          "pick": 6.38
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 6.21
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 5.8
+        },
+        {
+          "id": "SearingDawn",
+          "icon": "assets/ux/cherry/augments/icons/searingdawn_small.png",
+          "pick": 5.2
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 16.94
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Archmage",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 12.8
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 10.14
+        },
+        {
+          "id": "FeyMagic",
+          "icon": "assets/ux/cherry/augments/icons/feymagic_small.png",
+          "pick": 9.16
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 9.14
+        },
+        {
+          "id": "Missile_Split",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_prismatic.png",
+          "pick": 7.87
+        },
+        {
+          "id": "Multishot",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_prismatic.png",
+          "pick": 7.06
+        },
+        {
+          "id": "CourageoftheColossus",
+          "icon": "assets/ux/cherry/augments/icons/courageofthecolossus_small.png",
+          "pick": 6.59
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

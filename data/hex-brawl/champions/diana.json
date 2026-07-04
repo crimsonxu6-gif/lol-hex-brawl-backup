@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Diana",
+    "slug": "diana",
+    "names": {
+      "zh": "黛安娜 皎月女神",
+      "en": "Scorn of the Moon Diana",
+      "ja": "嘲りの月 ダイアナ",
+      "ko": "차가운 달의 분노 다이애나"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "黛安娜 皎月女神 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "tank": "肉装",
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "tank": "肉装",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "tank": "待审核",
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "Upgrade_ZH": "升级：中娅",
+        "WitchfulThinking": "巫师式思考",
+        "ShadowRunner": "暗影疾奔",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "MindtoMatter": "由心及物",
+        "TransmuteGold": "质变：黄金阶",
+        "DiveBomber": "俯冲轰炸",
+        "WarlockJuicebox": "术士果汁盒",
+        "EtherealWeapon": "虚幻武器",
+        "PhenomenalEvil": "超凡邪恶",
+        "BurstingTeeth": "牙仙子",
+        "ThreadtheNeedle": "穿针引线",
+        "LittleExtraHelp": "小小的额外帮助",
+        "ItsKillingTime": "杀戮时间到了",
+        "EndlessDecimation": "无尽大杀四方",
+        "Eureka": "尤里卡",
+        "FinalForm": "最终形态",
+        "InfiniteRecursion": "无限循环往复",
+        "DivineDomain": "飞升仪式",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽",
+        "EndlessHunt": "吃过路兵"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Scorn of the Moon Diana Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "tank": "Tank Build",
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "tank": "Tank",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "tank": "Needs review",
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "WitchfulThinking": "Witchful Thinking",
+        "ShadowRunner": "Shadow Runner",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "MindtoMatter": "Mind to Matter",
+        "TransmuteGold": "Transmute: Gold",
+        "DiveBomber": "Dive Bomber",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "EtherealWeapon": "Ethereal Weapon",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "BurstingTeeth": "Tooth Fairy",
+        "ThreadtheNeedle": "Thread the Needle",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "ItsKillingTime": "It's Killing Time",
+        "EndlessDecimation": "Endless Decimation",
+        "Eureka": "Eureka",
+        "FinalForm": "Final Form",
+        "InfiniteRecursion": "Infinite Recursion",
+        "DivineDomain": "Rite of Ascension",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap",
+        "EndlessHunt": "En Passant"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "嘲りの月 ダイアナ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "tank": "タンクビルド",
+        "ap": "AP ビルド"
+      },
+      "buildTags": {
+        "tank": "タンク",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "tank": "確認待ち",
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "WitchfulThinking": "魔法的思考",
+        "ShadowRunner": "影走り",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "MindtoMatter": "精神の体現",
+        "TransmuteGold": "変質: ゴールド",
+        "DiveBomber": "急降下爆撃",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "EtherealWeapon": "エーテル武器",
+        "PhenomenalEvil": "偉大なる悪",
+        "BurstingTeeth": "歯の妖精",
+        "ThreadtheNeedle": "貫通力",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "ItsKillingTime": "殺戮の時",
+        "EndlessDecimation": "終わりなき殲滅",
+        "Eureka": "エウレカ",
+        "FinalForm": "最終形態",
+        "InfiniteRecursion": "無限再帰",
+        "DivineDomain": "超越の儀式",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ",
+        "EndlessHunt": "アンパッサン"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "차가운 달의 분노 다이애나 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "tank": "탱커 빌드",
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "tank": "탱커",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "tank": "검토 필요",
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "Upgrade_ZH": "존야 업그레이드",
+        "WitchfulThinking": "사악한 정신",
+        "ShadowRunner": "그림자 질주",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "MindtoMatter": "정신 변환",
+        "TransmuteGold": "전환: 골드",
+        "DiveBomber": "폭격기",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "EtherealWeapon": "환영 무기",
+        "PhenomenalEvil": "극악무도",
+        "BurstingTeeth": "이빨 요정",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "LittleExtraHelp": "작은 도움",
+        "ItsKillingTime": "처형 시간",
+        "EndlessDecimation": "끝없는 학살",
+        "Eureka": "유레카",
+        "FinalForm": "최종 형태",
+        "InfiniteRecursion": "무한 반복",
+        "DivineDomain": "초월 의식",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자",
+        "EndlessHunt": "앙파상"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        2502,
+        3083,
+        6664,
+        4633,
+        6653
+      ]
+    },
+    {
+      "key": "ap",
+      "items": [
+        3100,
+        4645,
+        3089,
+        3135,
+        4646,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 16.9
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 9.97
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 9.61
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 7.92
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 5.34
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 5
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.74
+        },
+        {
+          "id": "DiveBomber",
+          "icon": "assets/ux/cherry/augments/icons/divebomber_small.png",
+          "pick": 2.81
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 24.69
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 19.53
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 14.19
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 11.62
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 10.42
+        },
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 9.92
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 8.23
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 5.8
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 10.54
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 8.97
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 7.25
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 7.01
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": 5.91
+        },
+        {
+          "id": "EndlessHunt",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 3.71
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

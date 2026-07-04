@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Pyke",
+    "slug": "pyke",
+    "names": {
+      "zh": "派克 血港鬼影",
+      "en": "the Bloodharbor Ripper Pyke",
+      "ja": "ブラッドハーバーの殺戮鬼 パイク",
+      "ko": "핏빛 항구의 학살자 파이크"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "派克 血港鬼影 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "bruiser": "战士出装"
+      },
+      "buildTags": {
+        "bruiser": "战士"
+      },
+      "buildScores": {
+        "bruiser": "待审核"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "升级：收集者",
+        "BluntForce": "大力",
+        "SlapAround": "扇巴掌",
+        "KillSecured": "杀意翻涌",
+        "escAPADe": "魔法转物理",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "TransmuteGold": "质变：黄金阶",
+        "ShadowRunner": "暗影疾奔",
+        "BurstingTeeth": "牙仙子",
+        "GetExcited": "罪恶快感",
+        "SoulEater": "吞噬灵魂",
+        "DarkWind": "贪欲束缚",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "ShrinkEngine": "缩小引擎",
+        "Recursion": "循环往复",
+        "Nightstalking": "夜狩",
+        "Dashing": "全凭身法",
+        "DivineDomain": "飞升仪式",
+        "BladeWaltz": "利刃华尔兹",
+        "FinalForm": "最终形态",
+        "CantTouchThis": "你摸不到"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Bloodharbor Ripper Pyke Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "bruiser": "Bruiser Build"
+      },
+      "buildTags": {
+        "bruiser": "Bruiser"
+      },
+      "buildScores": {
+        "bruiser": "Needs review"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "Upgrade Collector",
+        "BluntForce": "Blunt Force",
+        "SlapAround": "Slap Around",
+        "KillSecured": "Kill Secured",
+        "escAPADe": "escAPADe",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "TransmuteGold": "Transmute: Gold",
+        "ShadowRunner": "Shadow Runner",
+        "BurstingTeeth": "Tooth Fairy",
+        "GetExcited": "Get Excited!",
+        "SoulEater": "Soul Eater",
+        "DarkWind": "Ravenous Bind",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "ShrinkEngine": "Shrink Engine",
+        "Recursion": "Recursion",
+        "Nightstalking": "Nightstalking",
+        "Dashing": "Dashing",
+        "DivineDomain": "Rite of Ascension",
+        "BladeWaltz": "Blade Waltz",
+        "FinalForm": "Final Form",
+        "CantTouchThis": "Can't Touch This"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ブラッドハーバーの殺戮鬼 パイク Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "bruiser": "ファイタービルド"
+      },
+      "buildTags": {
+        "bruiser": "ファイター"
+      },
+      "buildScores": {
+        "bruiser": "確認待ち"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "コレクター アップグレード",
+        "BluntForce": "無骨なる力",
+        "SlapAround": "叩きまくれ",
+        "KillSecured": "キルを確認",
+        "escAPADe": "魔攻のいたずら",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "TransmuteGold": "変質: ゴールド",
+        "ShadowRunner": "影走り",
+        "BurstingTeeth": "歯の妖精",
+        "GetExcited": "超エキサイティン！",
+        "SoulEater": "ソウルイーター",
+        "DarkWind": "貪欲な束縛",
+        "TransmutePrismatic": "変質: プリズム",
+        "ShrinkEngine": "縮小エンジン",
+        "Recursion": "再帰",
+        "Nightstalking": "ナイトストーク",
+        "Dashing": "疾走",
+        "DivineDomain": "超越の儀式",
+        "BladeWaltz": "ブレードワルツ",
+        "FinalForm": "最終形態",
+        "CantTouchThis": "ヤケドするぜ"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "핏빛 항구의 학살자 파이크 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "bruiser": "전사 빌드"
+      },
+      "buildTags": {
+        "bruiser": "전사"
+      },
+      "buildScores": {
+        "bruiser": "검토 필요"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "BluntForce": "육중한 힘",
+        "SlapAround": "우당탕탕",
+        "KillSecured": "확보된 킬",
+        "escAPADe": "마법사 (물리)",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "TransmuteGold": "전환: 골드",
+        "ShadowRunner": "그림자 질주",
+        "BurstingTeeth": "이빨 요정",
+        "GetExcited": "신난다!",
+        "SoulEater": "영혼의 포식자",
+        "DarkWind": "굶주린 속박",
+        "TransmutePrismatic": "전환: 프리즘",
+        "ShrinkEngine": "축소 엔진",
+        "Recursion": "되풀이",
+        "Nightstalking": "밤의 추적",
+        "Dashing": "돌진",
+        "DivineDomain": "초월 의식",
+        "BladeWaltz": "검무",
+        "FinalForm": "최종 형태",
+        "CantTouchThis": "난공불락"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "bruiser",
+      "items": [
+        6697,
+        6696,
+        6699,
+        3036,
+        6333,
+        3158
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 11.12
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 10.99
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 9.2
+        },
+        {
+          "id": "KillSecured",
+          "icon": "assets/ux/kiwi/augments/icons/killsecure_small.png",
+          "pick": 5.76
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 5.1
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 3.64
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.4
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 26.54
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 22.98
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 15.54
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 12.59
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 10.03
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 7.1
+        },
+        {
+          "id": "ShrinkEngine",
+          "icon": "assets/ux/kiwi/augments/icons/shrinkengine_large.png",
+          "pick": 5.78
+        },
+        {
+          "id": "Recursion",
+          "icon": "assets/ux/cherry/augments/icons/recursion_small.png",
+          "pick": 4.13
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 26.92
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 25.64
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 15.52
+        },
+        {
+          "id": "BladeWaltz",
+          "icon": "assets/ux/cherry/augments/icons/bladewaltz_small.png",
+          "pick": 7.31
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 7.22
+        },
+        {
+          "id": "CantTouchThis",
+          "icon": "assets/ux/cherry/augments/icons/canttouchthis_small.png",
+          "pick": 5.93
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

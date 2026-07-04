@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Thresh",
+    "slug": "thresh",
+    "names": {
+      "zh": "锤石 魂锁典狱长",
+      "en": "the Chain Warden Thresh",
+      "ja": "縛鎖の看守 スレッシュ",
+      "ko": "지옥의 간수 쓰레쉬"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "锤石 魂锁典狱长 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "tank": "肉装"
+      },
+      "buildTags": {
+        "tank": "肉装"
+      },
+      "buildScores": {
+        "tank": "待审核"
+      },
+      "hexNames": {
+        "SlapAround": "扇巴掌",
+        "VeilOfWarding": "防护面纱",
+        "FirstAidKit": "急救用具",
+        "IceCold": "冰寒",
+        "MightyShield": "强力护盾",
+        "SonicBoom": "天音爆",
+        "escAPADe": "魔法转物理",
+        "HeavyHitter": "重量级打击手",
+        "TankEngine": "坦克引擎",
+        "Quest_SteelYourHeart": "钢化你心",
+        "CelestialBody": "星界躯体",
+        "SoulEater": "吞噬灵魂",
+        "PressureCooker": "高压锅",
+        "DivineIntervention": "神圣干预",
+        "Impassable": "不动如山",
+        "DarkWind": "贪欲束缚",
+        "Goliath": "歌利亚巨人",
+        "CourageoftheColossus": "巨像的勇气",
+        "Cruelty": "残忍",
+        "ProteinShake": "蛋白粉奶昔",
+        "FinalForm": "最终形态"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Chain Warden Thresh Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "tank": "Tank Build"
+      },
+      "buildTags": {
+        "tank": "Tank"
+      },
+      "buildScores": {
+        "tank": "Needs review"
+      },
+      "hexNames": {
+        "SlapAround": "Slap Around",
+        "VeilOfWarding": "Veil of Warding",
+        "FirstAidKit": "First-Aid Kit",
+        "IceCold": "Ice Cold",
+        "MightyShield": "Mighty Shield",
+        "SonicBoom": "Sonic Boom",
+        "escAPADe": "escAPADe",
+        "HeavyHitter": "Heavy Hitter",
+        "TankEngine": "Tank Engine",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "CelestialBody": "Celestial Body",
+        "SoulEater": "Soul Eater",
+        "PressureCooker": "Pressure Cooker",
+        "DivineIntervention": "Divine Intervention",
+        "Impassable": "Impassable",
+        "DarkWind": "Ravenous Bind",
+        "Goliath": "Goliath",
+        "CourageoftheColossus": "Courage of the Colossus",
+        "Cruelty": "Cruelty",
+        "ProteinShake": "Protein Shake",
+        "FinalForm": "Final Form"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "縛鎖の看守 スレッシュ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "tank": "タンクビルド"
+      },
+      "buildTags": {
+        "tank": "タンク"
+      },
+      "buildScores": {
+        "tank": "確認待ち"
+      },
+      "hexNames": {
+        "SlapAround": "叩きまくれ",
+        "VeilOfWarding": "ワーディングヴェール",
+        "FirstAidKit": "救急セット",
+        "IceCold": "結氷",
+        "MightyShield": "マイティシールド",
+        "SonicBoom": "ソニックブーム",
+        "escAPADe": "魔攻のいたずら",
+        "HeavyHitter": "ヘビーヒッター",
+        "TankEngine": "タンクエンジン",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "CelestialBody": "聖体",
+        "SoulEater": "ソウルイーター",
+        "PressureCooker": "圧力鍋",
+        "DivineIntervention": "聖なる介入",
+        "Impassable": "通行不可",
+        "DarkWind": "貪欲な束縛",
+        "Goliath": "大巨人",
+        "CourageoftheColossus": "巨人の勇気",
+        "Cruelty": "冷酷な一撃",
+        "ProteinShake": "プロテインシェイク",
+        "FinalForm": "最終形態"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "지옥의 간수 쓰레쉬 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "tank": "탱커 빌드"
+      },
+      "buildTags": {
+        "tank": "탱커"
+      },
+      "buildScores": {
+        "tank": "검토 필요"
+      },
+      "hexNames": {
+        "SlapAround": "우당탕탕",
+        "VeilOfWarding": "감시의 장막",
+        "FirstAidKit": "응급처치 키트",
+        "IceCold": "차가운 냉기",
+        "MightyShield": "강력한 방패",
+        "SonicBoom": "음속 폭발",
+        "escAPADe": "마법사 (물리)",
+        "HeavyHitter": "강타자",
+        "TankEngine": "탱크 엔진",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "CelestialBody": "천상의 신체",
+        "SoulEater": "영혼의 포식자",
+        "PressureCooker": "압력솥",
+        "DivineIntervention": "신성한 중재",
+        "Impassable": "넘을 수 없는 벽",
+        "DarkWind": "굶주린 속박",
+        "Goliath": "거인",
+        "CourageoftheColossus": "거석상의 용기",
+        "Cruelty": "잔혹 행위",
+        "ProteinShake": "프로틴 음료",
+        "FinalForm": "최종 형태"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        2502,
+        3121,
+        3083,
+        3065,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 15.49
+        },
+        {
+          "id": "VeilOfWarding",
+          "icon": "assets/ux/kiwi/augments/icons/poltergeist_small.png",
+          "pick": 4.89
+        },
+        {
+          "id": "FirstAidKit",
+          "icon": "assets/ux/cherry/augments/icons/firstaidkit_small.png",
+          "pick": 4.83
+        },
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 3.93
+        },
+        {
+          "id": "MightyShield",
+          "icon": "assets/ux/kiwi/augments/icons/mightyshield_small.png",
+          "pick": 3.43
+        },
+        {
+          "id": "SonicBoom",
+          "icon": "assets/ux/cherry/augments/icons/sonicboom_small.png",
+          "pick": 2.78
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 2.72
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 24.01
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 37.48
+        },
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": 24.05
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": 21.84
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 17.49
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 10.83
+        },
+        {
+          "id": "DivineIntervention",
+          "icon": "assets/ux/cherry/augments/icons/slowactingpainkillers_small.png",
+          "pick": 9.06
+        },
+        {
+          "id": "Impassable",
+          "icon": "assets/ux/cherry/augments/icons/impassable_small.png",
+          "pick": 6.91
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 6.31
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 24.72
+        },
+        {
+          "id": "CourageoftheColossus",
+          "icon": "assets/ux/cherry/augments/icons/courageofthecolossus_small.png",
+          "pick": 14.24
+        },
+        {
+          "id": "Cruelty",
+          "icon": "assets/ux/kiwi/augments/icons/cruelty_small.png",
+          "pick": 8.6
+        },
+        {
+          "id": "ProteinShake",
+          "icon": "assets/ux/kiwi/augments/icons/proteinshake_small.png",
+          "pick": 7.81
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

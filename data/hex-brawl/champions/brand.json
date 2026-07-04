@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "prototype",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Brand",
+    "slug": "brand",
+    "names": {
+      "zh": "布兰德 复仇焰魂",
+      "en": "the Burning Vengeance Brand",
+      "ja": "復讐の炎 ブランド",
+      "ko": "타오르는 복수 브랜드"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "常规出装优先，海克斯按选取率从高到低排列",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": [
+        "常规灼烧",
+        "爆发法穿",
+        "保命替换"
+      ],
+      "buildTags": [
+        "默认",
+        "高伤",
+        "抗突进"
+      ],
+      "buildScores": [
+        "稳",
+        "强",
+        "稳"
+      ],
+      "hexNames": {
+        "IceCold": "冰寒",
+        "Twinfire": "双生火焰",
+        "ADAPt": "物理转魔法",
+        "WitchfulThinking": "巫师式思考",
+        "OceanSoul": "海洋龙魂",
+        "Upgrade_ZH": "升级：中娅",
+        "MindtoMatter": "由心及物",
+        "TransmuteGold": "质变：黄金阶",
+        "BloodMoneyBurn": "炽燃利息",
+        "MagicMissile": "魔法飞弹",
+        "WarlockJuicebox": "术士果汁盒",
+        "PhenomenalEvil": "超凡邪恶",
+        "Vulnerability": "易损",
+        "EtherealWeapon": "虚幻武器",
+        "SkilledSniper": "老练狙神",
+        "TwiceThrice": "接二连三",
+        "InfernalConduit": "炼狱导管",
+        "Eureka": "尤里卡",
+        "GoHSacrificeForPrismatic": "献祭：换取棱彩阶",
+        "InfiniteRecursion": "无限循环往复",
+        "SummonersRoulette": "召唤师峡谷的轮盘",
+        "JeweledGauntlet": "珠光护手",
+        "UltimateRevolution": "终极刷新",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Builds first, augments sorted by pick rate",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": [
+        "Burn Standard",
+        "Burst Penetration",
+        "Survival Swap"
+      ],
+      "buildTags": [
+        "Default",
+        "Damage",
+        "Anti-dive"
+      ],
+      "buildScores": [
+        "Stable",
+        "Strong",
+        "Safe"
+      ],
+      "hexNames": {
+        "IceCold": "Ice Cold",
+        "Twinfire": "Twin Fire",
+        "ADAPt": "ADAPt",
+        "WitchfulThinking": "Witchful Thinking",
+        "OceanSoul": "Ocean Soul",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "MindtoMatter": "Mind to Matter",
+        "TransmuteGold": "Transmute: Gold",
+        "BloodMoneyBurn": "Combusting Interest",
+        "MagicMissile": "Magic Missile",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "Vulnerability": "Vulnerability",
+        "EtherealWeapon": "Ethereal Weapon",
+        "SkilledSniper": "Skilled Sniper",
+        "TwiceThrice": "Twice Thrice",
+        "InfernalConduit": "Infernal Conduit",
+        "Eureka": "Eureka",
+        "GoHSacrificeForPrismatic": "Sacrifice: For Prismatic",
+        "InfiniteRecursion": "Infinite Recursion",
+        "SummonersRoulette": "Summoner's Roulette",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "UltimateRevolution": "Ultimate Revolution",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ビルドを先に表示し、ヘックスは選択率順",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": [
+        "通常バーン",
+        "バースト貫通",
+        "防御入替"
+      ],
+      "buildTags": [
+        "標準",
+        "高火力",
+        "対突進"
+      ],
+      "buildScores": [
+        "安定",
+        "強力",
+        "安全"
+      ],
+      "hexNames": {
+        "IceCold": "結氷",
+        "Twinfire": "ツインファイア",
+        "ADAPt": "変力装置",
+        "WitchfulThinking": "魔法的思考",
+        "OceanSoul": "オーシャンソウル",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "MindtoMatter": "精神の体現",
+        "TransmuteGold": "変質: ゴールド",
+        "BloodMoneyBurn": "燃える利回り",
+        "MagicMissile": "マジックミサイル",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "PhenomenalEvil": "偉大なる悪",
+        "Vulnerability": "搦め手",
+        "EtherealWeapon": "エーテル武器",
+        "SkilledSniper": "腕利きスナイパー",
+        "TwiceThrice": "二度三度",
+        "InfernalConduit": "獄炎路",
+        "Eureka": "エウレカ",
+        "GoHSacrificeForPrismatic": "犠牲: プリズムのために",
+        "InfiniteRecursion": "無限再帰",
+        "SummonersRoulette": "サモナーズルーレット",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "UltimateRevolution": "究極進化",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "빌드를 먼저 보고, 헥스는 선택률 순서로 정렬",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": [
+        "기본 화상",
+        "폭딜 관통",
+        "생존 교체"
+      ],
+      "buildTags": [
+        "기본",
+        "고화력",
+        "돌진 대응"
+      ],
+      "buildScores": [
+        "안정",
+        "강함",
+        "안전"
+      ],
+      "hexNames": {
+        "IceCold": "차가운 냉기",
+        "Twinfire": "쌍둥이 불꽃",
+        "ADAPt": "적응형 능력치",
+        "WitchfulThinking": "사악한 정신",
+        "OceanSoul": "바다의 영혼",
+        "Upgrade_ZH": "존야 업그레이드",
+        "MindtoMatter": "정신 변환",
+        "TransmuteGold": "전환: 골드",
+        "BloodMoneyBurn": "타오르는 이자",
+        "MagicMissile": "마법 미사일",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "PhenomenalEvil": "극악무도",
+        "Vulnerability": "취약",
+        "EtherealWeapon": "환영 무기",
+        "SkilledSniper": "노련한 저격수",
+        "TwiceThrice": "두 배 세 배",
+        "InfernalConduit": "지옥의 전도체",
+        "Eureka": "유레카",
+        "GoHSacrificeForPrismatic": "희생: 프리즘",
+        "InfiniteRecursion": "무한 반복",
+        "SummonersRoulette": "소환사의 룰렛",
+        "JeweledGauntlet": "보석 건틀릿",
+        "UltimateRevolution": "궁극기 대변혁",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": 0,
+      "items": [
+        6653,
+        2503,
+        3089,
+        3135,
+        3020,
+        3116
+      ]
+    },
+    {
+      "key": 1,
+      "items": [
+        2503,
+        6653,
+        4645,
+        3089,
+        3135,
+        3020
+      ]
+    },
+    {
+      "key": 2,
+      "items": [
+        6653,
+        2503,
+        3157,
+        3089,
+        3135,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 23.19
+        },
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 11.51
+        },
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": 10.06
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 8.37
+        },
+        {
+          "id": "OceanSoul",
+          "icon": "assets/ux/cherry/augments/icons/oceansoul_small.png",
+          "pick": 6.23
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 6.09
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 2.82
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.31
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "BloodMoneyBurn",
+          "icon": "assets/ux/kiwi/augments/icons/bloodmoney2_small.png",
+          "pick": 35.73
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 24.7
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 21.31
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 19.83
+        },
+        {
+          "id": "Vulnerability",
+          "icon": "assets/ux/cherry/augments/icons/vulnerability_small.png",
+          "pick": 18.88
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 9.55
+        },
+        {
+          "id": "SkilledSniper",
+          "icon": "assets/ux/cherry/augments/icons/skilledsniper_small.png",
+          "pick": 8.63
+        },
+        {
+          "id": "TwiceThrice",
+          "icon": "assets/ux/cherry/augments/icons/twicethrice_small.png",
+          "pick": 8.29
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "InfernalConduit",
+          "icon": "assets/ux/cherry/augments/icons/infernalconduit_small.png",
+          "pick": 29.57
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 12.7
+        },
+        {
+          "id": "GoHSacrificeForPrismatic",
+          "icon": "assets/ux/cherry/augments/icons/gohsacrificefor_small.png",
+          "pick": 7.6
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 6.98
+        },
+        {
+          "id": "SummonersRoulette",
+          "icon": "assets/ux/cherry/augments/icons/summonersroulette_small.png",
+          "pick": 5.5
+        },
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 2.95
+        },
+        {
+          "id": "UltimateRevolution",
+          "icon": "assets/ux/cherry/augments/icons/ultimaterevolution_small.png",
+          "pick": 2.69
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": 2.4
+        }
+      ]
+    }
+  }
+}

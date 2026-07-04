@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Ashe",
+    "slug": "ashe",
+    "names": {
+      "zh": "艾希 寒冰射手",
+      "en": "the Frost Archer Ashe",
+      "ja": "氷の射手 アッシュ",
+      "ko": "서리 궁수 애쉬"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "寒冰射手 艾希 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "crit-onhit": "暴击/特效出装",
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "crit-onhit": "AD",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "crit-onhit": "稳",
+        "ap": "功能"
+      },
+      "hexNames": {
+        "Deft": "灵巧",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "Typhoon": "台风",
+        "ScopedWeapons": "万用瞄准镜",
+        "LightemUp": "点亮他们！",
+        "CritNCast": "由暴生急",
+        "TankItOrLeaveIt": "会心防御",
+        "Upgrade_Collector": "升级：收集者",
+        "CriticalMissile": "暴击飞弹",
+        "BangBang": "狙神飞星",
+        "Vulnerability": "易损",
+        "SkilledSniper": "老练狙神",
+        "DoubleTap": "双发快射",
+        "LittleExtraHelp": "小小的额外帮助",
+        "Upgrade_IE": "升级：无尽之刃",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "DualWield": "双刀流",
+        "GiantSlayer": "巨人杀手",
+        "TapDancer": "踢踏舞",
+        "ScopiestWeapons": "最万用的瞄准镜",
+        "Multishot": "多重射击",
+        "HighRoller": "掷骰狂人",
+        "InfiniteRecursion": "无限循环往复",
+        "Dropkick": "飞身踢"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Ashe guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "crit-onhit": "Crit/On-hit Build",
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "crit-onhit": "AD",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "crit-onhit": "Recommended",
+        "ap": "Optional"
+      },
+      "hexNames": {
+        "Deft": "Deft",
+        "Purist_Caster": "Purist - Caster",
+        "Typhoon": "Typhoon",
+        "ScopedWeapons": "Scoped Weapons",
+        "LightemUp": "Light 'Em Up!",
+        "CritNCast": "Crit 'n Cast",
+        "TankItOrLeaveIt": "Tank It Or Leave It",
+        "Upgrade_Collector": "Upgrade Collector",
+        "CriticalMissile": "Critical Missile",
+        "BangBang": "From Downtown",
+        "Vulnerability": "Vulnerability",
+        "SkilledSniper": "Skilled Sniper",
+        "DoubleTap": "Double Tap",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "ScopierWeapons": "Scopier Weapons",
+        "DualWield": "Dual Wield",
+        "GiantSlayer": "Giant Slayer",
+        "TapDancer": "Tap Dancer",
+        "ScopiestWeapons": "Scopiest Weapons",
+        "Multishot": "Multishot",
+        "HighRoller": "High Roller",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Dropkick": "Dropkick"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "氷の射手 アッシュ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "crit-onhit": "クリティカル/通常効果ビルド",
+        "ap": "APビルド"
+      },
+      "buildTags": {
+        "crit-onhit": "AD",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "crit-onhit": "Recommended",
+        "ap": "Optional"
+      },
+      "hexNames": {
+        "Deft": "技巧",
+        "Purist_Caster": "純粋なるキャスター",
+        "Typhoon": "タイフーン",
+        "ScopedWeapons": "スコープ装着",
+        "LightemUp": "光で照らせ！",
+        "CritNCast": "クリティカルキャスト",
+        "TankItOrLeaveIt": "タンクこそ至高",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "CriticalMissile": "クリティカルミサイル",
+        "BangBang": "ロングシュート",
+        "Vulnerability": "搦め手",
+        "SkilledSniper": "腕利きスナイパー",
+        "DoubleTap": "ダブルタップ",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "ScopierWeapons": "改造スコープ装着",
+        "DualWield": "二刀流",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "TapDancer": "タップダンサー",
+        "ScopiestWeapons": "超改造スコープ装着",
+        "Multishot": "マルチショット",
+        "HighRoller": "ギャンブラー",
+        "InfiniteRecursion": "無限再帰",
+        "Dropkick": "ドロップキック"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "서리 궁수 애쉬 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "crit-onhit": "치명타/온힛 빌드",
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "crit-onhit": "AD",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "crit-onhit": "Recommended",
+        "ap": "Optional"
+      },
+      "hexNames": {
+        "Deft": "능수능란",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "Typhoon": "태풍",
+        "ScopedWeapons": "조준경 부착",
+        "LightemUp": "불을 밝혀",
+        "CritNCast": "치명적 가속",
+        "TankItOrLeaveIt": "확률적 방어",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "CriticalMissile": "치명적 미사일",
+        "BangBang": "로켓 배송",
+        "Vulnerability": "취약",
+        "SkilledSniper": "노련한 저격수",
+        "DoubleTap": "한 발에 두 놈",
+        "LittleExtraHelp": "작은 도움",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "ScopierWeapons": "상급 조준경 부착",
+        "DualWield": "양손잡이",
+        "GiantSlayer": "거인 학살자",
+        "TapDancer": "탭 댄서",
+        "ScopiestWeapons": "최상급 조준경 부착",
+        "Multishot": "다중 공격",
+        "HighRoller": "도박꾼",
+        "InfiniteRecursion": "무한 반복",
+        "Dropkick": "드롭킥"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "crit-onhit",
+      "items": [
+        3032,
+        3031,
+        3033,
+        3085,
+        3153,
+        3006
+      ]
+    },
+    {
+      "key": "ap",
+      "items": [
+        3118,
+        4005,
+        6696,
+        3137,
+        3089,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 15.42
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 11.87
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 10.72
+        },
+        {
+          "id": "ScopedWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopedweapons_small.png",
+          "pick": 7.38
+        },
+        {
+          "id": "LightemUp",
+          "icon": "assets/ux/cherry/augments/icons/lightemup_small.png",
+          "pick": 7.23
+        },
+        {
+          "id": "CritNCast",
+          "icon": "assets/ux/kiwi/augments/icons/critncast_small.png",
+          "pick": 5.23
+        },
+        {
+          "id": "TankItOrLeaveIt",
+          "icon": "assets/ux/cherry/augments/icons/tankitorleaveit_small.png",
+          "pick": 5.11
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 4.31
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "CriticalMissile",
+          "icon": "assets/ux/kiwi/augments/icons/criticalmissile_small.png",
+          "pick": 25.59
+        },
+        {
+          "id": "BangBang",
+          "icon": "assets/ux/kiwi/augments/icons/questbangbang_small.png",
+          "pick": 15.64
+        },
+        {
+          "id": "Vulnerability",
+          "icon": "assets/ux/cherry/augments/icons/vulnerability_small.png",
+          "pick": 15.39
+        },
+        {
+          "id": "SkilledSniper",
+          "icon": "assets/ux/cherry/augments/icons/skilledsniper_small.png",
+          "pick": 15.13
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 13.86
+        },
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 13.22
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 12.39
+        },
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 11.62
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 13.67
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 8.85
+        },
+        {
+          "id": "TapDancer",
+          "icon": "assets/ux/cherry/augments/icons/tapdancer_small.png",
+          "pick": 8.73
+        },
+        {
+          "id": "ScopiestWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopiestweapons_small.png",
+          "pick": 6.15
+        },
+        {
+          "id": "Multishot",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_prismatic.png",
+          "pick": 4.54
+        },
+        {
+          "id": "HighRoller",
+          "icon": "assets/ux/kiwi/augments/icons/highroller_small.png",
+          "pick": 0.8
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 0.48
+        },
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": 0.4
+        }
+      ]
+    }
+  }
+}

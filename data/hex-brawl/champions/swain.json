@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Swain",
+    "slug": "swain",
+    "names": {
+      "zh": "斯维因 诺克萨斯统领",
+      "en": "the Noxian Grand General Swain",
+      "ja": "ノクサス帝国元帥 スウェイン",
+      "ko": "녹서스 대장군 스웨인"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "斯维因 诺克萨斯统领 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装"
+      },
+      "buildTags": {
+        "standard": "常规"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "WarlockJuicebox": "术士果汁盒",
+        "InfernalConduit": "炼狱导管",
+        "PhenomenalEvil": "超凡邪恶",
+        "IceCold": "冰寒",
+        "DarkWind": "贪欲束缚",
+        "SoulEater": "吞噬灵魂",
+        "SlapAround": "扇巴掌",
+        "MindtoMatter": "由心及物",
+        "Upgrade_ZH": "升级：中娅",
+        "WitchfulThinking": "巫师式思考",
+        "TransmuteGold": "质变：黄金阶",
+        "OceanSoul": "海洋龙魂",
+        "ForgedByTheMaster": "大师铸就",
+        "EtherealWeapon": "虚幻武器",
+        "MagicMissile": "魔法飞弹",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "ItsKillingTime": "杀戮时间到了",
+        "WeightedPopoffs": "负重爆气",
+        "EscapePlan": "逃跑计划",
+        "Firefox": "火狐",
+        "Overflow": "溢流",
+        "ShrinkRay": "缩小射线",
+        "CelestialBody": "星界躯体",
+        "ApexInventor": "尖端发明家",
+        "GrowthSpurt": "生机迸发",
+        "Quest_SteelYourHeart": "钢化你心",
+        "TankEngine": "坦克引擎",
+        "SlowCooker": "慢炖",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "Goliath": "歌利亚巨人",
+        "GiantSlayer": "巨人杀手",
+        "UltimateAwakening": "终极唤醒",
+        "Cruelty": "残忍",
+        "ProteinShake": "蛋白粉奶昔",
+        "Dropkick": "飞身踢",
+        "FeyMagic": "精怪魔法",
+        "CircleofDeath": "死亡之环",
+        "InfiniteRecursion": "无限循环往复"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Noxian Grand General Swain Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Standard"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "WarlockJuicebox": "Warlock Juicebox",
+        "InfernalConduit": "Infernal Conduit",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "IceCold": "Ice Cold",
+        "DarkWind": "Ravenous Bind",
+        "SoulEater": "Soul Eater",
+        "SlapAround": "Slap Around",
+        "MindtoMatter": "Mind to Matter",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "WitchfulThinking": "Witchful Thinking",
+        "TransmuteGold": "Transmute: Gold",
+        "OceanSoul": "Ocean Soul",
+        "ForgedByTheMaster": "Forged By The Master",
+        "EtherealWeapon": "Ethereal Weapon",
+        "MagicMissile": "Magic Missile",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "ItsKillingTime": "It's Killing Time",
+        "WeightedPopoffs": "Weighted Popoffs",
+        "EscapePlan": "Escape Plan",
+        "Firefox": "FireFox",
+        "Overflow": "Overflow",
+        "ShrinkRay": "Shrink Ray",
+        "CelestialBody": "Celestial Body",
+        "ApexInventor": "Apex Inventor",
+        "GrowthSpurt": "Growth Spurt",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "TankEngine": "Tank Engine",
+        "SlowCooker": "Slow Cooker",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "Goliath": "Goliath",
+        "GiantSlayer": "Giant Slayer",
+        "UltimateAwakening": "Ultimate Awakening",
+        "Cruelty": "Cruelty",
+        "ProteinShake": "Protein Shake",
+        "Dropkick": "Dropkick",
+        "FeyMagic": "Fey Magic",
+        "CircleofDeath": "Circle of Death",
+        "InfiniteRecursion": "Infinite Recursion"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ノクサス帝国元帥 スウェイン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "要確認"
+      },
+      "hexNames": {
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "InfernalConduit": "獄炎路",
+        "PhenomenalEvil": "偉大なる悪",
+        "IceCold": "結氷",
+        "DarkWind": "貪欲な束縛",
+        "SoulEater": "ソウルイーター",
+        "SlapAround": "叩きまくれ",
+        "MindtoMatter": "精神の体現",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "WitchfulThinking": "魔法的思考",
+        "TransmuteGold": "変質: ゴールド",
+        "OceanSoul": "オーシャンソウル",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "EtherealWeapon": "エーテル武器",
+        "MagicMissile": "マジックミサイル",
+        "TransmutePrismatic": "変質: プリズム",
+        "ItsKillingTime": "殺戮の時",
+        "WeightedPopoffs": "加重ポップオフ",
+        "EscapePlan": "脱出プラン",
+        "Firefox": "ファイヤーフォックス",
+        "Overflow": "オーバーフロー",
+        "ShrinkRay": "縮小光線",
+        "CelestialBody": "聖体",
+        "ApexInventor": "至高の発明家",
+        "GrowthSpurt": "成長期",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "TankEngine": "タンクエンジン",
+        "SlowCooker": "スロウクッカー",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "Goliath": "大巨人",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "UltimateAwakening": "究極の目覚め",
+        "Cruelty": "冷酷な一撃",
+        "ProteinShake": "プロテインシェイク",
+        "Dropkick": "ドロップキック",
+        "FeyMagic": "神秘の魔法",
+        "CircleofDeath": "死者の集い",
+        "InfiniteRecursion": "無限再帰"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "녹서스 대장군 스웨인 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "InfernalConduit": "지옥의 전도체",
+        "PhenomenalEvil": "극악무도",
+        "IceCold": "차가운 냉기",
+        "DarkWind": "굶주린 속박",
+        "SoulEater": "영혼의 포식자",
+        "SlapAround": "우당탕탕",
+        "MindtoMatter": "정신 변환",
+        "Upgrade_ZH": "존야 업그레이드",
+        "WitchfulThinking": "사악한 정신",
+        "TransmuteGold": "전환: 골드",
+        "OceanSoul": "바다의 영혼",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "EtherealWeapon": "환영 무기",
+        "MagicMissile": "마법 미사일",
+        "TransmutePrismatic": "전환: 프리즘",
+        "ItsKillingTime": "처형 시간",
+        "WeightedPopoffs": "중량 폭주",
+        "EscapePlan": "도주 계획",
+        "Firefox": "불여우",
+        "Overflow": "범람",
+        "ShrinkRay": "감쇠 광선",
+        "CelestialBody": "천상의 신체",
+        "ApexInventor": "최첨단 발명가",
+        "GrowthSpurt": "급속 성장",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "TankEngine": "탱크 엔진",
+        "SlowCooker": "찜솥",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "Goliath": "거인",
+        "GiantSlayer": "거인 학살자",
+        "UltimateAwakening": "궁극의 각성",
+        "Cruelty": "잔혹 행위",
+        "ProteinShake": "프로틴 음료",
+        "Dropkick": "드롭킥",
+        "FeyMagic": "요정 마법",
+        "CircleofDeath": "죽음의 순환",
+        "InfiniteRecursion": "무한 반복"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "type": "ap-tank",
+      "items": [
+        6657,
+        3116,
+        6653,
+        3068,
+        4633,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "WeightedPopoffs",
+          "icon": "assets/ux/kiwi/augments/icons/weightedpopoffs_large.png",
+          "pick": null
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": null
+        },
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": null
+        },
+        {
+          "id": "EscapePlan",
+          "icon": "assets/ux/kiwi/augments/icons/escapeplan_small.png",
+          "pick": null
+        },
+        {
+          "id": "Firefox",
+          "icon": "assets/ux/cherry/augments/icons/firfox_small.png",
+          "pick": null
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": null
+        },
+        {
+          "id": "OceanSoul",
+          "icon": "assets/ux/cherry/augments/icons/oceansoul_small.png",
+          "pick": null
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": null
+        },
+        {
+          "id": "Overflow",
+          "icon": "assets/ux/cherry/augments/icons/overflow_small.png",
+          "pick": null
+        },
+        {
+          "id": "ShrinkRay",
+          "icon": "assets/ux/cherry/augments/icons/shrinkray_small.png",
+          "pick": null
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": null
+        },
+        {
+          "id": "ApexInventor",
+          "icon": "assets/ux/cherry/augments/icons/apexinventor_small.png",
+          "pick": null
+        },
+        {
+          "id": "GrowthSpurt",
+          "icon": "assets/ux/kiwi/augments/icons/growthspurt_large.png",
+          "pick": null
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": null
+        },
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": null
+        },
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "SlowCooker",
+          "icon": "assets/ux/cherry/augments/icons/slowcooker_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfernalConduit",
+          "icon": "assets/ux/cherry/augments/icons/infernalconduit_small.png",
+          "pick": null
+        },
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": null
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        },
+        {
+          "id": "UltimateAwakening",
+          "icon": "assets/ux/kiwi/augments/icons/zerohour_small.png",
+          "pick": null
+        },
+        {
+          "id": "Cruelty",
+          "icon": "assets/ux/kiwi/augments/icons/cruelty_small.png",
+          "pick": null
+        },
+        {
+          "id": "ProteinShake",
+          "icon": "assets/ux/kiwi/augments/icons/proteinshake_small.png",
+          "pick": null
+        },
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": null
+        },
+        {
+          "id": "FeyMagic",
+          "icon": "assets/ux/cherry/augments/icons/feymagic_small.png",
+          "pick": null
+        },
+        {
+          "id": "CircleofDeath",
+          "icon": "assets/ux/cherry/augments/icons/circleofdeath_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-07-04",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Jax",
+    "slug": "jax",
+    "names": {
+      "zh": "贾克斯 武器大师",
+      "en": "Grandmaster at Arms Jax",
+      "ja": "最強の武器使い ジャックス",
+      "ko": "무기의 달인 잭스"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "贾克斯 武器大师 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "bruiser": "战士出装",
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "bruiser": "战士",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "bruiser": "待审核",
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "BluntForce": "大力",
+        "escAPADe": "魔法转物理",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "Typhoon": "台风",
+        "TransmuteGold": "质变：黄金阶",
+        "SlapAround": "扇巴掌",
+        "Zealot": "狂热者",
+        "Goredrink": "渴血",
+        "Bonk": "邦！",
+        "GetExcited": "罪恶快感",
+        "LittleExtraHelp": "小小的额外帮助",
+        "EndlessDecimation": "无尽大杀四方",
+        "OutlawsGrit": "狂徒豪气",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "Terror": "惊惧",
+        "Upgrade_Sheen": "升级：耀光",
+        "MysticPunch": "秘术冲拳",
+        "FinalForm": "最终形态",
+        "MasterofDuality": "物法皆修",
+        "DivineDomain": "飞升仪式",
+        "DualWield": "双刀流",
+        "UltimateAwakening": "终极唤醒"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Grandmaster at Arms Jax Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "bruiser": "Bruiser Build",
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "bruiser": "Bruiser",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "bruiser": "Needs review",
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "BluntForce": "Blunt Force",
+        "escAPADe": "escAPADe",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "Typhoon": "Typhoon",
+        "TransmuteGold": "Transmute: Gold",
+        "SlapAround": "Slap Around",
+        "Zealot": "Zealot",
+        "Goredrink": "Goredrink",
+        "Bonk": "BONK!",
+        "GetExcited": "Get Excited!",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "EndlessDecimation": "Endless Decimation",
+        "OutlawsGrit": "Outlaw's Grit",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "Terror": "Terror",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "MysticPunch": "Mystic Punch",
+        "FinalForm": "Final Form",
+        "MasterofDuality": "Master of Duality",
+        "DivineDomain": "Rite of Ascension",
+        "DualWield": "Dual Wield",
+        "UltimateAwakening": "Ultimate Awakening"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "最強の武器使い ジャックス Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "bruiser": "ファイタービルド",
+        "ap": "APビルド"
+      },
+      "buildTags": {
+        "bruiser": "ファイター",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "bruiser": "確認待ち",
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "BluntForce": "無骨なる力",
+        "escAPADe": "魔攻のいたずら",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "Typhoon": "タイフーン",
+        "TransmuteGold": "変質: ゴールド",
+        "SlapAround": "叩きまくれ",
+        "Zealot": "狂信的",
+        "Goredrink": "ゴアドリンク",
+        "Bonk": "ボカッ！",
+        "GetExcited": "超エキサイティン！",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "EndlessDecimation": "終わりなき殲滅",
+        "OutlawsGrit": "無法者の気概",
+        "TransmutePrismatic": "変質: プリズム",
+        "Terror": "恐怖",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "MysticPunch": "神秘の鉄拳",
+        "FinalForm": "最終形態",
+        "MasterofDuality": "文武両道",
+        "DivineDomain": "超越の儀式",
+        "DualWield": "二刀流",
+        "UltimateAwakening": "究極の目覚め"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "무기의 달인 잭스 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "bruiser": "전사 빌드",
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "bruiser": "전사",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "bruiser": "검토 필요",
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "BluntForce": "육중한 힘",
+        "escAPADe": "마법사 (물리)",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "Typhoon": "태풍",
+        "TransmuteGold": "전환: 골드",
+        "SlapAround": "우당탕탕",
+        "Zealot": "광신자",
+        "Goredrink": "선혈포식",
+        "Bonk": "꽁!",
+        "GetExcited": "신난다!",
+        "LittleExtraHelp": "작은 도움",
+        "EndlessDecimation": "끝없는 학살",
+        "OutlawsGrit": "무법자의 투지",
+        "TransmutePrismatic": "전환: 프리즘",
+        "Terror": "공포",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "MysticPunch": "신비한 주먹",
+        "FinalForm": "최종 형태",
+        "MasterofDuality": "결투의 대가",
+        "DivineDomain": "초월 의식",
+        "DualWield": "양손잡이",
+        "UltimateAwakening": "궁극의 각성"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "bruiser",
+      "items": [
+        3078,
+        6610,
+        6333,
+        3161,
+        3153,
+        3111
+      ],
+      "type": "bruiser"
+    },
+    {
+      "key": "ap",
+      "type": "ap",
+      "items": [
+        2510,
+        4633,
+        3157,
+        3146,
+        3302,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 9.68
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 6.2
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 6.14
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 3.8
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.43
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 3.2
+        },
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 2.51
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 22.42
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Bonk",
+          "icon": "assets/ux/kiwi/augments/icons/bonk_large.png",
+          "pick": 28.35
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 10.99
+        },
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 9.22
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 8.41
+        },
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 7.11
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 5.49
+        },
+        {
+          "id": "Terror",
+          "icon": "assets/ux/cherry/augments/icons/desecrator_large.png",
+          "pick": 4.43
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 32.29
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 24.79
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 10.02
+        },
+        {
+          "id": "MasterofDuality",
+          "icon": "assets/ux/cherry/augments/icons/masterofduality_small.png",
+          "pick": 8.39
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 7.49
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 5.64
+        },
+        {
+          "id": "UltimateAwakening",
+          "icon": "assets/ux/kiwi/augments/icons/zerohour_small.png",
+          "pick": 4.03
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

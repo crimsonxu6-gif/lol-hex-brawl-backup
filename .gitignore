@@ -1,0 +1,18 @@
+# Local runtime/cache
+.cache/
+.edge-profile*/
+.server*.log
+.server.pid
+
+# Debug screenshots and temporary recognition artifacts
+debug-*
+brand-detail-*.png
+
+# Generated review/debug captures
+captures/debug/
+captures/build-review-report/
+captures/logs/
+
+# OS/editor noise
+Thumbs.db
+.DS_Store

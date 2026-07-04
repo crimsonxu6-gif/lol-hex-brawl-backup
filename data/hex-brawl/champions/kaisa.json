@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Kaisa",
+    "slug": "kaisa",
+    "names": {
+      "zh": "卡莎 虚空之女",
+      "en": "Daughter of the Void Kai'Sa",
+      "ja": "虚無を知る娘 カイ＝サ",
+      "ko": "공허의 딸 카이사"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "虚空之女 卡莎 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "onhit": "特效/暴击出装",
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "onhit": "AD",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "onhit": "稳",
+        "ap": "消耗"
+      },
+      "hexNames": {
+        "Zealot": "狂热者",
+        "Twinfire": "双生火焰",
+        "Deft": "灵巧",
+        "Goredrink": "渴血",
+        "Typhoon": "台风",
+        "WitchfulThinking": "巫师式思考",
+        "Upgrade_Collector": "升级：收集者",
+        "LightemUp": "点亮他们！",
+        "EtherealWeapon": "虚幻武器",
+        "CriticalMissile": "暴击飞弹",
+        "Marksmage": "神射法师",
+        "DoubleTap": "双发快射",
+        "SkilledSniper": "老练狙神",
+        "MagicMissile": "魔法飞弹",
+        "ThreadtheNeedle": "穿针引线",
+        "LittleExtraHelp": "小小的额外帮助",
+        "JeweledGauntlet": "珠光护手",
+        "DualWield": "双刀流",
+        "GiantSlayer": "巨人杀手",
+        "Eureka": "尤里卡",
+        "InfiniteRecursion": "无限循环往复",
+        "TapDancer": "踢踏舞",
+        "BacktoBasics": "回归基本功",
+        "SymphonyofWar": "战争交响乐"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Kai'Sa guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "onhit": "On-hit Build",
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "onhit": "AD",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "onhit": "Recommended",
+        "ap": "Optional"
+      },
+      "hexNames": {
+        "Zealot": "Zealot",
+        "Twinfire": "Twin Fire",
+        "Deft": "Deft",
+        "Goredrink": "Goredrink",
+        "Typhoon": "Typhoon",
+        "WitchfulThinking": "Witchful Thinking",
+        "Upgrade_Collector": "Upgrade Collector",
+        "LightemUp": "Light 'Em Up!",
+        "EtherealWeapon": "Ethereal Weapon",
+        "CriticalMissile": "Critical Missile",
+        "Marksmage": "Marksmage",
+        "DoubleTap": "Double Tap",
+        "SkilledSniper": "Skilled Sniper",
+        "MagicMissile": "Magic Missile",
+        "ThreadtheNeedle": "Thread the Needle",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "DualWield": "Dual Wield",
+        "GiantSlayer": "Giant Slayer",
+        "Eureka": "Eureka",
+        "InfiniteRecursion": "Infinite Recursion",
+        "TapDancer": "Tap Dancer",
+        "BacktoBasics": "Back To Basics",
+        "SymphonyofWar": "Symphony of War"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "虚無を知る娘 カイ＝サ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "onhit": "通常効果ビルド",
+        "ap": "APビルド"
+      },
+      "buildTags": {
+        "onhit": "AD",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "onhit": "Recommended",
+        "ap": "Optional"
+      },
+      "hexNames": {
+        "Zealot": "狂信的",
+        "Twinfire": "ツインファイア",
+        "Deft": "技巧",
+        "Goredrink": "ゴアドリンク",
+        "Typhoon": "タイフーン",
+        "WitchfulThinking": "魔法的思考",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "LightemUp": "光で照らせ！",
+        "EtherealWeapon": "エーテル武器",
+        "CriticalMissile": "クリティカルミサイル",
+        "Marksmage": "マークスメイジ",
+        "DoubleTap": "ダブルタップ",
+        "SkilledSniper": "腕利きスナイパー",
+        "MagicMissile": "マジックミサイル",
+        "ThreadtheNeedle": "貫通力",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "DualWield": "二刀流",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "Eureka": "エウレカ",
+        "InfiniteRecursion": "無限再帰",
+        "TapDancer": "タップダンサー",
+        "BacktoBasics": "初志貫徹",
+        "SymphonyofWar": "闘争交響曲"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "공허의 딸 카이사 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "onhit": "온힛 빌드",
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "onhit": "AD",
+        "ap": "AP"
+      },
+      "buildScores": {
+        "onhit": "Recommended",
+        "ap": "Optional"
+      },
+      "hexNames": {
+        "Zealot": "광신자",
+        "Twinfire": "쌍둥이 불꽃",
+        "Deft": "능수능란",
+        "Goredrink": "선혈포식",
+        "Typhoon": "태풍",
+        "WitchfulThinking": "사악한 정신",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "LightemUp": "불을 밝혀",
+        "EtherealWeapon": "환영 무기",
+        "CriticalMissile": "치명적 미사일",
+        "Marksmage": "마법 명사수",
+        "DoubleTap": "한 발에 두 놈",
+        "SkilledSniper": "노련한 저격수",
+        "MagicMissile": "마법 미사일",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "LittleExtraHelp": "작은 도움",
+        "JeweledGauntlet": "보석 건틀릿",
+        "DualWield": "양손잡이",
+        "GiantSlayer": "거인 학살자",
+        "Eureka": "유레카",
+        "InfiniteRecursion": "무한 반복",
+        "TapDancer": "탭 댄서",
+        "BacktoBasics": "기본으로 돌아가기",
+        "SymphonyofWar": "전장의 교향곡"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "onhit",
+      "items": [
+        6672,
+        3124,
+        3153,
+        3302,
+        3115,
+        3006
+      ]
+    },
+    {
+      "key": "ap",
+      "items": [
+        3042,
+        6655,
+        4645,
+        3137,
+        3089,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 16.62
+        },
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 10.28
+        },
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 10.2
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 6.9
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 6.68
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 4.88
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 4.74
+        },
+        {
+          "id": "LightemUp",
+          "icon": "assets/ux/cherry/augments/icons/lightemup_small.png",
+          "pick": 4.63
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 26.3
+        },
+        {
+          "id": "CriticalMissile",
+          "icon": "assets/ux/kiwi/augments/icons/criticalmissile_small.png",
+          "pick": 15.45
+        },
+        {
+          "id": "Marksmage",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 12.97
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 12.95
+        },
+        {
+          "id": "SkilledSniper",
+          "icon": "assets/ux/cherry/augments/icons/skilledsniper_small.png",
+          "pick": 11.96
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 9.29
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 9.23
+        },
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 7.94
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 12.98
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 11.89
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 8.37
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 6.08
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 4.29
+        },
+        {
+          "id": "TapDancer",
+          "icon": "assets/ux/cherry/augments/icons/tapdancer_small.png",
+          "pick": 3.94
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 3.29
+        },
+        {
+          "id": "SymphonyofWar",
+          "icon": "assets/ux/cherry/augments/icons/symphonyofwar_small.png",
+          "pick": 2.67
+        }
+      ]
+    }
+  }
+}

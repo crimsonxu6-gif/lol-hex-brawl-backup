@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Varus",
+    "slug": "varus",
+    "names": {
+      "zh": "韦鲁斯 惩戒之箭",
+      "en": "the Arrow of Retribution Varus",
+      "ja": "報復の一矢 ヴァルス",
+      "ko": "응징의 화살 바루스"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "韦鲁斯 惩戒之箭 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装",
+        "ad": "AD 出装",
+        "onhit": "特效出装"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "ad": "AD",
+        "onhit": "特效"
+      },
+      "buildScores": {
+        "ap": "待审核",
+        "ad": "待审核",
+        "onhit": "待审核"
+      },
+      "hexNames": {
+        "Twinfire": "双生火焰",
+        "Deft": "灵巧",
+        "Upgrade_Collector": "升级：收集者",
+        "Typhoon": "台风",
+        "ScopedWeapons": "万用瞄准镜",
+        "BluntForce": "大力",
+        "LightemUp": "点亮他们！",
+        "Zealot": "狂热者",
+        "DoubleTap": "双发快射",
+        "SkilledSniper": "老练狙神",
+        "EtherealWeapon": "虚幻武器",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "Upgrade_IE": "升级：无尽之刃",
+        "Marksmage": "神射法师",
+        "MagicMissile": "魔法飞弹",
+        "CriticalMissile": "暴击飞弹",
+        "DualWield": "双刀流",
+        "GiantSlayer": "巨人杀手",
+        "FanTheHammer": "连拨击锤",
+        "FinalForm": "最终形态",
+        "JeweledGauntlet": "珠光护手"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Arrow of Retribution Varus Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build",
+        "ad": "AD Build",
+        "onhit": "On-Hit Build"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "ad": "AD",
+        "onhit": "On-Hit"
+      },
+      "buildScores": {
+        "ap": "Needs review",
+        "ad": "Needs review",
+        "onhit": "Needs review"
+      },
+      "hexNames": {
+        "Twinfire": "Twin Fire",
+        "Deft": "Deft",
+        "Upgrade_Collector": "Upgrade Collector",
+        "Typhoon": "Typhoon",
+        "ScopedWeapons": "Scoped Weapons",
+        "BluntForce": "Blunt Force",
+        "LightemUp": "Light 'Em Up!",
+        "Zealot": "Zealot",
+        "DoubleTap": "Double Tap",
+        "SkilledSniper": "Skilled Sniper",
+        "EtherealWeapon": "Ethereal Weapon",
+        "ScopierWeapons": "Scopier Weapons",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "Marksmage": "Marksmage",
+        "MagicMissile": "Magic Missile",
+        "CriticalMissile": "Critical Missile",
+        "DualWield": "Dual Wield",
+        "GiantSlayer": "Giant Slayer",
+        "FanTheHammer": "Fan The Hammer",
+        "FinalForm": "Final Form",
+        "JeweledGauntlet": "Jeweled Gauntlet"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "報復の一矢 ヴァルス Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "APビルド",
+        "ad": "ADビルド",
+        "onhit": "オンヒットビルド"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "ad": "AD",
+        "onhit": "オンヒット"
+      },
+      "buildScores": {
+        "ap": "確認待ち",
+        "ad": "確認待ち",
+        "onhit": "確認待ち"
+      },
+      "hexNames": {
+        "Twinfire": "ツインファイア",
+        "Deft": "技巧",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "Typhoon": "タイフーン",
+        "ScopedWeapons": "スコープ装着",
+        "BluntForce": "無骨なる力",
+        "LightemUp": "光で照らせ！",
+        "Zealot": "狂信的",
+        "DoubleTap": "ダブルタップ",
+        "SkilledSniper": "腕利きスナイパー",
+        "EtherealWeapon": "エーテル武器",
+        "ScopierWeapons": "改造スコープ装着",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "Marksmage": "マークスメイジ",
+        "MagicMissile": "マジックミサイル",
+        "CriticalMissile": "クリティカルミサイル",
+        "DualWield": "二刀流",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "FanTheHammer": "ぐるぐるハンマー",
+        "FinalForm": "最終形態",
+        "JeweledGauntlet": "ジュエル ガントレット"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "응징의 화살 바루스 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드",
+        "ad": "AD 빌드",
+        "onhit": "적중 효과 빌드"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "ad": "AD",
+        "onhit": "적중 효과"
+      },
+      "buildScores": {
+        "ap": "검토 필요",
+        "ad": "검토 필요",
+        "onhit": "검토 필요"
+      },
+      "hexNames": {
+        "Twinfire": "쌍둥이 불꽃",
+        "Deft": "능수능란",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "Typhoon": "태풍",
+        "ScopedWeapons": "조준경 부착",
+        "BluntForce": "육중한 힘",
+        "LightemUp": "불을 밝혀",
+        "Zealot": "광신자",
+        "DoubleTap": "한 발에 두 놈",
+        "SkilledSniper": "노련한 저격수",
+        "EtherealWeapon": "환영 무기",
+        "ScopierWeapons": "상급 조준경 부착",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "Marksmage": "마법 명사수",
+        "MagicMissile": "마법 미사일",
+        "CriticalMissile": "치명적 미사일",
+        "DualWield": "양손잡이",
+        "GiantSlayer": "거인 학살자",
+        "FanTheHammer": "탄환 세례",
+        "FinalForm": "최종 형태",
+        "JeweledGauntlet": "보석 건틀릿"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        3115,
+        4645,
+        3135,
+        3089,
+        4646,
+        3020
+      ]
+    },
+    {
+      "key": "ad",
+      "items": [
+        6699,
+        6676,
+        3036,
+        6695,
+        6665,
+        3158
+      ]
+    },
+    {
+      "key": "onhit",
+      "items": [
+        3087,
+        3124,
+        3085,
+        3153,
+        3302,
+        3006
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 12.22
+        },
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 12.21
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 8.37
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 6.7
+        },
+        {
+          "id": "ScopedWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopedweapons_small.png",
+          "pick": 4.9
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 4.05
+        },
+        {
+          "id": "LightemUp",
+          "icon": "assets/ux/cherry/augments/icons/lightemup_small.png",
+          "pick": 3.96
+        },
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 13.45
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 15.05
+        },
+        {
+          "id": "SkilledSniper",
+          "icon": "assets/ux/cherry/augments/icons/skilledsniper_small.png",
+          "pick": 14.96
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 13.15
+        },
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 11.47
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 10.55
+        },
+        {
+          "id": "Marksmage",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 10.51
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 8.65
+        },
+        {
+          "id": "CriticalMissile",
+          "icon": "assets/ux/kiwi/augments/icons/criticalmissile_small.png",
+          "pick": 21.84
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 15.65
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 11.55
+        },
+        {
+          "id": "FanTheHammer",
+          "icon": "assets/ux/cherry/augments/icons/fanthehammer_small.png",
+          "pick": 9.73
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        },
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

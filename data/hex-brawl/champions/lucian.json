@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Lucian",
+    "slug": "lucian",
+    "names": {
+      "zh": "卢锡安 圣枪游侠",
+      "en": "the Purifier Lucian",
+      "ja": "不浄殲滅者 ルシアン",
+      "ko": "정화의 사도 루시안"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "卢锡安 圣枪游侠 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "暴击出装"
+      },
+      "buildTags": {
+        "standard": "暴击"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "Twinfire": "双生火焰",
+        "Upgrade_Collector": "升级：收集者",
+        "CritNCast": "由暴生急",
+        "Deft": "灵巧",
+        "BluntForce": "大力",
+        "TankItOrLeaveIt": "会心防御",
+        "Typhoon": "台风",
+        "Zealot": "狂热者",
+        "CriticalMissile": "暴击飞弹",
+        "Upgrade_IE": "升级：无尽之刃",
+        "DoubleTap": "双发快射",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "CriticalRhythm": "暴击律动",
+        "ItsCritical": "关键暴击",
+        "Vulnerability": "易损",
+        "Upgrade_Sheen": "升级：耀光",
+        "JeweledGauntlet": "珠光护手",
+        "GiantSlayer": "巨人杀手",
+        "DualWield": "双刀流",
+        "FanTheHammer": "连拨击锤",
+        "DrawYourSword": "亮出你的剑"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Purifier Lucian Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Crit Build"
+      },
+      "buildTags": {
+        "standard": "Crit"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "Twinfire": "Twin Fire",
+        "Upgrade_Collector": "Upgrade Collector",
+        "CritNCast": "Crit 'n Cast",
+        "Deft": "Deft",
+        "BluntForce": "Blunt Force",
+        "TankItOrLeaveIt": "Tank It Or Leave It",
+        "Typhoon": "Typhoon",
+        "Zealot": "Zealot",
+        "CriticalMissile": "Critical Missile",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "DoubleTap": "Double Tap",
+        "ScopierWeapons": "Scopier Weapons",
+        "CriticalRhythm": "Critical Rhythm",
+        "ItsCritical": "It's Critical",
+        "Vulnerability": "Vulnerability",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "GiantSlayer": "Giant Slayer",
+        "DualWield": "Dual Wield",
+        "FanTheHammer": "Fan The Hammer",
+        "DrawYourSword": "Draw Your Sword"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "不浄殲滅者 ルシアン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "クリティカルビルド"
+      },
+      "buildTags": {
+        "standard": "クリティカル"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "Twinfire": "ツインファイア",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "CritNCast": "クリティカルキャスト",
+        "Deft": "技巧",
+        "BluntForce": "無骨なる力",
+        "TankItOrLeaveIt": "タンクこそ至高",
+        "Typhoon": "タイフーン",
+        "Zealot": "狂信的",
+        "CriticalMissile": "クリティカルミサイル",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "DoubleTap": "ダブルタップ",
+        "ScopierWeapons": "改造スコープ装着",
+        "CriticalRhythm": "クリティカルの律動",
+        "ItsCritical": "まさにクリティカル",
+        "Vulnerability": "搦め手",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "DualWield": "二刀流",
+        "FanTheHammer": "ぐるぐるハンマー",
+        "DrawYourSword": "剣を構えよ"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "정화의 사도 루시안 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "치명타 빌드"
+      },
+      "buildTags": {
+        "standard": "치명타"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "Twinfire": "쌍둥이 불꽃",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "CritNCast": "치명적 가속",
+        "Deft": "능수능란",
+        "BluntForce": "육중한 힘",
+        "TankItOrLeaveIt": "확률적 방어",
+        "Typhoon": "태풍",
+        "Zealot": "광신자",
+        "CriticalMissile": "치명적 미사일",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "DoubleTap": "한 발에 두 놈",
+        "ScopierWeapons": "상급 조준경 부착",
+        "CriticalRhythm": "치명적 리듬",
+        "ItsCritical": "치명적인 공격",
+        "Vulnerability": "취약",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "JeweledGauntlet": "보석 건틀릿",
+        "GiantSlayer": "거인 학살자",
+        "DualWield": "양손잡이",
+        "FanTheHammer": "탄환 세례",
+        "DrawYourSword": "검을 뽑아라"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        6676,
+        3031,
+        3036,
+        6696,
+        2517,
+        3008
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 14.79
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 14.51
+        },
+        {
+          "id": "CritNCast",
+          "icon": "assets/ux/kiwi/augments/icons/critncast_small.png",
+          "pick": 7.65
+        },
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 7.48
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 6.54
+        },
+        {
+          "id": "TankItOrLeaveIt",
+          "icon": "assets/ux/cherry/augments/icons/tankitorleaveit_small.png",
+          "pick": 6.23
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 5.06
+        },
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 4.66
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "CriticalMissile",
+          "icon": "assets/ux/kiwi/augments/icons/criticalmissile_small.png",
+          "pick": 38.39
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 36.55
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 21.2
+        },
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 10.54
+        },
+        {
+          "id": "CriticalRhythm",
+          "icon": "assets/ux/kiwi/augments/icons/criticalrhythm_small.png",
+          "pick": 10.4
+        },
+        {
+          "id": "ItsCritical",
+          "icon": "assets/ux/cherry/augments/icons/itscritical_small.png",
+          "pick": 6.39
+        },
+        {
+          "id": "Vulnerability",
+          "icon": "assets/ux/cherry/augments/icons/vulnerability_small.png",
+          "pick": 5.78
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 5.15
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 33.28
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 13.36
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 11.43
+        },
+        {
+          "id": "FanTheHammer",
+          "icon": "assets/ux/cherry/augments/icons/fanthehammer_small.png",
+          "pick": 8.57
+        },
+        {
+          "id": "DrawYourSword",
+          "icon": "assets/ux/cherry/augments/icons/drawyoursword_small.png",
+          "pick": 7.61
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

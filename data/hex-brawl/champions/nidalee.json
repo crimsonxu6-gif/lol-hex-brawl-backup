@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Nidalee",
+    "slug": "nidalee",
+    "names": {
+      "zh": "奈德丽 狂野女猎手",
+      "en": "the Bestial Huntress Nidalee",
+      "ja": "半獣の狩人 ニダリー",
+      "ko": "야성의 사냥꾼 니달리"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "奈德丽 狂野女猎手 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装",
+        "double-burn": "双烧出装"
+      },
+      "buildTags": {
+        "standard": "常规",
+        "double-burn": "双烧"
+      },
+      "buildScores": {
+        "standard": "待审核",
+        "double-burn": "待审核"
+      },
+      "hexNames": {
+        "SkilledSniper": "老练狙神",
+        "JeweledGauntlet": "珠光护手",
+        "WitchfulThinking": "巫师式思考",
+        "MagicMissile": "魔法飞弹",
+        "Eureka": "尤里卡",
+        "BurstingTeeth": "牙仙子",
+        "SpecializedEmpowerment": "威能之追求",
+        "Marksmage": "神射法师",
+        "ShadowRunner": "暗影疾奔",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "Upgrade_ZH": "升级：中娅",
+        "Goredrink": "渴血",
+        "MindtoMatter": "由心及物",
+        "KillSecured": "杀意翻涌",
+        "TransmuteGold": "质变：黄金阶",
+        "ThreadtheNeedle": "穿针引线",
+        "WarlockJuicebox": "术士果汁盒",
+        "PhenomenalEvil": "超凡邪恶",
+        "ForgedByTheMaster": "大师铸就",
+        "InfernalConduit": "炼狱导管",
+        "OceanSoul": "海洋龙魂",
+        "FromBeginningToEnd": "有始有终",
+        "ShrinkRay": "缩小射线",
+        "SpecializedRecursion": "急速之追求",
+        "OutlawsGrit": "狂徒豪气",
+        "GiantSlayer": "巨人杀手",
+        "HandOfBaron": "男爵之手",
+        "FinalForm": "最终形态",
+        "Missile_Split": "咒语裂变",
+        "InfiniteRecursion": "无限循环往复",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Bestial Huntress Nidalee Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build",
+        "double-burn": "Double Burn Build"
+      },
+      "buildTags": {
+        "standard": "Standard",
+        "double-burn": "Double Burn"
+      },
+      "buildScores": {
+        "standard": "Needs review",
+        "double-burn": "Needs review"
+      },
+      "hexNames": {
+        "SkilledSniper": "Skilled Sniper",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "WitchfulThinking": "Witchful Thinking",
+        "MagicMissile": "Magic Missile",
+        "Eureka": "Eureka",
+        "BurstingTeeth": "Tooth Fairy",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "Marksmage": "Marksmage",
+        "ShadowRunner": "Shadow Runner",
+        "Purist_Caster": "Purist - Caster",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "Goredrink": "Goredrink",
+        "MindtoMatter": "Mind to Matter",
+        "KillSecured": "Kill Secured",
+        "TransmuteGold": "Transmute: Gold",
+        "ThreadtheNeedle": "Thread the Needle",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "ForgedByTheMaster": "Forged By The Master",
+        "InfernalConduit": "Infernal Conduit",
+        "OceanSoul": "Ocean Soul",
+        "FromBeginningToEnd": "From Beginning To End",
+        "ShrinkRay": "Shrink Ray",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "OutlawsGrit": "Outlaw's Grit",
+        "GiantSlayer": "Giant Slayer",
+        "HandOfBaron": "Hand of Baron",
+        "FinalForm": "Final Form",
+        "Missile_Split": "Spell Split",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "半獣の狩人 ニダリー Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド",
+        "double-burn": "Double Burn Build"
+      },
+      "buildTags": {
+        "standard": "標準",
+        "double-burn": "Double Burn"
+      },
+      "buildScores": {
+        "standard": "要確認",
+        "double-burn": "Needs review"
+      },
+      "hexNames": {
+        "SkilledSniper": "腕利きスナイパー",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "WitchfulThinking": "魔法的思考",
+        "MagicMissile": "マジックミサイル",
+        "Eureka": "エウレカ",
+        "BurstingTeeth": "歯の妖精",
+        "SpecializedEmpowerment": "力の追求",
+        "Marksmage": "マークスメイジ",
+        "ShadowRunner": "影走り",
+        "Purist_Caster": "純粋なるキャスター",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "Goredrink": "ゴアドリンク",
+        "MindtoMatter": "精神の体現",
+        "KillSecured": "キルを確認",
+        "TransmuteGold": "変質: ゴールド",
+        "ThreadtheNeedle": "貫通力",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "PhenomenalEvil": "偉大なる悪",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "InfernalConduit": "獄炎路",
+        "OceanSoul": "オーシャンソウル",
+        "FromBeginningToEnd": "徹頭徹尾",
+        "ShrinkRay": "縮小光線",
+        "SpecializedRecursion": "素早さの追求",
+        "OutlawsGrit": "無法者の気概",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "HandOfBaron": "バロンの牙",
+        "FinalForm": "最終形態",
+        "Missile_Split": "スペルスプリット",
+        "InfiniteRecursion": "無限再帰",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "야성의 사냥꾼 니달리 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드",
+        "double-burn": "Double Burn Build"
+      },
+      "buildTags": {
+        "standard": "기본",
+        "double-burn": "Double Burn"
+      },
+      "buildScores": {
+        "standard": "검토 필요",
+        "double-burn": "Needs review"
+      },
+      "hexNames": {
+        "SkilledSniper": "노련한 저격수",
+        "JeweledGauntlet": "보석 건틀릿",
+        "WitchfulThinking": "사악한 정신",
+        "MagicMissile": "마법 미사일",
+        "Eureka": "유레카",
+        "BurstingTeeth": "이빨 요정",
+        "SpecializedEmpowerment": "위력 추구",
+        "Marksmage": "마법 명사수",
+        "ShadowRunner": "그림자 질주",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "Upgrade_ZH": "존야 업그레이드",
+        "Goredrink": "선혈포식",
+        "MindtoMatter": "정신 변환",
+        "KillSecured": "확보된 킬",
+        "TransmuteGold": "전환: 골드",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "PhenomenalEvil": "극악무도",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "InfernalConduit": "지옥의 전도체",
+        "OceanSoul": "바다의 영혼",
+        "FromBeginningToEnd": "시작부터 끝까지",
+        "ShrinkRay": "감쇠 광선",
+        "SpecializedRecursion": "가속 추구",
+        "OutlawsGrit": "무법자의 투지",
+        "GiantSlayer": "거인 학살자",
+        "HandOfBaron": "남작의 도움",
+        "FinalForm": "최종 형태",
+        "Missile_Split": "주문 분산",
+        "InfiniteRecursion": "무한 반복",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "type": "ap",
+      "items": [
+        6655,
+        4645,
+        3089,
+        3135,
+        4646,
+        3020
+      ]
+    },
+    {
+      "key": "double-burn",
+      "type": "ap",
+      "items": [
+        2503,
+        6653,
+        4645,
+        3089,
+        3137,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": null
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfernalConduit",
+          "icon": "assets/ux/cherry/augments/icons/infernalconduit_small.png",
+          "pick": null
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": null
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": null
+        },
+        {
+          "id": "OceanSoul",
+          "icon": "assets/ux/cherry/augments/icons/oceansoul_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": null
+        },
+        {
+          "id": "FromBeginningToEnd",
+          "icon": "assets/ux/cherry/augments/icons/frombeginningtoend_small.png",
+          "pick": null
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": null
+        },
+        {
+          "id": "ShrinkRay",
+          "icon": "assets/ux/cherry/augments/icons/shrinkray_small.png",
+          "pick": null
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": null
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": null
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": null
+        },
+        {
+          "id": "Marksmage",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": null
+        },
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        },
+        {
+          "id": "HandOfBaron",
+          "icon": "assets/ux/kiwi/augments/icons/handofbaron_small.png",
+          "pick": null
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        },
+        {
+          "id": "Missile_Split",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_prismatic.png",
+          "pick": null
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": null
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": null
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-07-04",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

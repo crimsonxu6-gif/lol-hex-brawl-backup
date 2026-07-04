@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Kayn",
+    "slug": "kayn",
+    "names": {
+      "zh": "凯隐 影流之镰",
+      "en": "the Shadow Reaper Kayn",
+      "ja": "無情の影 ケイン",
+      "ko": "그림자 사신 케인"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "凯隐 影流之镰 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "战士出装"
+      },
+      "buildTags": {
+        "standard": "战士"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "SpinToWin": "旋转至胜",
+        "Goredrink": "渴血",
+        "ShadowRunner": "暗影疾奔",
+        "BluntForce": "大力",
+        "Upgrade_Collector": "升级：收集者",
+        "escAPADe": "魔法转物理",
+        "TransmuteGold": "质变：黄金阶",
+        "SlapAround": "扇巴掌",
+        "BurstingTeeth": "牙仙子",
+        "Nightstalking": "夜狩",
+        "OutlawsGrit": "狂徒豪气",
+        "EndlessDecimation": "无尽大杀四方",
+        "GetExcited": "罪恶快感",
+        "SpecializedRecursion": "急速之追求",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "ItsKillingTime": "杀戮时间到了",
+        "Dashing": "全凭身法",
+        "UltimateAwakening": "终极唤醒",
+        "InfernoTriggered": "扳机炼狱",
+        "EndlessHunt": "吃过路兵",
+        "FinalForm": "最终形态"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Shadow Reaper Kayn Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Bruiser Build"
+      },
+      "buildTags": {
+        "standard": "Bruiser"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "SpinToWin": "Spin To Win",
+        "Goredrink": "Goredrink",
+        "ShadowRunner": "Shadow Runner",
+        "BluntForce": "Blunt Force",
+        "Upgrade_Collector": "Upgrade Collector",
+        "escAPADe": "escAPADe",
+        "TransmuteGold": "Transmute: Gold",
+        "SlapAround": "Slap Around",
+        "BurstingTeeth": "Tooth Fairy",
+        "Nightstalking": "Nightstalking",
+        "OutlawsGrit": "Outlaw's Grit",
+        "EndlessDecimation": "Endless Decimation",
+        "GetExcited": "Get Excited!",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "ItsKillingTime": "It's Killing Time",
+        "Dashing": "Dashing",
+        "UltimateAwakening": "Ultimate Awakening",
+        "InfernoTriggered": "Triggered Inferno",
+        "EndlessHunt": "En Passant",
+        "FinalForm": "Final Form"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "無情の影 ケイン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "ファイタービルド"
+      },
+      "buildTags": {
+        "standard": "ファイター"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "SpinToWin": "勝利への回転",
+        "Goredrink": "ゴアドリンク",
+        "ShadowRunner": "影走り",
+        "BluntForce": "無骨なる力",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "escAPADe": "魔攻のいたずら",
+        "TransmuteGold": "変質: ゴールド",
+        "SlapAround": "叩きまくれ",
+        "BurstingTeeth": "歯の妖精",
+        "Nightstalking": "ナイトストーク",
+        "OutlawsGrit": "無法者の気概",
+        "EndlessDecimation": "終わりなき殲滅",
+        "GetExcited": "超エキサイティン！",
+        "SpecializedRecursion": "素早さの追求",
+        "TransmutePrismatic": "変質: プリズム",
+        "ItsKillingTime": "殺戮の時",
+        "Dashing": "疾走",
+        "UltimateAwakening": "究極の目覚め",
+        "InfernoTriggered": "巻き起こるインフェルノ",
+        "EndlessHunt": "アンパッサン",
+        "FinalForm": "最終形態"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "그림자 사신 케인 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "브루저 빌드"
+      },
+      "buildTags": {
+        "standard": "브루저"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "SpinToWin": "승리를 위한 회전",
+        "Goredrink": "선혈포식",
+        "ShadowRunner": "그림자 질주",
+        "BluntForce": "육중한 힘",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "escAPADe": "마법사 (물리)",
+        "TransmuteGold": "전환: 골드",
+        "SlapAround": "우당탕탕",
+        "BurstingTeeth": "이빨 요정",
+        "Nightstalking": "밤의 추적",
+        "OutlawsGrit": "무법자의 투지",
+        "EndlessDecimation": "끝없는 학살",
+        "GetExcited": "신난다!",
+        "SpecializedRecursion": "가속 추구",
+        "TransmutePrismatic": "전환: 프리즘",
+        "ItsKillingTime": "처형 시간",
+        "Dashing": "돌진",
+        "UltimateAwakening": "궁극의 각성",
+        "InfernoTriggered": "지옥불 난사 발동",
+        "EndlessHunt": "앙파상",
+        "FinalForm": "최종 형태"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        126697,
+        6696,
+        3071,
+        6333,
+        2517,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "SpinToWin",
+          "icon": "assets/ux/cherry/augments/icons/spintowin_small.png",
+          "pick": 37.16
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 12.81
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 10.23
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 7.81
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 7.29
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 3.58
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 1.51
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 1.29
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 23.89
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 18.11
+        },
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 15.83
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 10.64
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 10.63
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 7.23
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 6.02
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 5.54
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 30.08
+        },
+        {
+          "id": "UltimateAwakening",
+          "icon": "assets/ux/kiwi/augments/icons/zerohour_small.png",
+          "pick": 6.48
+        },
+        {
+          "id": "InfernoTriggered",
+          "icon": "assets/ux/cherry/augments/icons/madscientist_small.png",
+          "pick": 5.91
+        },
+        {
+          "id": "EndlessHunt",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 4.18
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

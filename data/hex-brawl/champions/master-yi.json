@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "MasterYi",
+    "slug": "master-yi",
+    "names": {
+      "zh": "易 无极剑圣",
+      "en": "the Wuju Bladesman Master Yi",
+      "ja": "ウージューの剣客 マスター・イー",
+      "ko": "우주 검사 마스터 이"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "无极剑圣 易 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规/爆穿出装"
+      },
+      "buildTags": {
+        "standard": "默认"
+      },
+      "buildScores": {
+        "standard": "强"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "BluntForce": "大力",
+        "Upgrade_Collector": "升级：收集者",
+        "Zealot": "狂热者",
+        "escAPADe": "魔法转物理",
+        "TankItOrLeaveIt": "会心防御",
+        "ShadowRunner": "暗影疾奔",
+        "Typhoon": "台风",
+        "LittleExtraHelp": "小小的额外帮助",
+        "GetExcited": "罪恶快感",
+        "DoubleTap": "双发快射",
+        "SpecializedRecursion": "急速之追求",
+        "Nightstalking": "夜狩",
+        "Upgrade_IE": "升级：无尽之刃",
+        "SoulSiphon": "灵魂虹吸",
+        "Vulnerability": "易损",
+        "MysticPunch": "秘术冲拳",
+        "Dashing": "全凭身法",
+        "FinalForm": "最终形态",
+        "DualWield": "双刀流",
+        "GiantSlayer": "巨人杀手",
+        "ScopiestWeapons": "最万用的瞄准镜",
+        "PromQueen": "舞会女王",
+        "ClownCollege": "小丑学院"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Master Yi guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Default"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "BluntForce": "Blunt Force",
+        "Upgrade_Collector": "Upgrade Collector",
+        "Zealot": "Zealot",
+        "escAPADe": "escAPADe",
+        "TankItOrLeaveIt": "Tank It Or Leave It",
+        "ShadowRunner": "Shadow Runner",
+        "Typhoon": "Typhoon",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "GetExcited": "Get Excited!",
+        "DoubleTap": "Double Tap",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "Nightstalking": "Nightstalking",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "SoulSiphon": "Soul Siphon",
+        "Vulnerability": "Vulnerability",
+        "MysticPunch": "Mystic Punch",
+        "Dashing": "Dashing",
+        "FinalForm": "Final Form",
+        "DualWield": "Dual Wield",
+        "GiantSlayer": "Giant Slayer",
+        "ScopiestWeapons": "Scopiest Weapons",
+        "PromQueen": "Prom Queen",
+        "ClownCollege": "Clown College"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ウージューの剣客 マスター・イー Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "BluntForce": "無骨なる力",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "Zealot": "狂信的",
+        "escAPADe": "魔攻のいたずら",
+        "TankItOrLeaveIt": "タンクこそ至高",
+        "ShadowRunner": "影走り",
+        "Typhoon": "タイフーン",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "GetExcited": "超エキサイティン！",
+        "DoubleTap": "ダブルタップ",
+        "SpecializedRecursion": "素早さの追求",
+        "Nightstalking": "ナイトストーク",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "SoulSiphon": "ソウルサイフォン",
+        "Vulnerability": "搦め手",
+        "MysticPunch": "神秘の鉄拳",
+        "Dashing": "疾走",
+        "FinalForm": "最終形態",
+        "DualWield": "二刀流",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "ScopiestWeapons": "超改造スコープ装着",
+        "PromQueen": "プロムクイーン",
+        "ClownCollege": "ピエロ大学"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "우주 검사 마스터 이 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "BluntForce": "육중한 힘",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "Zealot": "광신자",
+        "escAPADe": "마법사 (물리)",
+        "TankItOrLeaveIt": "확률적 방어",
+        "ShadowRunner": "그림자 질주",
+        "Typhoon": "태풍",
+        "LittleExtraHelp": "작은 도움",
+        "GetExcited": "신난다!",
+        "DoubleTap": "한 발에 두 놈",
+        "SpecializedRecursion": "가속 추구",
+        "Nightstalking": "밤의 추적",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "SoulSiphon": "영혼 흡수",
+        "Vulnerability": "취약",
+        "MysticPunch": "신비한 주먹",
+        "Dashing": "돌진",
+        "FinalForm": "최종 형태",
+        "DualWield": "양손잡이",
+        "GiantSlayer": "거인 학살자",
+        "ScopiestWeapons": "최상급 조준경 부착",
+        "PromQueen": "퀸카",
+        "ClownCollege": "광대 대학"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        6676,
+        3153,
+        3073,
+        6333,
+        3036,
+        3006
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 14.77
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 12.05
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 8.3
+        },
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 6.18
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 5.72
+        },
+        {
+          "id": "TankItOrLeaveIt",
+          "icon": "assets/ux/cherry/augments/icons/tankitorleaveit_small.png",
+          "pick": 5.39
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 4.9
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 4.52
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 25.96
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 17.63
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 17.13
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 15.13
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 14.46
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 14.09
+        },
+        {
+          "id": "SoulSiphon",
+          "icon": "assets/ux/cherry/augments/icons/soulsiphon_small.png",
+          "pick": 13.51
+        },
+        {
+          "id": "Vulnerability",
+          "icon": "assets/ux/cherry/augments/icons/vulnerability_small.png",
+          "pick": 9.72
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 22.28
+        },
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 13.35
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 7.12
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 7.01
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 0.44
+        },
+        {
+          "id": "ScopiestWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopiestweapons_small.png",
+          "pick": 0.36
+        },
+        {
+          "id": "PromQueen",
+          "icon": "assets/ux/kiwi/augments/icons/promqueen_small.png",
+          "pick": 0.28
+        },
+        {
+          "id": "ClownCollege",
+          "icon": "assets/ux/cherry/augments/icons/clowncollege_small.png",
+          "pick": null
+        }
+      ]
+    }
+  }
+}

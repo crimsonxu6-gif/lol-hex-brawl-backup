@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Aatrox",
+    "slug": "aatrox",
+    "names": {
+      "zh": "亚托克斯 暗裔剑魔",
+      "en": "the Darkin Blade Aatrox",
+      "ja": "ダーキンの暴剣 エイトロックス",
+      "ko": "다르킨의 검 아트록스"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "亚托克斯 暗裔剑魔 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "战士出装"
+      },
+      "buildTags": {
+        "standard": "战士"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "BluntForce": "大力",
+        "SlapAround": "扇巴掌",
+        "HeavyHitter": "重量级打击手",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "escAPADe": "魔法转物理",
+        "TransmuteGold": "质变：黄金阶",
+        "Upgrade_Collector": "升级：收集者",
+        "DarkWind": "贪欲束缚",
+        "GetExcited": "罪恶快感",
+        "LittleExtraHelp": "小小的额外帮助",
+        "SoulEater": "吞噬灵魂",
+        "EndlessDecimation": "无尽大杀四方",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "OutlawsGrit": "狂徒豪气",
+        "PressureCooker": "高压锅",
+        "FinalForm": "最终形态",
+        "ImTheJuggernaut": "泰坦的坚决",
+        "InfernoTriggered": "扳机炼狱",
+        "GiantSlayer": "巨人杀手",
+        "JeweledGauntlet": "珠光护手"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Darkin Blade Aatrox Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Bruiser Build"
+      },
+      "buildTags": {
+        "standard": "Bruiser"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "BluntForce": "Blunt Force",
+        "SlapAround": "Slap Around",
+        "HeavyHitter": "Heavy Hitter",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "escAPADe": "escAPADe",
+        "TransmuteGold": "Transmute: Gold",
+        "Upgrade_Collector": "Upgrade Collector",
+        "DarkWind": "Ravenous Bind",
+        "GetExcited": "Get Excited!",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "SoulEater": "Soul Eater",
+        "EndlessDecimation": "Endless Decimation",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "OutlawsGrit": "Outlaw's Grit",
+        "PressureCooker": "Pressure Cooker",
+        "FinalForm": "Final Form",
+        "ImTheJuggernaut": "Titan's Resolve",
+        "InfernoTriggered": "Triggered Inferno",
+        "GiantSlayer": "Giant Slayer",
+        "JeweledGauntlet": "Jeweled Gauntlet"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ダーキンの暴剣 エイトロックス Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "ファイタービルド"
+      },
+      "buildTags": {
+        "standard": "ファイター"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "BluntForce": "無骨なる力",
+        "SlapAround": "叩きまくれ",
+        "HeavyHitter": "ヘビーヒッター",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "escAPADe": "魔攻のいたずら",
+        "TransmuteGold": "変質: ゴールド",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "DarkWind": "貪欲な束縛",
+        "GetExcited": "超エキサイティン！",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "SoulEater": "ソウルイーター",
+        "EndlessDecimation": "終わりなき殲滅",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "OutlawsGrit": "無法者の気概",
+        "PressureCooker": "圧力鍋",
+        "FinalForm": "最終形態",
+        "ImTheJuggernaut": "巨人の誓い",
+        "InfernoTriggered": "巻き起こるインフェルノ",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "JeweledGauntlet": "ジュエル ガントレット"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "다르킨의 검 아트록스 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "브루저 빌드"
+      },
+      "buildTags": {
+        "standard": "브루저"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "BluntForce": "육중한 힘",
+        "SlapAround": "우당탕탕",
+        "HeavyHitter": "강타자",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "escAPADe": "마법사 (물리)",
+        "TransmuteGold": "전환: 골드",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "DarkWind": "굶주린 속박",
+        "GetExcited": "신난다!",
+        "LittleExtraHelp": "작은 도움",
+        "SoulEater": "영혼의 포식자",
+        "EndlessDecimation": "끝없는 학살",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "OutlawsGrit": "무법자의 투지",
+        "PressureCooker": "압력솥",
+        "FinalForm": "최종 형태",
+        "ImTheJuggernaut": "거인의 결의",
+        "InfernoTriggered": "지옥불 난사 발동",
+        "GiantSlayer": "거인 학살자",
+        "JeweledGauntlet": "보석 건틀릿"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        126697,
+        6610,
+        6333,
+        2517,
+        6694,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 21.03
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 17.27
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 11.74
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 5.79
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 5.6
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 5.42
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.87
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 2.8
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 22.9
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 14.34
+        },
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 13.18
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 13.16
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 9.47
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 8.76
+        },
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 7.6
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 7.26
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 20.69
+        },
+        {
+          "id": "ImTheJuggernaut",
+          "icon": "assets/ux/kiwi/augments/icons/iamthejuggernaut_small.png",
+          "pick": 9.27
+        },
+        {
+          "id": "InfernoTriggered",
+          "icon": "assets/ux/cherry/augments/icons/madscientist_small.png",
+          "pick": 6.07
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        },
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

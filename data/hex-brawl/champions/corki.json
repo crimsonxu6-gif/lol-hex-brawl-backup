@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Corki",
+    "slug": "corki",
+    "names": {
+      "zh": "库奇 英勇投弹手",
+      "en": "the Daring Bombardier Corki",
+      "ja": "豪気の爆撃手 コーキ",
+      "ko": "대담한 폭격수 코르키"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "库奇 英勇投弹手 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "crit": "暴击出装",
+        "draw-sword": "亮剑出装"
+      },
+      "buildTags": {
+        "crit": "暴击",
+        "draw-sword": "亮剑"
+      },
+      "buildScores": {
+        "crit": "待审核",
+        "draw-sword": "待审核"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "升级：收集者",
+        "Deft": "灵巧",
+        "BluntForce": "大力",
+        "Zealot": "狂热者",
+        "ScopedWeapons": "万用瞄准镜",
+        "CritNCast": "由暴生急",
+        "escAPADe": "魔法转物理",
+        "Twinfire": "双生火焰",
+        "DoubleTap": "双发快射",
+        "Upgrade_IE": "升级：无尽之刃",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "EtherealWeapon": "虚幻武器",
+        "ItsCritical": "关键暴击",
+        "CriticalRhythm": "暴击律动",
+        "MagicMissile": "魔法飞弹",
+        "CriticalMissile": "暴击飞弹",
+        "JeweledGauntlet": "珠光护手",
+        "DrawYourSword": "亮出你的剑",
+        "GiantSlayer": "巨人杀手",
+        "DualWield": "双刀流",
+        "FinalForm": "最终形态"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Daring Bombardier Corki Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "crit": "Crit Build",
+        "draw-sword": "Draw Your Sword Build"
+      },
+      "buildTags": {
+        "crit": "Crit",
+        "draw-sword": "Draw Sword"
+      },
+      "buildScores": {
+        "crit": "Needs review",
+        "draw-sword": "Needs review"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "Upgrade Collector",
+        "Deft": "Deft",
+        "BluntForce": "Blunt Force",
+        "Zealot": "Zealot",
+        "ScopedWeapons": "Scoped Weapons",
+        "CritNCast": "Crit 'n Cast",
+        "escAPADe": "escAPADe",
+        "Twinfire": "Twin Fire",
+        "DoubleTap": "Double Tap",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "ScopierWeapons": "Scopier Weapons",
+        "EtherealWeapon": "Ethereal Weapon",
+        "ItsCritical": "It's Critical",
+        "CriticalRhythm": "Critical Rhythm",
+        "MagicMissile": "Magic Missile",
+        "CriticalMissile": "Critical Missile",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "DrawYourSword": "Draw Your Sword",
+        "GiantSlayer": "Giant Slayer",
+        "DualWield": "Dual Wield",
+        "FinalForm": "Final Form"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "豪気の爆撃手 コーキ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "crit": "クリティカルビルド",
+        "draw-sword": "ドロー・ユア・ソードビルド"
+      },
+      "buildTags": {
+        "crit": "クリティカル",
+        "draw-sword": "ドローソード"
+      },
+      "buildScores": {
+        "crit": "確認待ち",
+        "draw-sword": "確認待ち"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "コレクター アップグレード",
+        "Deft": "技巧",
+        "BluntForce": "無骨なる力",
+        "Zealot": "狂信的",
+        "ScopedWeapons": "スコープ装着",
+        "CritNCast": "クリティカルキャスト",
+        "escAPADe": "魔攻のいたずら",
+        "Twinfire": "ツインファイア",
+        "DoubleTap": "ダブルタップ",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "ScopierWeapons": "改造スコープ装着",
+        "EtherealWeapon": "エーテル武器",
+        "ItsCritical": "まさにクリティカル",
+        "CriticalRhythm": "クリティカルの律動",
+        "MagicMissile": "マジックミサイル",
+        "CriticalMissile": "クリティカルミサイル",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "DrawYourSword": "剣を構えよ",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "DualWield": "二刀流",
+        "FinalForm": "最終形態"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "대담한 폭격수 코르키 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "crit": "치명타 빌드",
+        "draw-sword": "검을 들어라 빌드"
+      },
+      "buildTags": {
+        "crit": "치명타",
+        "draw-sword": "검을 들어라"
+      },
+      "buildScores": {
+        "crit": "검토 필요",
+        "draw-sword": "검토 필요"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "Deft": "능수능란",
+        "BluntForce": "육중한 힘",
+        "Zealot": "광신자",
+        "ScopedWeapons": "조준경 부착",
+        "CritNCast": "치명적 가속",
+        "escAPADe": "마법사 (물리)",
+        "Twinfire": "쌍둥이 불꽃",
+        "DoubleTap": "한 발에 두 놈",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "ScopierWeapons": "상급 조준경 부착",
+        "EtherealWeapon": "환영 무기",
+        "ItsCritical": "치명적인 공격",
+        "CriticalRhythm": "치명적 리듬",
+        "MagicMissile": "마법 미사일",
+        "CriticalMissile": "치명적 미사일",
+        "JeweledGauntlet": "보석 건틀릿",
+        "DrawYourSword": "검을 뽑아라",
+        "GiantSlayer": "거인 학살자",
+        "DualWield": "양손잡이",
+        "FinalForm": "최종 형태"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "crit",
+      "items": [
+        6676,
+        3508,
+        3031,
+        3036,
+        3072,
+        3008
+      ],
+      "type": "crit"
+    },
+    {
+      "key": "draw-sword",
+      "type": "crit",
+      "items": [
+        6697,
+        6676,
+        6333,
+        3033,
+        3031,
+        2517
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 16.6
+        },
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 9.61
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 7.79
+        },
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 5.98
+        },
+        {
+          "id": "ScopedWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopedweapons_small.png",
+          "pick": 5.59
+        },
+        {
+          "id": "CritNCast",
+          "icon": "assets/ux/kiwi/augments/icons/critncast_small.png",
+          "pick": 4.86
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 4.42
+        },
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 19.73
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 22.63
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 17.5
+        },
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 13.77
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 8.87
+        },
+        {
+          "id": "ItsCritical",
+          "icon": "assets/ux/cherry/augments/icons/itscritical_small.png",
+          "pick": 8.74
+        },
+        {
+          "id": "CriticalRhythm",
+          "icon": "assets/ux/kiwi/augments/icons/criticalrhythm_small.png",
+          "pick": 8.61
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 8.35
+        },
+        {
+          "id": "CriticalMissile",
+          "icon": "assets/ux/kiwi/augments/icons/criticalmissile_small.png",
+          "pick": 37.3
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 23.15
+        },
+        {
+          "id": "DrawYourSword",
+          "icon": "assets/ux/cherry/augments/icons/drawyoursword_small.png",
+          "pick": 19.93
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 13.01
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 6.93
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "符文法师",
+    "slug": "ryze"
+  },
+  {
+    "name": "河流之王",
+    "slug": "tahm-kench"
+  },
+  {
+    "name": "卡牌大师",
+    "slug": "twisted-fate"
+  },
+  {
+    "name": "虚空先知",
+    "slug": "malzahar"
+  },
+  {
+    "name": "暮光之眼",
+    "slug": "shen"
+  },
+  {
+    "name": "炽炎雏龙",
+    "slug": "smolder"
+  },
+  {
+    "name": "麦林炮手",
+    "slug": "tristana"
+  },
+  {
+    "name": "深海泰坦",
+    "slug": "nautilus"
+  },
+  {
+    "name": "曙光女神",
+    "slug": "leona"
+  },
+  {
+    "name": "戏命师",
+    "slug": "jhin"
+  }
+]

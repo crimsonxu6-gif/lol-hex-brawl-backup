@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Morgana",
+    "slug": "morgana",
+    "names": {
+      "zh": "莫甘娜 堕落天使",
+      "en": "the Fallen Morgana",
+      "ja": "堕天の高潔 モルガナ",
+      "ko": "타락한 자 모르가나"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "莫甘娜 堕落天使 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "IceCold": "冰寒",
+        "SlapAround": "扇巴掌",
+        "WitchfulThinking": "巫师式思考",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "TransmuteGold": "质变：黄金阶",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "ForgedByTheMaster": "大师铸就",
+        "MightyShield": "强力护盾",
+        "SkilledSniper": "老练狙神",
+        "MagicMissile": "魔法飞弹",
+        "PhenomenalEvil": "超凡邪恶",
+        "BangBang": "狙神飞星",
+        "SpecializedRecursion": "急速之追求",
+        "SearingDawn": "炽烈黎明",
+        "EtherealWeapon": "虚幻武器",
+        "SoulEater": "吞噬灵魂",
+        "Eureka": "尤里卡",
+        "Archmage": "大法师",
+        "InfiniteRecursion": "无限循环往复",
+        "FinalForm": "最终形态",
+        "GiantSlayer": "巨人杀手"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Fallen Morgana Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "IceCold": "Ice Cold",
+        "SlapAround": "Slap Around",
+        "WitchfulThinking": "Witchful Thinking",
+        "Purist_Caster": "Purist - Caster",
+        "TransmuteGold": "Transmute: Gold",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "ForgedByTheMaster": "Forged By The Master",
+        "MightyShield": "Mighty Shield",
+        "SkilledSniper": "Skilled Sniper",
+        "MagicMissile": "Magic Missile",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "BangBang": "From Downtown",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "SearingDawn": "Searing Dawn",
+        "EtherealWeapon": "Ethereal Weapon",
+        "SoulEater": "Soul Eater",
+        "Eureka": "Eureka",
+        "Archmage": "Archmage",
+        "InfiniteRecursion": "Infinite Recursion",
+        "FinalForm": "Final Form",
+        "GiantSlayer": "Giant Slayer"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "堕天の高潔 モルガナ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "AP ビルド"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "IceCold": "結氷",
+        "SlapAround": "叩きまくれ",
+        "WitchfulThinking": "魔法的思考",
+        "Purist_Caster": "純粋なるキャスター",
+        "TransmuteGold": "変質: ゴールド",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "MightyShield": "マイティシールド",
+        "SkilledSniper": "腕利きスナイパー",
+        "MagicMissile": "マジックミサイル",
+        "PhenomenalEvil": "偉大なる悪",
+        "BangBang": "ロングシュート",
+        "SpecializedRecursion": "素早さの追求",
+        "SearingDawn": "灼熱の夜明け",
+        "EtherealWeapon": "エーテル武器",
+        "SoulEater": "ソウルイーター",
+        "Eureka": "エウレカ",
+        "Archmage": "魔帝",
+        "InfiniteRecursion": "無限再帰",
+        "FinalForm": "最終形態",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "타락한 자 모르가나 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "IceCold": "차가운 냉기",
+        "SlapAround": "우당탕탕",
+        "WitchfulThinking": "사악한 정신",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "TransmuteGold": "전환: 골드",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "MightyShield": "강력한 방패",
+        "SkilledSniper": "노련한 저격수",
+        "MagicMissile": "마법 미사일",
+        "PhenomenalEvil": "극악무도",
+        "BangBang": "로켓 배송",
+        "SpecializedRecursion": "가속 추구",
+        "SearingDawn": "타오르는 새벽",
+        "EtherealWeapon": "환영 무기",
+        "SoulEater": "영혼의 포식자",
+        "Eureka": "유레카",
+        "Archmage": "대마법사",
+        "InfiniteRecursion": "무한 반복",
+        "FinalForm": "최종 형태",
+        "GiantSlayer": "거인 학살자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        2503,
+        6653,
+        3116,
+        4645,
+        3068,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 23.33
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 15.65
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 10.04
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 6.01
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.92
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 2.72
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 2.35
+        },
+        {
+          "id": "MightyShield",
+          "icon": "assets/ux/kiwi/augments/icons/mightyshield_small.png",
+          "pick": 2.21
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "SkilledSniper",
+          "icon": "assets/ux/cherry/augments/icons/skilledsniper_small.png",
+          "pick": 26.95
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 22.39
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 15.33
+        },
+        {
+          "id": "BangBang",
+          "icon": "assets/ux/kiwi/augments/icons/questbangbang_small.png",
+          "pick": 10.87
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 7.91
+        },
+        {
+          "id": "SearingDawn",
+          "icon": "assets/ux/cherry/augments/icons/searingdawn_small.png",
+          "pick": 7.3
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 6.83
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 6.72
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 18.4
+        },
+        {
+          "id": "Archmage",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 14.42
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 9.39
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

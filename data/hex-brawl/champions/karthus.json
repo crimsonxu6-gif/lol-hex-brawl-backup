@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-07-04",
+  "dataStatus": "builds-needs-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Karthus",
+    "slug": "karthus",
+    "names": {
+      "zh": "卡尔萨斯 死亡颂唱者",
+      "en": "the Deathsinger Karthus",
+      "ja": "死を歌う者 カーサス",
+      "ko": "죽음을 노래하는 자 카서스"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "死亡颂唱者 卡尔萨斯 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装"
+      },
+      "buildTags": {
+        "standard": "常规"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "ForgedByTheMaster": "大师铸就",
+        "Firefox": "火狐",
+        "ADAPt": "物理转魔法",
+        "DiveBomber": "俯冲轰炸",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "PhenomenalEvil": "超凡邪恶",
+        "BurstingTeeth": "牙仙子",
+        "BangBang": "狙神飞星",
+        "Overflow": "溢流",
+        "FromBeginningToEnd": "有始有终",
+        "SpecializedEmpowerment": "威能之追求",
+        "BloodMoneyBurn": "炽燃利息",
+        "OminousPact": "不祥契约",
+        "UltimateRevolution": "终极刷新",
+        "GiantSlayer": "巨人杀手",
+        "Eureka": "尤里卡",
+        "BacktoBasics": "回归基本功",
+        "InfernalConduit": "炼狱导管",
+        "InfiniteRecursion": "无限循环往复",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Deathsinger Karthus Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Standard"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "ForgedByTheMaster": "Forged By The Master",
+        "Firefox": "FireFox",
+        "ADAPt": "ADAPt",
+        "DiveBomber": "Dive Bomber",
+        "Purist_Caster": "Purist - Caster",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "BurstingTeeth": "Tooth Fairy",
+        "BangBang": "From Downtown",
+        "Overflow": "Overflow",
+        "FromBeginningToEnd": "From Beginning To End",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "BloodMoneyBurn": "Combusting Interest",
+        "OminousPact": "Ominous Pact",
+        "UltimateRevolution": "Ultimate Revolution",
+        "GiantSlayer": "Giant Slayer",
+        "Eureka": "Eureka",
+        "BacktoBasics": "Back To Basics",
+        "InfernalConduit": "Infernal Conduit",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "死を歌う者 カーサス Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "要確認"
+      },
+      "hexNames": {
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "Firefox": "ファイヤーフォックス",
+        "ADAPt": "変力装置",
+        "DiveBomber": "急降下爆撃",
+        "Purist_Caster": "純粋なるキャスター",
+        "PhenomenalEvil": "偉大なる悪",
+        "BurstingTeeth": "歯の妖精",
+        "BangBang": "ロングシュート",
+        "Overflow": "オーバーフロー",
+        "FromBeginningToEnd": "徹頭徹尾",
+        "SpecializedEmpowerment": "力の追求",
+        "BloodMoneyBurn": "燃える利回り",
+        "OminousPact": "不穏な盟約",
+        "UltimateRevolution": "究極進化",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "Eureka": "エウレカ",
+        "BacktoBasics": "初志貫徹",
+        "InfernalConduit": "獄炎路",
+        "InfiniteRecursion": "無限再帰",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "죽음을 노래하는 자 카서스 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "ForgedByTheMaster": "장인의 솜씨",
+        "Firefox": "불여우",
+        "ADAPt": "적응형 능력치",
+        "DiveBomber": "폭격기",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "PhenomenalEvil": "극악무도",
+        "BurstingTeeth": "이빨 요정",
+        "BangBang": "로켓 배송",
+        "Overflow": "범람",
+        "FromBeginningToEnd": "시작부터 끝까지",
+        "SpecializedEmpowerment": "위력 추구",
+        "BloodMoneyBurn": "타오르는 이자",
+        "OminousPact": "불길한 서약",
+        "UltimateRevolution": "궁극기 대변혁",
+        "GiantSlayer": "거인 학살자",
+        "Eureka": "유레카",
+        "BacktoBasics": "기본으로 돌아가기",
+        "InfernalConduit": "지옥의 전도체",
+        "InfiniteRecursion": "무한 반복",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "type": "ap",
+      "items": [
+        2503,
+        6653,
+        4645,
+        4637,
+        3118,
+        4636
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": null
+        },
+        {
+          "id": "Firefox",
+          "icon": "assets/ux/cherry/augments/icons/firfox_small.png",
+          "pick": null
+        },
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": null
+        },
+        {
+          "id": "DiveBomber",
+          "icon": "assets/ux/cherry/augments/icons/divebomber_small.png",
+          "pick": null
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": null
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": null
+        },
+        {
+          "id": "BangBang",
+          "icon": "assets/ux/kiwi/augments/icons/questbangbang_small.png",
+          "pick": null
+        },
+        {
+          "id": "Overflow",
+          "icon": "assets/ux/cherry/augments/icons/overflow_small.png",
+          "pick": null
+        },
+        {
+          "id": "FromBeginningToEnd",
+          "icon": "assets/ux/cherry/augments/icons/frombeginningtoend_small.png",
+          "pick": null
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": null
+        },
+        {
+          "id": "BloodMoneyBurn",
+          "icon": "assets/ux/kiwi/augments/icons/bloodmoney2_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "OminousPact",
+          "icon": "assets/ux/cherry/augments/icons/wisdomofages_small.png",
+          "pick": null
+        },
+        {
+          "id": "UltimateRevolution",
+          "icon": "assets/ux/cherry/augments/icons/ultimaterevolution_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": null
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfernalConduit",
+          "icon": "assets/ux/cherry/augments/icons/infernalconduit_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": null
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": null
+        }
+      ]
+    }
+  }
+}

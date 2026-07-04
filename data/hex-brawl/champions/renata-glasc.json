@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Renata",
+    "slug": "renata-glasc",
+    "names": {
+      "zh": "烈娜塔 · 戈拉斯克 炼金男爵",
+      "en": "the Chem-Baroness Renata Glasc",
+      "ja": "ケミテック長者 レナータ・グラスク",
+      "ko": "화공 남작 레나타 글라스크"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "烈娜塔 · 戈拉斯克 炼金男爵 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "support": "辅助出装"
+      },
+      "buildTags": {
+        "support": "辅助"
+      },
+      "buildScores": {
+        "support": "待审核"
+      },
+      "hexNames": {
+        "FirstAidKit": "急救用具",
+        "SonicBoom": "天音爆",
+        "MightyShield": "强力护盾",
+        "IceCold": "冰寒",
+        "TransmuteGold": "质变：黄金阶",
+        "DoubleDefense": "加固护盾",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "SlapAround": "扇巴掌",
+        "DivineIntervention": "神圣干预",
+        "MercysStrike": "仁慈打击",
+        "SearingDawn": "炽烈黎明",
+        "EtherealWeapon": "虚幻武器",
+        "WeeWooWeeWoo": "喂呜喂呜",
+        "DarkWind": "贪欲束缚",
+        "AllForYou": "全心为你",
+        "Sonata": "咏叹奏鸣",
+        "Archmage": "大法师",
+        "Cruelty": "残忍",
+        "SpiritBomb": "灵魄炸弹",
+        "InfiniteRecursion": "无限循环往复",
+        "UltimateRevolution": "终极刷新"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Chem-Baroness Renata Glasc Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "support": "Support Build"
+      },
+      "buildTags": {
+        "support": "Support"
+      },
+      "buildScores": {
+        "support": "Needs review"
+      },
+      "hexNames": {
+        "FirstAidKit": "First-Aid Kit",
+        "SonicBoom": "Sonic Boom",
+        "MightyShield": "Mighty Shield",
+        "IceCold": "Ice Cold",
+        "TransmuteGold": "Transmute: Gold",
+        "DoubleDefense": "Bolstered",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "SlapAround": "Slap Around",
+        "DivineIntervention": "Divine Intervention",
+        "MercysStrike": "Mercy's Strike",
+        "SearingDawn": "Searing Dawn",
+        "EtherealWeapon": "Ethereal Weapon",
+        "WeeWooWeeWoo": "Wee Woo Wee Woo",
+        "DarkWind": "Ravenous Bind",
+        "AllForYou": "All For You",
+        "Sonata": "Sonata",
+        "Archmage": "Archmage",
+        "Cruelty": "Cruelty",
+        "SpiritBomb": "Spirit Bomb",
+        "InfiniteRecursion": "Infinite Recursion",
+        "UltimateRevolution": "Ultimate Revolution"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ケミテック長者 レナータ・グラスク Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "support": "サポートビルド"
+      },
+      "buildTags": {
+        "support": "サポート"
+      },
+      "buildScores": {
+        "support": "確認待ち"
+      },
+      "hexNames": {
+        "FirstAidKit": "救急セット",
+        "SonicBoom": "ソニックブーム",
+        "MightyShield": "マイティシールド",
+        "IceCold": "結氷",
+        "TransmuteGold": "変質: ゴールド",
+        "DoubleDefense": "補強",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "SlapAround": "叩きまくれ",
+        "DivineIntervention": "聖なる介入",
+        "MercysStrike": "慈悲の一撃",
+        "SearingDawn": "灼熱の夜明け",
+        "EtherealWeapon": "エーテル武器",
+        "WeeWooWeeWoo": "うぃ～！おりゃっ！",
+        "DarkWind": "貪欲な束縛",
+        "AllForYou": "キミのためさ",
+        "Sonata": "ソナタ",
+        "Archmage": "魔帝",
+        "Cruelty": "冷酷な一撃",
+        "SpiritBomb": "スピリットボム",
+        "InfiniteRecursion": "無限再帰",
+        "UltimateRevolution": "究極進化"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "화공 남작 레나타 글라스크 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "support": "서포터 빌드"
+      },
+      "buildTags": {
+        "support": "서포터"
+      },
+      "buildScores": {
+        "support": "검토 필요"
+      },
+      "hexNames": {
+        "FirstAidKit": "응급처치 키트",
+        "SonicBoom": "음속 폭발",
+        "MightyShield": "강력한 방패",
+        "IceCold": "차가운 냉기",
+        "TransmuteGold": "전환: 골드",
+        "DoubleDefense": "보강",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "SlapAround": "우당탕탕",
+        "DivineIntervention": "신성한 중재",
+        "MercysStrike": "자비의 일격",
+        "SearingDawn": "타오르는 새벽",
+        "EtherealWeapon": "환영 무기",
+        "WeeWooWeeWoo": "삐뽀삐뽀",
+        "DarkWind": "굶주린 속박",
+        "AllForYou": "너만을 위해",
+        "Sonata": "소나타",
+        "Archmage": "대마법사",
+        "Cruelty": "잔혹 행위",
+        "SpiritBomb": "영혼 폭탄",
+        "InfiniteRecursion": "무한 반복",
+        "UltimateRevolution": "궁극기 대변혁"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "support",
+      "items": [
+        3118,
+        4005,
+        3504,
+        3222,
+        3109,
+        3158
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "FirstAidKit",
+          "icon": "assets/ux/cherry/augments/icons/firstaidkit_small.png",
+          "pick": 14.33
+        },
+        {
+          "id": "SonicBoom",
+          "icon": "assets/ux/cherry/augments/icons/sonicboom_small.png",
+          "pick": 12.2
+        },
+        {
+          "id": "MightyShield",
+          "icon": "assets/ux/kiwi/augments/icons/mightyshield_small.png",
+          "pick": 4.81
+        },
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 4.29
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 4.28
+        },
+        {
+          "id": "DoubleDefense",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 3.12
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 2.35
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 16.07
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "DivineIntervention",
+          "icon": "assets/ux/cherry/augments/icons/slowactingpainkillers_small.png",
+          "pick": 14.08
+        },
+        {
+          "id": "MercysStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 13.44
+        },
+        {
+          "id": "SearingDawn",
+          "icon": "assets/ux/cherry/augments/icons/searingdawn_small.png",
+          "pick": 12.46
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 10.45
+        },
+        {
+          "id": "WeeWooWeeWoo",
+          "icon": "assets/ux/kiwi/augments/icons/weewooweewoo_small.png",
+          "pick": 10.27
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 10.2
+        },
+        {
+          "id": "AllForYou",
+          "icon": "assets/ux/cherry/augments/icons/allforyou_small.png",
+          "pick": 10.06
+        },
+        {
+          "id": "Sonata",
+          "icon": "assets/ux/kiwi/augments/icons/sonata_large.png",
+          "pick": 20.36
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Archmage",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 13.14
+        },
+        {
+          "id": "Cruelty",
+          "icon": "assets/ux/kiwi/augments/icons/cruelty_small.png",
+          "pick": 11.48
+        },
+        {
+          "id": "SpiritBomb",
+          "icon": "assets/ux/kiwi/augments/icons/spiritbomb_small.png",
+          "pick": 11.17
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 9.98
+        },
+        {
+          "id": "UltimateRevolution",
+          "icon": "assets/ux/cherry/augments/icons/ultimaterevolution_small.png",
+          "pick": 9.19
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

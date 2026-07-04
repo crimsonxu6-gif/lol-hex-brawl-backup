@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Cassiopeia",
+    "slug": "cassiopeia",
+    "names": {
+      "zh": "卡西奥佩娅 魔蛇之拥",
+      "en": "the Serpent's Embrace Cassiopeia",
+      "ja": "毒蛇の抱擁 カシオペア",
+      "ko": "독사의 포옹 카시오페아"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "卡西奥佩娅 魔蛇之拥 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "IceCold": "冰寒",
+        "MindtoMatter": "由心及物",
+        "WitchfulThinking": "巫师式思考",
+        "SlapAround": "扇巴掌",
+        "Upgrade_ZH": "升级：中娅",
+        "SustainingStrike": "虹吸",
+        "Juiced": "注魔",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "WarlockJuicebox": "术士果汁盒",
+        "PhenomenalEvil": "超凡邪恶",
+        "MagicMissile": "魔法飞弹",
+        "SpecializedEmpowerment": "威能之追求",
+        "EtherealWeapon": "虚幻武器",
+        "Overflow": "溢流",
+        "BigBrain": "超强大脑",
+        "WithHaste": "急急小子",
+        "InfernalConduit": "炼狱导管",
+        "SpellVolley": "三重射击",
+        "Eureka": "尤里卡",
+        "InfiniteRecursion": "无限循环往复",
+        "Cruelty": "残忍"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Serpent's Embrace Cassiopeia Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "IceCold": "Ice Cold",
+        "MindtoMatter": "Mind to Matter",
+        "WitchfulThinking": "Witchful Thinking",
+        "SlapAround": "Slap Around",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "SustainingStrike": "Siphon",
+        "Juiced": "Juiced",
+        "Purist_Caster": "Purist - Caster",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "MagicMissile": "Magic Missile",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "EtherealWeapon": "Ethereal Weapon",
+        "Overflow": "Overflow",
+        "BigBrain": "Big Brain",
+        "WithHaste": "With Haste",
+        "InfernalConduit": "Infernal Conduit",
+        "SpellVolley": "Tripleshot",
+        "Eureka": "Eureka",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Cruelty": "Cruelty"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "毒蛇の抱擁 カシオペア Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "AP ビルド"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "IceCold": "結氷",
+        "MindtoMatter": "精神の体現",
+        "WitchfulThinking": "魔法的思考",
+        "SlapAround": "叩きまくれ",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "SustainingStrike": "サイフォン",
+        "Juiced": "パワーアップ",
+        "Purist_Caster": "純粋なるキャスター",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "PhenomenalEvil": "偉大なる悪",
+        "MagicMissile": "マジックミサイル",
+        "SpecializedEmpowerment": "力の追求",
+        "EtherealWeapon": "エーテル武器",
+        "Overflow": "オーバーフロー",
+        "BigBrain": "頭脳派",
+        "WithHaste": "大急ぎ",
+        "InfernalConduit": "獄炎路",
+        "SpellVolley": "トリプルショット",
+        "Eureka": "エウレカ",
+        "InfiniteRecursion": "無限再帰",
+        "Cruelty": "冷酷な一撃"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "독사의 포옹 카시오페아 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "IceCold": "차가운 냉기",
+        "MindtoMatter": "정신 변환",
+        "WitchfulThinking": "사악한 정신",
+        "SlapAround": "우당탕탕",
+        "Upgrade_ZH": "존야 업그레이드",
+        "SustainingStrike": "흡수",
+        "Juiced": "도취",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "PhenomenalEvil": "극악무도",
+        "MagicMissile": "마법 미사일",
+        "SpecializedEmpowerment": "위력 추구",
+        "EtherealWeapon": "환영 무기",
+        "Overflow": "범람",
+        "BigBrain": "전술적 대비",
+        "WithHaste": "속행",
+        "InfernalConduit": "지옥의 전도체",
+        "SpellVolley": "3연발",
+        "Eureka": "유레카",
+        "InfiniteRecursion": "무한 반복",
+        "Cruelty": "잔혹 행위"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        6657,
+        6653,
+        3040,
+        8010,
+        3089,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 19.42
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 15.68
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 7.44
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 5.29
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 4.31
+        },
+        {
+          "id": "SustainingStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 4.15
+        },
+        {
+          "id": "Juiced",
+          "icon": "assets/ux/kiwi/augments/icons/juiced_small.png",
+          "pick": 3.65
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 3.03
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 33.3
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 25.46
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 25.38
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 10.75
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 9.62
+        },
+        {
+          "id": "Overflow",
+          "icon": "assets/ux/cherry/augments/icons/overflow_small.png",
+          "pick": 8.73
+        },
+        {
+          "id": "BigBrain",
+          "icon": "assets/ux/cherry/augments/icons/bigbrain_small.png",
+          "pick": 5.74
+        },
+        {
+          "id": "WithHaste",
+          "icon": "assets/ux/cherry/augments/icons/withhaste_small.png",
+          "pick": 5.62
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "InfernalConduit",
+          "icon": "assets/ux/cherry/augments/icons/infernalconduit_small.png",
+          "pick": 27.2
+        },
+        {
+          "id": "SpellVolley",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_prismatic.png",
+          "pick": 13.19
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 11.59
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 6.04
+        },
+        {
+          "id": "Cruelty",
+          "icon": "assets/ux/kiwi/augments/icons/cruelty_small.png",
+          "pick": 5.87
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

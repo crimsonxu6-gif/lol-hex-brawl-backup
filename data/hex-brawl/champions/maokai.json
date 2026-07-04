@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-07-04",
+  "dataStatus": "builds-needs-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Maokai",
+    "slug": "maokai",
+    "names": {
+      "zh": "茂凯 扭曲树精",
+      "en": "the Twisted Treant Maokai",
+      "ja": "歪みし樹人 マオカイ",
+      "ko": "뒤틀린 나무 정령 마오카이"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "扭曲树精 茂凯 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装"
+      },
+      "buildTags": {
+        "standard": "常规"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "HeavyHitter": "重量级打击手",
+        "DiveBomber": "俯冲轰炸",
+        "SlapAround": "扇巴掌",
+        "BluntForce": "大力",
+        "Upgrade_Immolate": "升级：献祭",
+        "OceanSoul": "海洋龙魂",
+        "MindtoMatter": "由心及物",
+        "Overflow": "溢流",
+        "SoulEater": "吞噬灵魂",
+        "ShrinkRay": "缩小射线",
+        "CelestialBody": "星界躯体",
+        "ApexInventor": "尖端发明家",
+        "GrowthSpurt": "生机迸发",
+        "TankEngine": "坦克引擎",
+        "Quest_SteelYourHeart": "钢化你心",
+        "Dropkick": "飞身踢",
+        "CircleofDeath": "死亡之环",
+        "InfiniteRecursion": "无限循环往复",
+        "ProteinShake": "蛋白粉奶昔",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "SlowCooker": "慢炖",
+        "Cruelty": "残忍",
+        "PromQueen": "舞会女王",
+        "CourageoftheColossus": "巨像的勇气",
+        "Goliath": "歌利亚巨人"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Twisted Treant Maokai Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Standard"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "HeavyHitter": "Heavy Hitter",
+        "DiveBomber": "Dive Bomber",
+        "SlapAround": "Slap Around",
+        "BluntForce": "Blunt Force",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "OceanSoul": "Ocean Soul",
+        "MindtoMatter": "Mind to Matter",
+        "Overflow": "Overflow",
+        "SoulEater": "Soul Eater",
+        "ShrinkRay": "Shrink Ray",
+        "CelestialBody": "Celestial Body",
+        "ApexInventor": "Apex Inventor",
+        "GrowthSpurt": "Growth Spurt",
+        "TankEngine": "Tank Engine",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "Dropkick": "Dropkick",
+        "CircleofDeath": "Circle of Death",
+        "InfiniteRecursion": "Infinite Recursion",
+        "ProteinShake": "Protein Shake",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "SlowCooker": "Slow Cooker",
+        "Cruelty": "Cruelty",
+        "PromQueen": "Prom Queen",
+        "CourageoftheColossus": "Courage of the Colossus",
+        "Goliath": "Goliath"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "歪みし樹人 マオカイ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "要確認"
+      },
+      "hexNames": {
+        "HeavyHitter": "ヘビーヒッター",
+        "DiveBomber": "急降下爆撃",
+        "SlapAround": "叩きまくれ",
+        "BluntForce": "無骨なる力",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "OceanSoul": "オーシャンソウル",
+        "MindtoMatter": "精神の体現",
+        "Overflow": "オーバーフロー",
+        "SoulEater": "ソウルイーター",
+        "ShrinkRay": "縮小光線",
+        "CelestialBody": "聖体",
+        "ApexInventor": "至高の発明家",
+        "GrowthSpurt": "成長期",
+        "TankEngine": "タンクエンジン",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "Dropkick": "ドロップキック",
+        "CircleofDeath": "死者の集い",
+        "InfiniteRecursion": "無限再帰",
+        "ProteinShake": "プロテインシェイク",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "SlowCooker": "スロウクッカー",
+        "Cruelty": "冷酷な一撃",
+        "PromQueen": "プロムクイーン",
+        "CourageoftheColossus": "巨人の勇気",
+        "Goliath": "大巨人"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "뒤틀린 나무 정령 마오카이 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "HeavyHitter": "강타자",
+        "DiveBomber": "폭격기",
+        "SlapAround": "우당탕탕",
+        "BluntForce": "육중한 힘",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "OceanSoul": "바다의 영혼",
+        "MindtoMatter": "정신 변환",
+        "Overflow": "범람",
+        "SoulEater": "영혼의 포식자",
+        "ShrinkRay": "감쇠 광선",
+        "CelestialBody": "천상의 신체",
+        "ApexInventor": "최첨단 발명가",
+        "GrowthSpurt": "급속 성장",
+        "TankEngine": "탱크 엔진",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "Dropkick": "드롭킥",
+        "CircleofDeath": "죽음의 순환",
+        "InfiniteRecursion": "무한 반복",
+        "ProteinShake": "프로틴 음료",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "SlowCooker": "찜솥",
+        "Cruelty": "잔혹 행위",
+        "PromQueen": "퀸카",
+        "CourageoftheColossus": "거석상의 용기",
+        "Goliath": "거인"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "type": "tank",
+      "items": [
+        3084,
+        2502,
+        3121,
+        3083,
+        3065,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": null
+        },
+        {
+          "id": "DiveBomber",
+          "icon": "assets/ux/cherry/augments/icons/divebomber_small.png",
+          "pick": null
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": null
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": null
+        },
+        {
+          "id": "Upgrade_Immolate",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeimmolate_small.png",
+          "pick": null
+        },
+        {
+          "id": "OceanSoul",
+          "icon": "assets/ux/cherry/augments/icons/oceansoul_small.png",
+          "pick": null
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Overflow",
+          "icon": "assets/ux/cherry/augments/icons/overflow_small.png",
+          "pick": null
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": null
+        },
+        {
+          "id": "ShrinkRay",
+          "icon": "assets/ux/cherry/augments/icons/shrinkray_small.png",
+          "pick": null
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": null
+        },
+        {
+          "id": "ApexInventor",
+          "icon": "assets/ux/cherry/augments/icons/apexinventor_small.png",
+          "pick": null
+        },
+        {
+          "id": "GrowthSpurt",
+          "icon": "assets/ux/kiwi/augments/icons/growthspurt_large.png",
+          "pick": null
+        },
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": null
+        },
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": null
+        },
+        {
+          "id": "CircleofDeath",
+          "icon": "assets/ux/cherry/augments/icons/circleofdeath_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": null
+        },
+        {
+          "id": "ProteinShake",
+          "icon": "assets/ux/kiwi/augments/icons/proteinshake_small.png",
+          "pick": null
+        },
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": null
+        },
+        {
+          "id": "SlowCooker",
+          "icon": "assets/ux/cherry/augments/icons/slowcooker_small.png",
+          "pick": null
+        },
+        {
+          "id": "Cruelty",
+          "icon": "assets/ux/kiwi/augments/icons/cruelty_small.png",
+          "pick": null
+        },
+        {
+          "id": "PromQueen",
+          "icon": "assets/ux/kiwi/augments/icons/promqueen_small.png",
+          "pick": null
+        },
+        {
+          "id": "CourageoftheColossus",
+          "icon": "assets/ux/cherry/augments/icons/courageofthecolossus_small.png",
+          "pick": null
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": null
+        }
+      ]
+    }
+  }
+}

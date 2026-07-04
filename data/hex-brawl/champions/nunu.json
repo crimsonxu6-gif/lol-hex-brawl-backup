@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Nunu",
+    "slug": "nunu",
+    "names": {
+      "zh": "努努和威朗普 雪原双子",
+      "en": "the Boy and His Yeti Nunu & Willump",
+      "ja": "少年とイエティ ヌヌ＆ウィルンプ",
+      "ko": "소년과 설인 누누와 윌럼프"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "努努和威朗普 雪原双子 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装",
+        "tank": "肉装"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "tank": "肉装"
+      },
+      "buildScores": {
+        "ap": "待审核",
+        "tank": "待审核"
+      },
+      "hexNames": {
+        "UltimateUnstoppable": "终极不可阻挡",
+        "HeavyHitter": "重量级打击手",
+        "Upgrade_Immolate": "升级：献祭",
+        "WitchfulThinking": "巫师式思考",
+        "MindtoMatter": "由心及物",
+        "SlapAround": "扇巴掌",
+        "Goredrink": "渴血",
+        "Upgrade_ZH": "升级：中娅",
+        "TankEngine": "坦克引擎",
+        "Quest_SteelYourHeart": "钢化你心",
+        "CelestialBody": "星界躯体",
+        "DarkWind": "贪欲束缚",
+        "WarlockJuicebox": "术士果汁盒",
+        "PressureCooker": "高压锅",
+        "ThreadtheNeedle": "穿针引线",
+        "ItsKillingTime": "杀戮时间到了",
+        "Dropkick": "飞身踢",
+        "Goliath": "歌利亚巨人",
+        "Eureka": "尤里卡",
+        "FinalForm": "最终形态",
+        "GiantSlayer": "巨人杀手"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Boy and His Yeti Nunu & Willump Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build",
+        "tank": "Tank Build"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "tank": "Tank"
+      },
+      "buildScores": {
+        "ap": "Needs review",
+        "tank": "Needs review"
+      },
+      "hexNames": {
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "HeavyHitter": "Heavy Hitter",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "WitchfulThinking": "Witchful Thinking",
+        "MindtoMatter": "Mind to Matter",
+        "SlapAround": "Slap Around",
+        "Goredrink": "Goredrink",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "TankEngine": "Tank Engine",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "CelestialBody": "Celestial Body",
+        "DarkWind": "Ravenous Bind",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "PressureCooker": "Pressure Cooker",
+        "ThreadtheNeedle": "Thread the Needle",
+        "ItsKillingTime": "It's Killing Time",
+        "Dropkick": "Dropkick",
+        "Goliath": "Goliath",
+        "Eureka": "Eureka",
+        "FinalForm": "Final Form",
+        "GiantSlayer": "Giant Slayer"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "少年とイエティ ヌヌ＆ウィルンプ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "AP ビルド",
+        "tank": "タンクビルド"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "tank": "タンク"
+      },
+      "buildScores": {
+        "ap": "確認待ち",
+        "tank": "確認待ち"
+      },
+      "hexNames": {
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "HeavyHitter": "ヘビーヒッター",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "WitchfulThinking": "魔法的思考",
+        "MindtoMatter": "精神の体現",
+        "SlapAround": "叩きまくれ",
+        "Goredrink": "ゴアドリンク",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "TankEngine": "タンクエンジン",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "CelestialBody": "聖体",
+        "DarkWind": "貪欲な束縛",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "PressureCooker": "圧力鍋",
+        "ThreadtheNeedle": "貫通力",
+        "ItsKillingTime": "殺戮の時",
+        "Dropkick": "ドロップキック",
+        "Goliath": "大巨人",
+        "Eureka": "エウレカ",
+        "FinalForm": "最終形態",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "소년과 설인 누누와 윌럼프 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드",
+        "tank": "탱커 빌드"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "tank": "탱커"
+      },
+      "buildScores": {
+        "ap": "검토 필요",
+        "tank": "검토 필요"
+      },
+      "hexNames": {
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "HeavyHitter": "강타자",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "WitchfulThinking": "사악한 정신",
+        "MindtoMatter": "정신 변환",
+        "SlapAround": "우당탕탕",
+        "Goredrink": "선혈포식",
+        "Upgrade_ZH": "존야 업그레이드",
+        "TankEngine": "탱크 엔진",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "CelestialBody": "천상의 신체",
+        "DarkWind": "굶주린 속박",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "PressureCooker": "압력솥",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "ItsKillingTime": "처형 시간",
+        "Dropkick": "드롭킥",
+        "Goliath": "거인",
+        "Eureka": "유레카",
+        "FinalForm": "최종 형태",
+        "GiantSlayer": "거인 학살자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        6655,
+        4646,
+        3089,
+        4645,
+        3135,
+        3020
+      ]
+    },
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        2502,
+        3065,
+        3121,
+        3083,
+        4633
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 10.36
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 9.34
+        },
+        {
+          "id": "Upgrade_Immolate",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeimmolate_small.png",
+          "pick": 8.52
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 8.28
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 5.7
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 5.69
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 4.56
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 4.09
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 22.86
+        },
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": 12.87
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": 12.68
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 12.05
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 9.55
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 8.35
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 7.64
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 7.15
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": 18.45
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 12.69
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 6.1
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

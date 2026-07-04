@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Fiora",
+    "slug": "fiora",
+    "names": {
+      "zh": "菲奥娜 无双剑姬",
+      "en": "the Grand Duelist Fiora",
+      "ja": "高潔なるデュエリスト フィオラ",
+      "ko": "결투의 대가 피오라"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "菲奥娜 无双剑姬 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "bruiser": "战士出装"
+      },
+      "buildTags": {
+        "bruiser": "战士"
+      },
+      "buildScores": {
+        "bruiser": "待审核"
+      },
+      "hexNames": {
+        "BluntForce": "大力",
+        "escAPADe": "魔法转物理",
+        "TransmuteGold": "质变：黄金阶",
+        "ShadowRunner": "暗影疾奔",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "SwiftAndSafe": "快中求稳",
+        "ForgedByTheMaster": "大师铸就",
+        "Goredrink": "渴血",
+        "SpecializedEmpowerment": "威能之追求",
+        "EndlessDecimation": "无尽大杀四方",
+        "GetExcited": "罪恶快感",
+        "SpecializedRecursion": "急速之追求",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "Recursion": "循环往复",
+        "BreadAndButter": "面包和黄油",
+        "OutlawsGrit": "狂徒豪气",
+        "MysticPunch": "秘术冲拳",
+        "Dashing": "全凭身法",
+        "EndlessHunt": "吃过路兵",
+        "BladeWaltz": "利刃华尔兹",
+        "FinalForm": "最终形态"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Grand Duelist Fiora Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "bruiser": "Bruiser Build"
+      },
+      "buildTags": {
+        "bruiser": "Bruiser"
+      },
+      "buildScores": {
+        "bruiser": "Needs review"
+      },
+      "hexNames": {
+        "BluntForce": "Blunt Force",
+        "escAPADe": "escAPADe",
+        "TransmuteGold": "Transmute: Gold",
+        "ShadowRunner": "Shadow Runner",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "SwiftAndSafe": "Swift and Safe",
+        "ForgedByTheMaster": "Forged By The Master",
+        "Goredrink": "Goredrink",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "EndlessDecimation": "Endless Decimation",
+        "GetExcited": "Get Excited!",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "Recursion": "Recursion",
+        "BreadAndButter": "Bread And Butter",
+        "OutlawsGrit": "Outlaw's Grit",
+        "MysticPunch": "Mystic Punch",
+        "Dashing": "Dashing",
+        "EndlessHunt": "En Passant",
+        "BladeWaltz": "Blade Waltz",
+        "FinalForm": "Final Form"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "高潔なるデュエリスト フィオラ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "bruiser": "ファイタービルド"
+      },
+      "buildTags": {
+        "bruiser": "ファイター"
+      },
+      "buildScores": {
+        "bruiser": "確認待ち"
+      },
+      "hexNames": {
+        "BluntForce": "無骨なる力",
+        "escAPADe": "魔攻のいたずら",
+        "TransmuteGold": "変質: ゴールド",
+        "ShadowRunner": "影走り",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "SwiftAndSafe": "迅速に安全に",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "Goredrink": "ゴアドリンク",
+        "SpecializedEmpowerment": "力の追求",
+        "EndlessDecimation": "終わりなき殲滅",
+        "GetExcited": "超エキサイティン！",
+        "SpecializedRecursion": "素早さの追求",
+        "TransmutePrismatic": "変質: プリズム",
+        "Recursion": "再帰",
+        "BreadAndButter": "パンとバター",
+        "OutlawsGrit": "無法者の気概",
+        "MysticPunch": "神秘の鉄拳",
+        "Dashing": "疾走",
+        "EndlessHunt": "アンパッサン",
+        "BladeWaltz": "ブレードワルツ",
+        "FinalForm": "最終形態"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "결투의 대가 피오라 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "bruiser": "전사 빌드"
+      },
+      "buildTags": {
+        "bruiser": "전사"
+      },
+      "buildScores": {
+        "bruiser": "검토 필요"
+      },
+      "hexNames": {
+        "BluntForce": "육중한 힘",
+        "escAPADe": "마법사 (물리)",
+        "TransmuteGold": "전환: 골드",
+        "ShadowRunner": "그림자 질주",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "SwiftAndSafe": "빠르고 안전하게",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "Goredrink": "선혈포식",
+        "SpecializedEmpowerment": "위력 추구",
+        "EndlessDecimation": "끝없는 학살",
+        "GetExcited": "신난다!",
+        "SpecializedRecursion": "가속 추구",
+        "TransmutePrismatic": "전환: 프리즘",
+        "Recursion": "되풀이",
+        "BreadAndButter": "빵과 버터",
+        "OutlawsGrit": "무법자의 투지",
+        "MysticPunch": "신비한 주먹",
+        "Dashing": "돌진",
+        "EndlessHunt": "앙파상",
+        "BladeWaltz": "검무",
+        "FinalForm": "최종 형태"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "bruiser",
+      "items": [
+        3078,
+        3074,
+        6333,
+        2517,
+        3161,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 17.87
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 6.88
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 4.43
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 4.19
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 3.93
+        },
+        {
+          "id": "SwiftAndSafe",
+          "icon": "assets/ux/kiwi/augments/icons/swiftandsafe_small.png",
+          "pick": 2.99
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 2.15
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 25.73
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 14.56
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 12.86
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 11.75
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 11.2
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 10.32
+        },
+        {
+          "id": "Recursion",
+          "icon": "assets/ux/cherry/augments/icons/recursion_small.png",
+          "pick": 6.26
+        },
+        {
+          "id": "BreadAndButter",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 6.12
+        },
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 28.69
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 30.51
+        },
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 22.15
+        },
+        {
+          "id": "EndlessHunt",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 8.71
+        },
+        {
+          "id": "BladeWaltz",
+          "icon": "assets/ux/cherry/augments/icons/bladewaltz_small.png",
+          "pick": 8.61
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

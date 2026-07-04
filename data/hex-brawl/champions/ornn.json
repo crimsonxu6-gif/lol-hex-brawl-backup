@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Ornn",
+    "slug": "ornn",
+    "names": {
+      "zh": "奥恩 山隐之焰",
+      "en": "The Fire below the Mountain Ornn",
+      "ja": "山の下の焔 オーン",
+      "ko": "거산의 화염 오른"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "奥恩 山隐之焰 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "tank": "肉装"
+      },
+      "buildTags": {
+        "tank": "肉装"
+      },
+      "buildScores": {
+        "tank": "待审核"
+      },
+      "hexNames": {
+        "ADAPt": "物理转魔法",
+        "BluntForce": "大力",
+        "Deft": "灵巧",
+        "escAPADe": "魔法转物理",
+        "Executioner": "裁决使",
+        "Goredrink": "渴血",
+        "BreadAndJam": "面包和果酱",
+        "Recursion": "循环往复",
+        "ShrinkRay": "缩小射线",
+        "SoulEater": "吞噬灵魂",
+        "ThreadtheNeedle": "穿针引线",
+        "BladeWaltz": "利刃华尔兹",
+        "Dashing": "全凭身法",
+        "FinalForm": "最终形态",
+        "GiantSlayer": "巨人杀手",
+        "JeweledGauntlet": "珠光护手"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "The Fire below the Mountain Ornn Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "tank": "Tank Build"
+      },
+      "buildTags": {
+        "tank": "Tank"
+      },
+      "buildScores": {
+        "tank": "Needs review"
+      },
+      "hexNames": {
+        "ADAPt": "ADAPt",
+        "BluntForce": "Blunt Force",
+        "Deft": "Deft",
+        "escAPADe": "escAPADe",
+        "Executioner": "Executioner",
+        "Goredrink": "Goredrink",
+        "BreadAndJam": "Bread And Jam",
+        "Recursion": "Recursion",
+        "ShrinkRay": "Shrink Ray",
+        "SoulEater": "Soul Eater",
+        "ThreadtheNeedle": "Thread the Needle",
+        "BladeWaltz": "Blade Waltz",
+        "Dashing": "Dashing",
+        "FinalForm": "Final Form",
+        "GiantSlayer": "Giant Slayer",
+        "JeweledGauntlet": "Jeweled Gauntlet"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "山の下の焔 オーン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "tank": "タンクビルド"
+      },
+      "buildTags": {
+        "tank": "タンク"
+      },
+      "buildScores": {
+        "tank": "確認待ち"
+      },
+      "hexNames": {
+        "ADAPt": "変力装置",
+        "BluntForce": "無骨なる力",
+        "Deft": "技巧",
+        "escAPADe": "魔攻のいたずら",
+        "Executioner": "処刑人",
+        "Goredrink": "ゴアドリンク",
+        "BreadAndJam": "パンとジャム",
+        "Recursion": "再帰",
+        "ShrinkRay": "縮小光線",
+        "SoulEater": "ソウルイーター",
+        "ThreadtheNeedle": "貫通力",
+        "BladeWaltz": "ブレードワルツ",
+        "Dashing": "疾走",
+        "FinalForm": "最終形態",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "JeweledGauntlet": "ジュエル ガントレット"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "거산의 화염 오른 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "tank": "탱커 빌드"
+      },
+      "buildTags": {
+        "tank": "탱커"
+      },
+      "buildScores": {
+        "tank": "검토 필요"
+      },
+      "hexNames": {
+        "ADAPt": "적응형 능력치",
+        "BluntForce": "육중한 힘",
+        "Deft": "능수능란",
+        "escAPADe": "마법사 (물리)",
+        "Executioner": "처형자",
+        "Goredrink": "선혈포식",
+        "BreadAndJam": "빵과 잼",
+        "Recursion": "되풀이",
+        "ShrinkRay": "감쇠 광선",
+        "SoulEater": "영혼의 포식자",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "BladeWaltz": "검무",
+        "Dashing": "돌진",
+        "FinalForm": "최종 형태",
+        "GiantSlayer": "거인 학살자",
+        "JeweledGauntlet": "보석 건틀릿"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        2502,
+        3083,
+        6665,
+        3068,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": null
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": null
+        },
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": null
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": null
+        },
+        {
+          "id": "Executioner",
+          "icon": "assets/ux/kiwi/augments/icons/spiritualpurification_small.png",
+          "pick": null
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "BreadAndJam",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": null
+        },
+        {
+          "id": "Recursion",
+          "icon": "assets/ux/cherry/augments/icons/recursion_small.png",
+          "pick": null
+        },
+        {
+          "id": "ShrinkRay",
+          "icon": "assets/ux/cherry/augments/icons/shrinkray_small.png",
+          "pick": null
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": null
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "BladeWaltz",
+          "icon": "assets/ux/cherry/augments/icons/bladewaltz_small.png",
+          "pick": null
+        },
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": null
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        },
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Aurora",
+    "slug": "aurora",
+    "names": {
+      "zh": "阿萝拉 双界灵兔",
+      "en": "the Witch Between Worlds Aurora",
+      "ja": "世界の狭間の魔女 オーロラ",
+      "ko": "세계의 경계에 선 마녀 오로라"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "阿萝拉 双界灵兔 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "Upgrade_ZH": "升级：中娅",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "TransmuteGold": "质变：黄金阶",
+        "ShadowRunner": "暗影疾奔",
+        "ADAPt": "物理转魔法",
+        "MindtoMatter": "由心及物",
+        "Juiced": "注魔",
+        "WitchfulThinking": "巫师式思考",
+        "WarlockJuicebox": "术士果汁盒",
+        "BurstingTeeth": "牙仙子",
+        "PhenomenalEvil": "超凡邪恶",
+        "MagicMissile": "魔法飞弹",
+        "WithHaste": "急急小子",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "Marksmage": "神射法师",
+        "EtherealWeapon": "虚幻武器",
+        "Eureka": "尤里卡",
+        "InfiniteRecursion": "无限循环往复",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽",
+        "BacktoBasics": "回归基本功",
+        "FinalForm": "最终形态"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Witch Between Worlds Aurora Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "Purist_Caster": "Purist - Caster",
+        "TransmuteGold": "Transmute: Gold",
+        "ShadowRunner": "Shadow Runner",
+        "ADAPt": "ADAPt",
+        "MindtoMatter": "Mind to Matter",
+        "Juiced": "Juiced",
+        "WitchfulThinking": "Witchful Thinking",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "BurstingTeeth": "Tooth Fairy",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "MagicMissile": "Magic Missile",
+        "WithHaste": "With Haste",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "Marksmage": "Marksmage",
+        "EtherealWeapon": "Ethereal Weapon",
+        "Eureka": "Eureka",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap",
+        "BacktoBasics": "Back To Basics",
+        "FinalForm": "Final Form"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "世界の狭間の魔女 オーロラ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "APビルド"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "Purist_Caster": "純粋なるキャスター",
+        "TransmuteGold": "変質: ゴールド",
+        "ShadowRunner": "影走り",
+        "ADAPt": "変力装置",
+        "MindtoMatter": "精神の体現",
+        "Juiced": "パワーアップ",
+        "WitchfulThinking": "魔法的思考",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "BurstingTeeth": "歯の妖精",
+        "PhenomenalEvil": "偉大なる悪",
+        "MagicMissile": "マジックミサイル",
+        "WithHaste": "大急ぎ",
+        "TransmutePrismatic": "変質: プリズム",
+        "Marksmage": "マークスメイジ",
+        "EtherealWeapon": "エーテル武器",
+        "Eureka": "エウレカ",
+        "InfiniteRecursion": "無限再帰",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ",
+        "BacktoBasics": "初志貫徹",
+        "FinalForm": "最終形態"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "세계의 경계에 선 마녀 오로라 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "Upgrade_ZH": "존야 업그레이드",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "TransmuteGold": "전환: 골드",
+        "ShadowRunner": "그림자 질주",
+        "ADAPt": "적응형 능력치",
+        "MindtoMatter": "정신 변환",
+        "Juiced": "도취",
+        "WitchfulThinking": "사악한 정신",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "BurstingTeeth": "이빨 요정",
+        "PhenomenalEvil": "극악무도",
+        "MagicMissile": "마법 미사일",
+        "WithHaste": "속행",
+        "TransmutePrismatic": "전환: 프리즘",
+        "Marksmage": "마법 명사수",
+        "EtherealWeapon": "환영 무기",
+        "Eureka": "유레카",
+        "InfiniteRecursion": "무한 반복",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자",
+        "BacktoBasics": "기본으로 돌아가기",
+        "FinalForm": "최종 형태"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        4645,
+        4646,
+        3089,
+        3135,
+        3157,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 10.12
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 8.98
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 4.33
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 3.88
+        },
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": 3.59
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 3.38
+        },
+        {
+          "id": "Juiced",
+          "icon": "assets/ux/kiwi/augments/icons/juiced_small.png",
+          "pick": 3.3
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 16.25
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 25.46
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 21.35
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 15.47
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 13.66
+        },
+        {
+          "id": "WithHaste",
+          "icon": "assets/ux/cherry/augments/icons/withhaste_small.png",
+          "pick": 6.19
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 5.65
+        },
+        {
+          "id": "Marksmage",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 5.07
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 39.57
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 27.51
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 13.01
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": 10.58
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 8.67
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

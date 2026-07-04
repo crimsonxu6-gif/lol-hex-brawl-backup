@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Milio",
+    "slug": "milio",
+    "names": {
+      "zh": "米利欧 明烛",
+      "en": "The Gentle Flame Milio",
+      "ja": "やさしき炎 ミリオ",
+      "ko": "온화한 불꽃 밀리오"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "米利欧 明烛 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "support": "辅助出装"
+      },
+      "buildTags": {
+        "support": "辅助"
+      },
+      "buildScores": {
+        "support": "待审核"
+      },
+      "hexNames": {
+        "SonicBoom": "天音爆",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "WitchfulThinking": "巫师式思考",
+        "SlapAround": "扇巴掌",
+        "MindtoMatter": "由心及物",
+        "MightyShield": "强力护盾",
+        "Upgrade_ZH": "升级：中娅",
+        "FirstAidKit": "急救用具",
+        "AllForYou": "全心为你",
+        "WeeWooWeeWoo": "喂呜喂呜",
+        "SkilledSniper": "老练狙神",
+        "MagicMissile": "魔法飞弹",
+        "DivineIntervention": "神圣干预",
+        "SpecializedRecursion": "急速之追求",
+        "PhenomenalEvil": "超凡邪恶",
+        "Sonata": "咏叹奏鸣",
+        "SpiritBomb": "灵魄炸弹",
+        "EmpoweredByTheFaithful": "信念者的强化",
+        "Eureka": "尤里卡",
+        "Archmage": "大法师",
+        "InfiniteRecursion": "无限循环往复",
+        "WindspeakersBlessing": "风语者的祝福"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "The Gentle Flame Milio Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "support": "Support Build"
+      },
+      "buildTags": {
+        "support": "Support"
+      },
+      "buildScores": {
+        "support": "Needs review"
+      },
+      "hexNames": {
+        "SonicBoom": "Sonic Boom",
+        "Purist_Caster": "Purist - Caster",
+        "WitchfulThinking": "Witchful Thinking",
+        "SlapAround": "Slap Around",
+        "MindtoMatter": "Mind to Matter",
+        "MightyShield": "Mighty Shield",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "FirstAidKit": "First-Aid Kit",
+        "AllForYou": "All For You",
+        "WeeWooWeeWoo": "Wee Woo Wee Woo",
+        "SkilledSniper": "Skilled Sniper",
+        "MagicMissile": "Magic Missile",
+        "DivineIntervention": "Divine Intervention",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "Sonata": "Sonata",
+        "SpiritBomb": "Spirit Bomb",
+        "EmpoweredByTheFaithful": "Empowered By The Faithful",
+        "Eureka": "Eureka",
+        "Archmage": "Archmage",
+        "InfiniteRecursion": "Infinite Recursion",
+        "WindspeakersBlessing": "Windspeaker's Blessing"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "やさしき炎 ミリオ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "support": "サポートビルド"
+      },
+      "buildTags": {
+        "support": "サポート"
+      },
+      "buildScores": {
+        "support": "確認待ち"
+      },
+      "hexNames": {
+        "SonicBoom": "ソニックブーム",
+        "Purist_Caster": "純粋なるキャスター",
+        "WitchfulThinking": "魔法的思考",
+        "SlapAround": "叩きまくれ",
+        "MindtoMatter": "精神の体現",
+        "MightyShield": "マイティシールド",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "FirstAidKit": "救急セット",
+        "AllForYou": "キミのためさ",
+        "WeeWooWeeWoo": "うぃ～！おりゃっ！",
+        "SkilledSniper": "腕利きスナイパー",
+        "MagicMissile": "マジックミサイル",
+        "DivineIntervention": "聖なる介入",
+        "SpecializedRecursion": "素早さの追求",
+        "PhenomenalEvil": "偉大なる悪",
+        "Sonata": "ソナタ",
+        "SpiritBomb": "スピリットボム",
+        "EmpoweredByTheFaithful": "信ずる者の加護",
+        "Eureka": "エウレカ",
+        "Archmage": "魔帝",
+        "InfiniteRecursion": "無限再帰",
+        "WindspeakersBlessing": "風詠みの祝福"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "온화한 불꽃 밀리오 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "support": "서포터 빌드"
+      },
+      "buildTags": {
+        "support": "서포터"
+      },
+      "buildScores": {
+        "support": "검토 필요"
+      },
+      "hexNames": {
+        "SonicBoom": "음속 폭발",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "WitchfulThinking": "사악한 정신",
+        "SlapAround": "우당탕탕",
+        "MindtoMatter": "정신 변환",
+        "MightyShield": "강력한 방패",
+        "Upgrade_ZH": "존야 업그레이드",
+        "FirstAidKit": "응급처치 키트",
+        "AllForYou": "너만을 위해",
+        "WeeWooWeeWoo": "삐뽀삐뽀",
+        "SkilledSniper": "노련한 저격수",
+        "MagicMissile": "마법 미사일",
+        "DivineIntervention": "신성한 중재",
+        "SpecializedRecursion": "가속 추구",
+        "PhenomenalEvil": "극악무도",
+        "Sonata": "소나타",
+        "SpiritBomb": "영혼 폭탄",
+        "EmpoweredByTheFaithful": "신념을 통한 강화",
+        "Eureka": "유레카",
+        "Archmage": "대마법사",
+        "InfiniteRecursion": "무한 반복",
+        "WindspeakersBlessing": "바람전달자의 축복"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "support",
+      "items": [
+        6617,
+        3504,
+        3107,
+        6616,
+        6621,
+        3158
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "SonicBoom",
+          "icon": "assets/ux/cherry/augments/icons/sonicboom_small.png",
+          "pick": 17.02
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 6.76
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 6.41
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 5.57
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 3.8
+        },
+        {
+          "id": "MightyShield",
+          "icon": "assets/ux/kiwi/augments/icons/mightyshield_small.png",
+          "pick": 3.41
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 2.54
+        },
+        {
+          "id": "FirstAidKit",
+          "icon": "assets/ux/cherry/augments/icons/firstaidkit_small.png",
+          "pick": 23.69
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "AllForYou",
+          "icon": "assets/ux/cherry/augments/icons/allforyou_small.png",
+          "pick": 18.85
+        },
+        {
+          "id": "WeeWooWeeWoo",
+          "icon": "assets/ux/kiwi/augments/icons/weewooweewoo_small.png",
+          "pick": 15.84
+        },
+        {
+          "id": "SkilledSniper",
+          "icon": "assets/ux/cherry/augments/icons/skilledsniper_small.png",
+          "pick": 11.8
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 9.12
+        },
+        {
+          "id": "DivineIntervention",
+          "icon": "assets/ux/cherry/augments/icons/slowactingpainkillers_small.png",
+          "pick": 9.02
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 7.22
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 6.96
+        },
+        {
+          "id": "Sonata",
+          "icon": "assets/ux/kiwi/augments/icons/sonata_large.png",
+          "pick": 19.7
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "SpiritBomb",
+          "icon": "assets/ux/kiwi/augments/icons/spiritbomb_small.png",
+          "pick": 17.38
+        },
+        {
+          "id": "EmpoweredByTheFaithful",
+          "icon": "assets/ux/kiwi/augments/icons/empoweredbythefaithful_large.png",
+          "pick": 15.38
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 10.47
+        },
+        {
+          "id": "Archmage",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 10.07
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 8.31
+        },
+        {
+          "id": "WindspeakersBlessing",
+          "icon": "assets/ux/cherry/augments/icons/windspeakersblessing_small.png",
+          "pick": 6.51
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

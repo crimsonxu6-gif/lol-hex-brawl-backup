@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Garen",
+    "slug": "garen",
+    "names": {
+      "zh": "盖伦 德玛西亚之力",
+      "en": "The Might of Demacia Garen",
+      "ja": "デマーシアの勇士 ガレン",
+      "ko": "데마시아의 힘 가렌"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "德玛西亚之力 盖伦 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "crit": "暴击出装"
+      },
+      "buildTags": {
+        "crit": "爆发"
+      },
+      "buildScores": {
+        "crit": "强"
+      },
+      "hexNames": {
+        "SpinToWin": "旋转至胜",
+        "HeavyHitter": "重量级打击手",
+        "BluntForce": "大力",
+        "Upgrade_Immolate": "升级：献祭",
+        "Goredrink": "渴血",
+        "TitansPulse": "保持坚定",
+        "SustainingStrike": "虹吸",
+        "Upgrade_Collector": "升级：收集者",
+        "TankEngine": "坦克引擎",
+        "Quest_SteelYourHeart": "钢化你心",
+        "PressureCooker": "高压锅",
+        "Quickstep": "快步",
+        "Upgrade_IE": "升级：无尽之刃",
+        "CelestialBody": "星界躯体",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "Dropkick": "飞身踢",
+        "Goliath": "歌利亚巨人",
+        "BladeWaltz": "利刃华尔兹",
+        "BacktoBasics": "回归基本功",
+        "PromQueen": "舞会女王",
+        "GiantSlayer": "巨人杀手",
+        "ClownCollege": "小丑学院",
+        "LittleDevil": "你肩上的恶魔"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Garen guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "crit": "Crit Build"
+      },
+      "buildTags": {
+        "crit": "Burst"
+      },
+      "buildScores": {
+        "crit": "Strong"
+      },
+      "hexNames": {
+        "SpinToWin": "Spin To Win",
+        "HeavyHitter": "Heavy Hitter",
+        "BluntForce": "Blunt Force",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "Goredrink": "Goredrink",
+        "TitansPulse": "Stay Resolute",
+        "SustainingStrike": "Siphon",
+        "Upgrade_Collector": "Upgrade Collector",
+        "TankEngine": "Tank Engine",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "PressureCooker": "Pressure Cooker",
+        "Quickstep": "Quickstep",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "CelestialBody": "Celestial Body",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "Dropkick": "Dropkick",
+        "Goliath": "Goliath",
+        "BladeWaltz": "Blade Waltz",
+        "BacktoBasics": "Back To Basics",
+        "PromQueen": "Prom Queen",
+        "GiantSlayer": "Giant Slayer",
+        "ClownCollege": "Clown College",
+        "LittleDevil": "Devil on Your Shoulder"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "デマーシアの勇士 ガレン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "crit": "クリティカルビルド"
+      },
+      "buildTags": {
+        "crit": "バースト"
+      },
+      "buildScores": {
+        "crit": "強力"
+      },
+      "hexNames": {
+        "SpinToWin": "勝利への回転",
+        "HeavyHitter": "ヘビーヒッター",
+        "BluntForce": "無骨なる力",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "Goredrink": "ゴアドリンク",
+        "TitansPulse": "固い決意",
+        "SustainingStrike": "サイフォン",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "TankEngine": "タンクエンジン",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "PressureCooker": "圧力鍋",
+        "Quickstep": "クイックステップ",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "CelestialBody": "聖体",
+        "TransmutePrismatic": "変質: プリズム",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "Dropkick": "ドロップキック",
+        "Goliath": "大巨人",
+        "BladeWaltz": "ブレードワルツ",
+        "BacktoBasics": "初志貫徹",
+        "PromQueen": "プロムクイーン",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "ClownCollege": "ピエロ大学",
+        "LittleDevil": "肩の上の悪魔"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "데마시아의 힘 가렌 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "crit": "치명타 빌드"
+      },
+      "buildTags": {
+        "crit": "폭딜"
+      },
+      "buildScores": {
+        "crit": "강력"
+      },
+      "hexNames": {
+        "SpinToWin": "승리를 위한 회전",
+        "HeavyHitter": "강타자",
+        "BluntForce": "육중한 힘",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "Goredrink": "선혈포식",
+        "TitansPulse": "확고한 의지로",
+        "SustainingStrike": "흡수",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "TankEngine": "탱크 엔진",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "PressureCooker": "압력솥",
+        "Quickstep": "날쌘걸음",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "CelestialBody": "천상의 신체",
+        "TransmutePrismatic": "전환: 프리즘",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "Dropkick": "드롭킥",
+        "Goliath": "거인",
+        "BladeWaltz": "검무",
+        "BacktoBasics": "기본으로 돌아가기",
+        "PromQueen": "퀸카",
+        "GiantSlayer": "거인 학살자",
+        "ClownCollege": "광대 대학",
+        "LittleDevil": "어깨 위의 악마"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "crit",
+      "items": [
+        6631,
+        3046,
+        3031,
+        3033,
+        6676,
+        3006
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "SpinToWin",
+          "icon": "assets/ux/cherry/augments/icons/spintowin_small.png",
+          "pick": 30.63
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 15.18
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 8.21
+        },
+        {
+          "id": "Upgrade_Immolate",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeimmolate_small.png",
+          "pick": 7.3
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 6.68
+        },
+        {
+          "id": "TitansPulse",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 4.8
+        },
+        {
+          "id": "SustainingStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 3.29
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 2.45
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 33.12
+        },
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": 23.98
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 16.99
+        },
+        {
+          "id": "Quickstep",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 15.11
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 14.75
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": 11.32
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 8.01
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 6.24
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": 24.85
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 14.03
+        },
+        {
+          "id": "BladeWaltz",
+          "icon": "assets/ux/cherry/augments/icons/bladewaltz_small.png",
+          "pick": 5.94
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 2.89
+        },
+        {
+          "id": "PromQueen",
+          "icon": "assets/ux/kiwi/augments/icons/promqueen_small.png",
+          "pick": 0.76
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 0.53
+        },
+        {
+          "id": "ClownCollege",
+          "icon": "assets/ux/cherry/augments/icons/clowncollege_small.png",
+          "pick": null
+        },
+        {
+          "id": "LittleDevil",
+          "icon": "assets/ux/kiwi/augments/icons/littledevil_small.png",
+          "pick": null
+        }
+      ]
+    }
+  }
+}

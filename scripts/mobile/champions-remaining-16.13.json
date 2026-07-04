@@ -1,0 +1,390 @@
+[
+  {
+    "name": "影哨",
+    "slug": "akshan"
+  },
+  {
+    "name": "牛头酋长",
+    "slug": "alistar"
+  },
+  {
+    "name": "铁血狼母",
+    "slug": "ambessa"
+  },
+  {
+    "name": "殇之木乃伊",
+    "slug": "amumu"
+  },
+  {
+    "name": "残月之肃",
+    "slug": "aphelios"
+  },
+  {
+    "name": "双界灵兔",
+    "slug": "aurora"
+  },
+  {
+    "name": "沙漠皇帝",
+    "slug": "azir"
+  },
+  {
+    "name": "蒸汽机器人",
+    "slug": "blitzcrank"
+  },
+  {
+    "name": "狂厄蔷薇",
+    "slug": "briar"
+  },
+  {
+    "name": "皮城女警",
+    "slug": "caitlyn"
+  },
+  {
+    "name": "虚空恐惧",
+    "slug": "chogath"
+  },
+  {
+    "name": "英勇投弹手",
+    "slug": "corki"
+  },
+  {
+    "name": "荣耀行刑官",
+    "slug": "draven"
+  },
+  {
+    "name": "时间刺客",
+    "slug": "ekko"
+  },
+  {
+    "name": "远古恐惧",
+    "slug": "fiddlesticks"
+  },
+  {
+    "name": "无双剑姬",
+    "slug": "fiora"
+  },
+  {
+    "name": "潮汐海灵",
+    "slug": "fizz"
+  },
+  {
+    "name": "正义巨像",
+    "slug": "galio"
+  },
+  {
+    "name": "海洋之灾",
+    "slug": "gangplank"
+  },
+  {
+    "name": "迷失之牙",
+    "slug": "gnar"
+  },
+  {
+    "name": "酒桶",
+    "slug": "gragas"
+  },
+  {
+    "name": "灵罗娃娃",
+    "slug": "gwen"
+  },
+  {
+    "name": "战争之影",
+    "slug": "hecarim"
+  },
+  {
+    "name": "大发明家",
+    "slug": "heimerdinger"
+  },
+  {
+    "name": "异画师",
+    "slug": "hwei"
+  },
+  {
+    "name": "海兽祭司",
+    "slug": "illaoi"
+  },
+  {
+    "name": "风暴之怒",
+    "slug": "janna"
+  },
+  {
+    "name": "德玛西亚皇子",
+    "slug": "jarvan-iv"
+  },
+  {
+    "name": "武器大师",
+    "slug": "jax"
+  },
+  {
+    "name": "未来守护者",
+    "slug": "jayce"
+  },
+  {
+    "name": "戏命师",
+    "slug": "jhin"
+  },
+  {
+    "name": "纳祖芒荣耀",
+    "slug": "ksante"
+  },
+  {
+    "name": "天启者",
+    "slug": "karma"
+  },
+  {
+    "name": "死亡颂唱者",
+    "slug": "karthus"
+  },
+  {
+    "name": "虚空行者",
+    "slug": "kassadin"
+  },
+  {
+    "name": "永猎双子",
+    "slug": "kindred"
+  },
+  {
+    "name": "暴怒骑士",
+    "slug": "kled"
+  },
+  {
+    "name": "深渊巨口",
+    "slug": "kogmaw"
+  },
+  {
+    "name": "曙光女神",
+    "slug": "leona"
+  },
+  {
+    "name": "灰烬驱魔人",
+    "slug": "locke"
+  },
+  {
+    "name": "熔岩巨兽",
+    "slug": "malphite"
+  },
+  {
+    "name": "虚空先知",
+    "slug": "malzahar"
+  },
+  {
+    "name": "扭曲树精",
+    "slug": "maokai"
+  },
+  {
+    "name": "流光镜影",
+    "slug": "mel"
+  },
+  {
+    "name": "明烛",
+    "slug": "milio"
+  },
+  {
+    "name": "齐天大圣",
+    "slug": "wukong"
+  },
+  {
+    "name": "唤潮鲛姬",
+    "slug": "nami"
+  },
+  {
+    "name": "沙漠死神",
+    "slug": "nasus"
+  },
+  {
+    "name": "深海泰坦",
+    "slug": "nautilus"
+  },
+  {
+    "name": "狂野女猎手",
+    "slug": "nidalee"
+  },
+  {
+    "name": "发条魔灵",
+    "slug": "orianna"
+  },
+  {
+    "name": "圣锤之毅",
+    "slug": "poppy"
+  },
+  {
+    "name": "血港鬼影",
+    "slug": "pyke"
+  },
+  {
+    "name": "幻翎",
+    "slug": "rakan"
+  },
+  {
+    "name": "披甲龙龟",
+    "slug": "rammus"
+  },
+  {
+    "name": "炼金男爵",
+    "slug": "renata-glasc"
+  },
+  {
+    "name": "放逐之刃",
+    "slug": "riven"
+  },
+  {
+    "name": "机械公敌",
+    "slug": "rumble"
+  },
+  {
+    "name": "符文法师",
+    "slug": "ryze"
+  },
+  {
+    "name": "北地之怒",
+    "slug": "sejuani"
+  },
+  {
+    "name": "涤魂圣枪",
+    "slug": "senna"
+  },
+  {
+    "name": "恶魔小丑",
+    "slug": "shaco"
+  },
+  {
+    "name": "暮光之眼",
+    "slug": "shen"
+  },
+  {
+    "name": "龙血武姬",
+    "slug": "shyvana"
+  },
+  {
+    "name": "炼金术士",
+    "slug": "singed"
+  },
+  {
+    "name": "战争女神",
+    "slug": "sivir"
+  },
+  {
+    "name": "上古领主",
+    "slug": "skarner"
+  },
+  {
+    "name": "炽炎雏龙",
+    "slug": "smolder"
+  },
+  {
+    "name": "琴瑟仙女",
+    "slug": "sona"
+  },
+  {
+    "name": "众星之子",
+    "slug": "soraka"
+  },
+  {
+    "name": "诺克萨斯统领",
+    "slug": "swain"
+  },
+  {
+    "name": "解脱者",
+    "slug": "sylas"
+  },
+  {
+    "name": "暗黑元首",
+    "slug": "syndra"
+  },
+  {
+    "name": "河流之王",
+    "slug": "tahm-kench"
+  },
+  {
+    "name": "迅捷斥候",
+    "slug": "teemo"
+  },
+  {
+    "name": "魂锁典狱长",
+    "slug": "thresh"
+  },
+  {
+    "name": "麦林炮手",
+    "slug": "tristana"
+  },
+  {
+    "name": "蛮族之王",
+    "slug": "tryndamere"
+  },
+  {
+    "name": "卡牌大师",
+    "slug": "twisted-fate"
+  },
+  {
+    "name": "瘟疫之源",
+    "slug": "twitch"
+  },
+  {
+    "name": "兽灵行者",
+    "slug": "udyr"
+  },
+  {
+    "name": "惩戒之箭",
+    "slug": "varus"
+  },
+  {
+    "name": "虚空之眼",
+    "slug": "velkoz"
+  },
+  {
+    "name": "愁云使者",
+    "slug": "vex"
+  },
+  {
+    "name": "破败之王",
+    "slug": "viego"
+  },
+  {
+    "name": "奥术先驱",
+    "slug": "viktor"
+  },
+  {
+    "name": "猩红收割者",
+    "slug": "vladimir"
+  },
+  {
+    "name": "不灭狂雷",
+    "slug": "volibear"
+  },
+  {
+    "name": "逆羽",
+    "slug": "xayah"
+  },
+  {
+    "name": "远古巫灵",
+    "slug": "xerath"
+  },
+  {
+    "name": "德邦总管",
+    "slug": "xin-zhao"
+  },
+  {
+    "name": "不破之誓",
+    "slug": "yunara"
+  },
+  {
+    "name": "魔法猫咪",
+    "slug": "yuumi"
+  },
+  {
+    "name": "不落魔锋",
+    "slug": "zaahen"
+  },
+  {
+    "name": "爆破鬼才",
+    "slug": "ziggs"
+  },
+  {
+    "name": "时光守护者",
+    "slug": "zilean"
+  },
+  {
+    "name": "荆棘之兴",
+    "slug": "zyra"
+  }
+]

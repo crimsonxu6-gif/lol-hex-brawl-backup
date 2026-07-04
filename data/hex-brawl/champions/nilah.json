@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Nilah",
+    "slug": "nilah",
+    "names": {
+      "zh": "尼菈 不羁之悦",
+      "en": "the Joy Unbound Nilah",
+      "ja": "放たれし喜び ニーラ",
+      "ko": "해방된 기쁨 닐라"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "尼菈 不羁之悦 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "暴击出装"
+      },
+      "buildTags": {
+        "standard": "暴击"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "BluntForce": "大力",
+        "Upgrade_Collector": "升级：收集者",
+        "escAPADe": "魔法转物理",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "Typhoon": "台风",
+        "SustainingStrike": "虹吸",
+        "TransmuteGold": "质变：黄金阶",
+        "Upgrade_IE": "升级：无尽之刃",
+        "GetExcited": "罪恶快感",
+        "LittleExtraHelp": "小小的额外帮助",
+        "BurstingTeeth": "牙仙子",
+        "EtherealWeapon": "虚幻武器",
+        "WarlockJuicebox": "术士果汁盒",
+        "SpecializedEmpowerment": "威能之追求",
+        "ItsKillingTime": "杀戮时间到了",
+        "JeweledGauntlet": "珠光护手",
+        "FinalForm": "最终形态",
+        "DualWield": "双刀流",
+        "DivineDomain": "飞升仪式",
+        "FanTheHammer": "连拨击锤"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Joy Unbound Nilah Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Crit Build"
+      },
+      "buildTags": {
+        "standard": "Crit"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "BluntForce": "Blunt Force",
+        "Upgrade_Collector": "Upgrade Collector",
+        "escAPADe": "escAPADe",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "Typhoon": "Typhoon",
+        "SustainingStrike": "Siphon",
+        "TransmuteGold": "Transmute: Gold",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "GetExcited": "Get Excited!",
+        "LittleExtraHelp": "Lil' Extra Help",
+        "BurstingTeeth": "Tooth Fairy",
+        "EtherealWeapon": "Ethereal Weapon",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "ItsKillingTime": "It's Killing Time",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "FinalForm": "Final Form",
+        "DualWield": "Dual Wield",
+        "DivineDomain": "Rite of Ascension",
+        "FanTheHammer": "Fan The Hammer"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "放たれし喜び ニーラ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "クリティカルビルド"
+      },
+      "buildTags": {
+        "standard": "クリティカル"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "BluntForce": "無骨なる力",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "escAPADe": "魔攻のいたずら",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "Typhoon": "タイフーン",
+        "SustainingStrike": "サイフォン",
+        "TransmuteGold": "変質: ゴールド",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "GetExcited": "超エキサイティン！",
+        "LittleExtraHelp": "ちょこっとヘルプ",
+        "BurstingTeeth": "歯の妖精",
+        "EtherealWeapon": "エーテル武器",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "SpecializedEmpowerment": "力の追求",
+        "ItsKillingTime": "殺戮の時",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "FinalForm": "最終形態",
+        "DualWield": "二刀流",
+        "DivineDomain": "超越の儀式",
+        "FanTheHammer": "ぐるぐるハンマー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "해방된 기쁨 닐라 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "치명타 빌드"
+      },
+      "buildTags": {
+        "standard": "치명타"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "BluntForce": "육중한 힘",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "escAPADe": "마법사 (물리)",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "Typhoon": "태풍",
+        "SustainingStrike": "흡수",
+        "TransmuteGold": "전환: 골드",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "GetExcited": "신난다!",
+        "LittleExtraHelp": "작은 도움",
+        "BurstingTeeth": "이빨 요정",
+        "EtherealWeapon": "환영 무기",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "SpecializedEmpowerment": "위력 추구",
+        "ItsKillingTime": "처형 시간",
+        "JeweledGauntlet": "보석 건틀릿",
+        "FinalForm": "최종 형태",
+        "DualWield": "양손잡이",
+        "DivineDomain": "초월 의식",
+        "FanTheHammer": "탄환 세례"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        6676,
+        3031,
+        3033,
+        6673,
+        3072,
+        3006
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 21.7
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 16.66
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 12.5
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 6.34
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 4.88
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 3.84
+        },
+        {
+          "id": "SustainingStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 2.13
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.13
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 24.59
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 18.86
+        },
+        {
+          "id": "LittleExtraHelp",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 15.07
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 10.89
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 10.51
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 10.5
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 6.96
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 5.72
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 15.33
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 11.91
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 8.71
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 6.12
+        },
+        {
+          "id": "FanTheHammer",
+          "icon": "assets/ux/cherry/augments/icons/fanthehammer_small.png",
+          "pick": 3.57
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

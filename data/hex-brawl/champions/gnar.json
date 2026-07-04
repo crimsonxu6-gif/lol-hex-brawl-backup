@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Gnar",
+    "slug": "gnar",
+    "names": {
+      "zh": "纳尔 迷失之牙",
+      "en": "the Missing Link Gnar",
+      "ja": "ミッシングリンク ナー",
+      "ko": "잃어버린 고리 나르"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "纳尔 迷失之牙 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "bruiser": "战士出装"
+      },
+      "buildTags": {
+        "bruiser": "战士"
+      },
+      "buildScores": {
+        "bruiser": "待审核"
+      },
+      "hexNames": {
+        "BluntForce": "大力",
+        "Goredrink": "渴血",
+        "Typhoon": "台风",
+        "TransmuteGold": "质变：黄金阶",
+        "escAPADe": "魔法转物理",
+        "ForgedByTheMaster": "大师铸就",
+        "SlapAround": "扇巴掌",
+        "HeavyHitter": "重量级打击手",
+        "Quest_SteelYourHeart": "钢化你心",
+        "CelestialBody": "星界躯体",
+        "Upgrade_Sheen": "升级：耀光",
+        "PressureCooker": "高压锅",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "SpecializedRecursion": "急速之追求",
+        "TankEngine": "坦克引擎",
+        "Dropkick": "飞身踢",
+        "Goliath": "歌利亚巨人",
+        "FanTheHammer": "连拨击锤",
+        "DualWield": "双刀流",
+        "FinalForm": "最终形态"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Missing Link Gnar Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "bruiser": "Bruiser Build"
+      },
+      "buildTags": {
+        "bruiser": "Bruiser"
+      },
+      "buildScores": {
+        "bruiser": "Needs review"
+      },
+      "hexNames": {
+        "BluntForce": "Blunt Force",
+        "Goredrink": "Goredrink",
+        "Typhoon": "Typhoon",
+        "TransmuteGold": "Transmute: Gold",
+        "escAPADe": "escAPADe",
+        "ForgedByTheMaster": "Forged By The Master",
+        "SlapAround": "Slap Around",
+        "HeavyHitter": "Heavy Hitter",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "CelestialBody": "Celestial Body",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "PressureCooker": "Pressure Cooker",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "TankEngine": "Tank Engine",
+        "Dropkick": "Dropkick",
+        "Goliath": "Goliath",
+        "FanTheHammer": "Fan The Hammer",
+        "DualWield": "Dual Wield",
+        "FinalForm": "Final Form"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ミッシングリンク ナー Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "bruiser": "ファイタービルド"
+      },
+      "buildTags": {
+        "bruiser": "ファイター"
+      },
+      "buildScores": {
+        "bruiser": "確認待ち"
+      },
+      "hexNames": {
+        "BluntForce": "無骨なる力",
+        "Goredrink": "ゴアドリンク",
+        "Typhoon": "タイフーン",
+        "TransmuteGold": "変質: ゴールド",
+        "escAPADe": "魔攻のいたずら",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "SlapAround": "叩きまくれ",
+        "HeavyHitter": "ヘビーヒッター",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "CelestialBody": "聖体",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "PressureCooker": "圧力鍋",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "TransmutePrismatic": "変質: プリズム",
+        "SpecializedRecursion": "素早さの追求",
+        "TankEngine": "タンクエンジン",
+        "Dropkick": "ドロップキック",
+        "Goliath": "大巨人",
+        "FanTheHammer": "ぐるぐるハンマー",
+        "DualWield": "二刀流",
+        "FinalForm": "最終形態"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "잃어버린 고리 나르 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "bruiser": "전사 빌드"
+      },
+      "buildTags": {
+        "bruiser": "전사"
+      },
+      "buildScores": {
+        "bruiser": "검토 필요"
+      },
+      "hexNames": {
+        "BluntForce": "육중한 힘",
+        "Goredrink": "선혈포식",
+        "Typhoon": "태풍",
+        "TransmuteGold": "전환: 골드",
+        "escAPADe": "마법사 (물리)",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "SlapAround": "우당탕탕",
+        "HeavyHitter": "강타자",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "CelestialBody": "천상의 신체",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "PressureCooker": "압력솥",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "TransmutePrismatic": "전환: 프리즘",
+        "SpecializedRecursion": "가속 추구",
+        "TankEngine": "탱크 엔진",
+        "Dropkick": "드롭킥",
+        "Goliath": "거인",
+        "FanTheHammer": "탄환 세례",
+        "DualWield": "양손잡이",
+        "FinalForm": "최종 형태"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "bruiser",
+      "items": [
+        3078,
+        3071,
+        6333,
+        3053,
+        2517,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 10.02
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 8.98
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 6.64
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.74
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 3
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 2.44
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 2.39
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 28.61
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": 30.1
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": 16.35
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 11.73
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 9.53
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 8.04
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 6.6
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 2.96
+        },
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 36.56
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": 31.54
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 17.47
+        },
+        {
+          "id": "FanTheHammer",
+          "icon": "assets/ux/cherry/augments/icons/fanthehammer_small.png",
+          "pick": 9.71
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 8.25
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

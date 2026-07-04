@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Fizz",
+    "slug": "fizz",
+    "names": {
+      "zh": "菲兹 潮汐海灵",
+      "en": "the Tidal Trickster Fizz",
+      "ja": "波間のトリックスター フィズ",
+      "ko": "대양의 말썽꾸러기 피즈"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "菲兹 潮汐海灵 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "Upgrade_ZH": "升级：中娅",
+        "WitchfulThinking": "巫师式思考",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "Juiced": "注魔",
+        "MindtoMatter": "由心及物",
+        "KillSecured": "杀意翻涌",
+        "TransmuteGold": "质变：黄金阶",
+        "ShadowRunner": "暗影疾奔",
+        "WarlockJuicebox": "术士果汁盒",
+        "EtherealWeapon": "虚幻武器",
+        "BurstingTeeth": "牙仙子",
+        "PhenomenalEvil": "超凡邪恶",
+        "BloodMoneyBurn": "炽燃利息",
+        "Nightstalking": "夜狩",
+        "SpecializedRecursion": "急速之追求",
+        "Marksmage": "神射法师",
+        "Dashing": "全凭身法",
+        "Eureka": "尤里卡",
+        "InfiniteRecursion": "无限循环往复",
+        "InfernalConduit": "炼狱导管",
+        "DivineDomain": "飞升仪式"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Tidal Trickster Fizz Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "WitchfulThinking": "Witchful Thinking",
+        "Purist_Caster": "Purist - Caster",
+        "Juiced": "Juiced",
+        "MindtoMatter": "Mind to Matter",
+        "KillSecured": "Kill Secured",
+        "TransmuteGold": "Transmute: Gold",
+        "ShadowRunner": "Shadow Runner",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "EtherealWeapon": "Ethereal Weapon",
+        "BurstingTeeth": "Tooth Fairy",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "BloodMoneyBurn": "Combusting Interest",
+        "Nightstalking": "Nightstalking",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "Marksmage": "Marksmage",
+        "Dashing": "Dashing",
+        "Eureka": "Eureka",
+        "InfiniteRecursion": "Infinite Recursion",
+        "InfernalConduit": "Infernal Conduit",
+        "DivineDomain": "Rite of Ascension"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "波間のトリックスター フィズ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "APビルド"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "WitchfulThinking": "魔法的思考",
+        "Purist_Caster": "純粋なるキャスター",
+        "Juiced": "パワーアップ",
+        "MindtoMatter": "精神の体現",
+        "KillSecured": "キルを確認",
+        "TransmuteGold": "変質: ゴールド",
+        "ShadowRunner": "影走り",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "EtherealWeapon": "エーテル武器",
+        "BurstingTeeth": "歯の妖精",
+        "PhenomenalEvil": "偉大なる悪",
+        "BloodMoneyBurn": "燃える利回り",
+        "Nightstalking": "ナイトストーク",
+        "SpecializedRecursion": "素早さの追求",
+        "Marksmage": "マークスメイジ",
+        "Dashing": "疾走",
+        "Eureka": "エウレカ",
+        "InfiniteRecursion": "無限再帰",
+        "InfernalConduit": "獄炎路",
+        "DivineDomain": "超越の儀式"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "대양의 말썽꾸러기 피즈 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "Upgrade_ZH": "존야 업그레이드",
+        "WitchfulThinking": "사악한 정신",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "Juiced": "도취",
+        "MindtoMatter": "정신 변환",
+        "KillSecured": "확보된 킬",
+        "TransmuteGold": "전환: 골드",
+        "ShadowRunner": "그림자 질주",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "EtherealWeapon": "환영 무기",
+        "BurstingTeeth": "이빨 요정",
+        "PhenomenalEvil": "극악무도",
+        "BloodMoneyBurn": "타오르는 이자",
+        "Nightstalking": "밤의 추적",
+        "SpecializedRecursion": "가속 추구",
+        "Marksmage": "마법 명사수",
+        "Dashing": "돌진",
+        "Eureka": "유레카",
+        "InfiniteRecursion": "무한 반복",
+        "InfernalConduit": "지옥의 전도체",
+        "DivineDomain": "초월 의식"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        3100,
+        4645,
+        3089,
+        3135,
+        3157,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 11.43
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 10.32
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 8.55
+        },
+        {
+          "id": "Juiced",
+          "icon": "assets/ux/kiwi/augments/icons/juiced_small.png",
+          "pick": 3.55
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 3.4
+        },
+        {
+          "id": "KillSecured",
+          "icon": "assets/ux/kiwi/augments/icons/killsecure_small.png",
+          "pick": 3.14
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.08
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 23.31
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 19.86
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 18.93
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 13.58
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 12.64
+        },
+        {
+          "id": "BloodMoneyBurn",
+          "icon": "assets/ux/kiwi/augments/icons/bloodmoney2_small.png",
+          "pick": 11.68
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 7.41
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 5.07
+        },
+        {
+          "id": "Marksmage",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 21.23
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 26.17
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 16.94
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 9.46
+        },
+        {
+          "id": "InfernalConduit",
+          "icon": "assets/ux/cherry/augments/icons/infernalconduit_small.png",
+          "pick": 7.3
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 5.74
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

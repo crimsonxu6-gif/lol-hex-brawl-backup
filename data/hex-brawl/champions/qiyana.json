@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Qiyana",
+    "slug": "qiyana",
+    "names": {
+      "zh": "奇亚娜 元素女皇",
+      "en": "Empress of the Elements Qiyana",
+      "ja": "エレメントの女帝 キヤナ",
+      "ko": "원소의 여왕 키아나"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "奇亚娜 元素女皇 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "AD 出装"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "ShadowRunner": "暗影疾奔",
+        "Upgrade_Collector": "升级：收集者",
+        "BluntForce": "大力",
+        "escAPADe": "魔法转物理",
+        "TransmuteGold": "质变：黄金阶",
+        "KillSecured": "杀意翻涌",
+        "SlapAround": "扇巴掌",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "BurstingTeeth": "牙仙子",
+        "BrushPower": "藏身草丛",
+        "Nightstalking": "夜狩",
+        "SpecializedEmpowerment": "威能之追求",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "Upgrade_IE": "升级：无尽之刃",
+        "ItsKillingTime": "杀戮时间到了",
+        "GetExcited": "罪恶快感",
+        "Dashing": "全凭身法",
+        "Overloaded": "超负荷",
+        "DivineDomain": "飞升仪式",
+        "EndlessHunt": "吃过路兵",
+        "FinalForm": "最终形态",
+        "BacktoBasics": "回归基本功"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Empress of the Elements Qiyana Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "AD Build"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "ShadowRunner": "Shadow Runner",
+        "Upgrade_Collector": "Upgrade Collector",
+        "BluntForce": "Blunt Force",
+        "escAPADe": "escAPADe",
+        "TransmuteGold": "Transmute: Gold",
+        "KillSecured": "Kill Secured",
+        "SlapAround": "Slap Around",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "BurstingTeeth": "Tooth Fairy",
+        "BrushPower": "Hide on Bush",
+        "Nightstalking": "Nightstalking",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "ItsKillingTime": "It's Killing Time",
+        "GetExcited": "Get Excited!",
+        "Dashing": "Dashing",
+        "Overloaded": "Overloaded",
+        "DivineDomain": "Rite of Ascension",
+        "EndlessHunt": "En Passant",
+        "FinalForm": "Final Form",
+        "BacktoBasics": "Back To Basics"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "エレメントの女帝 キヤナ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "AD ビルド"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "ShadowRunner": "影走り",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "BluntForce": "無骨なる力",
+        "escAPADe": "魔攻のいたずら",
+        "TransmuteGold": "変質: ゴールド",
+        "KillSecured": "キルを確認",
+        "SlapAround": "叩きまくれ",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "BurstingTeeth": "歯の妖精",
+        "BrushPower": "Hide on Bush",
+        "Nightstalking": "ナイトストーク",
+        "SpecializedEmpowerment": "力の追求",
+        "TransmutePrismatic": "変質: プリズム",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "ItsKillingTime": "殺戮の時",
+        "GetExcited": "超エキサイティン！",
+        "Dashing": "疾走",
+        "Overloaded": "オーバーロード",
+        "DivineDomain": "超越の儀式",
+        "EndlessHunt": "アンパッサン",
+        "FinalForm": "最終形態",
+        "BacktoBasics": "初志貫徹"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "원소의 여왕 키아나 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "AD 빌드"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "ShadowRunner": "그림자 질주",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "BluntForce": "육중한 힘",
+        "escAPADe": "마법사 (물리)",
+        "TransmuteGold": "전환: 골드",
+        "KillSecured": "확보된 킬",
+        "SlapAround": "우당탕탕",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "BurstingTeeth": "이빨 요정",
+        "BrushPower": "Hide on bush",
+        "Nightstalking": "밤의 추적",
+        "SpecializedEmpowerment": "위력 추구",
+        "TransmutePrismatic": "전환: 프리즘",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "ItsKillingTime": "처형 시간",
+        "GetExcited": "신난다!",
+        "Dashing": "돌진",
+        "Overloaded": "과충전",
+        "DivineDomain": "초월 의식",
+        "EndlessHunt": "앙파상",
+        "FinalForm": "최종 형태",
+        "BacktoBasics": "기본으로 돌아가기"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        126697,
+        6696,
+        6694,
+        6333,
+        2517,
+        3158
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 22.97
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 17.52
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 14.99
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 7.69
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.06
+        },
+        {
+          "id": "KillSecured",
+          "icon": "assets/ux/kiwi/augments/icons/killsecure_small.png",
+          "pick": 2.04
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 2.02
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 1.8
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 30.42
+        },
+        {
+          "id": "BrushPower",
+          "icon": "assets/ux/kiwi/augments/icons/brushpower_small.png",
+          "pick": 17.86
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 17.48
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 14.23
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 8.66
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 7.01
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 7
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 6.71
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 24.85
+        },
+        {
+          "id": "Overloaded",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_prismatic.png",
+          "pick": 15.07
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 11.06
+        },
+        {
+          "id": "EndlessHunt",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 4.8
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 4.48
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 3.68
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

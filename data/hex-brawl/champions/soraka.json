@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Soraka",
+    "slug": "soraka",
+    "names": {
+      "zh": "索拉卡 众星之子",
+      "en": "the Starchild Soraka",
+      "ja": "星の子 ソラカ",
+      "ko": "별의 아이 소라카"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "索拉卡 众星之子 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装"
+      },
+      "buildTags": {
+        "standard": "常规"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "FirstAidKit": "急救用具",
+        "AllForYou": "全心为你",
+        "WeeWooWeeWoo": "喂呜喂呜",
+        "SpiritBomb": "灵魄炸弹",
+        "Sonata": "咏叹奏鸣",
+        "EmpoweredByTheFaithful": "信念者的强化",
+        "SonicBoom": "天音爆",
+        "RabbleRousing": "活力焕发",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "TransmuteGold": "质变：黄金阶",
+        "WitchfulThinking": "巫师式思考",
+        "OceanSoul": "海洋龙魂",
+        "MindtoMatter": "由心及物",
+        "Homeguard": "家园卫士",
+        "DivineIntervention": "神圣干预",
+        "NatureIsHealing": "自然即是治愈",
+        "MercysStrike": "仁慈打击",
+        "DarkWind": "贪欲束缚",
+        "TankItOrLeaveIt": "会心防御",
+        "ShrinkRay": "缩小射线",
+        "CriticalHealing": "会心治疗",
+        "WindspeakersBlessing": "风语者的祝福",
+        "ProteinShake": "蛋白粉奶昔",
+        "InfiniteRecursion": "无限循环往复",
+        "BacktoBasics": "回归基本功",
+        "EmpyreanPromise": "至高天诺言"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Starchild Soraka Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Standard"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "FirstAidKit": "First-Aid Kit",
+        "AllForYou": "All For You",
+        "WeeWooWeeWoo": "Wee Woo Wee Woo",
+        "SpiritBomb": "Spirit Bomb",
+        "Sonata": "Sonata",
+        "EmpoweredByTheFaithful": "Empowered By The Faithful",
+        "SonicBoom": "Sonic Boom",
+        "RabbleRousing": "Rejuvenation",
+        "Purist_Caster": "Purist - Caster",
+        "TransmuteGold": "Transmute: Gold",
+        "WitchfulThinking": "Witchful Thinking",
+        "OceanSoul": "Ocean Soul",
+        "MindtoMatter": "Mind to Matter",
+        "Homeguard": "Homeguard",
+        "DivineIntervention": "Divine Intervention",
+        "NatureIsHealing": "Nature is Healing",
+        "MercysStrike": "Mercy's Strike",
+        "DarkWind": "Ravenous Bind",
+        "TankItOrLeaveIt": "Tank It Or Leave It",
+        "ShrinkRay": "Shrink Ray",
+        "CriticalHealing": "Critical Healing",
+        "WindspeakersBlessing": "Windspeaker's Blessing",
+        "ProteinShake": "Protein Shake",
+        "InfiniteRecursion": "Infinite Recursion",
+        "BacktoBasics": "Back To Basics",
+        "EmpyreanPromise": "Empyrean Promise"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "星の子 ソラカ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "要確認"
+      },
+      "hexNames": {
+        "FirstAidKit": "救急セット",
+        "AllForYou": "キミのためさ",
+        "WeeWooWeeWoo": "うぃ～！おりゃっ！",
+        "SpiritBomb": "スピリットボム",
+        "Sonata": "ソナタ",
+        "EmpoweredByTheFaithful": "信ずる者の加護",
+        "SonicBoom": "ソニックブーム",
+        "RabbleRousing": "再生",
+        "Purist_Caster": "純粋なるキャスター",
+        "TransmuteGold": "変質: ゴールド",
+        "WitchfulThinking": "魔法的思考",
+        "OceanSoul": "オーシャンソウル",
+        "MindtoMatter": "精神の体現",
+        "Homeguard": "ホームガード",
+        "DivineIntervention": "聖なる介入",
+        "NatureIsHealing": "大自然が回復している",
+        "MercysStrike": "慈悲の一撃",
+        "DarkWind": "貪欲な束縛",
+        "TankItOrLeaveIt": "タンクこそ至高",
+        "ShrinkRay": "縮小光線",
+        "CriticalHealing": "クリティカルヒール",
+        "WindspeakersBlessing": "風詠みの祝福",
+        "ProteinShake": "プロテインシェイク",
+        "InfiniteRecursion": "無限再帰",
+        "BacktoBasics": "初志貫徹",
+        "EmpyreanPromise": "荘厳の天球の約束"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "별의 아이 소라카 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "FirstAidKit": "응급처치 키트",
+        "AllForYou": "너만을 위해",
+        "WeeWooWeeWoo": "삐뽀삐뽀",
+        "SpiritBomb": "영혼 폭탄",
+        "Sonata": "소나타",
+        "EmpoweredByTheFaithful": "신념을 통한 강화",
+        "SonicBoom": "음속 폭발",
+        "RabbleRousing": "원기 회복",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "TransmuteGold": "전환: 골드",
+        "WitchfulThinking": "사악한 정신",
+        "OceanSoul": "바다의 영혼",
+        "MindtoMatter": "정신 변환",
+        "Homeguard": "민병대",
+        "DivineIntervention": "신성한 중재",
+        "NatureIsHealing": "자연의 회복",
+        "MercysStrike": "자비의 일격",
+        "DarkWind": "굶주린 속박",
+        "TankItOrLeaveIt": "확률적 방어",
+        "ShrinkRay": "감쇠 광선",
+        "CriticalHealing": "치명적 치유",
+        "WindspeakersBlessing": "바람전달자의 축복",
+        "ProteinShake": "프로틴 음료",
+        "InfiniteRecursion": "무한 반복",
+        "BacktoBasics": "기본으로 돌아가기",
+        "EmpyreanPromise": "창공의 서약"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "type": "support",
+      "items": [
+        2526,
+        6617,
+        3504,
+        6621,
+        3107,
+        3158
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "TankItOrLeaveIt",
+          "icon": "assets/ux/cherry/augments/icons/tankitorleaveit_small.png",
+          "pick": null
+        },
+        {
+          "id": "SonicBoom",
+          "icon": "assets/ux/cherry/augments/icons/sonicboom_small.png",
+          "pick": null
+        },
+        {
+          "id": "Homeguard",
+          "icon": "assets/ux/cherry/augments/icons/homeguard_small.png",
+          "pick": null
+        },
+        {
+          "id": "OceanSoul",
+          "icon": "assets/ux/cherry/augments/icons/oceansoul_small.png",
+          "pick": null
+        },
+        {
+          "id": "FirstAidKit",
+          "icon": "assets/ux/cherry/augments/icons/firstaidkit_small.png",
+          "pick": null
+        },
+        {
+          "id": "AllForYou",
+          "icon": "assets/ux/cherry/augments/icons/allforyou_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "AllForYou",
+          "icon": "assets/ux/cherry/augments/icons/allforyou_small.png",
+          "pick": null
+        },
+        {
+          "id": "ShrinkRay",
+          "icon": "assets/ux/cherry/augments/icons/shrinkray_small.png",
+          "pick": null
+        },
+        {
+          "id": "WeeWooWeeWoo",
+          "icon": "assets/ux/kiwi/augments/icons/weewooweewoo_small.png",
+          "pick": null
+        },
+        {
+          "id": "Sonata",
+          "icon": "assets/ux/kiwi/augments/icons/sonata_large.png",
+          "pick": null
+        },
+        {
+          "id": "CriticalHealing",
+          "icon": "assets/ux/cherry/augments/icons/criticalhealing_small.png",
+          "pick": null
+        },
+        {
+          "id": "MercysStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": null
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "SpiritBomb",
+          "icon": "assets/ux/kiwi/augments/icons/spiritbomb_small.png",
+          "pick": null
+        },
+        {
+          "id": "WindspeakersBlessing",
+          "icon": "assets/ux/cherry/augments/icons/windspeakersblessing_small.png",
+          "pick": null
+        },
+        {
+          "id": "ProteinShake",
+          "icon": "assets/ux/kiwi/augments/icons/proteinshake_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": null
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": null
+        },
+        {
+          "id": "EmpyreanPromise",
+          "icon": "assets/ux/kiwi/augments/icons/empyreampromise_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-07-04",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

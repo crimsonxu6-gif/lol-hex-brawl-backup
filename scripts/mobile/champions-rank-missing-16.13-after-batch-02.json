@@ -1,0 +1,106 @@
+[
+  {
+    "name": "魔法猫咪",
+    "slug": "yuumi"
+  },
+  {
+    "name": "解脱者",
+    "slug": "sylas"
+  },
+  {
+    "name": "爆破鬼才",
+    "slug": "ziggs"
+  },
+  {
+    "name": "恶魔小丑",
+    "slug": "shaco"
+  },
+  {
+    "name": "炼金男爵",
+    "slug": "renata-glasc"
+  },
+  {
+    "name": "龙血武姬",
+    "slug": "shyvana"
+  },
+  {
+    "name": "不灭狂雷",
+    "slug": "volibear"
+  },
+  {
+    "name": "虚空行者",
+    "slug": "kassadin"
+  },
+  {
+    "name": "蛮族之王",
+    "slug": "tryndamere"
+  },
+  {
+    "name": "不落魔锋",
+    "slug": "zaahen"
+  },
+  {
+    "name": "明烛",
+    "slug": "milio"
+  },
+  {
+    "name": "齐天大圣",
+    "slug": "wukong"
+  },
+  {
+    "name": "天启者",
+    "slug": "karma"
+  },
+  {
+    "name": "披甲龙龟",
+    "slug": "rammus"
+  },
+  {
+    "name": "魂锁典狱长",
+    "slug": "thresh"
+  },
+  {
+    "name": "血港鬼影",
+    "slug": "pyke"
+  },
+  {
+    "name": "破败之王",
+    "slug": "viego"
+  },
+  {
+    "name": "愁云使者",
+    "slug": "vex"
+  },
+  {
+    "name": "发条魔灵",
+    "slug": "orianna"
+  },
+  {
+    "name": "唤潮鲛姬",
+    "slug": "nami"
+  },
+  {
+    "name": "兽灵行者",
+    "slug": "udyr"
+  },
+  {
+    "name": "上古领主",
+    "slug": "skarner"
+  },
+  {
+    "name": "放逐之刃",
+    "slug": "riven"
+  },
+  {
+    "name": "纳祖芒荣耀",
+    "slug": "ksante"
+  },
+  {
+    "name": "幻翎",
+    "slug": "rakan"
+  },
+  {
+    "name": "暴怒骑士",
+    "slug": "kled"
+  }
+]

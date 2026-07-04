@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Katarina",
+    "slug": "katarina",
+    "names": {
+      "zh": "卡特琳娜 不祥之刃",
+      "en": "the Sinister Blade Katarina",
+      "ja": "凶兆の刃 カタリナ",
+      "ko": "사악한 칼날 카타리나"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "不祥之刃 卡特琳娜 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装"
+      },
+      "buildTags": {
+        "standard": "混伤"
+      },
+      "buildScores": {
+        "standard": "稳"
+      },
+      "hexNames": {
+        "UltimateUnstoppable": "终极不可阻挡",
+        "Goredrink": "渴血",
+        "Typhoon": "台风",
+        "BluntForce": "大力",
+        "ShadowRunner": "暗影疾奔",
+        "escAPADe": "魔法转物理",
+        "Twinfire": "双生火焰",
+        "Upgrade_Collector": "升级：收集者",
+        "EtherealWeapon": "虚幻武器",
+        "ItsKillingTime": "杀戮时间到了",
+        "WarlockJuicebox": "术士果汁盒",
+        "ThreadtheNeedle": "穿针引线",
+        "BurstingTeeth": "牙仙子",
+        "PhenomenalEvil": "超凡邪恶",
+        "GetExcited": "罪恶快感",
+        "Nightstalking": "夜狩",
+        "FinalForm": "最终形态",
+        "FeyMagic": "精怪魔法",
+        "MasterofDuality": "物法皆修",
+        "CantTouchThis": "你摸不到",
+        "PromQueen": "舞会女王",
+        "GiantSlayer": "巨人杀手",
+        "MysticPunch": "秘术冲拳",
+        "ClownCollege": "小丑学院"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Katarina guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Default"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "Goredrink": "Goredrink",
+        "Typhoon": "Typhoon",
+        "BluntForce": "Blunt Force",
+        "ShadowRunner": "Shadow Runner",
+        "escAPADe": "escAPADe",
+        "Twinfire": "Twin Fire",
+        "Upgrade_Collector": "Upgrade Collector",
+        "EtherealWeapon": "Ethereal Weapon",
+        "ItsKillingTime": "It's Killing Time",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "ThreadtheNeedle": "Thread the Needle",
+        "BurstingTeeth": "Tooth Fairy",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "GetExcited": "Get Excited!",
+        "Nightstalking": "Nightstalking",
+        "FinalForm": "Final Form",
+        "FeyMagic": "Fey Magic",
+        "MasterofDuality": "Master of Duality",
+        "CantTouchThis": "Can't Touch This",
+        "PromQueen": "Prom Queen",
+        "GiantSlayer": "Giant Slayer",
+        "MysticPunch": "Mystic Punch",
+        "ClownCollege": "Clown College"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "凶兆の刃 カタリナ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "Goredrink": "ゴアドリンク",
+        "Typhoon": "タイフーン",
+        "BluntForce": "無骨なる力",
+        "ShadowRunner": "影走り",
+        "escAPADe": "魔攻のいたずら",
+        "Twinfire": "ツインファイア",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "EtherealWeapon": "エーテル武器",
+        "ItsKillingTime": "殺戮の時",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "ThreadtheNeedle": "貫通力",
+        "BurstingTeeth": "歯の妖精",
+        "PhenomenalEvil": "偉大なる悪",
+        "GetExcited": "超エキサイティン！",
+        "Nightstalking": "ナイトストーク",
+        "FinalForm": "最終形態",
+        "FeyMagic": "神秘の魔法",
+        "MasterofDuality": "文武両道",
+        "CantTouchThis": "ヤケドするぜ",
+        "PromQueen": "プロムクイーン",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "MysticPunch": "神秘の鉄拳",
+        "ClownCollege": "ピエロ大学"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "사악한 칼날 카타리나 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "Goredrink": "선혈포식",
+        "Typhoon": "태풍",
+        "BluntForce": "육중한 힘",
+        "ShadowRunner": "그림자 질주",
+        "escAPADe": "마법사 (물리)",
+        "Twinfire": "쌍둥이 불꽃",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "EtherealWeapon": "환영 무기",
+        "ItsKillingTime": "처형 시간",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "BurstingTeeth": "이빨 요정",
+        "PhenomenalEvil": "극악무도",
+        "GetExcited": "신난다!",
+        "Nightstalking": "밤의 추적",
+        "FinalForm": "최종 형태",
+        "FeyMagic": "요정 마법",
+        "MasterofDuality": "결투의 대가",
+        "CantTouchThis": "난공불락",
+        "PromQueen": "퀸카",
+        "GiantSlayer": "거인 학살자",
+        "MysticPunch": "신비한 주먹",
+        "ClownCollege": "광대 대학"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        6631,
+        6672,
+        3153,
+        3302,
+        3073,
+        6333
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 17.89
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 17.43
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 5.82
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 5.68
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 5.55
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 5.33
+        },
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 4.99
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 3.44
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 40.09
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 21.81
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 17.05
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 15.82
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 12.2
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 9.44
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 6.79
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 6.54
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 13.19
+        },
+        {
+          "id": "FeyMagic",
+          "icon": "assets/ux/cherry/augments/icons/feymagic_small.png",
+          "pick": 9.73
+        },
+        {
+          "id": "MasterofDuality",
+          "icon": "assets/ux/cherry/augments/icons/masterofduality_small.png",
+          "pick": 7.51
+        },
+        {
+          "id": "CantTouchThis",
+          "icon": "assets/ux/cherry/augments/icons/canttouchthis_small.png",
+          "pick": 6.77
+        },
+        {
+          "id": "PromQueen",
+          "icon": "assets/ux/kiwi/augments/icons/promqueen_small.png",
+          "pick": 0.59
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 0.47
+        },
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 0.38
+        },
+        {
+          "id": "ClownCollege",
+          "icon": "assets/ux/cherry/augments/icons/clowncollege_small.png",
+          "pick": null
+        }
+      ]
+    }
+  }
+}

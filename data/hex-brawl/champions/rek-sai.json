@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "RekSai",
+    "slug": "rek-sai",
+    "names": {
+      "zh": "雷克塞 虚空遁地兽",
+      "en": "the Void Burrower Rek'Sai",
+      "ja": "地底の恐怖 レク＝サイ",
+      "ko": "공허의 복병 렉사이"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "雷克塞 虚空遁地兽 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "战士出装",
+        "tank": "肉装"
+      },
+      "buildTags": {
+        "standard": "战士",
+        "tank": "肉装"
+      },
+      "buildScores": {
+        "standard": "待审核",
+        "tank": "待审核"
+      },
+      "hexNames": {
+        "HeavyHitter": "重量级打击手",
+        "SpinToWin": "旋转至胜",
+        "BluntForce": "大力",
+        "Goredrink": "渴血",
+        "SlapAround": "扇巴掌",
+        "TransmuteGold": "质变：黄金阶",
+        "escAPADe": "魔法转物理",
+        "Upgrade_Collector": "升级：收集者",
+        "PressureCooker": "高压锅",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "EndlessDecimation": "无尽大杀四方",
+        "SoulEater": "吞噬灵魂",
+        "Upgrade_Sheen": "升级：耀光",
+        "ThreadtheNeedle": "穿针引线",
+        "NatureIsHealing": "自然即是治愈",
+        "OutlawsGrit": "狂徒豪气",
+        "ImTheJuggernaut": "泰坦的坚决",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "FinalForm": "最终形态",
+        "CourageoftheColossus": "巨像的勇气",
+        "GiantSlayer": "巨人杀手"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Void Burrower Rek'Sai Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Bruiser Build",
+        "tank": "Tank Build"
+      },
+      "buildTags": {
+        "standard": "Bruiser",
+        "tank": "Tank"
+      },
+      "buildScores": {
+        "standard": "Needs review",
+        "tank": "Needs review"
+      },
+      "hexNames": {
+        "HeavyHitter": "Heavy Hitter",
+        "SpinToWin": "Spin To Win",
+        "BluntForce": "Blunt Force",
+        "Goredrink": "Goredrink",
+        "SlapAround": "Slap Around",
+        "TransmuteGold": "Transmute: Gold",
+        "escAPADe": "escAPADe",
+        "Upgrade_Collector": "Upgrade Collector",
+        "PressureCooker": "Pressure Cooker",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "EndlessDecimation": "Endless Decimation",
+        "SoulEater": "Soul Eater",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "ThreadtheNeedle": "Thread the Needle",
+        "NatureIsHealing": "Nature is Healing",
+        "OutlawsGrit": "Outlaw's Grit",
+        "ImTheJuggernaut": "Titan's Resolve",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "FinalForm": "Final Form",
+        "CourageoftheColossus": "Courage of the Colossus",
+        "GiantSlayer": "Giant Slayer"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "地底の恐怖 レク＝サイ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "ファイタービルド",
+        "tank": "タンクビルド"
+      },
+      "buildTags": {
+        "standard": "ファイター",
+        "tank": "タンク"
+      },
+      "buildScores": {
+        "standard": "確認待ち",
+        "tank": "確認待ち"
+      },
+      "hexNames": {
+        "HeavyHitter": "ヘビーヒッター",
+        "SpinToWin": "勝利への回転",
+        "BluntForce": "無骨なる力",
+        "Goredrink": "ゴアドリンク",
+        "SlapAround": "叩きまくれ",
+        "TransmuteGold": "変質: ゴールド",
+        "escAPADe": "魔攻のいたずら",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "PressureCooker": "圧力鍋",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "EndlessDecimation": "終わりなき殲滅",
+        "SoulEater": "ソウルイーター",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "ThreadtheNeedle": "貫通力",
+        "NatureIsHealing": "大自然が回復している",
+        "OutlawsGrit": "無法者の気概",
+        "ImTheJuggernaut": "巨人の誓い",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "FinalForm": "最終形態",
+        "CourageoftheColossus": "巨人の勇気",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "공허의 복병 렉사이 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "브루저 빌드",
+        "tank": "탱커 빌드"
+      },
+      "buildTags": {
+        "standard": "브루저",
+        "tank": "탱커"
+      },
+      "buildScores": {
+        "standard": "검토 필요",
+        "tank": "검토 필요"
+      },
+      "hexNames": {
+        "HeavyHitter": "강타자",
+        "SpinToWin": "승리를 위한 회전",
+        "BluntForce": "육중한 힘",
+        "Goredrink": "선혈포식",
+        "SlapAround": "우당탕탕",
+        "TransmuteGold": "전환: 골드",
+        "escAPADe": "마법사 (물리)",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "PressureCooker": "압력솥",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "EndlessDecimation": "끝없는 학살",
+        "SoulEater": "영혼의 포식자",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "NatureIsHealing": "자연의 회복",
+        "OutlawsGrit": "무법자의 투지",
+        "ImTheJuggernaut": "거인의 결의",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "FinalForm": "최종 형태",
+        "CourageoftheColossus": "거석상의 용기",
+        "GiantSlayer": "거인 학살자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        6610,
+        3161,
+        2501,
+        6333,
+        3071,
+        3111
+      ]
+    },
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        2502,
+        3065,
+        2501,
+        3083,
+        3748
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 24.37
+        },
+        {
+          "id": "SpinToWin",
+          "icon": "assets/ux/cherry/augments/icons/spintowin_small.png",
+          "pick": 12.4
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 10.18
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 8.24
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 4.83
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.08
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 3.01
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 2.31
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 16.37
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 14.07
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 13.47
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 11.88
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 8.44
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 7.59
+        },
+        {
+          "id": "NatureIsHealing",
+          "icon": "assets/ux/kiwi/augments/icons/natureishealing_small.png",
+          "pick": 7.26
+        },
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 6.67
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "ImTheJuggernaut",
+          "icon": "assets/ux/kiwi/augments/icons/iamthejuggernaut_small.png",
+          "pick": 10.67
+        },
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": 8.75
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 5.55
+        },
+        {
+          "id": "CourageoftheColossus",
+          "icon": "assets/ux/cherry/augments/icons/courageofthecolossus_small.png",
+          "pick": 3.94
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

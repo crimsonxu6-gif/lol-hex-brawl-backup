@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>海克斯大乱斗攻略 - Hex Brawl Helper</title>
+    <meta name="description" content="海克斯大乱斗英雄出装和海克斯推荐。" />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #18130f;
+        --panel: #221a14;
+        --panel-2: #2b2119;
+        --line: #5b4938;
+        --line-soft: rgba(91, 73, 56, 0.45);
+        --text: #f0e6d8;
+        --muted: #a99681;
+        --accent: #c5965c;
+        --accent-2: #d5b17c;
+        --shadow: rgba(0, 0, 0, 0.28);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px),
+          linear-gradient(0deg, rgba(255,255,255,.012) 1px, transparent 1px),
+          var(--bg);
+        background-size: 34px 34px, 34px 34px, auto;
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+      }
+      a { color: inherit; }
+      .shell { width: 100%; max-width: 1040px; margin: 0 auto; padding: 14px 18px 48px; }
+      .topbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 42px; }
+      .back { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); text-decoration: none; font-size: 14px; }
+      .language { min-width: 112px; height: 38px; border: 1px solid var(--line); border-radius: 8px; background: #211912; color: var(--text); padding: 0 12px; outline: none; }
+      .hero {
+        display: grid;
+        grid-template-columns: 72px 1fr;
+        gap: 16px;
+        align-items: center;
+        margin-top: 20px;
+        padding: 18px;
+        border: 1px solid var(--line-soft);
+        border-radius: 8px;
+        background: linear-gradient(135deg, rgba(197,150,92,.12), rgba(34,26,20,.74)), var(--panel);
+        box-shadow: 0 18px 42px var(--shadow);
+      }
+      .champion-icon { width: 72px; height: 72px; border-radius: 8px; padding: 4px; background: #15100b; border: 1px solid rgba(197,150,92,.55); }
+      .champion-icon img { width: 100%; height: 100%; display: block; object-fit: cover; border-radius: 5px; }
+      .eyebrow { color: var(--accent-2); font-size: 13px; margin-bottom: 5px; }
+      h1 { margin: 0; font-size: clamp(28px, 7vw, 44px); line-height: 1.08; letter-spacing: 0; overflow-wrap: anywhere; }
+      .hero-meta { margin-top: 9px; color: var(--muted); font-size: 14px; line-height: 1.6; }
+      .tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 18px 0; }
+      .tab {
+        height: 42px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--line-soft);
+        border-radius: 8px;
+        background: rgba(45,35,26,.72);
+        color: var(--muted);
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .tab.active { color: var(--text); border-color: var(--accent); background: rgba(197,150,92,.14); }
+      .section { margin-top: 16px; padding: 18px; border: 1px solid var(--line-soft); border-radius: 8px; background: rgba(34,26,20,.82); }
+      .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; margin-bottom: 15px; }
+      h2 { margin: 0; display: flex; align-items: center; gap: 10px; font-size: 22px; line-height: 1.2; }
+      h2::before { content: ""; width: 4px; height: 22px; border-radius: 99px; background: var(--accent); }
+      .hint { color: var(--muted); font-size: 13px; line-height: 1.5; text-align: right; }
+      .route-switch { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+      .route-button {
+        min-height: 38px;
+        border: 1px solid var(--line-soft);
+        border-radius: 8px;
+        background: rgba(45,35,26,.72);
+        color: var(--muted);
+        padding: 0 14px;
+        font: inherit;
+        font-weight: 800;
+        cursor: pointer;
+      }
+      .route-button.active { color: var(--text); border-color: var(--accent); background: rgba(197,150,92,.18); }
+      .build-row, .hex-row, .empty-card { border: 1px solid var(--line-soft); border-radius: 8px; background: var(--panel-2); }
+      .build-row { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; min-height: 74px; padding: 12px; }
+      .build-name { font-size: 17px; font-weight: 900; margin-bottom: 10px; }
+      .build-note { color: var(--muted); font-size: 13px; line-height: 1.45; margin: -4px 0 10px; max-width: 720px; }
+      .items { display: flex; flex-wrap: wrap; gap: 8px; }
+      .item { width: 46px; height: 46px; border-radius: 6px; border: 1px solid rgba(197,150,92,.5); background: #15100b; object-fit: cover; }
+      .stat { min-width: 96px; color: var(--muted); text-align: right; line-height: 1.45; }
+      .stat small { display: block; font-size: 12px; }
+      .stat strong { display: block; color: var(--text); font-size: 14px; }
+      .tier-nav { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+      .tier-nav a { display: inline-flex; min-height: 34px; align-items: center; border: 1px solid var(--line-soft); border-radius: 8px; padding: 0 12px; color: var(--muted); text-decoration: none; }
+      .hex-group { margin-top: 16px; }
+      .group-title h3 { margin: 0 0 10px; color: var(--accent-2); font-size: 18px; }
+      .hex-list { display: grid; gap: 10px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .hex-row { display: grid; grid-template-columns: 48px 1fr; gap: 10px; align-items: center; min-height: 64px; padding: 8px; }
+      .hex-icon { width: 48px; height: 48px; border-radius: 6px; background: #111; object-fit: cover; }
+      .hex-name { font-weight: 800; line-height: 1.35; overflow-wrap: anywhere; }
+      .empty-card { padding: 16px; color: var(--muted); }
+      .footer { margin-top: 26px; color: var(--muted); font-size: 12px; line-height: 1.6; text-align: center; }
+      @media (max-width: 720px) {
+        .shell { padding-inline: 12px; }
+        .hero { grid-template-columns: 58px 1fr; padding: 14px; gap: 12px; }
+        .champion-icon { width: 58px; height: 58px; }
+        .section { padding: 14px; }
+        .section-head { align-items: start; flex-direction: column; gap: 8px; }
+        .hint { text-align: left; }
+        .build-row { grid-template-columns: 1fr; }
+        .stat { text-align: left; display: flex; gap: 8px; flex-wrap: wrap; }
+        .hex-list { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <a class="back" href="../../../index.html">← 首页</a>
+        <select id="languageSelect" class="language" aria-label="Language">
+          <option value="zh">中文</option>
+          <option value="en">English</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+        </select>
+      </header>
+
+      <section class="hero">
+        <div class="champion-icon">
+          <img src="https://ddragon.leagueoflegends.com/cdn/16.13.1/img/champion/Brand.png" alt="" />
+        </div>
+        <div>
+          <div class="eyebrow">海克斯大乱斗 · Patch 16.13</div>
+          <h1>Hex Brawl Helper</h1>
+          <div class="hero-meta">加载英雄数据中...</div>
+        </div>
+      </section>
+
+      <nav class="tabs" aria-label="详情页导航">
+        <a id="buildTab" class="tab active" href="#builds">出装</a>
+        <a id="hexTab" class="tab" href="#hexes">海克斯</a>
+      </nav>
+
+      <section id="builds" class="section">
+        <div class="section-head">
+          <h2 id="buildTitle">出装路线</h2>
+          <div id="buildHint" class="hint">按一图流拆分不同玩法，审核后再精修。</div>
+        </div>
+        <div class="route-switch" id="routeSwitch"></div>
+        <div id="buildList"></div>
+      </section>
+
+      <section id="hexes" class="section">
+        <div class="section-head">
+          <h2 id="hexTitle">海克斯推荐</h2>
+          <div id="hexHint" class="hint"></div>
+        </div>
+        <nav class="tier-nav" aria-label="海克斯阶级">
+          <a id="silverLink" href="#silver">白银阶</a>
+          <a id="goldLink" href="#gold">黄金阶</a>
+          <a id="prismaticLink" href="#prismatic">棱彩阶</a>
+        </nav>
+        <div id="hexGroups"></div>
+      </section>
+
+      <footer id="footerText" class="footer">非 Riot 官方项目，当前资料用于海克斯大乱斗一图流展示和人工审核。</footer>
+    </main>
+
+    <script>
+      let version = "16.13.1";
+      let championData = null;
+      const dataUrl = "../../../data/hex-brawl/champions/velkoz.json";
+      const cdragonBase = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/";
+      const initialLang = new URLSearchParams(window.location.search).get("lang");
+      const state = {
+        lang: ["zh", "en", "ja", "ko"].includes(initialLang) ? initialLang : "zh",
+        selectedBuild: null
+      };
+
+      const copy = {
+        zh: {
+          back: "← 首页", buildTab: "出装", hexTab: "海克斯",
+          buildTitle: "出装路线", buildHint: "按一图流拆分不同玩法，审核后再精修。",
+          hexTitle: "海克斯推荐", hexHint: "优先展示当前路线匹配的海克斯；没有单独配置时使用该英雄通用推荐。",
+          silver: "白银阶", gold: "黄金阶", prismatic: "棱彩阶",
+          route: "路线", score: "评价", noBuilds: "这个英雄的结构化出装还没有录入。", noHexes: "没有可展示的海克斯数据。",
+          footer: "非 Riot 官方项目。装备来自一图流人工录入，海克斯来自掌盟截图和一图流交叉整理。", loadError: "数据文件加载失败，请用本地服务器打开页面。"
+        },
+        en: {
+          back: "← Home", buildTab: "Builds", hexTab: "Hexes",
+          buildTitle: "Build Routes", buildHint: "Routes are split from the guide images and can be adjusted after review.",
+          hexTitle: "Hex Recommendations", hexHint: "Shows route-specific hexes first; falls back to general recommendations when needed.",
+          silver: "Silver", gold: "Gold", prismatic: "Prismatic",
+          route: "Route", score: "Note", noBuilds: "Structured item builds are not entered yet.", noHexes: "No hex data is available yet.",
+          footer: "Unofficial Riot fan project. Items are manually entered from guide images; hexes are cross-checked from app captures and guide images.", loadError: "Failed to load the data file. Open this page through a local server."
+        },
+        ja: {
+          back: "← ホーム", buildTab: "ビルド", hexTab: "ヘクス",
+          buildTitle: "ビルドルート", buildHint: "ガイド画像をもとにルート別に整理し、確認後に調整します。",
+          hexTitle: "ヘクス推奨", hexHint: "ルート別のヘクスを優先表示し、未設定の場合は共通推奨を表示します。",
+          silver: "シルバー", gold: "ゴールド", prismatic: "プリズム",
+          route: "ルート", score: "評価", noBuilds: "このチャンピオンの構造化ビルドは未入力です。", noHexes: "表示できるヘクスデータがありません。",
+          footer: "Riot 非公式ファンプロジェクト。装備はガイド画像から手入力し、ヘクスはアプリの取得画像とガイド画像を照合しています。", loadError: "データファイルを読み込めません。ローカルサーバー経由で開いてください。"
+        },
+        ko: {
+          back: "← 홈", buildTab: "빌드", hexTab: "증강",
+          buildTitle: "빌드 경로", buildHint: "가이드 이미지를 기준으로 경로를 나누고 검수 후 조정합니다.",
+          hexTitle: "증강 추천", hexHint: "경로별 증강을 우선 표시하고, 없으면 공통 추천을 표시합니다.",
+          silver: "실버", gold: "골드", prismatic: "프리즘",
+          route: "경로", score: "평가", noBuilds: "이 챔피언의 구조화 빌드가 아직 입력되지 않았습니다.", noHexes: "표시할 증강 데이터가 없습니다.",
+          footer: "Riot 비공식 팬 프로젝트입니다. 아이템은 가이드 이미지에서 수동 입력하고, 증강은 앱 캡처와 가이드 이미지를 교차 확인합니다.", loadError: "데이터 파일을 불러오지 못했습니다. 로컬 서버로 열어 주세요."
+        }
+      };
+
+      const elements = {
+        language: document.getElementById("languageSelect"),
+        back: document.querySelector(".back"),
+        eyebrow: document.querySelector(".eyebrow"),
+        title: document.querySelector("h1"),
+        meta: document.querySelector(".hero-meta"),
+        buildTab: document.getElementById("buildTab"),
+        hexTab: document.getElementById("hexTab"),
+        buildTitle: document.getElementById("buildTitle"),
+        buildHint: document.getElementById("buildHint"),
+        routeSwitch: document.getElementById("routeSwitch"),
+        buildList: document.getElementById("buildList"),
+        hexTitle: document.getElementById("hexTitle"),
+        hexHint: document.getElementById("hexHint"),
+        silverLink: document.getElementById("silverLink"),
+        goldLink: document.getElementById("goldLink"),
+        prismaticLink: document.getElementById("prismaticLink"),
+        hexGroups: document.getElementById("hexGroups"),
+        footer: document.getElementById("footerText")
+      };
+
+      function t() { return copy[state.lang] || copy.zh; }
+      function escapeHtml(value) {
+        return String(value || "").replace(/[&<>"']/g, function (char) {
+          return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char];
+        });
+      }
+      function itemUrl(id) { return "https://ddragon.leagueoflegends.com/cdn/" + version + "/img/item/" + id + ".png"; }
+      function championImageUrl(id) { return "https://ddragon.leagueoflegends.com/cdn/" + version + "/img/champion/" + id + ".png"; }
+      function hexIcon(path) { return cdragonBase + path; }
+      function localizedData(lang = state.lang) {
+        if (!championData) return {};
+        return championData.localized?.[lang] || championData.localized?.en || championData.localized?.zh || {};
+      }
+      function buildLabel(build, field) {
+        const dataCopy = localizedData();
+        const english = localizedData("en");
+        if (field === "note") {
+          return dataCopy?.buildNotes?.[build.key] || english?.buildNotes?.[build.key] || build.note || "";
+        }
+        const table = field === "name" ? "builds" : field === "tag" ? "buildTags" : "buildScores";
+        return dataCopy?.[table]?.[build.key] || english?.[table]?.[build.key] || build[field] || build.key || "";
+      }
+      function hexNames(lang = state.lang) {
+        return Object.assign({}, localizedData("en").hexNames || {}, localizedData(lang).hexNames || {});
+      }
+      function builds() { return Array.isArray(championData?.builds) ? championData.builds : []; }
+      function selectedBuild() {
+        const list = builds();
+        if (!list.length) return null;
+        return list.find((build) => build.key === state.selectedBuild) || list[0];
+      }
+      function selectedHexes() {
+        const build = selectedBuild();
+        return build?.hexes || championData?.hexes || {};
+      }
+      function renderText() {
+        const c = t();
+        const dataCopy = localizedData();
+        const championName = championData?.champion?.names?.[state.lang] || championData?.champion?.names?.en || championData?.champion?.names?.zh || "";
+        elements.language.value = state.lang;
+        document.documentElement.lang = state.lang === "zh" ? "zh-CN" : state.lang === "ja" ? "ja" : state.lang === "ko" ? "ko" : "en";
+        document.title = championName ? championName + " 海克斯大乱斗攻略 - Hex Brawl Helper" : "海克斯大乱斗攻略 - Hex Brawl Helper";
+        elements.back.textContent = c.back;
+        elements.eyebrow.textContent = dataCopy.eyebrow || ("Hex Brawl · Patch " + (championData?.patch || ""));
+        elements.title.textContent = championName;
+        elements.meta.textContent = dataCopy.meta || "";
+        elements.buildTab.textContent = c.buildTab;
+        elements.hexTab.textContent = c.hexTab;
+        elements.buildTitle.textContent = c.buildTitle;
+        elements.buildHint.textContent = dataCopy.buildHint || c.buildHint;
+        elements.hexTitle.textContent = c.hexTitle;
+        elements.hexHint.textContent = dataCopy.hexHint || c.hexHint;
+        elements.silverLink.textContent = c.silver;
+        elements.goldLink.textContent = c.gold;
+        elements.prismaticLink.textContent = c.prismatic;
+        elements.footer.textContent = championData?.sourceNote || c.footer;
+        const championImage = document.querySelector(".champion-icon img");
+        if (championData?.champion?.id && championImage) {
+          championImage.src = championImageUrl(championData.champion.id);
+          championImage.alt = championName;
+        }
+      }
+      function renderRouteSwitch() {
+        const list = builds();
+        if (list.length <= 1) {
+          elements.routeSwitch.innerHTML = "";
+          return;
+        }
+        elements.routeSwitch.innerHTML = list.map((build) => {
+          const active = build.key === selectedBuild()?.key ? " active" : "";
+          return '<button class="route-button' + active + '" type="button" data-build="' + escapeHtml(build.key) + '">' + escapeHtml(buildLabel(build, "name")) + '</button>';
+        }).join("");
+        elements.routeSwitch.querySelectorAll("button").forEach((button) => {
+          button.addEventListener("click", () => {
+            state.selectedBuild = button.dataset.build;
+            renderBuilds();
+            renderHexes();
+          });
+        });
+      }
+      function renderBuilds() {
+        const c = t();
+        renderRouteSwitch();
+        const build = selectedBuild();
+        if (!build) {
+          elements.buildList.innerHTML = '<div class="empty-card">' + escapeHtml(c.noBuilds) + '</div>';
+          return;
+        }
+        const items = (build.items || []).map((id) => '<img class="item" src="' + itemUrl(id) + '" alt="" loading="lazy" />').join("");
+        const note = buildLabel(build, "note");
+        elements.buildList.innerHTML = '<article class="build-row">' +
+          '<div><div class="build-name">' + escapeHtml(buildLabel(build, "name")) + '</div>' +
+          (note ? '<div class="build-note">' + escapeHtml(note) + '</div>' : '') +
+          '<div class="items">' + items + '</div></div>' +
+          '<div class="stat"><small>' + escapeHtml(c.route) + '</small><strong>' + escapeHtml(buildLabel(build, "tag")) + '</strong><small>' + escapeHtml(c.score) + '</small><strong>' + escapeHtml(buildLabel(build, "score")) + '</strong></div>' +
+          '</article>';
+      }
+      function renderHexes() {
+        const c = t();
+        const names = hexNames();
+        const entries = Object.entries(selectedHexes()).filter(function ([, group]) { return group?.rows?.length; });
+        if (!entries.length) {
+          elements.hexGroups.innerHTML = '<div class="empty-card">' + escapeHtml(c.noHexes) + "</div>";
+          return;
+        }
+        elements.hexGroups.innerHTML = entries.map(function ([id, group]) {
+          const rows = [...group.rows].sort(function (a, b) { return (b.pick || 0) - (a.pick || 0); }).map(function (hex) {
+            return '<article class="hex-row">' +
+              '<img class="hex-icon" src="' + hexIcon(hex.icon) + '" alt="" loading="lazy" />' +
+              '<div><div class="hex-name">' + escapeHtml(names[hex.id] || hex.id) + '</div></div>' +
+              "</article>";
+          }).join("");
+          return '<div id="' + escapeHtml(id) + '" class="hex-group">' +
+            '<div class="group-title"><h3>' + escapeHtml(c[id] || id) + '</h3></div>' +
+            '<div class="hex-list">' + rows + '</div></div>';
+        }).join("");
+      }
+      function render() {
+        if (!championData) return;
+        renderText();
+        if (!state.selectedBuild && builds().length) state.selectedBuild = builds()[0].key;
+        renderBuilds();
+        renderHexes();
+      }
+      elements.language.addEventListener("change", function (event) {
+        state.lang = event.target.value;
+        render();
+      });
+      document.querySelectorAll(".tab").forEach(function (tab) {
+        tab.addEventListener("click", function () {
+          document.querySelectorAll(".tab").forEach(function (item) { item.classList.remove("active"); });
+          tab.classList.add("active");
+        });
+      });
+      async function loadChampionData() {
+        try {
+          const response = await fetch(dataUrl);
+          if (!response.ok) throw new Error("HTTP " + response.status);
+          championData = await response.json();
+          version = championData.gameDataVersion || version;
+          render();
+        } catch (error) {
+          console.error(error);
+          elements.footer.textContent = t().loadError;
+        }
+      }
+      loadChampionData();
+    </script>
+  </body>
+</html>

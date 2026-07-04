@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Irelia",
+    "slug": "irelia",
+    "names": {
+      "zh": "艾瑞莉娅 刀锋舞者",
+      "en": "the Blade Dancer Irelia",
+      "ja": "飛刃の舞い手 イレリア",
+      "ko": "칼날 무희 이렐리아"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "艾瑞莉娅 刀锋舞者 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "AD 出装"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "BluntForce": "大力",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "escAPADe": "魔法转物理",
+        "TransmuteGold": "质变：黄金阶",
+        "Typhoon": "台风",
+        "ForgedByTheMaster": "大师铸就",
+        "SwiftAndSafe": "快中求稳",
+        "OutlawsGrit": "狂徒豪气",
+        "Upgrade_Sheen": "升级：耀光",
+        "GetExcited": "罪恶快感",
+        "SpecializedEmpowerment": "威能之追求",
+        "EndlessDecimation": "无尽大杀四方",
+        "ThreadtheNeedle": "穿针引线",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "SpecializedRecursion": "急速之追求",
+        "MysticPunch": "秘术冲拳",
+        "Dashing": "全凭身法",
+        "SymphonyofWar": "战争交响乐",
+        "FinalForm": "最终形态",
+        "DivineDomain": "飞升仪式"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Blade Dancer Irelia Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "AD Build"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "BluntForce": "Blunt Force",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "escAPADe": "escAPADe",
+        "TransmuteGold": "Transmute: Gold",
+        "Typhoon": "Typhoon",
+        "ForgedByTheMaster": "Forged By The Master",
+        "SwiftAndSafe": "Swift and Safe",
+        "OutlawsGrit": "Outlaw's Grit",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "GetExcited": "Get Excited!",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "EndlessDecimation": "Endless Decimation",
+        "ThreadtheNeedle": "Thread the Needle",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "MysticPunch": "Mystic Punch",
+        "Dashing": "Dashing",
+        "SymphonyofWar": "Symphony of War",
+        "FinalForm": "Final Form",
+        "DivineDomain": "Rite of Ascension"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "飛刃の舞い手 イレリア Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "AD ビルド"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "BluntForce": "無骨なる力",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "escAPADe": "魔攻のいたずら",
+        "TransmuteGold": "変質: ゴールド",
+        "Typhoon": "タイフーン",
+        "ForgedByTheMaster": "マスターに鍛えられて",
+        "SwiftAndSafe": "迅速に安全に",
+        "OutlawsGrit": "無法者の気概",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "GetExcited": "超エキサイティン！",
+        "SpecializedEmpowerment": "力の追求",
+        "EndlessDecimation": "終わりなき殲滅",
+        "ThreadtheNeedle": "貫通力",
+        "TransmutePrismatic": "変質: プリズム",
+        "SpecializedRecursion": "素早さの追求",
+        "MysticPunch": "神秘の鉄拳",
+        "Dashing": "疾走",
+        "SymphonyofWar": "闘争交響曲",
+        "FinalForm": "最終形態",
+        "DivineDomain": "超越の儀式"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "칼날 무희 이렐리아 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "AD 빌드"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "BluntForce": "육중한 힘",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "escAPADe": "마법사 (물리)",
+        "TransmuteGold": "전환: 골드",
+        "Typhoon": "태풍",
+        "ForgedByTheMaster": "장인의 솜씨",
+        "SwiftAndSafe": "빠르고 안전하게",
+        "OutlawsGrit": "무법자의 투지",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "GetExcited": "신난다!",
+        "SpecializedEmpowerment": "위력 추구",
+        "EndlessDecimation": "끝없는 학살",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "TransmutePrismatic": "전환: 프리즘",
+        "SpecializedRecursion": "가속 추구",
+        "MysticPunch": "신비한 주먹",
+        "Dashing": "돌진",
+        "SymphonyofWar": "전장의 교향곡",
+        "FinalForm": "최종 형태",
+        "DivineDomain": "초월 의식"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        3153,
+        6610,
+        6333,
+        3748,
+        3302,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 25.44
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 14.29
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 5.91
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 5.5
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.76
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 3.54
+        },
+        {
+          "id": "ForgedByTheMaster",
+          "icon": "assets/ux/kiwi/augments/icons/forgedbythemaster_small.png",
+          "pick": 2.3
+        },
+        {
+          "id": "SwiftAndSafe",
+          "icon": "assets/ux/kiwi/augments/icons/swiftandsafe_small.png",
+          "pick": 2.29
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 26.19
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 25.92
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 11.79
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 10.8
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 10.01
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 9.78
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 5.84
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 5.65
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 19.51
+        },
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 10.96
+        },
+        {
+          "id": "SymphonyofWar",
+          "icon": "assets/ux/cherry/augments/icons/symphonyofwar_small.png",
+          "pick": 9.43
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 7.47
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 5.92
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

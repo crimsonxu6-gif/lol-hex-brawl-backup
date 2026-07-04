@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Chogath",
+    "slug": "chogath",
+    "names": {
+      "zh": "科加斯 虚空恐惧",
+      "en": "the Terror of the Void Cho'Gath",
+      "ja": "未知なる恐怖 チョ＝ガス",
+      "ko": "공허의 공포 초가스"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "科加斯 虚空恐惧 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "tank": "肉装"
+      },
+      "buildTags": {
+        "tank": "肉装"
+      },
+      "buildScores": {
+        "tank": "待审核"
+      },
+      "hexNames": {
+        "SlapAround": "扇巴掌",
+        "Upgrade_Immolate": "升级：献祭",
+        "MindtoMatter": "由心及物",
+        "IceCold": "冰寒",
+        "Goredrink": "渴血",
+        "VeilOfWarding": "防护面纱",
+        "TransmuteGold": "质变：黄金阶",
+        "HeavyHitter": "重量级打击手",
+        "Quest_SteelYourHeart": "钢化你心",
+        "CelestialBody": "星界躯体",
+        "SoulEater": "吞噬灵魂",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "EtherealWeapon": "虚幻武器",
+        "PressureCooker": "高压锅",
+        "DarkWind": "贪欲束缚",
+        "TankEngine": "坦克引擎",
+        "Dropkick": "飞身踢",
+        "Goliath": "歌利亚巨人",
+        "InfiniteRecursion": "无限循环往复",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "FinalForm": "最终形态"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Terror of the Void Cho'Gath Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "tank": "Tank Build"
+      },
+      "buildTags": {
+        "tank": "Tank"
+      },
+      "buildScores": {
+        "tank": "Needs review"
+      },
+      "hexNames": {
+        "SlapAround": "Slap Around",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "MindtoMatter": "Mind to Matter",
+        "IceCold": "Ice Cold",
+        "Goredrink": "Goredrink",
+        "VeilOfWarding": "Veil of Warding",
+        "TransmuteGold": "Transmute: Gold",
+        "HeavyHitter": "Heavy Hitter",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "CelestialBody": "Celestial Body",
+        "SoulEater": "Soul Eater",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "EtherealWeapon": "Ethereal Weapon",
+        "PressureCooker": "Pressure Cooker",
+        "DarkWind": "Ravenous Bind",
+        "TankEngine": "Tank Engine",
+        "Dropkick": "Dropkick",
+        "Goliath": "Goliath",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "FinalForm": "Final Form"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "未知なる恐怖 チョ＝ガス Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "tank": "タンクビルド"
+      },
+      "buildTags": {
+        "tank": "タンク"
+      },
+      "buildScores": {
+        "tank": "確認待ち"
+      },
+      "hexNames": {
+        "SlapAround": "叩きまくれ",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "MindtoMatter": "精神の体現",
+        "IceCold": "結氷",
+        "Goredrink": "ゴアドリンク",
+        "VeilOfWarding": "ワーディングヴェール",
+        "TransmuteGold": "変質: ゴールド",
+        "HeavyHitter": "ヘビーヒッター",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "CelestialBody": "聖体",
+        "SoulEater": "ソウルイーター",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "EtherealWeapon": "エーテル武器",
+        "PressureCooker": "圧力鍋",
+        "DarkWind": "貪欲な束縛",
+        "TankEngine": "タンクエンジン",
+        "Dropkick": "ドロップキック",
+        "Goliath": "大巨人",
+        "InfiniteRecursion": "無限再帰",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "FinalForm": "最終形態"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "공허의 공포 초가스 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "tank": "탱커 빌드"
+      },
+      "buildTags": {
+        "tank": "탱커"
+      },
+      "buildScores": {
+        "tank": "검토 필요"
+      },
+      "hexNames": {
+        "SlapAround": "우당탕탕",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "MindtoMatter": "정신 변환",
+        "IceCold": "차가운 냉기",
+        "Goredrink": "선혈포식",
+        "VeilOfWarding": "감시의 장막",
+        "TransmuteGold": "전환: 골드",
+        "HeavyHitter": "강타자",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "CelestialBody": "천상의 신체",
+        "SoulEater": "영혼의 포식자",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "EtherealWeapon": "환영 무기",
+        "PressureCooker": "압력솥",
+        "DarkWind": "굶주린 속박",
+        "TankEngine": "탱크 엔진",
+        "Dropkick": "드롭킥",
+        "Goliath": "거인",
+        "InfiniteRecursion": "무한 반복",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "FinalForm": "최종 형태"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "tank",
+      "items": [
+        3084,
+        2502,
+        3121,
+        3083,
+        4633,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 13.08
+        },
+        {
+          "id": "Upgrade_Immolate",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeimmolate_small.png",
+          "pick": 11.58
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 6.54
+        },
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 3.93
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 3.18
+        },
+        {
+          "id": "VeilOfWarding",
+          "icon": "assets/ux/kiwi/augments/icons/poltergeist_small.png",
+          "pick": 3.06
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.62
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 22.19
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": 19.25
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": 18.26
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 14.93
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 9.15
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 8.82
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 8.72
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 7.17
+        },
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 35.72
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": 25.59
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 18.75
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 5.6
+        },
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": 5.51
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

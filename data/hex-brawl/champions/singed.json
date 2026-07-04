@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Singed",
+    "slug": "singed",
+    "names": {
+      "zh": "辛吉德 炼金术士",
+      "en": "the Mad Chemist Singed",
+      "ja": "マッドケミスト シンジド",
+      "ko": "미친 화학자 신지드"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "辛吉德 炼金术士 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap-tank": "AP/肉装"
+      },
+      "buildTags": {
+        "ap-tank": "AP/肉装"
+      },
+      "buildScores": {
+        "ap-tank": "待审核"
+      },
+      "hexNames": {
+        "HeavyHitter": "重量级打击手",
+        "BluntForce": "大力",
+        "Upgrade_Immolate": "升级：献祭",
+        "Goredrink": "渴血",
+        "TitansPulse": "保持坚定",
+        "Upgrade_Collector": "升级：收集者",
+        "TransmuteGold": "质变：黄金阶",
+        "SpinToWin": "旋转至胜",
+        "Quest_SteelYourHeart": "钢化你心",
+        "Upgrade_IE": "升级：无尽之刃",
+        "Quickstep": "快步",
+        "CelestialBody": "星界躯体",
+        "PressureCooker": "高压锅",
+        "Bonk": "邦！",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "TankEngine": "坦克引擎",
+        "Dropkick": "飞身踢",
+        "Goliath": "歌利亚巨人",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "FinalForm": "最终形态",
+        "GiantSlayer": "巨人杀手"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Mad Chemist Singed Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap-tank": "AP/Tank Build"
+      },
+      "buildTags": {
+        "ap-tank": "AP/Tank"
+      },
+      "buildScores": {
+        "ap-tank": "Needs review"
+      },
+      "hexNames": {
+        "HeavyHitter": "Heavy Hitter",
+        "BluntForce": "Blunt Force",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "Goredrink": "Goredrink",
+        "TitansPulse": "Stay Resolute",
+        "Upgrade_Collector": "Upgrade Collector",
+        "TransmuteGold": "Transmute: Gold",
+        "SpinToWin": "Spin To Win",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "Quickstep": "Quickstep",
+        "CelestialBody": "Celestial Body",
+        "PressureCooker": "Pressure Cooker",
+        "Bonk": "BONK!",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "TankEngine": "Tank Engine",
+        "Dropkick": "Dropkick",
+        "Goliath": "Goliath",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "FinalForm": "Final Form",
+        "GiantSlayer": "Giant Slayer"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "マッドケミスト シンジド Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap-tank": "AP/タンクビルド"
+      },
+      "buildTags": {
+        "ap-tank": "AP/タンク"
+      },
+      "buildScores": {
+        "ap-tank": "確認待ち"
+      },
+      "hexNames": {
+        "HeavyHitter": "ヘビーヒッター",
+        "BluntForce": "無骨なる力",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "Goredrink": "ゴアドリンク",
+        "TitansPulse": "固い決意",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "TransmuteGold": "変質: ゴールド",
+        "SpinToWin": "勝利への回転",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "Quickstep": "クイックステップ",
+        "CelestialBody": "聖体",
+        "PressureCooker": "圧力鍋",
+        "Bonk": "ボカッ！",
+        "TransmutePrismatic": "変質: プリズム",
+        "TankEngine": "タンクエンジン",
+        "Dropkick": "ドロップキック",
+        "Goliath": "大巨人",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "FinalForm": "最終形態",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "미친 화학자 신지드 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap-tank": "AP/탱커 빌드"
+      },
+      "buildTags": {
+        "ap-tank": "AP/탱커"
+      },
+      "buildScores": {
+        "ap-tank": "검토 필요"
+      },
+      "hexNames": {
+        "HeavyHitter": "강타자",
+        "BluntForce": "육중한 힘",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "Goredrink": "선혈포식",
+        "TitansPulse": "확고한 의지로",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "TransmuteGold": "전환: 골드",
+        "SpinToWin": "승리를 위한 회전",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "Quickstep": "날쌘걸음",
+        "CelestialBody": "천상의 신체",
+        "PressureCooker": "압력솥",
+        "Bonk": "꽁!",
+        "TransmutePrismatic": "전환: 프리즘",
+        "TankEngine": "탱크 엔진",
+        "Dropkick": "드롭킥",
+        "Goliath": "거인",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "FinalForm": "최종 형태",
+        "GiantSlayer": "거인 학살자"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "ap-tank",
+      "items": [
+        3116,
+        6653,
+        3121,
+        8010,
+        4633,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 14.27
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 7.65
+        },
+        {
+          "id": "Upgrade_Immolate",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeimmolate_small.png",
+          "pick": 7.09
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 4.92
+        },
+        {
+          "id": "TitansPulse",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 4.21
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 2.34
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.29
+        },
+        {
+          "id": "SpinToWin",
+          "icon": "assets/ux/cherry/augments/icons/spintowin_small.png",
+          "pick": 31.04
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Quest_SteelYourHeart",
+          "icon": "assets/ux/cherry/augments/icons/quest_steelyourheart_small.png",
+          "pick": 21.72
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 12.95
+        },
+        {
+          "id": "Quickstep",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 12.16
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": 11.88
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 10.3
+        },
+        {
+          "id": "Bonk",
+          "icon": "assets/ux/kiwi/augments/icons/bonk_large.png",
+          "pick": 9.55
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 6.93
+        },
+        {
+          "id": "TankEngine",
+          "icon": "assets/ux/cherry/augments/icons/tank_engine_small.png",
+          "pick": 33.15
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": 32.98
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 18.77
+        },
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": 5.05
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

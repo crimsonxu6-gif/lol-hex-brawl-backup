@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Gangplank",
+    "slug": "gangplank",
+    "names": {
+      "zh": "普朗克 海洋之灾",
+      "en": "the Saltwater Scourge Gangplank",
+      "ja": "大海原の大災厄 ガングプランク",
+      "ko": "바다의 무법자 갱플랭크"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "普朗克 海洋之灾 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "crit": "暴击出装"
+      },
+      "buildTags": {
+        "crit": "暴击"
+      },
+      "buildScores": {
+        "crit": "待审核"
+      },
+      "hexNames": {
+        "CritNCast": "由暴生急",
+        "BluntForce": "大力",
+        "Twinfire": "双生火焰",
+        "escAPADe": "魔法转物理",
+        "Zealot": "狂热者",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "TransmuteGold": "质变：黄金阶",
+        "Upgrade_Collector": "升级：收集者",
+        "DoubleTap": "双发快射",
+        "Upgrade_Sheen": "升级：耀光",
+        "ItsCritical": "关键暴击",
+        "SpecializedEmpowerment": "威能之追求",
+        "FromBeginningToEnd": "有始有终",
+        "SpecializedRecursion": "急速之追求",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "Upgrade_IE": "升级：无尽之刃",
+        "GiantSlayer": "巨人杀手",
+        "BacktoBasics": "回归基本功",
+        "InfiniteRecursion": "无限循环往复",
+        "FinalForm": "最终形态",
+        "JeweledGauntlet": "珠光护手"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Saltwater Scourge Gangplank Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "crit": "Crit Build"
+      },
+      "buildTags": {
+        "crit": "Crit"
+      },
+      "buildScores": {
+        "crit": "Needs review"
+      },
+      "hexNames": {
+        "CritNCast": "Crit 'n Cast",
+        "BluntForce": "Blunt Force",
+        "Twinfire": "Twin Fire",
+        "escAPADe": "escAPADe",
+        "Zealot": "Zealot",
+        "Purist_Caster": "Purist - Caster",
+        "TransmuteGold": "Transmute: Gold",
+        "Upgrade_Collector": "Upgrade Collector",
+        "DoubleTap": "Double Tap",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "ItsCritical": "It's Critical",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "FromBeginningToEnd": "From Beginning To End",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "GiantSlayer": "Giant Slayer",
+        "BacktoBasics": "Back To Basics",
+        "InfiniteRecursion": "Infinite Recursion",
+        "FinalForm": "Final Form",
+        "JeweledGauntlet": "Jeweled Gauntlet"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "大海原の大災厄 ガングプランク Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "crit": "クリティカルビルド"
+      },
+      "buildTags": {
+        "crit": "クリティカル"
+      },
+      "buildScores": {
+        "crit": "確認待ち"
+      },
+      "hexNames": {
+        "CritNCast": "クリティカルキャスト",
+        "BluntForce": "無骨なる力",
+        "Twinfire": "ツインファイア",
+        "escAPADe": "魔攻のいたずら",
+        "Zealot": "狂信的",
+        "Purist_Caster": "純粋なるキャスター",
+        "TransmuteGold": "変質: ゴールド",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "DoubleTap": "ダブルタップ",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "ItsCritical": "まさにクリティカル",
+        "SpecializedEmpowerment": "力の追求",
+        "FromBeginningToEnd": "徹頭徹尾",
+        "SpecializedRecursion": "素早さの追求",
+        "TransmutePrismatic": "変質: プリズム",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "BacktoBasics": "初志貫徹",
+        "InfiniteRecursion": "無限再帰",
+        "FinalForm": "最終形態",
+        "JeweledGauntlet": "ジュエル ガントレット"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "바다의 무법자 갱플랭크 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "crit": "치명타 빌드"
+      },
+      "buildTags": {
+        "crit": "치명타"
+      },
+      "buildScores": {
+        "crit": "검토 필요"
+      },
+      "hexNames": {
+        "CritNCast": "치명적 가속",
+        "BluntForce": "육중한 힘",
+        "Twinfire": "쌍둥이 불꽃",
+        "escAPADe": "마법사 (물리)",
+        "Zealot": "광신자",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "TransmuteGold": "전환: 골드",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "DoubleTap": "한 발에 두 놈",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "ItsCritical": "치명적인 공격",
+        "SpecializedEmpowerment": "위력 추구",
+        "FromBeginningToEnd": "시작부터 끝까지",
+        "SpecializedRecursion": "가속 추구",
+        "TransmutePrismatic": "전환: 프리즘",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "GiantSlayer": "거인 학살자",
+        "BacktoBasics": "기본으로 돌아가기",
+        "InfiniteRecursion": "무한 반복",
+        "FinalForm": "최종 형태",
+        "JeweledGauntlet": "보석 건틀릿"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "crit",
+      "items": [
+        3508,
+        6676,
+        3033,
+        3031,
+        2517,
+        3008
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "CritNCast",
+          "icon": "assets/ux/kiwi/augments/icons/critncast_small.png",
+          "pick": 15.38
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 11.41
+        },
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 11.29
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 6.99
+        },
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 3.53
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 2.83
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 1.85
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 18.05
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 20.32
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 14.18
+        },
+        {
+          "id": "ItsCritical",
+          "icon": "assets/ux/cherry/augments/icons/itscritical_small.png",
+          "pick": 14.14
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 9.81
+        },
+        {
+          "id": "FromBeginningToEnd",
+          "icon": "assets/ux/cherry/augments/icons/frombeginningtoend_small.png",
+          "pick": 9.07
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 7.73
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 4.8
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 22.69
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 19.1
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 15.14
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 9.64
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        },
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

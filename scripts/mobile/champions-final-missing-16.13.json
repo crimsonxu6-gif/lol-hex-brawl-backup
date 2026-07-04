@@ -1,0 +1,46 @@
+[
+  {
+    "name": "猩红收割者",
+    "slug": "vladimir"
+  },
+  {
+    "name": "死亡颂唱者",
+    "slug": "karthus"
+  },
+  {
+    "name": "扭曲树精",
+    "slug": "maokai"
+  },
+  {
+    "name": "狂野女猎手",
+    "slug": "nidalee"
+  },
+  {
+    "name": "诺克萨斯统领",
+    "slug": "swain"
+  },
+  {
+    "name": "众星之子",
+    "slug": "soraka"
+  },
+  {
+    "name": "迅捷斥候",
+    "slug": "teemo"
+  },
+  {
+    "name": "瘟疫之源",
+    "slug": "twitch"
+  },
+  {
+    "name": "逆羽",
+    "slug": "xayah"
+  },
+  {
+    "name": "灰烬驱魔人",
+    "slug": "locke"
+  },
+  {
+    "name": "不破之誓",
+    "slug": "yunara"
+  }
+]

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Nocturne",
+    "slug": "nocturne",
+    "names": {
+      "zh": "魔腾 永恒梦魇",
+      "en": "the Eternal Nightmare Nocturne",
+      "ja": "終わりなき悪夢 ノクターン",
+      "ko": "영원한 악몽 녹턴"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "魔腾 永恒梦魇 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "AD 出装"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "升级：收集者",
+        "BluntForce": "大力",
+        "Goredrink": "渴血",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "escAPADe": "魔法转物理",
+        "KillSecured": "杀意翻涌",
+        "TransmuteGold": "质变：黄金阶",
+        "DiveBomber": "俯冲轰炸",
+        "BurstingTeeth": "牙仙子",
+        "ThreadtheNeedle": "穿针引线",
+        "Upgrade_IE": "升级：无尽之刃",
+        "GetExcited": "罪恶快感",
+        "Nightstalking": "夜狩",
+        "ItsKillingTime": "杀戮时间到了",
+        "EndlessDecimation": "无尽大杀四方",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "FinalForm": "最终形态",
+        "DivineDomain": "飞升仪式",
+        "BladeWaltz": "利刃华尔兹",
+        "DualWield": "双刀流",
+        "SymphonyofWar": "战争交响乐"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Eternal Nightmare Nocturne Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "AD Build"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "Upgrade Collector",
+        "BluntForce": "Blunt Force",
+        "Goredrink": "Goredrink",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "escAPADe": "escAPADe",
+        "KillSecured": "Kill Secured",
+        "TransmuteGold": "Transmute: Gold",
+        "DiveBomber": "Dive Bomber",
+        "BurstingTeeth": "Tooth Fairy",
+        "ThreadtheNeedle": "Thread the Needle",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "GetExcited": "Get Excited!",
+        "Nightstalking": "Nightstalking",
+        "ItsKillingTime": "It's Killing Time",
+        "EndlessDecimation": "Endless Decimation",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "FinalForm": "Final Form",
+        "DivineDomain": "Rite of Ascension",
+        "BladeWaltz": "Blade Waltz",
+        "DualWield": "Dual Wield",
+        "SymphonyofWar": "Symphony of War"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "終わりなき悪夢 ノクターン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "AD ビルド"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "コレクター アップグレード",
+        "BluntForce": "無骨なる力",
+        "Goredrink": "ゴアドリンク",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "escAPADe": "魔攻のいたずら",
+        "KillSecured": "キルを確認",
+        "TransmuteGold": "変質: ゴールド",
+        "DiveBomber": "急降下爆撃",
+        "BurstingTeeth": "歯の妖精",
+        "ThreadtheNeedle": "貫通力",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "GetExcited": "超エキサイティン！",
+        "Nightstalking": "ナイトストーク",
+        "ItsKillingTime": "殺戮の時",
+        "EndlessDecimation": "終わりなき殲滅",
+        "TransmutePrismatic": "変質: プリズム",
+        "FinalForm": "最終形態",
+        "DivineDomain": "超越の儀式",
+        "BladeWaltz": "ブレードワルツ",
+        "DualWield": "二刀流",
+        "SymphonyofWar": "闘争交響曲"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "영원한 악몽 녹턴 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "AD 빌드"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "BluntForce": "육중한 힘",
+        "Goredrink": "선혈포식",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "escAPADe": "마법사 (물리)",
+        "KillSecured": "확보된 킬",
+        "TransmuteGold": "전환: 골드",
+        "DiveBomber": "폭격기",
+        "BurstingTeeth": "이빨 요정",
+        "ThreadtheNeedle": "바늘에 실 끼우기",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "GetExcited": "신난다!",
+        "Nightstalking": "밤의 추적",
+        "ItsKillingTime": "처형 시간",
+        "EndlessDecimation": "끝없는 학살",
+        "TransmutePrismatic": "전환: 프리즘",
+        "FinalForm": "최종 형태",
+        "DivineDomain": "초월 의식",
+        "BladeWaltz": "검무",
+        "DualWield": "양손잡이",
+        "SymphonyofWar": "전장의 교향곡"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        126697,
+        6699,
+        6696,
+        6333,
+        3036,
+        2517
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 22.9
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 14.33
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 14.24
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 6.96
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 5.89
+        },
+        {
+          "id": "KillSecured",
+          "icon": "assets/ux/kiwi/augments/icons/killsecure_small.png",
+          "pick": 3.17
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3
+        },
+        {
+          "id": "DiveBomber",
+          "icon": "assets/ux/cherry/augments/icons/divebomber_small.png",
+          "pick": 2.47
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 20.98
+        },
+        {
+          "id": "ThreadtheNeedle",
+          "icon": "assets/ux/cherry/augments/icons/threadtheneedle_small.png",
+          "pick": 20.96
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 19.28
+        },
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 18.45
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 17.84
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 9.45
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 6.96
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 6.9
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 21.96
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 10.62
+        },
+        {
+          "id": "BladeWaltz",
+          "icon": "assets/ux/cherry/augments/icons/bladewaltz_small.png",
+          "pick": 8.14
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 6.29
+        },
+        {
+          "id": "SymphonyofWar",
+          "icon": "assets/ux/cherry/augments/icons/symphonyofwar_small.png",
+          "pick": 6.23
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

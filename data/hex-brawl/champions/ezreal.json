@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Ezreal",
+    "slug": "ezreal",
+    "names": {
+      "zh": "伊泽瑞尔 探险家",
+      "en": "the Prodigal Explorer Ezreal",
+      "ja": "光の冒険心 エズリアル",
+      "ko": "무모한 탐험가 이즈리얼"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "探险家 伊泽瑞尔 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装"
+      },
+      "buildTags": {
+        "standard": "默认"
+      },
+      "buildScores": {
+        "standard": "稳"
+      },
+      "hexNames": {
+        "Twinfire": "双生火焰",
+        "Zealot": "狂热者",
+        "Upgrade_Collector": "升级：收集者",
+        "BluntForce": "大力",
+        "TrustyWeapon": "可靠武器",
+        "escAPADe": "魔法转物理",
+        "Juiced": "注魔",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "CriticalMissile": "暴击飞弹",
+        "MagicMissile": "魔法飞弹",
+        "Upgrade_Sheen": "升级：耀光",
+        "EtherealWeapon": "虚幻武器",
+        "SkilledSniper": "老练狙神",
+        "PhenomenalEvil": "超凡邪恶",
+        "SpecializedRecursion": "急速之追求",
+        "Overflow": "溢流",
+        "JeweledGauntlet": "珠光护手",
+        "DrawYourSword": "亮出你的剑",
+        "GiantSlayer": "巨人杀手",
+        "InfiniteRecursion": "无限循环往复",
+        "BacktoBasics": "回归基本功",
+        "UltimateAwakening": "终极唤醒",
+        "MysticPunch": "秘术冲拳"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Ezreal guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Default"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Twinfire": "Twin Fire",
+        "Zealot": "Zealot",
+        "Upgrade_Collector": "Upgrade Collector",
+        "BluntForce": "Blunt Force",
+        "TrustyWeapon": "Trusty Weapon",
+        "escAPADe": "escAPADe",
+        "Juiced": "Juiced",
+        "Purist_Caster": "Purist - Caster",
+        "CriticalMissile": "Critical Missile",
+        "MagicMissile": "Magic Missile",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "EtherealWeapon": "Ethereal Weapon",
+        "SkilledSniper": "Skilled Sniper",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "Overflow": "Overflow",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "DrawYourSword": "Draw Your Sword",
+        "GiantSlayer": "Giant Slayer",
+        "InfiniteRecursion": "Infinite Recursion",
+        "BacktoBasics": "Back To Basics",
+        "UltimateAwakening": "Ultimate Awakening",
+        "MysticPunch": "Mystic Punch"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "光の冒険心 エズリアル Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Twinfire": "ツインファイア",
+        "Zealot": "狂信的",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "BluntForce": "無骨なる力",
+        "TrustyWeapon": "頼れる武器",
+        "escAPADe": "魔攻のいたずら",
+        "Juiced": "パワーアップ",
+        "Purist_Caster": "純粋なるキャスター",
+        "CriticalMissile": "クリティカルミサイル",
+        "MagicMissile": "マジックミサイル",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "EtherealWeapon": "エーテル武器",
+        "SkilledSniper": "腕利きスナイパー",
+        "PhenomenalEvil": "偉大なる悪",
+        "SpecializedRecursion": "素早さの追求",
+        "Overflow": "オーバーフロー",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "DrawYourSword": "剣を構えよ",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "InfiniteRecursion": "無限再帰",
+        "BacktoBasics": "初志貫徹",
+        "UltimateAwakening": "究極の目覚め",
+        "MysticPunch": "神秘の鉄拳"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "무모한 탐험가 이즈리얼 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Twinfire": "쌍둥이 불꽃",
+        "Zealot": "광신자",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "BluntForce": "육중한 힘",
+        "TrustyWeapon": "믿음직한 무기",
+        "escAPADe": "마법사 (물리)",
+        "Juiced": "도취",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "CriticalMissile": "치명적 미사일",
+        "MagicMissile": "마법 미사일",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "EtherealWeapon": "환영 무기",
+        "SkilledSniper": "노련한 저격수",
+        "PhenomenalEvil": "극악무도",
+        "SpecializedRecursion": "가속 추구",
+        "Overflow": "범람",
+        "JeweledGauntlet": "보석 건틀릿",
+        "DrawYourSword": "검을 뽑아라",
+        "GiantSlayer": "거인 학살자",
+        "InfiniteRecursion": "무한 반복",
+        "BacktoBasics": "기본으로 돌아가기",
+        "UltimateAwakening": "궁극의 각성",
+        "MysticPunch": "신비한 주먹"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        3078,
+        3042,
+        3161,
+        3033,
+        3153,
+        3158
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 14.67
+        },
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 7.81
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 7.79
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 6.65
+        },
+        {
+          "id": "TrustyWeapon",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 5.99
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 5.1
+        },
+        {
+          "id": "Juiced",
+          "icon": "assets/ux/kiwi/augments/icons/juiced_small.png",
+          "pick": 5.04
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 4.63
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "CriticalMissile",
+          "icon": "assets/ux/kiwi/augments/icons/criticalmissile_small.png",
+          "pick": 16.93
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 16.17
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 15.35
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 12.49
+        },
+        {
+          "id": "SkilledSniper",
+          "icon": "assets/ux/cherry/augments/icons/skilledsniper_small.png",
+          "pick": 11.38
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 8.83
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 8.59
+        },
+        {
+          "id": "Overflow",
+          "icon": "assets/ux/cherry/augments/icons/overflow_small.png",
+          "pick": 6.55
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 16.32
+        },
+        {
+          "id": "DrawYourSword",
+          "icon": "assets/ux/cherry/augments/icons/drawyoursword_small.png",
+          "pick": 12.19
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 9.53
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 5
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": 4.19
+        },
+        {
+          "id": "UltimateAwakening",
+          "icon": "assets/ux/kiwi/augments/icons/zerohour_small.png",
+          "pick": 0.98
+        },
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 0.57
+        }
+      ]
+    }
+  }
+}

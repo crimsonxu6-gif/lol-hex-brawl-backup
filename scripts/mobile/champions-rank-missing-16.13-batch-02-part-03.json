@@ -1,0 +1,42 @@
+[
+  {
+    "name": "熔岩巨兽",
+    "slug": "malphite"
+  },
+  {
+    "name": "机械公敌",
+    "slug": "rumble"
+  },
+  {
+    "name": "战争女神",
+    "slug": "sivir"
+  },
+  {
+    "name": "远古巫灵",
+    "slug": "xerath"
+  },
+  {
+    "name": "炼金术士",
+    "slug": "singed"
+  },
+  {
+    "name": "深渊巨口",
+    "slug": "kogmaw"
+  },
+  {
+    "name": "琴瑟仙女",
+    "slug": "sona"
+  },
+  {
+    "name": "流光镜影",
+    "slug": "mel"
+  },
+  {
+    "name": "永猎双子",
+    "slug": "kindred"
+  },
+  {
+    "name": "圣锤之毅",
+    "slug": "poppy"
+  }
+]

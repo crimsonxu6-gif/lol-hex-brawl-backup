@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Ivern",
+    "slug": "ivern",
+    "names": {
+      "zh": "艾翁 翠神",
+      "en": "the Green Father Ivern",
+      "ja": "豊緑の神秘 アイバーン",
+      "ko": "자연의 아버지 아이번"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "艾翁 翠神 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "support": "辅助出装"
+      },
+      "buildTags": {
+        "support": "辅助"
+      },
+      "buildScores": {
+        "support": "待审核"
+      },
+      "hexNames": {
+        "FirstAidKit": "急救用具",
+        "SonicBoom": "天音爆",
+        "SlapAround": "扇巴掌",
+        "DoubleDefense": "加固护盾",
+        "MightyShield": "强力护盾",
+        "IceCold": "冰寒",
+        "TransmuteGold": "质变：黄金阶",
+        "Typhoon": "台风",
+        "AllForYou": "全心为你",
+        "Sonata": "咏叹奏鸣",
+        "WeeWooWeeWoo": "喂呜喂呜",
+        "NatureIsHealing": "自然即是治愈",
+        "MercysStrike": "仁慈打击",
+        "DivineIntervention": "神圣干预",
+        "BrushPower": "藏身草丛",
+        "DarkWind": "贪欲束缚",
+        "SpiritBomb": "灵魄炸弹",
+        "EmpoweredByTheFaithful": "信念者的强化",
+        "Archmage": "大法师",
+        "WindspeakersBlessing": "风语者的祝福",
+        "InfiniteRecursion": "无限循环往复",
+        "EmpyreanPromise": "至高天诺言"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Green Father Ivern Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "support": "Support Build"
+      },
+      "buildTags": {
+        "support": "Support"
+      },
+      "buildScores": {
+        "support": "Needs review"
+      },
+      "hexNames": {
+        "FirstAidKit": "First-Aid Kit",
+        "SonicBoom": "Sonic Boom",
+        "SlapAround": "Slap Around",
+        "DoubleDefense": "Bolstered",
+        "MightyShield": "Mighty Shield",
+        "IceCold": "Ice Cold",
+        "TransmuteGold": "Transmute: Gold",
+        "Typhoon": "Typhoon",
+        "AllForYou": "All For You",
+        "Sonata": "Sonata",
+        "WeeWooWeeWoo": "Wee Woo Wee Woo",
+        "NatureIsHealing": "Nature is Healing",
+        "MercysStrike": "Mercy's Strike",
+        "DivineIntervention": "Divine Intervention",
+        "BrushPower": "Hide on Bush",
+        "DarkWind": "Ravenous Bind",
+        "SpiritBomb": "Spirit Bomb",
+        "EmpoweredByTheFaithful": "Empowered By The Faithful",
+        "Archmage": "Archmage",
+        "WindspeakersBlessing": "Windspeaker's Blessing",
+        "InfiniteRecursion": "Infinite Recursion",
+        "EmpyreanPromise": "Empyrean Promise"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "豊緑の神秘 アイバーン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "support": "サポートビルド"
+      },
+      "buildTags": {
+        "support": "サポート"
+      },
+      "buildScores": {
+        "support": "確認待ち"
+      },
+      "hexNames": {
+        "FirstAidKit": "救急セット",
+        "SonicBoom": "ソニックブーム",
+        "SlapAround": "叩きまくれ",
+        "DoubleDefense": "補強",
+        "MightyShield": "マイティシールド",
+        "IceCold": "結氷",
+        "TransmuteGold": "変質: ゴールド",
+        "Typhoon": "タイフーン",
+        "AllForYou": "キミのためさ",
+        "Sonata": "ソナタ",
+        "WeeWooWeeWoo": "うぃ～！おりゃっ！",
+        "NatureIsHealing": "大自然が回復している",
+        "MercysStrike": "慈悲の一撃",
+        "DivineIntervention": "聖なる介入",
+        "BrushPower": "Hide on Bush",
+        "DarkWind": "貪欲な束縛",
+        "SpiritBomb": "スピリットボム",
+        "EmpoweredByTheFaithful": "信ずる者の加護",
+        "Archmage": "魔帝",
+        "WindspeakersBlessing": "風詠みの祝福",
+        "InfiniteRecursion": "無限再帰",
+        "EmpyreanPromise": "荘厳の天球の約束"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "자연의 아버지 아이번 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "support": "서포터 빌드"
+      },
+      "buildTags": {
+        "support": "서포터"
+      },
+      "buildScores": {
+        "support": "검토 필요"
+      },
+      "hexNames": {
+        "FirstAidKit": "응급처치 키트",
+        "SonicBoom": "음속 폭발",
+        "SlapAround": "우당탕탕",
+        "DoubleDefense": "보강",
+        "MightyShield": "강력한 방패",
+        "IceCold": "차가운 냉기",
+        "TransmuteGold": "전환: 골드",
+        "Typhoon": "태풍",
+        "AllForYou": "너만을 위해",
+        "Sonata": "소나타",
+        "WeeWooWeeWoo": "삐뽀삐뽀",
+        "NatureIsHealing": "자연의 회복",
+        "MercysStrike": "자비의 일격",
+        "DivineIntervention": "신성한 중재",
+        "BrushPower": "Hide on bush",
+        "DarkWind": "굶주린 속박",
+        "SpiritBomb": "영혼 폭탄",
+        "EmpoweredByTheFaithful": "신념을 통한 강화",
+        "Archmage": "대마법사",
+        "WindspeakersBlessing": "바람전달자의 축복",
+        "InfiniteRecursion": "무한 반복",
+        "EmpyreanPromise": "창공의 서약"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "support",
+      "items": [
+        6617,
+        3504,
+        3107,
+        6616,
+        6621,
+        3158
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "FirstAidKit",
+          "icon": "assets/ux/cherry/augments/icons/firstaidkit_small.png",
+          "pick": 26.7
+        },
+        {
+          "id": "SonicBoom",
+          "icon": "assets/ux/cherry/augments/icons/sonicboom_small.png",
+          "pick": 19.46
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 7.65
+        },
+        {
+          "id": "DoubleDefense",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 4.6
+        },
+        {
+          "id": "MightyShield",
+          "icon": "assets/ux/kiwi/augments/icons/mightyshield_small.png",
+          "pick": 4.53
+        },
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 4.31
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 2.31
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 1.13
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "AllForYou",
+          "icon": "assets/ux/cherry/augments/icons/allforyou_small.png",
+          "pick": 24.14
+        },
+        {
+          "id": "Sonata",
+          "icon": "assets/ux/kiwi/augments/icons/sonata_large.png",
+          "pick": 21.38
+        },
+        {
+          "id": "WeeWooWeeWoo",
+          "icon": "assets/ux/kiwi/augments/icons/weewooweewoo_small.png",
+          "pick": 17.93
+        },
+        {
+          "id": "NatureIsHealing",
+          "icon": "assets/ux/kiwi/augments/icons/natureishealing_small.png",
+          "pick": 14.37
+        },
+        {
+          "id": "MercysStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 12.5
+        },
+        {
+          "id": "DivineIntervention",
+          "icon": "assets/ux/cherry/augments/icons/slowactingpainkillers_small.png",
+          "pick": 9.46
+        },
+        {
+          "id": "BrushPower",
+          "icon": "assets/ux/kiwi/augments/icons/brushpower_small.png",
+          "pick": 9.05
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 7.05
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "SpiritBomb",
+          "icon": "assets/ux/kiwi/augments/icons/spiritbomb_small.png",
+          "pick": 18.17
+        },
+        {
+          "id": "EmpoweredByTheFaithful",
+          "icon": "assets/ux/kiwi/augments/icons/empoweredbythefaithful_large.png",
+          "pick": 14.68
+        },
+        {
+          "id": "Archmage",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 8.02
+        },
+        {
+          "id": "WindspeakersBlessing",
+          "icon": "assets/ux/cherry/augments/icons/windspeakersblessing_small.png",
+          "pick": 7.75
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 7.72
+        },
+        {
+          "id": "EmpyreanPromise",
+          "icon": "assets/ux/kiwi/augments/icons/empyreampromise_small.png",
+          "pick": 6.75
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

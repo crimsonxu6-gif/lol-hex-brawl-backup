@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Belveth",
+    "slug": "belveth",
+    "names": {
+      "zh": "卑尔维斯 虚空女皇",
+      "en": "the Empress of the Void Bel'Veth",
+      "ja": "ヴォイドの女帝 ベル＝ヴェス",
+      "ko": "공허의 여제 벨베스"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "卑尔维斯 虚空女皇 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "AD 出装"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "Typhoon": "台风",
+        "BluntForce": "大力",
+        "escAPADe": "魔法转物理",
+        "TransmuteGold": "质变：黄金阶",
+        "Upgrade_Collector": "升级：收集者",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "Deft": "灵巧",
+        "GetExcited": "罪恶快感",
+        "OutlawsGrit": "狂徒豪气",
+        "EndlessDecimation": "无尽大杀四方",
+        "Upgrade_IE": "升级：无尽之刃",
+        "DarkWind": "贪欲束缚",
+        "TransmutePrismatic": "质变：棱彩阶",
+        "SpecializedRecursion": "急速之追求",
+        "SoulEater": "吞噬灵魂",
+        "MysticPunch": "秘术冲拳",
+        "DualWield": "双刀流",
+        "FinalForm": "最终形态",
+        "TapDancer": "踢踏舞",
+        "DivineDomain": "飞升仪式",
+        "EndlessHunt": "吃过路兵"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Empress of the Void Bel'Veth Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "AD Build"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "Typhoon": "Typhoon",
+        "BluntForce": "Blunt Force",
+        "escAPADe": "escAPADe",
+        "TransmuteGold": "Transmute: Gold",
+        "Upgrade_Collector": "Upgrade Collector",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "Deft": "Deft",
+        "GetExcited": "Get Excited!",
+        "OutlawsGrit": "Outlaw's Grit",
+        "EndlessDecimation": "Endless Decimation",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "DarkWind": "Ravenous Bind",
+        "TransmutePrismatic": "Transmute: Prismatic",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "SoulEater": "Soul Eater",
+        "MysticPunch": "Mystic Punch",
+        "DualWield": "Dual Wield",
+        "FinalForm": "Final Form",
+        "TapDancer": "Tap Dancer",
+        "DivineDomain": "Rite of Ascension",
+        "EndlessHunt": "En Passant"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ヴォイドの女帝 ベル＝ヴェス Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "AD ビルド"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "確認待ち"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "Typhoon": "タイフーン",
+        "BluntForce": "無骨なる力",
+        "escAPADe": "魔攻のいたずら",
+        "TransmuteGold": "変質: ゴールド",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "Deft": "技巧",
+        "GetExcited": "超エキサイティン！",
+        "OutlawsGrit": "無法者の気概",
+        "EndlessDecimation": "終わりなき殲滅",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "DarkWind": "貪欲な束縛",
+        "TransmutePrismatic": "変質: プリズム",
+        "SpecializedRecursion": "素早さの追求",
+        "SoulEater": "ソウルイーター",
+        "MysticPunch": "神秘の鉄拳",
+        "DualWield": "二刀流",
+        "FinalForm": "最終形態",
+        "TapDancer": "タップダンサー",
+        "DivineDomain": "超越の儀式",
+        "EndlessHunt": "アンパッサン"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "공허의 여제 벨베스 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "AD 빌드"
+      },
+      "buildTags": {
+        "standard": "AD"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "Typhoon": "태풍",
+        "BluntForce": "육중한 힘",
+        "escAPADe": "마법사 (물리)",
+        "TransmuteGold": "전환: 골드",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "Deft": "능수능란",
+        "GetExcited": "신난다!",
+        "OutlawsGrit": "무법자의 투지",
+        "EndlessDecimation": "끝없는 학살",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "DarkWind": "굶주린 속박",
+        "TransmutePrismatic": "전환: 프리즘",
+        "SpecializedRecursion": "가속 추구",
+        "SoulEater": "영혼의 포식자",
+        "MysticPunch": "신비한 주먹",
+        "DualWield": "양손잡이",
+        "FinalForm": "최종 형태",
+        "TapDancer": "탭 댄서",
+        "DivineDomain": "초월 의식",
+        "EndlessHunt": "앙파상"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        6672,
+        3153,
+        3302,
+        6665,
+        6333,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 25.48
+        },
+        {
+          "id": "Typhoon",
+          "icon": "assets/ux/cherry/augments/icons/typhoon_small.png",
+          "pick": 10.75
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 9.17
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 4.54
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.89
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 3.63
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 3.62
+        },
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 3.28
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "GetExcited",
+          "icon": "assets/ux/kiwi/augments/icons/getexcited_small.png",
+          "pick": 21.5
+        },
+        {
+          "id": "OutlawsGrit",
+          "icon": "assets/ux/cherry/augments/icons/outlawsgrit_small.png",
+          "pick": 20.17
+        },
+        {
+          "id": "EndlessDecimation",
+          "icon": "assets/ux/cherry/augments/icons/endlessdecimate_small.png",
+          "pick": 10.57
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 9.64
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 7.9
+        },
+        {
+          "id": "TransmutePrismatic",
+          "icon": "assets/ux/cherry/augments/icons/transmuteprismatic_small.png",
+          "pick": 7.66
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 6.4
+        },
+        {
+          "id": "SoulEater",
+          "icon": "assets/ux/kiwi/augments/icons/souleater_small.png",
+          "pick": 5.79
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "MysticPunch",
+          "icon": "assets/ux/cherry/augments/icons/mysticpunch_small.png",
+          "pick": 16.99
+        },
+        {
+          "id": "DualWield",
+          "icon": "assets/ux/cherry/augments/icons/dualwield_small.png",
+          "pick": 13.51
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 12.84
+        },
+        {
+          "id": "TapDancer",
+          "icon": "assets/ux/cherry/augments/icons/tapdancer_small.png",
+          "pick": 9.27
+        },
+        {
+          "id": "DivineDomain",
+          "icon": "assets/ux/kiwi/augments/icons/glasscannon_small.png",
+          "pick": 8.71
+        },
+        {
+          "id": "EndlessHunt",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 4.49
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

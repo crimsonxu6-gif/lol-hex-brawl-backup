@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Shaco",
+    "slug": "shaco",
+    "names": {
+      "zh": "萨科 恶魔小丑",
+      "en": "the Demon Jester Shaco",
+      "ja": "悪魔の道化師 シャコ",
+      "ko": "악마 어릿광대 샤코"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "萨科 恶魔小丑 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装",
+        "crit": "暴击出装"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "暴击"
+      },
+      "buildScores": {
+        "ap": "待审核",
+        "crit": "待审核"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "升级：收集者",
+        "BluntForce": "大力",
+        "WitchfulThinking": "巫师式思考",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "KillSecured": "杀意翻涌",
+        "SlapAround": "扇巴掌",
+        "escAPADe": "魔法转物理",
+        "ShadowRunner": "暗影疾奔",
+        "BrushPower": "藏身草丛",
+        "BurstingTeeth": "牙仙子",
+        "MagicMissile": "魔法飞弹",
+        "PhenomenalEvil": "超凡邪恶",
+        "WithHaste": "急急小子",
+        "DarkWind": "贪欲束缚",
+        "SpecializedRecursion": "急速之追求",
+        "Nightstalking": "夜狩",
+        "Eureka": "尤里卡",
+        "InfiniteRecursion": "无限循环往复",
+        "Archmage": "大法师",
+        "UltimateAwakening": "终极唤醒",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Demon Jester Shaco Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build",
+        "crit": "Crit Build"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "Crit"
+      },
+      "buildScores": {
+        "ap": "Needs review",
+        "crit": "Needs review"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "Upgrade Collector",
+        "BluntForce": "Blunt Force",
+        "WitchfulThinking": "Witchful Thinking",
+        "Purist_Caster": "Purist - Caster",
+        "KillSecured": "Kill Secured",
+        "SlapAround": "Slap Around",
+        "escAPADe": "escAPADe",
+        "ShadowRunner": "Shadow Runner",
+        "BrushPower": "Hide on Bush",
+        "BurstingTeeth": "Tooth Fairy",
+        "MagicMissile": "Magic Missile",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "WithHaste": "With Haste",
+        "DarkWind": "Ravenous Bind",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "Nightstalking": "Nightstalking",
+        "Eureka": "Eureka",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Archmage": "Archmage",
+        "UltimateAwakening": "Ultimate Awakening",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "悪魔の道化師 シャコ Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "APビルド",
+        "crit": "クリティカルビルド"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "クリティカル"
+      },
+      "buildScores": {
+        "ap": "確認待ち",
+        "crit": "確認待ち"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "コレクター アップグレード",
+        "BluntForce": "無骨なる力",
+        "WitchfulThinking": "魔法的思考",
+        "Purist_Caster": "純粋なるキャスター",
+        "KillSecured": "キルを確認",
+        "SlapAround": "叩きまくれ",
+        "escAPADe": "魔攻のいたずら",
+        "ShadowRunner": "影走り",
+        "BrushPower": "Hide on Bush",
+        "BurstingTeeth": "歯の妖精",
+        "MagicMissile": "マジックミサイル",
+        "PhenomenalEvil": "偉大なる悪",
+        "WithHaste": "大急ぎ",
+        "DarkWind": "貪欲な束縛",
+        "SpecializedRecursion": "素早さの追求",
+        "Nightstalking": "ナイトストーク",
+        "Eureka": "エウレカ",
+        "InfiniteRecursion": "無限再帰",
+        "Archmage": "魔帝",
+        "UltimateAwakening": "究極の目覚め",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "악마 어릿광대 샤코 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드",
+        "crit": "치명타 빌드"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "치명타"
+      },
+      "buildScores": {
+        "ap": "검토 필요",
+        "crit": "검토 필요"
+      },
+      "hexNames": {
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "BluntForce": "육중한 힘",
+        "WitchfulThinking": "사악한 정신",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "KillSecured": "확보된 킬",
+        "SlapAround": "우당탕탕",
+        "escAPADe": "마법사 (물리)",
+        "ShadowRunner": "그림자 질주",
+        "BrushPower": "Hide on bush",
+        "BurstingTeeth": "이빨 요정",
+        "MagicMissile": "마법 미사일",
+        "PhenomenalEvil": "극악무도",
+        "WithHaste": "속행",
+        "DarkWind": "굶주린 속박",
+        "SpecializedRecursion": "가속 추구",
+        "Nightstalking": "밤의 추적",
+        "Eureka": "유레카",
+        "InfiniteRecursion": "무한 반복",
+        "Archmage": "대마법사",
+        "UltimateAwakening": "궁극의 각성",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        2503,
+        6653,
+        4645,
+        3089,
+        3135,
+        3020
+      ]
+    },
+    {
+      "key": "crit",
+      "items": [
+        6697,
+        6699,
+        3031,
+        3033,
+        6676,
+        3008
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 12.54
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 6.56
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 5.84
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 5.71
+        },
+        {
+          "id": "KillSecured",
+          "icon": "assets/ux/kiwi/augments/icons/killsecure_small.png",
+          "pick": 4.74
+        },
+        {
+          "id": "SlapAround",
+          "icon": "assets/ux/cherry/augments/icons/slaparound_small.png",
+          "pick": 4.23
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 3.83
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 24.18
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "BrushPower",
+          "icon": "assets/ux/kiwi/augments/icons/brushpower_small.png",
+          "pick": 15.52
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 15.07
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 10.07
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 8.14
+        },
+        {
+          "id": "WithHaste",
+          "icon": "assets/ux/cherry/augments/icons/withhaste_small.png",
+          "pick": 6.63
+        },
+        {
+          "id": "DarkWind",
+          "icon": "assets/ux/kiwi/augments/icons/upgradehubris_small.png",
+          "pick": 6.25
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 4.96
+        },
+        {
+          "id": "Nightstalking",
+          "icon": "assets/ux/kiwi/augments/icons/nightstalking_small.png",
+          "pick": 20.05
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 10.96
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 9.45
+        },
+        {
+          "id": "Archmage",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 9.19
+        },
+        {
+          "id": "UltimateAwakening",
+          "icon": "assets/ux/kiwi/augments/icons/zerohour_small.png",
+          "pick": 3.04
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": 2.75
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

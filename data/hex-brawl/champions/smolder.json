@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Smolder",
+    "slug": "smolder",
+    "names": {
+      "zh": "斯莫德 炽炎雏龙",
+      "en": "the Fiery Fledgling Smolder",
+      "ja": "炎の幼龍 スモルダー",
+      "ko": "꼬마 불꽃용 스몰더"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "斯莫德 炽炎雏龙 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "crit": "暴击出装"
+      },
+      "buildTags": {
+        "crit": "暴击"
+      },
+      "buildScores": {
+        "crit": "待审核"
+      },
+      "hexNames": {
+        "CritNCast": "由暴生急",
+        "ScopedWeapons": "万用瞄准镜",
+        "Upgrade_Collector": "升级：收集者",
+        "BluntForce": "大力",
+        "escAPADe": "魔法转物理",
+        "Zealot": "狂热者",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "Twinfire": "双生火焰",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "Upgrade_IE": "升级：无尽之刃",
+        "SkilledSniper": "老练狙神",
+        "DoubleTap": "双发快射",
+        "MagicMissile": "魔法飞弹",
+        "Upgrade_Sheen": "升级：耀光",
+        "SpecializedRecursion": "急速之追求",
+        "CriticalMissile": "暴击飞弹",
+        "JeweledGauntlet": "珠光护手",
+        "GiantSlayer": "巨人杀手",
+        "ScopiestWeapons": "最万用的瞄准镜",
+        "InfiniteRecursion": "无限循环往复",
+        "FinalForm": "最终形态"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Fiery Fledgling Smolder Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "crit": "Crit Build"
+      },
+      "buildTags": {
+        "crit": "Crit"
+      },
+      "buildScores": {
+        "crit": "Needs review"
+      },
+      "hexNames": {
+        "CritNCast": "Crit 'n Cast",
+        "ScopedWeapons": "Scoped Weapons",
+        "Upgrade_Collector": "Upgrade Collector",
+        "BluntForce": "Blunt Force",
+        "escAPADe": "escAPADe",
+        "Zealot": "Zealot",
+        "Purist_Caster": "Purist - Caster",
+        "Twinfire": "Twin Fire",
+        "ScopierWeapons": "Scopier Weapons",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "SkilledSniper": "Skilled Sniper",
+        "DoubleTap": "Double Tap",
+        "MagicMissile": "Magic Missile",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "CriticalMissile": "Critical Missile",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "GiantSlayer": "Giant Slayer",
+        "ScopiestWeapons": "Scopiest Weapons",
+        "InfiniteRecursion": "Infinite Recursion",
+        "FinalForm": "Final Form"
+      },
+      "guideTitle": "Guide Image",
+      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "炎の幼龍 スモルダー Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "crit": "クリティカルビルド"
+      },
+      "buildTags": {
+        "crit": "クリティカル"
+      },
+      "buildScores": {
+        "crit": "確認待ち"
+      },
+      "hexNames": {
+        "CritNCast": "クリティカルキャスト",
+        "ScopedWeapons": "スコープ装着",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "BluntForce": "無骨なる力",
+        "escAPADe": "魔攻のいたずら",
+        "Zealot": "狂信的",
+        "Purist_Caster": "純粋なるキャスター",
+        "Twinfire": "ツインファイア",
+        "ScopierWeapons": "改造スコープ装着",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "SkilledSniper": "腕利きスナイパー",
+        "DoubleTap": "ダブルタップ",
+        "MagicMissile": "マジックミサイル",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "SpecializedRecursion": "素早さの追求",
+        "CriticalMissile": "クリティカルミサイル",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "ScopiestWeapons": "超改造スコープ装着",
+        "InfiniteRecursion": "無限再帰",
+        "FinalForm": "最終形態"
+      },
+      "guideTitle": "ガイド画像",
+      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "꼬마 불꽃용 스몰더 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "crit": "치명타 빌드"
+      },
+      "buildTags": {
+        "crit": "치명타"
+      },
+      "buildScores": {
+        "crit": "검토 필요"
+      },
+      "hexNames": {
+        "CritNCast": "치명적 가속",
+        "ScopedWeapons": "조준경 부착",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "BluntForce": "육중한 힘",
+        "escAPADe": "마법사 (물리)",
+        "Zealot": "광신자",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "Twinfire": "쌍둥이 불꽃",
+        "ScopierWeapons": "상급 조준경 부착",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "SkilledSniper": "노련한 저격수",
+        "DoubleTap": "한 발에 두 놈",
+        "MagicMissile": "마법 미사일",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "SpecializedRecursion": "가속 추구",
+        "CriticalMissile": "치명적 미사일",
+        "JeweledGauntlet": "보석 건틀릿",
+        "GiantSlayer": "거인 학살자",
+        "ScopiestWeapons": "최상급 조준경 부착",
+        "InfiniteRecursion": "무한 반복",
+        "FinalForm": "최종 형태"
+      },
+      "guideTitle": "가이드 이미지",
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
+    }
+  },
+  "builds": [
+    {
+      "key": "crit",
+      "items": [
+        3508,
+        3036,
+        3031,
+        2523,
+        3072,
+        3158
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "CritNCast",
+          "icon": "assets/ux/kiwi/augments/icons/critncast_small.png",
+          "pick": 10.77
+        },
+        {
+          "id": "ScopedWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopedweapons_small.png",
+          "pick": 9.47
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 8.37
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 6.08
+        },
+        {
+          "id": "escAPADe",
+          "icon": "assets/ux/cherry/augments/icons/escapade_small.png",
+          "pick": 4.39
+        },
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 4.16
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 3.2
+        },
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 23.74
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 18.88
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 14.76
+        },
+        {
+          "id": "SkilledSniper",
+          "icon": "assets/ux/cherry/augments/icons/skilledsniper_small.png",
+          "pick": 14.61
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 11.33
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 9.98
+        },
+        {
+          "id": "Upgrade_Sheen",
+          "icon": "assets/ux/kiwi/augments/icons/upgradesheen_small.png",
+          "pick": 9.65
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 6.38
+        },
+        {
+          "id": "CriticalMissile",
+          "icon": "assets/ux/kiwi/augments/icons/criticalmissile_small.png",
+          "pick": 32.41
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 29.96
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 12.25
+        },
+        {
+          "id": "ScopiestWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopiestweapons_small.png",
+          "pick": 10.31
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 8.35
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

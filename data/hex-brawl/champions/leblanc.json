@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Leblanc",
+    "slug": "leblanc",
+    "names": {
+      "zh": "乐芙兰 诡术妖姬",
+      "en": "the Deceiver LeBlanc",
+      "ja": "幻惑の奇術師 ルブラン",
+      "ko": "환술사 르블랑"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "乐芙兰 诡术妖姬 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "待审核"
+      },
+      "hexNames": {
+        "WitchfulThinking": "巫师式思考",
+        "ShadowRunner": "暗影疾奔",
+        "Upgrade_ZH": "升级：中娅",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "TransmuteGold": "质变：黄金阶",
+        "MindtoMatter": "由心及物",
+        "ADAPt": "物理转魔法",
+        "WarlockJuicebox": "术士果汁盒",
+        "PhenomenalEvil": "超凡邪恶",
+        "BurstingTeeth": "牙仙子",
+        "MagicMissile": "魔法飞弹",
+        "BrushPower": "藏身草丛",
+        "SpecializedEmpowerment": "威能之追求",
+        "BigBrain": "超强大脑",
+        "ItsKillingTime": "杀戮时间到了",
+        "Eureka": "尤里卡",
+        "Dashing": "全凭身法",
+        "InfiniteRecursion": "无限循环往复",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽",
+        "SpellVolley": "三重射击"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Deceiver LeBlanc Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "Needs review"
+      },
+      "hexNames": {
+        "WitchfulThinking": "Witchful Thinking",
+        "ShadowRunner": "Shadow Runner",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "Purist_Caster": "Purist - Caster",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "TransmuteGold": "Transmute: Gold",
+        "MindtoMatter": "Mind to Matter",
+        "ADAPt": "ADAPt",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "BurstingTeeth": "Tooth Fairy",
+        "MagicMissile": "Magic Missile",
+        "BrushPower": "Hide on Bush",
+        "SpecializedEmpowerment": "Pursuit of Power",
+        "BigBrain": "Big Brain",
+        "ItsKillingTime": "It's Killing Time",
+        "Eureka": "Eureka",
+        "Dashing": "Dashing",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap",
+        "SpellVolley": "Tripleshot"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "幻惑の奇術師 ルブラン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "AP ビルド"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "確認待ち"
+      },
+      "hexNames": {
+        "WitchfulThinking": "魔法的思考",
+        "ShadowRunner": "影走り",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "Purist_Caster": "純粋なるキャスター",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "TransmuteGold": "変質: ゴールド",
+        "MindtoMatter": "精神の体現",
+        "ADAPt": "変力装置",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "PhenomenalEvil": "偉大なる悪",
+        "BurstingTeeth": "歯の妖精",
+        "MagicMissile": "マジックミサイル",
+        "BrushPower": "Hide on Bush",
+        "SpecializedEmpowerment": "力の追求",
+        "BigBrain": "頭脳派",
+        "ItsKillingTime": "殺戮の時",
+        "Eureka": "エウレカ",
+        "Dashing": "疾走",
+        "InfiniteRecursion": "無限再帰",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ",
+        "SpellVolley": "トリプルショット"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "환술사 르블랑 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드"
+      },
+      "buildTags": {
+        "ap": "AP"
+      },
+      "buildScores": {
+        "ap": "검토 필요"
+      },
+      "hexNames": {
+        "WitchfulThinking": "사악한 정신",
+        "ShadowRunner": "그림자 질주",
+        "Upgrade_ZH": "존야 업그레이드",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "TransmuteGold": "전환: 골드",
+        "MindtoMatter": "정신 변환",
+        "ADAPt": "적응형 능력치",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "PhenomenalEvil": "극악무도",
+        "BurstingTeeth": "이빨 요정",
+        "MagicMissile": "마법 미사일",
+        "BrushPower": "Hide on bush",
+        "SpecializedEmpowerment": "위력 추구",
+        "BigBrain": "전술적 대비",
+        "ItsKillingTime": "처형 시간",
+        "Eureka": "유레카",
+        "Dashing": "돌진",
+        "InfiniteRecursion": "무한 반복",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자",
+        "SpellVolley": "3연발"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        6655,
+        4645,
+        3089,
+        3137,
+        4646,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 17.07
+        },
+        {
+          "id": "ShadowRunner",
+          "icon": "assets/ux/cherry/augments/icons/shadowrunner_small.png",
+          "pick": 15.03
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 10.05
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 5.39
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 4.28
+        },
+        {
+          "id": "TransmuteGold",
+          "icon": "assets/ux/cherry/augments/icons/transmutegold_small.png",
+          "pick": 3.5
+        },
+        {
+          "id": "MindtoMatter",
+          "icon": "assets/ux/cherry/augments/icons/mindtomatter_small.png",
+          "pick": 3.27
+        },
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": 2.6
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 23.88
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 17.41
+        },
+        {
+          "id": "BurstingTeeth",
+          "icon": "assets/ux/kiwi/augments/icons/questburstingteeth_small.png",
+          "pick": 16.5
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 16.02
+        },
+        {
+          "id": "BrushPower",
+          "icon": "assets/ux/kiwi/augments/icons/brushpower_small.png",
+          "pick": 9.5
+        },
+        {
+          "id": "SpecializedEmpowerment",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 8.86
+        },
+        {
+          "id": "BigBrain",
+          "icon": "assets/ux/cherry/augments/icons/bigbrain_small.png",
+          "pick": 8.82
+        },
+        {
+          "id": "ItsKillingTime",
+          "icon": "assets/ux/cherry/augments/icons/itskillingtime_small.png",
+          "pick": 8.8
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 22.14
+        },
+        {
+          "id": "Dashing",
+          "icon": "assets/ux/cherry/augments/icons/dashing_small.png",
+          "pick": 13.66
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 9.09
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": 8.79
+        },
+        {
+          "id": "SpellVolley",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_prismatic.png",
+          "pick": 6.2
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

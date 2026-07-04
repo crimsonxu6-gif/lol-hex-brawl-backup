@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "MissFortune",
+    "slug": "miss-fortune",
+    "names": {
+      "zh": "厄运小姐 赏金猎人",
+      "en": "the Bounty Hunter Miss Fortune",
+      "ja": "美貌の賞金稼ぎ ミス・フォーチュン",
+      "ko": "현상금 사냥꾼 미스 포츈"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "厄运小姐 赏金猎人 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "ap": "AP 出装",
+        "crit": "暴击出装",
+        "ult": "大招流出装"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "暴击",
+        "ult": "大招流"
+      },
+      "buildScores": {
+        "ap": "待审核",
+        "crit": "待审核",
+        "ult": "待审核"
+      },
+      "hexNames": {
+        "Twinfire": "双生火焰",
+        "Purist_Caster": "纯粹主义者 - 术师",
+        "Zealot": "狂热者",
+        "Upgrade_Collector": "升级：收集者",
+        "WitchfulThinking": "巫师式思考",
+        "Deft": "灵巧",
+        "CritNCast": "由暴生急",
+        "TankItOrLeaveIt": "会心防御",
+        "SkilledSniper": "老练狙神",
+        "CriticalMissile": "暴击飞弹",
+        "MagicMissile": "魔法飞弹",
+        "BangBang": "狙神飞星",
+        "PhenomenalEvil": "超凡邪恶",
+        "Upgrade_IE": "升级：无尽之刃",
+        "EtherealWeapon": "虚幻武器",
+        "DoubleTap": "双发快射",
+        "JeweledGauntlet": "珠光护手",
+        "Archmage": "大法师",
+        "Eureka": "尤里卡",
+        "InfiniteRecursion": "无限循环往复",
+        "GiantSlayer": "巨人杀手"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Bounty Hunter Miss Fortune Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "ap": "AP Build",
+        "crit": "Crit Build",
+        "ult": "Ultimate Build"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "Crit",
+        "ult": "Ultimate"
+      },
+      "buildScores": {
+        "ap": "Needs review",
+        "crit": "Needs review",
+        "ult": "Needs review"
+      },
+      "hexNames": {
+        "Twinfire": "Twin Fire",
+        "Purist_Caster": "Purist - Caster",
+        "Zealot": "Zealot",
+        "Upgrade_Collector": "Upgrade Collector",
+        "WitchfulThinking": "Witchful Thinking",
+        "Deft": "Deft",
+        "CritNCast": "Crit 'n Cast",
+        "TankItOrLeaveIt": "Tank It Or Leave It",
+        "SkilledSniper": "Skilled Sniper",
+        "CriticalMissile": "Critical Missile",
+        "MagicMissile": "Magic Missile",
+        "BangBang": "From Downtown",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "Upgrade_IE": "Upgrade Infinity Edge",
+        "EtherealWeapon": "Ethereal Weapon",
+        "DoubleTap": "Double Tap",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "Archmage": "Archmage",
+        "Eureka": "Eureka",
+        "InfiniteRecursion": "Infinite Recursion",
+        "GiantSlayer": "Giant Slayer"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "美貌の賞金稼ぎ ミス・フォーチュン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "ap": "AP ビルド",
+        "crit": "クリティカルビルド",
+        "ult": "アルティメットビルド"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "クリティカル",
+        "ult": "アルティメット"
+      },
+      "buildScores": {
+        "ap": "確認待ち",
+        "crit": "確認待ち",
+        "ult": "確認待ち"
+      },
+      "hexNames": {
+        "Twinfire": "ツインファイア",
+        "Purist_Caster": "純粋なるキャスター",
+        "Zealot": "狂信的",
+        "Upgrade_Collector": "コレクター アップグレード",
+        "WitchfulThinking": "魔法的思考",
+        "Deft": "技巧",
+        "CritNCast": "クリティカルキャスト",
+        "TankItOrLeaveIt": "タンクこそ至高",
+        "SkilledSniper": "腕利きスナイパー",
+        "CriticalMissile": "クリティカルミサイル",
+        "MagicMissile": "マジックミサイル",
+        "BangBang": "ロングシュート",
+        "PhenomenalEvil": "偉大なる悪",
+        "Upgrade_IE": "インフィニティ エッジ アップグレード",
+        "EtherealWeapon": "エーテル武器",
+        "DoubleTap": "ダブルタップ",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "Archmage": "魔帝",
+        "Eureka": "エウレカ",
+        "InfiniteRecursion": "無限再帰",
+        "GiantSlayer": "ジャイアント スレイヤー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "현상금 사냥꾼 미스 포츈 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "ap": "AP 빌드",
+        "crit": "치명타 빌드",
+        "ult": "궁극기 빌드"
+      },
+      "buildTags": {
+        "ap": "AP",
+        "crit": "치명타",
+        "ult": "궁극기"
+      },
+      "buildScores": {
+        "ap": "검토 필요",
+        "crit": "검토 필요",
+        "ult": "검토 필요"
+      },
+      "hexNames": {
+        "Twinfire": "쌍둥이 불꽃",
+        "Purist_Caster": "순수주의자 - 마법사",
+        "Zealot": "광신자",
+        "Upgrade_Collector": "징수의 총 업그레이드",
+        "WitchfulThinking": "사악한 정신",
+        "Deft": "능수능란",
+        "CritNCast": "치명적 가속",
+        "TankItOrLeaveIt": "확률적 방어",
+        "SkilledSniper": "노련한 저격수",
+        "CriticalMissile": "치명적 미사일",
+        "MagicMissile": "마법 미사일",
+        "BangBang": "로켓 배송",
+        "PhenomenalEvil": "극악무도",
+        "Upgrade_IE": "무한의 대검 업그레이드",
+        "EtherealWeapon": "환영 무기",
+        "DoubleTap": "한 발에 두 놈",
+        "JeweledGauntlet": "보석 건틀릿",
+        "Archmage": "대마법사",
+        "Eureka": "유레카",
+        "InfiniteRecursion": "무한 반복",
+        "GiantSlayer": "거인 학살자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "ap",
+      "items": [
+        2503,
+        6653,
+        4645,
+        3137,
+        3089,
+        3020
+      ]
+    },
+    {
+      "key": "crit",
+      "items": [
+        6676,
+        3031,
+        3033,
+        6673,
+        3072,
+        3006
+      ]
+    },
+    {
+      "key": "ult",
+      "items": [
+        6676,
+        6696,
+        3033,
+        3031,
+        6695,
+        3006
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 21.13
+        },
+        {
+          "id": "Purist_Caster",
+          "icon": "assets/ux/kiwi/augments/icons/puristcaster_small.png",
+          "pick": 10.18
+        },
+        {
+          "id": "Zealot",
+          "icon": "assets/ux/kiwi/augments/icons/zealot_small.png",
+          "pick": 9.8
+        },
+        {
+          "id": "Upgrade_Collector",
+          "icon": "assets/ux/kiwi/augments/icons/upgradecollector_small.png",
+          "pick": 6.03
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 6.02
+        },
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 3.98
+        },
+        {
+          "id": "CritNCast",
+          "icon": "assets/ux/kiwi/augments/icons/critncast_small.png",
+          "pick": 3.78
+        },
+        {
+          "id": "TankItOrLeaveIt",
+          "icon": "assets/ux/cherry/augments/icons/tankitorleaveit_small.png",
+          "pick": 2.8
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "SkilledSniper",
+          "icon": "assets/ux/cherry/augments/icons/skilledsniper_small.png",
+          "pick": 29.96
+        },
+        {
+          "id": "CriticalMissile",
+          "icon": "assets/ux/kiwi/augments/icons/criticalmissile_small.png",
+          "pick": 20.78
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 19.31
+        },
+        {
+          "id": "BangBang",
+          "icon": "assets/ux/kiwi/augments/icons/questbangbang_small.png",
+          "pick": 10.74
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 10.01
+        },
+        {
+          "id": "Upgrade_IE",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeie_small.png",
+          "pick": 8.89
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 7.72
+        },
+        {
+          "id": "DoubleTap",
+          "icon": "assets/ux/kiwi/augments/icons/doubletap_small.png",
+          "pick": 6.34
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 17.61
+        },
+        {
+          "id": "Archmage",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 15.69
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 14.96
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 9.38
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 9.27
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

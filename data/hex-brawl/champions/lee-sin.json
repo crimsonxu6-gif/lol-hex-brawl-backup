@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "LeeSin",
+    "slug": "lee-sin",
+    "names": {
+      "zh": "李青 盲僧",
+      "en": "the Blind Monk Lee Sin",
+      "ja": "盲目の修行僧 リー・シン",
+      "ko": "눈먼 수도승 리 신"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "盲僧 李青 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "战士穿甲"
+      },
+      "buildTags": {
+        "standard": "默认"
+      },
+      "buildScores": {
+        "standard": "稳"
+      },
+      "hexNames": {
+        "Deft": "灵巧",
+        "Twinfire": "双生火焰",
+        "ADAPt": "物理转魔法",
+        "WitchfulThinking": "巫师式思考",
+        "LightemUp": "点亮他们！",
+        "IceCold": "冰寒",
+        "Upgrade_ZH": "升级：中娅",
+        "ScopedWeapons": "万用瞄准镜",
+        "Marksmage": "神射法师",
+        "WarlockJuicebox": "术士果汁盒",
+        "MagicMissile": "魔法飞弹",
+        "PhenomenalEvil": "超凡邪恶",
+        "EtherealWeapon": "虚幻武器",
+        "ScopierWeapons": "更万用的瞄准镜",
+        "SpecializedRecursion": "急速之追求",
+        "Terraind": "地形专家",
+        "GiantSlayer": "巨人杀手",
+        "Eureka": "尤里卡",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽",
+        "ClownCollege": "小丑学院",
+        "FinalForm": "最终形态",
+        "JeweledGauntlet": "珠光护手",
+        "PoroKing": "魄罗之王的弹跳",
+        "PromQueen": "舞会女王"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Lee Sin guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Default"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Deft": "Deft",
+        "Twinfire": "Twin Fire",
+        "ADAPt": "ADAPt",
+        "WitchfulThinking": "Witchful Thinking",
+        "LightemUp": "Light 'Em Up!",
+        "IceCold": "Ice Cold",
+        "Upgrade_ZH": "Upgrade Zhonya's",
+        "ScopedWeapons": "Scoped Weapons",
+        "Marksmage": "Marksmage",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "MagicMissile": "Magic Missile",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "EtherealWeapon": "Ethereal Weapon",
+        "ScopierWeapons": "Scopier Weapons",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "Terraind": "Terrain'd",
+        "GiantSlayer": "Giant Slayer",
+        "Eureka": "Eureka",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap",
+        "ClownCollege": "Clown College",
+        "FinalForm": "Final Form",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "PoroKing": "Bounce of the Poro King",
+        "PromQueen": "Prom Queen"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "盲目の修行僧 リー・シン Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Deft": "技巧",
+        "Twinfire": "ツインファイア",
+        "ADAPt": "変力装置",
+        "WitchfulThinking": "魔法的思考",
+        "LightemUp": "光で照らせ！",
+        "IceCold": "結氷",
+        "Upgrade_ZH": "ゾーニャ アップグレード",
+        "ScopedWeapons": "スコープ装着",
+        "Marksmage": "マークスメイジ",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "MagicMissile": "マジックミサイル",
+        "PhenomenalEvil": "偉大なる悪",
+        "EtherealWeapon": "エーテル武器",
+        "ScopierWeapons": "改造スコープ装着",
+        "SpecializedRecursion": "素早さの追求",
+        "Terraind": "地形でドン",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "Eureka": "エウレカ",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ",
+        "ClownCollege": "ピエロ大学",
+        "FinalForm": "最終形態",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "PoroKing": "ポロキングのバウンド",
+        "PromQueen": "プロムクイーン"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "눈먼 수도승 리 신 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "Recommended"
+      },
+      "hexNames": {
+        "Deft": "능수능란",
+        "Twinfire": "쌍둥이 불꽃",
+        "ADAPt": "적응형 능력치",
+        "WitchfulThinking": "사악한 정신",
+        "LightemUp": "불을 밝혀",
+        "IceCold": "차가운 냉기",
+        "Upgrade_ZH": "존야 업그레이드",
+        "ScopedWeapons": "조준경 부착",
+        "Marksmage": "마법 명사수",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "MagicMissile": "마법 미사일",
+        "PhenomenalEvil": "극악무도",
+        "EtherealWeapon": "환영 무기",
+        "ScopierWeapons": "상급 조준경 부착",
+        "SpecializedRecursion": "가속 추구",
+        "Terraind": "지형 생성됨",
+        "GiantSlayer": "거인 학살자",
+        "Eureka": "유레카",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자",
+        "ClownCollege": "광대 대학",
+        "FinalForm": "최종 형태",
+        "JeweledGauntlet": "보석 건틀릿",
+        "PoroKing": "포로 왕의 바운스",
+        "PromQueen": "퀸카"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        126697,
+        6610,
+        6333,
+        2517,
+        3036,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Deft",
+          "icon": "assets/ux/cherry/augments/icons/deft_small.png",
+          "pick": 23.63
+        },
+        {
+          "id": "Twinfire",
+          "icon": "assets/ux/kiwi/augments/icons/twinfire_small.png",
+          "pick": 12.03
+        },
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": 7.51
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 7.38
+        },
+        {
+          "id": "LightemUp",
+          "icon": "assets/ux/cherry/augments/icons/lightemup_small.png",
+          "pick": 7.12
+        },
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 5.85
+        },
+        {
+          "id": "Upgrade_ZH",
+          "icon": "assets/ux/kiwi/augments/icons/upgradezh_small.png",
+          "pick": 5.08
+        },
+        {
+          "id": "ScopedWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopedweapons_small.png",
+          "pick": 5.04
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Marksmage",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 34.28
+        },
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 26.52
+        },
+        {
+          "id": "MagicMissile",
+          "icon": "assets/maps/particles/kiwi/magicmissile_small.png",
+          "pick": 21.99
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 17.84
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 15.04
+        },
+        {
+          "id": "ScopierWeapons",
+          "icon": "assets/ux/cherry/augments/icons/scopierweapons_small.png",
+          "pick": 9.73
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 9.17
+        },
+        {
+          "id": "Terraind",
+          "icon": "assets/ux/cherry/augments/icons/lightningstrikes_small.png",
+          "pick": 5.84
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 12.63
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": 10.75
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": 6.97
+        },
+        {
+          "id": "ClownCollege",
+          "icon": "assets/ux/cherry/augments/icons/clowncollege_small.png",
+          "pick": null
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": null
+        },
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": null
+        },
+        {
+          "id": "PoroKing",
+          "icon": "assets/ux/kiwi/augments/icons/poroking_large.png",
+          "pick": null
+        },
+        {
+          "id": "PromQueen",
+          "icon": "assets/ux/kiwi/augments/icons/promqueen_small.png",
+          "pick": null
+        }
+      ]
+    }
+  }
+}

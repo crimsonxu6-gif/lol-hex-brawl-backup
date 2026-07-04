@@ -1,0 +1,1715 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>海克斯大乱斗助手 - Hex Brawl Champion Guide</title>
+    <meta name="description" content="海克斯大乱斗英雄出装与海克斯推荐索引。" />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #18130f;
+        --panel: #221a14;
+        --card: #31261d;
+        --card-hover: #3a2d22;
+        --line: #5b4938;
+        --text: #efe6d6;
+        --muted: #a9957f;
+        --accent: #c5965c;
+        --shadow: rgba(0, 0, 0, 0.28);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px),
+          linear-gradient(0deg, rgba(255,255,255,.012) 1px, transparent 1px),
+          var(--bg);
+        background-size: 34px 34px, 34px 34px, auto;
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "Noto Sans JP", "Noto Sans KR", sans-serif;
+      }
+      button, input, select { font: inherit; }
+      .shell { width: min(100%, 980px); margin: 0 auto; padding: 18px 18px 44px; }
+      .topbar { display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 44px; }
+      .mark { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 13px; }
+      .mark-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(197,150,92,.12); }
+      .language { min-width: 112px; height: 38px; border: 1px solid var(--line); border-radius: 8px; background: #211912; color: var(--text); padding: 0 12px; outline: none; }
+      .hero { padding: 52px 0 28px; text-align: center; }
+      .title { margin: 0; font-size: clamp(34px, 8vw, 64px); line-height: 1.04; font-weight: 800; letter-spacing: 0; color: #f4ead8; text-shadow: 0 5px 20px rgba(0,0,0,.36); }
+      .subtitle { margin: 14px 0 0; color: var(--muted); font-size: 14px; letter-spacing: .28em; text-transform: uppercase; }
+      .search-wrap { margin: 28px auto 0; width: min(100%, 720px); position: relative; }
+      .search-icon { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 20px; pointer-events: none; }
+      .search { width: 100%; height: 64px; border: 1px solid var(--line); border-radius: 8px; background: rgba(42,33,25,.92); color: var(--text); padding: 0 20px 0 52px; outline: none; box-shadow: 0 18px 38px var(--shadow); font-size: 17px; }
+      .search::placeholder { color: #7f6e5c; }
+      .search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(197,150,92,.16), 0 18px 38px var(--shadow); }
+      .content-head { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin: 34px 0 16px; padding-top: 22px; border-top: 1px solid rgba(91,73,56,.58); }
+      .section-title { margin: 0; display: flex; align-items: center; gap: 10px; font-size: 24px; line-height: 1.2; }
+      .section-title::before { content: ""; width: 4px; height: 24px; border-radius: 99px; background: var(--accent); }
+      .count { color: var(--muted); font-size: 14px; white-space: nowrap; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: 14px; }
+      .champion-card { border: 1px solid rgba(91,73,56,.72); border-radius: 8px; background: var(--card); padding: 10px 10px 12px; color: var(--text); text-decoration: none; min-height: 142px; box-shadow: 0 12px 24px rgba(0,0,0,.18); transition: transform 150ms ease, border-color 150ms ease, background 150ms ease; }
+      .champion-card:hover, .champion-card:focus-visible { transform: translateY(-2px); border-color: var(--accent); background: var(--card-hover); outline: none; }
+      .portrait-frame { display: block; width: 72px; height: 72px; margin: 0 auto 11px; border-radius: 8px; padding: 4px; background: #17110c; border: 1px solid rgba(197,150,92,.42); }
+      .portrait { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 5px; }
+      .champion-name { display: block; min-height: 38px; color: var(--text); font-weight: 700; font-size: 14px; line-height: 1.25; text-align: center; overflow-wrap: anywhere; }
+      .empty { display: none; padding: 34px 18px; border: 1px dashed var(--line); border-radius: 8px; color: var(--muted); text-align: center; }
+      .footer { margin-top: 34px; color: #806f5d; font-size: 12px; line-height: 1.7; text-align: center; }
+      @media (max-width: 560px) {
+        .shell { padding: 14px 14px 34px; }
+        .hero { padding-top: 42px; }
+        .subtitle { font-size: 12px; letter-spacing: .22em; }
+        .search { height: 58px; font-size: 16px; }
+        .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+        .champion-card { min-height: 126px; padding: 8px 6px 10px; }
+        .portrait-frame { width: 64px; height: 64px; }
+        .champion-name { font-size: 13px; }
+        .content-head { align-items: start; flex-direction: column; gap: 8px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar" aria-label="Page header">
+        <div class="mark"><span class="mark-dot" aria-hidden="true"></span><span id="patchLabel">Patch 16.13</span></div>
+        <select id="languageSelect" class="language" aria-label="Language">
+          <option value="zh">中文</option>
+          <option value="en">English</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+        </select>
+      </header>
+      <section class="hero" aria-labelledby="pageTitle">
+        <h1 id="pageTitle" class="title">海克斯大乱斗助手</h1>
+        <p id="subtitle" class="subtitle">Hex Brawl Helper</p>
+        <div class="search-wrap">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="searchInput" class="search" type="search" autocomplete="off" placeholder="搜索英雄，例如：亚索、Ashe、Yone..." aria-label="Search champions" />
+        </div>
+      </section>
+      <section aria-labelledby="championSectionTitle">
+        <div class="content-head">
+          <h2 id="championSectionTitle" class="section-title">英雄图鉴</h2>
+          <div id="countLabel" class="count">173 位英雄</div>
+        </div>
+        <div id="championGrid" class="grid"></div>
+        <div id="emptyState" class="empty">没有找到英雄</div>
+      </section>
+      <footer id="footerText" class="footer">非 Riot 官方项目。当前页面用于海克斯大乱斗出装与海克斯数据整理。</footer>
+    </main>
+    <script>
+      const ddragonVersion = "16.13.1";
+      const i18n = {
+        zh: { title: "海克斯大乱斗助手", subtitle: "Hex Brawl Helper", search: "搜索英雄，例如：亚索、Ashe、Yone...", section: "英雄图鉴", empty: "没有找到英雄", count: (n) => `${n} 位英雄`, patch: "Patch 16.13", footer: "非 Riot 官方项目。当前页面用于海克斯大乱斗出装与海克斯数据整理。" },
+        en: { title: "Hex Brawl Helper", subtitle: "ARAM Hextech Brawl Guide", search: "Search champions, e.g. Yasuo, Ashe, Yone...", section: "Champion Index", empty: "No champions found", count: (n) => `${n} champions`, patch: "Patch 16.13", footer: "This is an unofficial fan-made guide prototype. It is not endorsed by Riot Games." },
+        ja: { title: "ヘクスブロウル助手", subtitle: "Hex Brawl Helper", search: "チャンピオンを検索: Yasuo, Ashe, Yone...", section: "チャンピオン一覧", empty: "チャンピオンが見つかりません", count: (n) => `${n} 体`, patch: "Patch 16.13", footer: "Riot 非公式のファンプロジェクトです。" },
+        ko: { title: "헥스 난투 도우미", subtitle: "Hex Brawl Helper", search: "챔피언 검색: Yasuo, Ashe, Yone...", section: "챔피언 목록", empty: "챔피언을 찾을 수 없습니다", count: (n) => `${n} champions`, patch: "Patch 16.13", footer: "Riot 공식 프로젝트가 아닌 팬 제작 가이드입니다." }
+      };
+      const champions = [
+        {
+                "id": "Akali",
+                "slug": "akali",
+                "zh": "阿卡丽 离群之刺",
+                "en": "the Rogue Assassin Akali",
+                "ja": "主なき暗殺者 アカリ",
+                "ko": "섬기는 이 없는 암살자 아칼리",
+                "aliases": "akali 阿卡丽 离群之刺 the Rogue Assassin Akali 主なき暗殺者 アカリ 섬기는 이 없는 암살자 아칼리"
+        },
+        {
+                "id": "Akshan",
+                "slug": "akshan",
+                "zh": "阿克尚 影哨",
+                "en": "the Rogue Sentinel Akshan",
+                "ja": "流浪の番人 アクシャン",
+                "ko": "떠도는 감시자 아크샨",
+                "aliases": "akshan 阿克尚 影哨 the Rogue Sentinel Akshan 流浪の番人 アクシャン 떠도는 감시자 아크샨"
+        },
+        {
+                "id": "Ahri",
+                "slug": "ahri",
+                "zh": "阿狸 九尾妖狐",
+                "en": "the Nine-Tailed Fox Ahri",
+                "ja": "九尾の狐 アーリ",
+                "ko": "구미호 아리",
+                "aliases": "ahri 阿狸 九尾妖狐 the Nine-Tailed Fox Ahri 九尾の狐 アーリ 구미호 아리"
+        },
+        {
+                "id": "Alistar",
+                "slug": "alistar",
+                "zh": "阿利斯塔 牛头酋长",
+                "en": "the Minotaur Alistar",
+                "ja": "ミノタウロスの戦士 アリスター",
+                "ko": "미노타우로스 알리스타",
+                "aliases": "alistar 阿利斯塔 牛头酋长 the Minotaur Alistar ミノタウロスの戦士 アリスター 미노타우로스 알리스타"
+        },
+        {
+                "id": "Aurora",
+                "slug": "aurora",
+                "zh": "阿萝拉 双界灵兔",
+                "en": "the Witch Between Worlds Aurora",
+                "ja": "世界の狭間の魔女 オーロラ",
+                "ko": "세계의 경계에 선 마녀 오로라",
+                "aliases": "aurora 阿萝拉 双界灵兔 the Witch Between Worlds Aurora 世界の狭間の魔女 オーロラ 세계의 경계에 선 마녀 오로라"
+        },
+        {
+                "id": "Amumu",
+                "slug": "amumu",
+                "zh": "阿木木 殇之木乃伊",
+                "en": "the Sad Mummy Amumu",
+                "ja": "めそめそミイラ アムム",
+                "ko": "슬픈 미라 아무무",
+                "aliases": "amumu 阿木木 殇之木乃伊 the Sad Mummy Amumu めそめそミイラ アムム 슬픈 미라 아무무"
+        },
+        {
+                "id": "Azir",
+                "slug": "azir",
+                "zh": "阿兹尔 沙漠皇帝",
+                "en": "the Emperor of the Sands Azir",
+                "ja": "砂塵の皇帝 アジール",
+                "ko": "사막의 황제 아지르",
+                "aliases": "azir 阿兹尔 沙漠皇帝 the Emperor of the Sands Azir 砂塵の皇帝 アジール 사막의 황제 아지르"
+        },
+        {
+                "id": "Ekko",
+                "slug": "ekko",
+                "zh": "艾克 时间刺客",
+                "en": "the Boy Who Shattered Time Ekko",
+                "ja": "砕けた時を渡る少年 エコー",
+                "ko": "시간을 달리는 소년 에코",
+                "aliases": "ekko 艾克 时间刺客 the Boy Who Shattered Time Ekko 砕けた時を渡る少年 エコー 시간을 달리는 소년 에코"
+        },
+        {
+                "id": "Anivia",
+                "slug": "anivia",
+                "zh": "艾尼维亚 冰晶凤凰",
+                "en": "the Cryophoenix Anivia",
+                "ja": "氷の不死鳥 アニビア",
+                "ko": "얼음불사조 애니비아",
+                "aliases": "anivia 艾尼维亚 冰晶凤凰 the Cryophoenix Anivia 氷の不死鳥 アニビア 얼음불사조 애니비아"
+        },
+        {
+                "id": "Irelia",
+                "slug": "irelia",
+                "zh": "艾瑞莉娅 刀锋舞者",
+                "en": "the Blade Dancer Irelia",
+                "ja": "飛刃の舞い手 イレリア",
+                "ko": "칼날 무희 이렐리아",
+                "aliases": "irelia 艾瑞莉娅 刀锋舞者 the Blade Dancer Irelia 飛刃の舞い手 イレリア 칼날 무희 이렐리아"
+        },
+        {
+                "id": "Ivern",
+                "slug": "ivern",
+                "zh": "艾翁 翠神",
+                "en": "the Green Father Ivern",
+                "ja": "豊緑の神秘 アイバーン",
+                "ko": "자연의 아버지 아이번",
+                "aliases": "ivern 艾翁 翠神 the Green Father Ivern 豊緑の神秘 アイバーン 자연의 아버지 아이번"
+        },
+        {
+                "id": "Ashe",
+                "slug": "ashe",
+                "zh": "艾希 寒冰射手",
+                "en": "the Frost Archer Ashe",
+                "ja": "氷の射手 アッシュ",
+                "ko": "서리 궁수 애쉬",
+                "aliases": "ashe 艾希 寒冰射手 the Frost Archer Ashe 氷の射手 アッシュ 서리 궁수 애쉬"
+        },
+        {
+                "id": "Ambessa",
+                "slug": "ambessa",
+                "zh": "安蓓萨 铁血狼母",
+                "en": "Matriarch of War Ambessa",
+                "ja": "戦乱の母 アンベッサ",
+                "ko": "전장의 우두머리 암베사",
+                "aliases": "ambessa 安蓓萨 铁血狼母 Matriarch of War Ambessa 戦乱の母 アンベッサ 전장의 우두머리 암베사"
+        },
+        {
+                "id": "Annie",
+                "slug": "annie",
+                "zh": "安妮 黑暗之女",
+                "en": "the Dark Child Annie",
+                "ja": "闇の申し子 アニー",
+                "ko": "어둠의 아이 애니",
+                "aliases": "annie 安妮 黑暗之女 the Dark Child Annie 闇の申し子 アニー 어둠의 아이 애니"
+        },
+        {
+                "id": "Ornn",
+                "slug": "ornn",
+                "zh": "奥恩 山隐之焰",
+                "en": "The Fire below the Mountain Ornn",
+                "ja": "山の下の焔 オーン",
+                "ko": "거산의 화염 오른",
+                "aliases": "ornn 奥恩 山隐之焰 The Fire below the Mountain Ornn 山の下の焔 オーン 거산의 화염 오른"
+        },
+        {
+                "id": "Olaf",
+                "slug": "olaf",
+                "zh": "奥拉夫 狂战士",
+                "en": "the Berserker Olaf",
+                "ja": "狂戦士 オラフ",
+                "ko": "광전사 올라프",
+                "aliases": "olaf 奥拉夫 狂战士 the Berserker Olaf 狂戦士 オラフ 광전사 올라프"
+        },
+        {
+                "id": "Orianna",
+                "slug": "orianna",
+                "zh": "奥莉安娜 发条魔灵",
+                "en": "the Lady of Clockwork Orianna",
+                "ja": "時計仕掛けの舞姫 オリアナ",
+                "ko": "시계태엽 소녀 오리아나",
+                "aliases": "orianna 奥莉安娜 发条魔灵 the Lady of Clockwork Orianna 時計仕掛けの舞姫 オリアナ 시계태엽 소녀 오리아나"
+        },
+        {
+                "id": "AurelionSol",
+                "slug": "aurelion-sol",
+                "zh": "奥瑞利安·索尔 铸星龙王",
+                "en": "The Star Forger Aurelion Sol",
+                "ja": "星を創りし者 オレリオン・ソル",
+                "ko": "별의 창조자 아우렐리온 솔",
+                "aliases": "aurelion-sol 奥瑞利安·索尔 铸星龙王 The Star Forger Aurelion Sol 星を創りし者 オレリオン・ソル 별의 창조자 아우렐리온 솔"
+        },
+        {
+                "id": "Bard",
+                "slug": "bard",
+                "zh": "巴德 星界游神",
+                "en": "the Wandering Caretaker Bard",
+                "ja": "流離いの庇護者 バード",
+                "ko": "영겁의 수호자 바드",
+                "aliases": "bard 巴德 星界游神 the Wandering Caretaker Bard 流離いの庇護者 バード 영겁의 수호자 바드"
+        },
+        {
+                "id": "Belveth",
+                "slug": "belveth",
+                "zh": "卑尔维斯 虚空女皇",
+                "en": "the Empress of the Void Bel'Veth",
+                "ja": "ヴォイドの女帝 ベル＝ヴェス",
+                "ko": "공허의 여제 벨베스",
+                "aliases": "belveth 卑尔维斯 虚空女皇 the Empress of the Void Bel'Veth ヴォイドの女帝 ベル＝ヴェス 공허의 여제 벨베스"
+        },
+        {
+                "id": "Briar",
+                "slug": "briar",
+                "zh": "贝蕾亚 狂厄蔷薇",
+                "en": "the Restrained Hunger Briar",
+                "ja": "枷と飢え ブライアー",
+                "ko": "억눌린 허기 브라이어",
+                "aliases": "briar 贝蕾亚 狂厄蔷薇 the Restrained Hunger Briar 枷と飢え ブライアー 억눌린 허기 브라이어"
+        },
+        {
+                "id": "Poppy",
+                "slug": "poppy",
+                "zh": "波比 圣锤之毅",
+                "en": "Keeper of the Hammer Poppy",
+                "ja": "大鎚の守護者 ポッピー",
+                "ko": "망치의 수호자 뽀삐",
+                "aliases": "poppy 波比 圣锤之毅 Keeper of the Hammer Poppy 大鎚の守護者 ポッピー 망치의 수호자 뽀삐"
+        },
+        {
+                "id": "Brand",
+                "slug": "brand",
+                "zh": "布兰德 复仇焰魂",
+                "en": "the Burning Vengeance Brand",
+                "ja": "復讐の炎 ブランド",
+                "ko": "타오르는 복수 브랜드",
+                "aliases": "brand 布兰德 复仇焰魂 the Burning Vengeance Brand 復讐の炎 ブランド 타오르는 복수 브랜드"
+        },
+        {
+                "id": "Blitzcrank",
+                "slug": "blitzcrank",
+                "zh": "布里茨 蒸汽机器人",
+                "en": "the Great Steam Golem Blitzcrank",
+                "ja": "偉大なるスチームゴーレム ブリッツクランク",
+                "ko": "거대 증기 골렘 블리츠크랭크",
+                "aliases": "blitzcrank 布里茨 蒸汽机器人 the Great Steam Golem Blitzcrank 偉大なるスチームゴーレム ブリッツクランク 거대 증기 골렘 블리츠크랭크"
+        },
+        {
+                "id": "Braum",
+                "slug": "braum",
+                "zh": "布隆 弗雷尔卓德之心",
+                "en": "the Heart of the Freljord Braum",
+                "ja": "フレヨルドの漢気 ブラウム",
+                "ko": "프렐요드의 심장 브라움",
+                "aliases": "braum 布隆 弗雷尔卓德之心 the Heart of the Freljord Braum フレヨルドの漢気 ブラウム 프렐요드의 심장 브라움"
+        },
+        {
+                "id": "Thresh",
+                "slug": "thresh",
+                "zh": "锤石 魂锁典狱长",
+                "en": "the Chain Warden Thresh",
+                "ja": "縛鎖の看守 スレッシュ",
+                "ko": "지옥의 간수 쓰레쉬",
+                "aliases": "thresh 锤石 魂锁典狱长 the Chain Warden Thresh 縛鎖の看守 スレッシュ 지옥의 간수 쓰레쉬"
+        },
+        {
+                "id": "Tristana",
+                "slug": "tristana",
+                "zh": "崔丝塔娜 麦林炮手",
+                "en": "the Yordle Gunner Tristana",
+                "ja": "ヨードルの主砲 トリスターナ",
+                "ko": "요들 사수 트리스타나",
+                "aliases": "tristana 崔丝塔娜 麦林炮手 the Yordle Gunner Tristana ヨードルの主砲 トリスターナ 요들 사수 트리스타나"
+        },
+        {
+                "id": "TwistedFate",
+                "slug": "twisted-fate",
+                "zh": "崔斯特 卡牌大师",
+                "en": "the Card Master Twisted Fate",
+                "ja": "不敗のイカサマ師 ツイステッド・フェイト",
+                "ko": "카드의 달인 트위스티드 페이트",
+                "aliases": "twisted-fate 崔斯特 卡牌大师 the Card Master Twisted Fate 不敗のイカサマ師 ツイステッド・フェイト 카드의 달인 트위스티드 페이트"
+        },
+        {
+                "id": "Diana",
+                "slug": "diana",
+                "zh": "黛安娜 皎月女神",
+                "en": "Scorn of the Moon Diana",
+                "ja": "嘲りの月 ダイアナ",
+                "ko": "차가운 달의 분노 다이애나",
+                "aliases": "diana 黛安娜 皎月女神 Scorn of the Moon Diana 嘲りの月 ダイアナ 차가운 달의 분노 다이애나"
+        },
+        {
+                "id": "Darius",
+                "slug": "darius",
+                "zh": "德莱厄斯 诺克萨斯之手",
+                "en": "the Hand of Noxus Darius",
+                "ja": "ノクサスの戦斧 ダリウス",
+                "ko": "녹서스의 실력자 다리우스",
+                "aliases": "darius 德莱厄斯 诺克萨斯之手 the Hand of Noxus Darius ノクサスの戦斧 ダリウス 녹서스의 실력자 다리우스"
+        },
+        {
+                "id": "Draven",
+                "slug": "draven",
+                "zh": "德莱文 荣耀行刑官",
+                "en": "the Glorious Executioner Draven",
+                "ja": "栄光ある処刑人 ドレイヴン",
+                "ko": "화려한 처형자 드레이븐",
+                "aliases": "draven 德莱文 荣耀行刑官 the Glorious Executioner Draven 栄光ある処刑人 ドレイヴン 화려한 처형자 드레이븐"
+        },
+        {
+                "id": "Illaoi",
+                "slug": "illaoi",
+                "zh": "俄洛伊 海兽祭司",
+                "en": "the Kraken Priestess Illaoi",
+                "ja": "海の女司祭 イラオイ",
+                "ko": "크라켄의 여사제 일라오이",
+                "aliases": "illaoi 俄洛伊 海兽祭司 the Kraken Priestess Illaoi 海の女司祭 イラオイ 크라켄의 여사제 일라오이"
+        },
+        {
+                "id": "Aphelios",
+                "slug": "aphelios",
+                "zh": "厄斐琉斯 残月之肃",
+                "en": "the Weapon of the Faithful Aphelios",
+                "ja": "信ずる者の武器 アフェリオス",
+                "ko": "신념의 무기 아펠리오스",
+                "aliases": "aphelios 厄斐琉斯 残月之肃 the Weapon of the Faithful Aphelios 信ずる者の武器 アフェリオス 신념의 무기 아펠리오스"
+        },
+        {
+                "id": "Urgot",
+                "slug": "urgot",
+                "zh": "厄加特 无畏战车",
+                "en": "the Dreadnought Urgot",
+                "ja": "ドレッドノート アーゴット",
+                "ko": "살상 병기 우르곳",
+                "aliases": "urgot 厄加特 无畏战车 the Dreadnought Urgot ドレッドノート アーゴット 살상 병기 우르곳"
+        },
+        {
+                "id": "MissFortune",
+                "slug": "miss-fortune",
+                "zh": "厄运小姐 赏金猎人",
+                "en": "the Bounty Hunter Miss Fortune",
+                "ja": "美貌の賞金稼ぎ ミス・フォーチュン",
+                "ko": "현상금 사냥꾼 미스 포츈",
+                "aliases": "miss-fortune 厄运小姐 赏金猎人 the Bounty Hunter Miss Fortune 美貌の賞金稼ぎ ミス・フォーチュン 현상금 사냥꾼 미스 포츈"
+        },
+        {
+                "id": "Fiora",
+                "slug": "fiora",
+                "zh": "菲奥娜 无双剑姬",
+                "en": "the Grand Duelist Fiora",
+                "ja": "高潔なるデュエリスト フィオラ",
+                "ko": "결투의 대가 피오라",
+                "aliases": "fiora 菲奥娜 无双剑姬 the Grand Duelist Fiora 高潔なるデュエリスト フィオラ 결투의 대가 피오라"
+        },
+        {
+                "id": "Fizz",
+                "slug": "fizz",
+                "zh": "菲兹 潮汐海灵",
+                "en": "the Tidal Trickster Fizz",
+                "ja": "波間のトリックスター フィズ",
+                "ko": "대양의 말썽꾸러기 피즈",
+                "aliases": "fizz 菲兹 潮汐海灵 the Tidal Trickster Fizz 波間のトリックスター フィズ 대양의 말썽꾸러기 피즈"
+        },
+        {
+                "id": "Fiddlesticks",
+                "slug": "fiddlesticks",
+                "zh": "费德提克 远古恐惧",
+                "en": "the Ancient Fear Fiddlesticks",
+                "ja": "古の恐怖 フィドルスティックス",
+                "ko": "오래된 공포 피들스틱",
+                "aliases": "fiddlesticks 费德提克 远古恐惧 the Ancient Fear Fiddlesticks 古の恐怖 フィドルスティックス 오래된 공포 피들스틱"
+        },
+        {
+                "id": "Vladimir",
+                "slug": "vladimir",
+                "zh": "弗拉基米尔 猩红收割者",
+                "en": "the Crimson Reaper Vladimir",
+                "ja": "真紅の死神 ブラッドミア",
+                "ko": "진홍빛 사신 블라디미르",
+                "aliases": "vladimir 弗拉基米尔 猩红收割者 the Crimson Reaper Vladimir 真紅の死神 ブラッドミア 진홍빛 사신 블라디미르"
+        },
+        {
+                "id": "Viego",
+                "slug": "viego",
+                "zh": "佛耶戈 破败之王",
+                "en": "The Ruined King Viego",
+                "ja": "滅びの王 ヴィエゴ",
+                "ko": "몰락한 왕 비에고",
+                "aliases": "viego 佛耶戈 破败之王 The Ruined King Viego 滅びの王 ヴィエゴ 몰락한 왕 비에고"
+        },
+        {
+                "id": "Garen",
+                "slug": "garen",
+                "zh": "盖伦 德玛西亚之力",
+                "en": "The Might of Demacia Garen",
+                "ja": "デマーシアの勇士 ガレン",
+                "ko": "데마시아의 힘 가렌",
+                "aliases": "garen 盖伦 德玛西亚之力 The Might of Demacia Garen デマーシアの勇士 ガレン 데마시아의 힘 가렌"
+        },
+        {
+                "id": "Graves",
+                "slug": "graves",
+                "zh": "格雷福斯 法外狂徒",
+                "en": "the Outlaw Graves",
+                "ja": "無法者 グレイブス",
+                "ko": "무법자 그레이브즈",
+                "aliases": "graves 格雷福斯 法外狂徒 the Outlaw Graves 無法者 グレイブス 무법자 그레이브즈"
+        },
+        {
+                "id": "Gwen",
+                "slug": "gwen",
+                "zh": "格温 灵罗娃娃",
+                "en": "The Hallowed Seamstress Gwen",
+                "ja": "聖なるお針子 グウェン",
+                "ko": "신성한 재봉사 그웬",
+                "aliases": "gwen 格温 灵罗娃娃 The Hallowed Seamstress Gwen 聖なるお針子 グウェン 신성한 재봉사 그웬"
+        },
+        {
+                "id": "Gragas",
+                "slug": "gragas",
+                "zh": "古拉加斯 酒桶",
+                "en": "the Rabble Rouser Gragas",
+                "ja": "騒乱の飲んだくれ グラガス",
+                "ko": "술취한 난동꾼 그라가스",
+                "aliases": "gragas 古拉加斯 酒桶 the Rabble Rouser Gragas 騒乱の飲んだくれ グラガス 술취한 난동꾼 그라가스"
+        },
+        {
+                "id": "Hecarim",
+                "slug": "hecarim",
+                "zh": "赫卡里姆 战争之影",
+                "en": "the Shadow of War Hecarim",
+                "ja": "戦場の幻影 ヘカリム",
+                "ko": "전쟁의 전조 헤카림",
+                "aliases": "hecarim 赫卡里姆 战争之影 the Shadow of War Hecarim 戦場の幻影 ヘカリム 전쟁의 전조 헤카림"
+        },
+        {
+                "id": "Heimerdinger",
+                "slug": "heimerdinger",
+                "zh": "黑默丁格 大发明家",
+                "en": "the Revered Inventor Heimerdinger",
+                "ja": "誉れ高き発明王 ハイマーディンガー",
+                "ko": "위대한 발명가 하이머딩거",
+                "aliases": "heimerdinger 黑默丁格 大发明家 the Revered Inventor Heimerdinger 誉れ高き発明王 ハイマーディンガー 위대한 발명가 하이머딩거"
+        },
+        {
+                "id": "Hwei",
+                "slug": "hwei",
+                "zh": "彗 异画师",
+                "en": "the Visionary Hwei",
+                "ja": "夢想家 フェイ",
+                "ko": "몽상가 흐웨이",
+                "aliases": "hwei 彗 异画师 the Visionary Hwei 夢想家 フェイ 몽상가 흐웨이"
+        },
+        {
+                "id": "Zilean",
+                "slug": "zilean",
+                "zh": "基兰 时光守护者",
+                "en": "the Chronokeeper Zilean",
+                "ja": "時の番人 ジリアン",
+                "ko": "시간의 수호자 질리언",
+                "aliases": "zilean 基兰 时光守护者 the Chronokeeper Zilean 時の番人 ジリアン 시간의 수호자 질리언"
+        },
+        {
+                "id": "Ziggs",
+                "slug": "ziggs",
+                "zh": "吉格斯 爆破鬼才",
+                "en": "the Hexplosives Expert Ziggs",
+                "ja": "ヘクス爆薬のエキスパート ジグス",
+                "ko": "마법공학 폭파병 직스",
+                "aliases": "ziggs 吉格斯 爆破鬼才 the Hexplosives Expert Ziggs ヘクス爆薬のエキスパート ジグス 마법공학 폭파병 직스"
+        },
+        {
+                "id": "Galio",
+                "slug": "galio",
+                "zh": "加里奥 正义巨像",
+                "en": "the Colossus Galio",
+                "ja": "伝説の巨像 ガリオ",
+                "ko": "위대한 석상 갈리오",
+                "aliases": "galio 加里奥 正义巨像 the Colossus Galio 伝説の巨像 ガリオ 위대한 석상 갈리오"
+        },
+        {
+                "id": "Janna",
+                "slug": "janna",
+                "zh": "迦娜 风暴之怒",
+                "en": "the Storm's Fury Janna",
+                "ja": "嵐の怒り ジャンナ",
+                "ko": "폭풍의 분노 잔나",
+                "aliases": "janna 迦娜 风暴之怒 the Storm's Fury Janna 嵐の怒り ジャンナ 폭풍의 분노 잔나"
+        },
+        {
+                "id": "JarvanIV",
+                "slug": "jarvan-iv",
+                "zh": "嘉文四世 德玛西亚皇子",
+                "en": "the Exemplar of Demacia Jarvan IV",
+                "ja": "デマーシアの儀範 ジャーヴァンⅣ",
+                "ko": "데마시아의 귀감 자르반 4세",
+                "aliases": "jarvan-iv 嘉文四世 德玛西亚皇子 the Exemplar of Demacia Jarvan IV デマーシアの儀範 ジャーヴァンⅣ 데마시아의 귀감 자르반 4세"
+        },
+        {
+                "id": "Jax",
+                "slug": "jax",
+                "zh": "贾克斯 武器大师",
+                "en": "Grandmaster at Arms Jax",
+                "ja": "最強の武器使い ジャックス",
+                "ko": "무기의 달인 잭스",
+                "aliases": "jax 贾克斯 武器大师 Grandmaster at Arms Jax 最強の武器使い ジャックス 무기의 달인 잭스"
+        },
+        {
+                "id": "Zed",
+                "slug": "zed",
+                "zh": "劫 影流之主",
+                "en": "the Master of Shadows Zed",
+                "ja": "影の頭領 ゼド",
+                "ko": "그림자의 주인 제드",
+                "aliases": "zed 劫 影流之主 the Master of Shadows Zed 影の頭領 ゼド 그림자의 주인 제드"
+        },
+        {
+                "id": "Jayce",
+                "slug": "jayce",
+                "zh": "杰斯 未来守护者",
+                "en": "the Defender of Tomorrow Jayce",
+                "ja": "未来への希望 ジェイス",
+                "ko": "미래의 수호자 제이스",
+                "aliases": "jayce 杰斯 未来守护者 the Defender of Tomorrow Jayce 未来への希望 ジェイス 미래의 수호자 제이스"
+        },
+        {
+                "id": "Zyra",
+                "slug": "zyra",
+                "zh": "婕拉 荆棘之兴",
+                "en": "Rise of the Thorns Zyra",
+                "ja": "茨の目覚め ザイラ",
+                "ko": "가시 덩굴의 복수 자이라",
+                "aliases": "zyra 婕拉 荆棘之兴 Rise of the Thorns Zyra 茨の目覚め ザイラ 가시 덩굴의 복수 자이라"
+        },
+        {
+                "id": "Jinx",
+                "slug": "jinx",
+                "zh": "金克丝 暴走萝莉",
+                "en": "the Loose Cannon Jinx",
+                "ja": "暴走パンクガール ジンクス",
+                "ko": "난폭한 말괄량이 징크스",
+                "aliases": "jinx 金克丝 暴走萝莉 the Loose Cannon Jinx 暴走パンクガール ジンクス 난폭한 말괄량이 징크스"
+        },
+        {
+                "id": "Jhin",
+                "slug": "jhin",
+                "zh": "烬 戏命师",
+                "en": "the Virtuoso Jhin",
+                "ja": "孤高の芸術家 ジン",
+                "ko": "잔혹극의 거장 진",
+                "aliases": "jhin 烬 戏命师 the Virtuoso Jhin 孤高の芸術家 ジン 잔혹극의 거장 진"
+        },
+        {
+                "id": "Karma",
+                "slug": "karma",
+                "zh": "卡尔玛 天启者",
+                "en": "the Enlightened One Karma",
+                "ja": "目覚めし者 カルマ",
+                "ko": "깨우친 자 카르마",
+                "aliases": "karma 卡尔玛 天启者 the Enlightened One Karma 目覚めし者 カルマ 깨우친 자 카르마"
+        },
+        {
+                "id": "Karthus",
+                "slug": "karthus",
+                "zh": "卡尔萨斯 死亡颂唱者",
+                "en": "the Deathsinger Karthus",
+                "ja": "死を歌う者 カーサス",
+                "ko": "죽음을 노래하는 자 카서스",
+                "aliases": "karthus 卡尔萨斯 死亡颂唱者 the Deathsinger Karthus 死を歌う者 カーサス 죽음을 노래하는 자 카서스"
+        },
+        {
+                "id": "Kalista",
+                "slug": "kalista",
+                "zh": "卡莉丝塔 复仇之矛",
+                "en": "the Spear of Vengeance Kalista",
+                "ja": "復讐の槍 カリスタ",
+                "ko": "복수의 화신 칼리스타",
+                "aliases": "kalista 卡莉丝塔 复仇之矛 the Spear of Vengeance Kalista 復讐の槍 カリスタ 복수의 화신 칼리스타"
+        },
+        {
+                "id": "Camille",
+                "slug": "camille",
+                "zh": "卡蜜尔 青钢影",
+                "en": "the Steel Shadow Camille",
+                "ja": "スチールシャドウ カミール",
+                "ko": "강철의 그림자 카밀",
+                "aliases": "camille 卡蜜尔 青钢影 the Steel Shadow Camille スチールシャドウ カミール 강철의 그림자 카밀"
+        },
+        {
+                "id": "Kassadin",
+                "slug": "kassadin",
+                "zh": "卡萨丁 虚空行者",
+                "en": "the Void Walker Kassadin",
+                "ja": "ヴォイドを歩む者 カサディン",
+                "ko": "공허의 방랑자 카사딘",
+                "aliases": "kassadin 卡萨丁 虚空行者 the Void Walker Kassadin ヴォイドを歩む者 カサディン 공허의 방랑자 카사딘"
+        },
+        {
+                "id": "Kaisa",
+                "slug": "kaisa",
+                "zh": "卡莎 虚空之女",
+                "en": "Daughter of the Void Kai'Sa",
+                "ja": "虚無を知る娘 カイ＝サ",
+                "ko": "공허의 딸 카이사",
+                "aliases": "kaisa 卡莎 虚空之女 Daughter of the Void Kai'Sa 虚無を知る娘 カイ＝サ 공허의 딸 카이사"
+        },
+        {
+                "id": "Katarina",
+                "slug": "katarina",
+                "zh": "卡特琳娜 不祥之刃",
+                "en": "the Sinister Blade Katarina",
+                "ja": "凶兆の刃 カタリナ",
+                "ko": "사악한 칼날 카타리나",
+                "aliases": "katarina 卡特琳娜 不祥之刃 the Sinister Blade Katarina 凶兆の刃 カタリナ 사악한 칼날 카타리나"
+        },
+        {
+                "id": "Cassiopeia",
+                "slug": "cassiopeia",
+                "zh": "卡西奥佩娅 魔蛇之拥",
+                "en": "the Serpent's Embrace Cassiopeia",
+                "ja": "毒蛇の抱擁 カシオペア",
+                "ko": "독사의 포옹 카시오페아",
+                "aliases": "cassiopeia 卡西奥佩娅 魔蛇之拥 the Serpent's Embrace Cassiopeia 毒蛇の抱擁 カシオペア 독사의 포옹 카시오페아"
+        },
+        {
+                "id": "Khazix",
+                "slug": "khazix",
+                "zh": "卡兹克 虚空掠夺者",
+                "en": "the Voidreaver Kha'Zix",
+                "ja": "ヴォイドの捕食者 カ＝ジックス",
+                "ko": "공허의 약탈자 카직스",
+                "aliases": "khazix 卡兹克 虚空掠夺者 the Voidreaver Kha'Zix ヴォイドの捕食者 カ＝ジックス 공허의 약탈자 카직스"
+        },
+        {
+                "id": "Kayle",
+                "slug": "kayle",
+                "zh": "凯尔 正义天使",
+                "en": "the Righteous Kayle",
+                "ja": "天空の正義 ケイル",
+                "ko": "정의로운 자 케일",
+                "aliases": "kayle 凯尔 正义天使 the Righteous Kayle 天空の正義 ケイル 정의로운 자 케일"
+        },
+        {
+                "id": "Kennen",
+                "slug": "kennen",
+                "zh": "凯南 狂暴之心",
+                "en": "the Heart of the Tempest Kennen",
+                "ja": "雷雲の担い手 ケネン",
+                "ko": "폭풍의 심장 케넨",
+                "aliases": "kennen 凯南 狂暴之心 the Heart of the Tempest Kennen 雷雲の担い手 ケネン 폭풍의 심장 케넨"
+        },
+        {
+                "id": "Caitlyn",
+                "slug": "caitlyn",
+                "zh": "凯特琳 皮城女警",
+                "en": "the Sheriff of Piltover Caitlyn",
+                "ja": "ピルトーヴァーの保安官 ケイトリン",
+                "ko": "필트오버의 보안관 케이틀린",
+                "aliases": "caitlyn 凯特琳 皮城女警 the Sheriff of Piltover Caitlyn ピルトーヴァーの保安官 ケイトリン 필트오버의 보안관 케이틀린"
+        },
+        {
+                "id": "Kayn",
+                "slug": "kayn",
+                "zh": "凯隐 影流之镰",
+                "en": "the Shadow Reaper Kayn",
+                "ja": "無情の影 ケイン",
+                "ko": "그림자 사신 케인",
+                "aliases": "kayn 凯隐 影流之镰 the Shadow Reaper Kayn 無情の影 ケイン 그림자 사신 케인"
+        },
+        {
+                "id": "Chogath",
+                "slug": "chogath",
+                "zh": "科加斯 虚空恐惧",
+                "en": "the Terror of the Void Cho'Gath",
+                "ja": "未知なる恐怖 チョ＝ガス",
+                "ko": "공허의 공포 초가스",
+                "aliases": "chogath 科加斯 虚空恐惧 the Terror of the Void Cho'Gath 未知なる恐怖 チョ＝ガス 공허의 공포 초가스"
+        },
+        {
+                "id": "KogMaw",
+                "slug": "kogmaw",
+                "zh": "克格莫 深渊巨口",
+                "en": "the Mouth of the Abyss Kog'Maw",
+                "ja": "深淵のアギト コグ＝マウ",
+                "ko": "심연의 아귀 코그모",
+                "aliases": "kogmaw 克格莫 深渊巨口 the Mouth of the Abyss Kog'Maw 深淵のアギト コグ＝マウ 심연의 아귀 코그모"
+        },
+        {
+                "id": "Kled",
+                "slug": "kled",
+                "zh": "克烈 暴怒骑士",
+                "en": "the Cantankerous Cavalier Kled",
+                "ja": "狂乱の騎兵 クレッド",
+                "ko": "망나니 기사 클레드",
+                "aliases": "kled 克烈 暴怒骑士 the Cantankerous Cavalier Kled 狂乱の騎兵 クレッド 망나니 기사 클레드"
+        },
+        {
+                "id": "Corki",
+                "slug": "corki",
+                "zh": "库奇 英勇投弹手",
+                "en": "the Daring Bombardier Corki",
+                "ja": "豪気の爆撃手 コーキ",
+                "ko": "대담한 폭격수 코르키",
+                "aliases": "corki 库奇 英勇投弹手 the Daring Bombardier Corki 豪気の爆撃手 コーキ 대담한 폭격수 코르키"
+        },
+        {
+                "id": "KSante",
+                "slug": "ksante",
+                "zh": "奎桑提 纳祖芒荣耀",
+                "en": "the Pride of Nazumah K'Sante",
+                "ja": "ナズーマの誇り カ・サンテ",
+                "ko": "나주마의 긍지 크산테",
+                "aliases": "ksante 奎桑提 纳祖芒荣耀 the Pride of Nazumah K'Sante ナズーマの誇り カ・サンテ 나주마의 긍지 크산테"
+        },
+        {
+                "id": "Quinn",
+                "slug": "quinn",
+                "zh": "奎因 德玛西亚之翼",
+                "en": "Demacia's Wings Quinn",
+                "ja": "デマーシアの両翼 クイン",
+                "ko": "데마시아의 날개 퀸",
+                "aliases": "quinn 奎因 德玛西亚之翼 Demacia's Wings Quinn デマーシアの両翼 クイン 데마시아의 날개 퀸"
+        },
+        {
+                "id": "Lux",
+                "slug": "lux",
+                "zh": "拉克丝 光辉女郎",
+                "en": "the Lady of Luminosity Lux",
+                "ja": "光の才女 ラックス",
+                "ko": "광명의 소녀 럭스",
+                "aliases": "lux 拉克丝 光辉女郎 the Lady of Luminosity Lux 光の才女 ラックス 광명의 소녀 럭스"
+        },
+        {
+                "id": "Rammus",
+                "slug": "rammus",
+                "zh": "拉莫斯 披甲龙龟",
+                "en": "the Armordillo Rammus",
+                "ja": "アーマージロ ラムス",
+                "ko": "중무장 아르마딜로 람머스",
+                "aliases": "rammus 拉莫斯 披甲龙龟 the Armordillo Rammus アーマージロ ラムス 중무장 아르마딜로 람머스"
+        },
+        {
+                "id": "Rumble",
+                "slug": "rumble",
+                "zh": "兰博 机械公敌",
+                "en": "the Mechanized Menace Rumble",
+                "ja": "戦慄の機甲兵 ランブル",
+                "ko": "기계 악동 럼블",
+                "aliases": "rumble 兰博 机械公敌 the Mechanized Menace Rumble 戦慄の機甲兵 ランブル 기계 악동 럼블"
+        },
+        {
+                "id": "Leblanc",
+                "slug": "leblanc",
+                "zh": "乐芙兰 诡术妖姬",
+                "en": "the Deceiver LeBlanc",
+                "ja": "幻惑の奇術師 ルブラン",
+                "ko": "환술사 르블랑",
+                "aliases": "leblanc 乐芙兰 诡术妖姬 the Deceiver LeBlanc 幻惑の奇術師 ルブラン 환술사 르블랑"
+        },
+        {
+                "id": "Rengar",
+                "slug": "rengar",
+                "zh": "雷恩加尔 傲之追猎者",
+                "en": "the Pridestalker Rengar",
+                "ja": "孤高のハンター レンガー",
+                "ko": "추적하는 사자 렝가",
+                "aliases": "rengar 雷恩加尔 傲之追猎者 the Pridestalker Rengar 孤高のハンター レンガー 추적하는 사자 렝가"
+        },
+        {
+                "id": "Renekton",
+                "slug": "renekton",
+                "zh": "雷克顿 荒漠屠夫",
+                "en": "the Butcher of the Sands Renekton",
+                "ja": "砂漠の解体屋 レネクトン",
+                "ko": "사막의 도살자 레넥톤",
+                "aliases": "renekton 雷克顿 荒漠屠夫 the Butcher of the Sands Renekton 砂漠の解体屋 レネクトン 사막의 도살자 레넥톤"
+        },
+        {
+                "id": "RekSai",
+                "slug": "rek-sai",
+                "zh": "雷克塞 虚空遁地兽",
+                "en": "the Void Burrower Rek'Sai",
+                "ja": "地底の恐怖 レク＝サイ",
+                "ko": "공허의 복병 렉사이",
+                "aliases": "rek-sai 雷克塞 虚空遁地兽 the Void Burrower Rek'Sai 地底の恐怖 レク＝サイ 공허의 복병 렉사이"
+        },
+        {
+                "id": "Leona",
+                "slug": "leona",
+                "zh": "蕾欧娜 曙光女神",
+                "en": "the Radiant Dawn Leona",
+                "ja": "暁光の戦士 レオナ",
+                "ko": "여명의 빛 레오나",
+                "aliases": "leona 蕾欧娜 曙光女神 the Radiant Dawn Leona 暁光の戦士 レオナ 여명의 빛 레오나"
+        },
+        {
+                "id": "LeeSin",
+                "slug": "lee-sin",
+                "zh": "李青 盲僧",
+                "en": "the Blind Monk Lee Sin",
+                "ja": "盲目の修行僧 リー・シン",
+                "ko": "눈먼 수도승 리 신",
+                "aliases": "lee-sin 李青 盲僧 the Blind Monk Lee Sin 盲目の修行僧 リー・シン 눈먼 수도승 리 신"
+        },
+        {
+                "id": "Lissandra",
+                "slug": "lissandra",
+                "zh": "丽桑卓 冰霜女巫",
+                "en": "the Ice Witch Lissandra",
+                "ja": "氷の魔女 リサンドラ",
+                "ko": "얼음 마녀 리산드라",
+                "aliases": "lissandra 丽桑卓 冰霜女巫 the Ice Witch Lissandra 氷の魔女 リサンドラ 얼음 마녀 리산드라"
+        },
+        {
+                "id": "Lillia",
+                "slug": "lillia",
+                "zh": "莉莉娅 含羞蓓蕾",
+                "en": "the Bashful Bloom Lillia",
+                "ja": "はにかみ屋の花 リリア",
+                "ko": "수줍은 꽃 릴리아",
+                "aliases": "lillia 莉莉娅 含羞蓓蕾 the Bashful Bloom Lillia はにかみ屋の花 リリア 수줍은 꽃 릴리아"
+        },
+        {
+                "id": "Renata",
+                "slug": "renata-glasc",
+                "zh": "烈娜塔 · 戈拉斯克 炼金男爵",
+                "en": "the Chem-Baroness Renata Glasc",
+                "ja": "ケミテック長者 レナータ・グラスク",
+                "ko": "화공 남작 레나타 글라스크",
+                "aliases": "renata-glasc 烈娜塔 · 戈拉斯克 炼金男爵 the Chem-Baroness Renata Glasc ケミテック長者 レナータ・グラスク 화공 남작 레나타 글라스크"
+        },
+        {
+                "id": "Lucian",
+                "slug": "lucian",
+                "zh": "卢锡安 圣枪游侠",
+                "en": "the Purifier Lucian",
+                "ja": "不浄殲滅者 ルシアン",
+                "ko": "정화의 사도 루시안",
+                "aliases": "lucian 卢锡安 圣枪游侠 the Purifier Lucian 不浄殲滅者 ルシアン 정화의 사도 루시안"
+        },
+        {
+                "id": "Lulu",
+                "slug": "lulu",
+                "zh": "璐璐 仙灵女巫",
+                "en": "the Fae Sorceress Lulu",
+                "ja": "森の妖精使い ルル",
+                "ko": "요정 마법사 룰루",
+                "aliases": "lulu 璐璐 仙灵女巫 the Fae Sorceress Lulu 森の妖精使い ルル 요정 마법사 룰루"
+        },
+        {
+                "id": "Rakan",
+                "slug": "rakan",
+                "zh": "洛 幻翎",
+                "en": "The Charmer Rakan",
+                "ja": "魅惑の翼 ラカン",
+                "ko": "매혹하는 자 라칸",
+                "aliases": "rakan 洛 幻翎 The Charmer Rakan 魅惑の翼 ラカン 매혹하는 자 라칸"
+        },
+        {
+                "id": "Locke",
+                "slug": "locke",
+                "zh": "洛克 灰烬驱魔人",
+                "en": "the Ashen Exorcist Locke",
+                "ja": "灰の祓魔師 ロック",
+                "ko": "잿빛 퇴마사 로크",
+                "aliases": "locke 洛克 灰烬驱魔人 the Ashen Exorcist Locke 灰の祓魔師 ロック 잿빛 퇴마사 로크"
+        },
+        {
+                "id": "Malzahar",
+                "slug": "malzahar",
+                "zh": "玛尔扎哈 虚空先知",
+                "en": "the Prophet of the Void Malzahar",
+                "ja": "ヴォイドの予言者 マルザハール",
+                "ko": "공허의 예언자 말자하",
+                "aliases": "malzahar 玛尔扎哈 虚空先知 the Prophet of the Void Malzahar ヴォイドの予言者 マルザハール 공허의 예언자 말자하"
+        },
+        {
+                "id": "Maokai",
+                "slug": "maokai",
+                "zh": "茂凯 扭曲树精",
+                "en": "the Twisted Treant Maokai",
+                "ja": "歪みし樹人 マオカイ",
+                "ko": "뒤틀린 나무 정령 마오카이",
+                "aliases": "maokai 茂凯 扭曲树精 the Twisted Treant Maokai 歪みし樹人 マオカイ 뒤틀린 나무 정령 마오카이"
+        },
+        {
+                "id": "Mel",
+                "slug": "mel",
+                "zh": "梅尔 流光镜影",
+                "en": "the Soul's Reflection Mel",
+                "ja": "魂の反照 メル",
+                "ko": "영혼의 반향 멜",
+                "aliases": "mel 梅尔 流光镜影 the Soul's Reflection Mel 魂の反照 メル 영혼의 반향 멜"
+        },
+        {
+                "id": "DrMundo",
+                "slug": "dr-mundo",
+                "zh": "蒙多医生 祖安狂人",
+                "en": "the Madman of Zaun Dr. Mundo",
+                "ja": "ゾウンの狂人 ドクター・ムンド",
+                "ko": "자운의 광인 문도 박사",
+                "aliases": "dr-mundo 蒙多医生 祖安狂人 the Madman of Zaun Dr. Mundo ゾウンの狂人 ドクター・ムンド 자운의 광인 문도 박사"
+        },
+        {
+                "id": "Milio",
+                "slug": "milio",
+                "zh": "米利欧 明烛",
+                "en": "The Gentle Flame Milio",
+                "ja": "やさしき炎 ミリオ",
+                "ko": "온화한 불꽃 밀리오",
+                "aliases": "milio 米利欧 明烛 The Gentle Flame Milio やさしき炎 ミリオ 온화한 불꽃 밀리오"
+        },
+        {
+                "id": "Nocturne",
+                "slug": "nocturne",
+                "zh": "魔腾 永恒梦魇",
+                "en": "the Eternal Nightmare Nocturne",
+                "ja": "終わりなき悪夢 ノクターン",
+                "ko": "영원한 악몽 녹턴",
+                "aliases": "nocturne 魔腾 永恒梦魇 the Eternal Nightmare Nocturne 終わりなき悪夢 ノクターン 영원한 악몽 녹턴"
+        },
+        {
+                "id": "Mordekaiser",
+                "slug": "mordekaiser",
+                "zh": "莫德凯撒 铁铠冥魂",
+                "en": "the Iron Revenant Mordekaiser",
+                "ja": "鋼の魂奪者 モルデカイザー",
+                "ko": "강철의 망령 모데카이저",
+                "aliases": "mordekaiser 莫德凯撒 铁铠冥魂 the Iron Revenant Mordekaiser 鋼の魂奪者 モルデカイザー 강철의 망령 모데카이저"
+        },
+        {
+                "id": "Morgana",
+                "slug": "morgana",
+                "zh": "莫甘娜 堕落天使",
+                "en": "the Fallen Morgana",
+                "ja": "堕天の高潔 モルガナ",
+                "ko": "타락한 자 모르가나",
+                "aliases": "morgana 莫甘娜 堕落天使 the Fallen Morgana 堕天の高潔 モルガナ 타락한 자 모르가나"
+        },
+        {
+                "id": "Malphite",
+                "slug": "malphite",
+                "zh": "墨菲特 熔岩巨兽",
+                "en": "Shard of the Monolith Malphite",
+                "ja": "モノリスの欠片 マルファイト",
+                "ko": "거석의 파편 말파이트",
+                "aliases": "malphite 墨菲特 熔岩巨兽 Shard of the Monolith Malphite モノリスの欠片 マルファイト 거석의 파편 말파이트"
+        },
+        {
+                "id": "Gnar",
+                "slug": "gnar",
+                "zh": "纳尔 迷失之牙",
+                "en": "the Missing Link Gnar",
+                "ja": "ミッシングリンク ナー",
+                "ko": "잃어버린 고리 나르",
+                "aliases": "gnar 纳尔 迷失之牙 the Missing Link Gnar ミッシングリンク ナー 잃어버린 고리 나르"
+        },
+        {
+                "id": "Naafiri",
+                "slug": "naafiri",
+                "zh": "纳亚菲利 百裂冥犬",
+                "en": "the Hound of a Hundred Bites Naafiri",
+                "ja": "百刃の猟犬 ナフィーリ",
+                "ko": "백 번 무는 사냥개 나피리",
+                "aliases": "naafiri 纳亚菲利 百裂冥犬 the Hound of a Hundred Bites Naafiri 百刃の猟犬 ナフィーリ 백 번 무는 사냥개 나피리"
+        },
+        {
+                "id": "Nami",
+                "slug": "nami",
+                "zh": "娜美 唤潮鲛姬",
+                "en": "the Tidecaller Nami",
+                "ja": "潮呼びの巫女 ナミ",
+                "ko": "파도 소환사 나미",
+                "aliases": "nami 娜美 唤潮鲛姬 the Tidecaller Nami 潮呼びの巫女 ナミ 파도 소환사 나미"
+        },
+        {
+                "id": "Nidalee",
+                "slug": "nidalee",
+                "zh": "奈德丽 狂野女猎手",
+                "en": "the Bestial Huntress Nidalee",
+                "ja": "半獣の狩人 ニダリー",
+                "ko": "야성의 사냥꾼 니달리",
+                "aliases": "nidalee 奈德丽 狂野女猎手 the Bestial Huntress Nidalee 半獣の狩人 ニダリー 야성의 사냥꾼 니달리"
+        },
+        {
+                "id": "Nasus",
+                "slug": "nasus",
+                "zh": "内瑟斯 沙漠死神",
+                "en": "the Curator of the Sands Nasus",
+                "ja": "砂漠の司書 ナサス",
+                "ko": "사막의 관리자 나서스",
+                "aliases": "nasus 内瑟斯 沙漠死神 the Curator of the Sands Nasus 砂漠の司書 ナサス 사막의 관리자 나서스"
+        },
+        {
+                "id": "Neeko",
+                "slug": "neeko",
+                "zh": "妮蔻 万花通灵",
+                "en": "the Curious Chameleon Neeko",
+                "ja": "不思議のカメレオン ニーコ",
+                "ko": "알쏭달쏭 카멜레온 니코",
+                "aliases": "neeko 妮蔻 万花通灵 the Curious Chameleon Neeko 不思議のカメレオン ニーコ 알쏭달쏭 카멜레온 니코"
+        },
+        {
+                "id": "Nilah",
+                "slug": "nilah",
+                "zh": "尼菈 不羁之悦",
+                "en": "the Joy Unbound Nilah",
+                "ja": "放たれし喜び ニーラ",
+                "ko": "해방된 기쁨 닐라",
+                "aliases": "nilah 尼菈 不羁之悦 the Joy Unbound Nilah 放たれし喜び ニーラ 해방된 기쁨 닐라"
+        },
+        {
+                "id": "Nunu",
+                "slug": "nunu",
+                "zh": "努努和威朗普 雪原双子",
+                "en": "the Boy and His Yeti Nunu & Willump",
+                "ja": "少年とイエティ ヌヌ＆ウィルンプ",
+                "ko": "소년과 설인 누누와 윌럼프",
+                "aliases": "nunu 努努和威朗普 雪原双子 the Boy and His Yeti Nunu & Willump 少年とイエティ ヌヌ＆ウィルンプ 소년과 설인 누누와 윌럼프"
+        },
+        {
+                "id": "Nautilus",
+                "slug": "nautilus",
+                "zh": "诺提勒斯 深海泰坦",
+                "en": "the Titan of the Depths Nautilus",
+                "ja": "深海の巨人 ノーチラス",
+                "ko": "심해의 타이탄 노틸러스",
+                "aliases": "nautilus 诺提勒斯 深海泰坦 the Titan of the Depths Nautilus 深海の巨人 ノーチラス 심해의 타이탄 노틸러스"
+        },
+        {
+                "id": "Pyke",
+                "slug": "pyke",
+                "zh": "派克 血港鬼影",
+                "en": "the Bloodharbor Ripper Pyke",
+                "ja": "ブラッドハーバーの殺戮鬼 パイク",
+                "ko": "핏빛 항구의 학살자 파이크",
+                "aliases": "pyke 派克 血港鬼影 the Bloodharbor Ripper Pyke ブラッドハーバーの殺戮鬼 パイク 핏빛 항구의 학살자 파이크"
+        },
+        {
+                "id": "Pantheon",
+                "slug": "pantheon",
+                "zh": "潘森 不屈之枪",
+                "en": "the Unbreakable Spear Pantheon",
+                "ja": "砕けぬ槍 パンテオン",
+                "ko": "불굴의 창 판테온",
+                "aliases": "pantheon 潘森 不屈之枪 the Unbreakable Spear Pantheon 砕けぬ槍 パンテオン 불굴의 창 판테온"
+        },
+        {
+                "id": "Gangplank",
+                "slug": "gangplank",
+                "zh": "普朗克 海洋之灾",
+                "en": "the Saltwater Scourge Gangplank",
+                "ja": "大海原の大災厄 ガングプランク",
+                "ko": "바다의 무법자 갱플랭크",
+                "aliases": "gangplank 普朗克 海洋之灾 the Saltwater Scourge Gangplank 大海原の大災厄 ガングプランク 바다의 무법자 갱플랭크"
+        },
+        {
+                "id": "Qiyana",
+                "slug": "qiyana",
+                "zh": "奇亚娜 元素女皇",
+                "en": "Empress of the Elements Qiyana",
+                "ja": "エレメントの女帝 キヤナ",
+                "ko": "원소의 여왕 키아나",
+                "aliases": "qiyana 奇亚娜 元素女皇 Empress of the Elements Qiyana エレメントの女帝 キヤナ 원소의 여왕 키아나"
+        },
+        {
+                "id": "Kindred",
+                "slug": "kindred",
+                "zh": "千珏 永猎双子",
+                "en": "The Eternal Hunters Kindred",
+                "ja": "永遠なる狩人 キンドレッド",
+                "ko": "영겁의 사냥꾼 킨드레드",
+                "aliases": "kindred 千珏 永猎双子 The Eternal Hunters Kindred 永遠なる狩人 キンドレッド 영겁의 사냥꾼 킨드레드"
+        },
+        {
+                "id": "Rell",
+                "slug": "rell",
+                "zh": "芮尔 镕铁少女",
+                "en": "the Iron Maiden Rell",
+                "ja": "鋼鉄の乙女 レル",
+                "ko": "철의 여인 렐",
+                "aliases": "rell 芮尔 镕铁少女 the Iron Maiden Rell 鋼鉄の乙女 レル 철의 여인 렐"
+        },
+        {
+                "id": "Riven",
+                "slug": "riven",
+                "zh": "锐雯 放逐之刃",
+                "en": "the Exile Riven",
+                "ja": "贖罪の追放者 リヴェン",
+                "ko": "추방자 리븐",
+                "aliases": "riven 锐雯 放逐之刃 the Exile Riven 贖罪の追放者 リヴェン 추방자 리븐"
+        },
+        {
+                "id": "Ryze",
+                "slug": "ryze",
+                "zh": "瑞兹 符文法师",
+                "en": "the Rune Mage Ryze",
+                "ja": "ルーンの魔導師 ライズ",
+                "ko": "룬 마법사 라이즈",
+                "aliases": "ryze 瑞兹 符文法师 the Rune Mage Ryze ルーンの魔導師 ライズ 룬 마법사 라이즈"
+        },
+        {
+                "id": "Shaco",
+                "slug": "shaco",
+                "zh": "萨科 恶魔小丑",
+                "en": "the Demon Jester Shaco",
+                "ja": "悪魔の道化師 シャコ",
+                "ko": "악마 어릿광대 샤코",
+                "aliases": "shaco 萨科 恶魔小丑 the Demon Jester Shaco 悪魔の道化師 シャコ 악마 어릿광대 샤코"
+        },
+        {
+                "id": "Seraphine",
+                "slug": "seraphine",
+                "zh": "萨勒芬妮 星籁歌姬",
+                "en": "the Starry-Eyed Songstress Seraphine",
+                "ja": "希望のメロディー セラフィーン",
+                "ko": "노래하는 별 세라핀",
+                "aliases": "seraphine 萨勒芬妮 星籁歌姬 the Starry-Eyed Songstress Seraphine 希望のメロディー セラフィーン 노래하는 별 세라핀"
+        },
+        {
+                "id": "Sylas",
+                "slug": "sylas",
+                "zh": "塞拉斯 解脱者",
+                "en": "the Unshackled Sylas",
+                "ja": "解き放たれし者 サイラス",
+                "ko": "해방된 자 사일러스",
+                "aliases": "sylas 塞拉斯 解脱者 the Unshackled Sylas 解き放たれし者 サイラス 해방된 자 사일러스"
+        },
+        {
+                "id": "Sion",
+                "slug": "sion",
+                "zh": "赛恩 亡灵战神",
+                "en": "The Undead Juggernaut Sion",
+                "ja": "不死身の重戦車 サイオン",
+                "ko": "언데드 학살병기 사이온",
+                "aliases": "sion 赛恩 亡灵战神 The Undead Juggernaut Sion 不死身の重戦車 サイオン 언데드 학살병기 사이온"
+        },
+        {
+                "id": "Senna",
+                "slug": "senna",
+                "zh": "赛娜 涤魂圣枪",
+                "en": "the Redeemer Senna",
+                "ja": "救済者 セナ",
+                "ko": "구원자 세나",
+                "aliases": "senna 赛娜 涤魂圣枪 the Redeemer Senna 救済者 セナ 구원자 세나"
+        },
+        {
+                "id": "Sett",
+                "slug": "sett",
+                "zh": "瑟提 腕豪",
+                "en": "the Boss Sett",
+                "ja": "ザ・ボス セト",
+                "ko": "우두머리 세트",
+                "aliases": "sett 瑟提 腕豪 the Boss Sett ザ・ボス セト 우두머리 세트"
+        },
+        {
+                "id": "Sejuani",
+                "slug": "sejuani",
+                "zh": "瑟庄妮 北地之怒",
+                "en": "Fury of the North Sejuani",
+                "ja": "極北の激憤 セジュアニ",
+                "ko": "혹한의 분노 세주아니",
+                "aliases": "sejuani 瑟庄妮 北地之怒 Fury of the North Sejuani 極北の激憤 セジュアニ 혹한의 분노 세주아니"
+        },
+        {
+                "id": "Samira",
+                "slug": "samira",
+                "zh": "莎弥拉 沙漠玫瑰",
+                "en": "the Desert Rose Samira",
+                "ja": "砂漠の薔薇 サミーラ",
+                "ko": "사막의 장미 사미라",
+                "aliases": "samira 莎弥拉 沙漠玫瑰 the Desert Rose Samira 砂漠の薔薇 サミーラ 사막의 장미 사미라"
+        },
+        {
+                "id": "Shen",
+                "slug": "shen",
+                "zh": "慎 暮光之眼",
+                "en": "the Eye of Twilight Shen",
+                "ja": "黄昏の瞳 シェン",
+                "ko": "황혼의 눈 쉔",
+                "aliases": "shen 慎 暮光之眼 the Eye of Twilight Shen 黄昏の瞳 シェン 황혼의 눈 쉔"
+        },
+        {
+                "id": "Skarner",
+                "slug": "skarner",
+                "zh": "斯卡纳 上古领主",
+                "en": "the Primordial Sovereign Skarner",
+                "ja": "原始の守護者 スカーナー",
+                "ko": "태고의 군주 스카너",
+                "aliases": "skarner 斯卡纳 上古领主 the Primordial Sovereign Skarner 原始の守護者 スカーナー 태고의 군주 스카너"
+        },
+        {
+                "id": "Smolder",
+                "slug": "smolder",
+                "zh": "斯莫德 炽炎雏龙",
+                "en": "the Fiery Fledgling Smolder",
+                "ja": "炎の幼龍 スモルダー",
+                "ko": "꼬마 불꽃용 스몰더",
+                "aliases": "smolder 斯莫德 炽炎雏龙 the Fiery Fledgling Smolder 炎の幼龍 スモルダー 꼬마 불꽃용 스몰더"
+        },
+        {
+                "id": "Swain",
+                "slug": "swain",
+                "zh": "斯维因 诺克萨斯统领",
+                "en": "the Noxian Grand General Swain",
+                "ja": "ノクサス帝国元帥 スウェイン",
+                "ko": "녹서스 대장군 스웨인",
+                "aliases": "swain 斯维因 诺克萨斯统领 the Noxian Grand General Swain ノクサス帝国元帥 スウェイン 녹서스 대장군 스웨인"
+        },
+        {
+                "id": "MonkeyKing",
+                "slug": "wukong",
+                "zh": "孙悟空 齐天大圣",
+                "en": "the Monkey King Wukong",
+                "ja": "美猴王 ウーコン",
+                "ko": "원숭이 왕 오공",
+                "aliases": "wukong 孙悟空 齐天大圣 the Monkey King Wukong 美猴王 ウーコン 원숭이 왕 오공"
+        },
+        {
+                "id": "Sona",
+                "slug": "sona",
+                "zh": "娑娜 琴瑟仙女",
+                "en": "Maven of the Strings Sona",
+                "ja": "沈黙の弦奏師 ソナ",
+                "ko": "현의 명인 소나",
+                "aliases": "sona 娑娜 琴瑟仙女 Maven of the Strings Sona 沈黙の弦奏師 ソナ 현의 명인 소나"
+        },
+        {
+                "id": "Soraka",
+                "slug": "soraka",
+                "zh": "索拉卡 众星之子",
+                "en": "the Starchild Soraka",
+                "ja": "星の子 ソラカ",
+                "ko": "별의 아이 소라카",
+                "aliases": "soraka 索拉卡 众星之子 the Starchild Soraka 星の子 ソラカ 별의 아이 소라카"
+        },
+        {
+                "id": "Taric",
+                "slug": "taric",
+                "zh": "塔里克 瓦洛兰之盾",
+                "en": "the Shield of Valoran Taric",
+                "ja": "ヴァロランの守護者 タリック",
+                "ko": "발로란의 방패 타릭",
+                "aliases": "taric 塔里克 瓦洛兰之盾 the Shield of Valoran Taric ヴァロランの守護者 タリック 발로란의 방패 타릭"
+        },
+        {
+                "id": "Taliyah",
+                "slug": "taliyah",
+                "zh": "塔莉垭 岩雀",
+                "en": "the Stoneweaver Taliyah",
+                "ja": "ストーンウィーバー タリヤ",
+                "ko": "바위술사 탈리야",
+                "aliases": "taliyah 塔莉垭 岩雀 the Stoneweaver Taliyah ストーンウィーバー タリヤ 바위술사 탈리야"
+        },
+        {
+                "id": "TahmKench",
+                "slug": "tahm-kench",
+                "zh": "塔姆 河流之王",
+                "en": "The River King Tahm Kench",
+                "ja": "川の王様 タム・ケンチ",
+                "ko": "강의 폭군 탐 켄치",
+                "aliases": "tahm-kench 塔姆 河流之王 The River King Tahm Kench 川の王様 タム・ケンチ 강의 폭군 탐 켄치"
+        },
+        {
+                "id": "Tryndamere",
+                "slug": "tryndamere",
+                "zh": "泰达米尔 蛮族之王",
+                "en": "the Barbarian King Tryndamere",
+                "ja": "孤高の蛮王 トリンダメア",
+                "ko": "야만전사 왕 트린다미어",
+                "aliases": "tryndamere 泰达米尔 蛮族之王 the Barbarian King Tryndamere 孤高の蛮王 トリンダメア 야만전사 왕 트린다미어"
+        },
+        {
+                "id": "Talon",
+                "slug": "talon",
+                "zh": "泰隆 刀锋之影",
+                "en": "the Blade's Shadow Talon",
+                "ja": "将軍の懐刀 タロン",
+                "ko": "검의 그림자 탈론",
+                "aliases": "talon 泰隆 刀锋之影 the Blade's Shadow Talon 将軍の懐刀 タロン 검의 그림자 탈론"
+        },
+        {
+                "id": "Trundle",
+                "slug": "trundle",
+                "zh": "特朗德尔 巨魔之王",
+                "en": "the Troll King Trundle",
+                "ja": "トロールキング トランドル",
+                "ko": "트롤 왕 트런들",
+                "aliases": "trundle 特朗德尔 巨魔之王 the Troll King Trundle トロールキング トランドル 트롤 왕 트런들"
+        },
+        {
+                "id": "Teemo",
+                "slug": "teemo",
+                "zh": "提莫 迅捷斥候",
+                "en": "the Swift Scout Teemo",
+                "ja": "俊足の斥候 ティーモ",
+                "ko": "날쌘 정찰병 티모",
+                "aliases": "teemo 提莫 迅捷斥候 the Swift Scout Teemo 俊足の斥候 ティーモ 날쌘 정찰병 티모"
+        },
+        {
+                "id": "Twitch",
+                "slug": "twitch",
+                "zh": "图奇 瘟疫之源",
+                "en": "the Plague Rat Twitch",
+                "ja": "黒死のドブネズミ トゥイッチ",
+                "ko": "역병 쥐 트위치",
+                "aliases": "twitch 图奇 瘟疫之源 the Plague Rat Twitch 黒死のドブネズミ トゥイッチ 역병 쥐 트위치"
+        },
+        {
+                "id": "Vayne",
+                "slug": "vayne",
+                "zh": "薇恩 暗夜猎手",
+                "en": "the Night Hunter Vayne",
+                "ja": "ナイトハンター ヴェイン",
+                "ko": "어둠 사냥꾼 베인",
+                "aliases": "vayne 薇恩 暗夜猎手 the Night Hunter Vayne ナイトハンター ヴェイン 어둠 사냥꾼 베인"
+        },
+        {
+                "id": "Vex",
+                "slug": "vex",
+                "zh": "薇古丝 愁云使者",
+                "en": "the Gloomist Vex",
+                "ja": "終わりなき憂鬱 ヴェックス",
+                "ko": "우울주의자 벡스",
+                "aliases": "vex 薇古丝 愁云使者 the Gloomist Vex 終わりなき憂鬱 ヴェックス 우울주의자 벡스"
+        },
+        {
+                "id": "Varus",
+                "slug": "varus",
+                "zh": "韦鲁斯 惩戒之箭",
+                "en": "the Arrow of Retribution Varus",
+                "ja": "報復の一矢 ヴァルス",
+                "ko": "응징의 화살 바루스",
+                "aliases": "varus 韦鲁斯 惩戒之箭 the Arrow of Retribution Varus 報復の一矢 ヴァルス 응징의 화살 바루스"
+        },
+        {
+                "id": "Veigar",
+                "slug": "veigar",
+                "zh": "维迦 邪恶小法师",
+                "en": "the Tiny Master of Evil Veigar",
+                "ja": "小さき大魔王 ベイガー",
+                "ko": "악의 작은 지배자 베이가",
+                "aliases": "veigar 维迦 邪恶小法师 the Tiny Master of Evil Veigar 小さき大魔王 ベイガー 악의 작은 지배자 베이가"
+        },
+        {
+                "id": "Viktor",
+                "slug": "viktor",
+                "zh": "维克托 奥术先驱",
+                "en": "the Herald of the Arcane Viktor",
+                "ja": "アーケインの先触れ ビクター",
+                "ko": "아케인의 전령관 빅토르",
+                "aliases": "viktor 维克托 奥术先驱 the Herald of the Arcane Viktor アーケインの先触れ ビクター 아케인의 전령관 빅토르"
+        },
+        {
+                "id": "Velkoz",
+                "slug": "velkoz",
+                "zh": "维克兹 虚空之眼",
+                "en": "the Eye of the Void Vel'Koz",
+                "ja": "ヴォイドの瞳 ヴェル＝コズ",
+                "ko": "공허의 눈 벨코즈",
+                "aliases": "velkoz 维克兹 虚空之眼 the Eye of the Void Vel'Koz ヴォイドの瞳 ヴェル＝コズ 공허의 눈 벨코즈"
+        },
+        {
+                "id": "Vi",
+                "slug": "vi",
+                "zh": "蔚 皮城执法官",
+                "en": "the Piltover Enforcer Vi",
+                "ja": "ピルトーヴァーの用心棒 ヴァイ",
+                "ko": "필트오버의 집행자 바이",
+                "aliases": "vi 蔚 皮城执法官 the Piltover Enforcer Vi ピルトーヴァーの用心棒 ヴァイ 필트오버의 집행자 바이"
+        },
+        {
+                "id": "Warwick",
+                "slug": "warwick",
+                "zh": "沃里克 祖安怒兽",
+                "en": "the Uncaged Wrath of Zaun Warwick",
+                "ja": "解き放たれたゾウンの激憤 ワーウィック",
+                "ko": "자운의 고삐 풀린 분노 워윅",
+                "aliases": "warwick 沃里克 祖安怒兽 the Uncaged Wrath of Zaun Warwick 解き放たれたゾウンの激憤 ワーウィック 자운의 고삐 풀린 분노 워윅"
+        },
+        {
+                "id": "Volibear",
+                "slug": "volibear",
+                "zh": "沃利贝尔 不灭狂雷",
+                "en": "the Relentless Storm Volibear",
+                "ja": "無慈悲の嵐 ボリベア",
+                "ko": "무자비한 폭풍 볼리베어",
+                "aliases": "volibear 沃利贝尔 不灭狂雷 the Relentless Storm Volibear 無慈悲の嵐 ボリベア 무자비한 폭풍 볼리베어"
+        },
+        {
+                "id": "Udyr",
+                "slug": "udyr",
+                "zh": "乌迪尔 兽灵行者",
+                "en": "the Spirit Walker Udyr",
+                "ja": "精霊と歩む者 ウディア",
+                "ko": "정령 주술사 우디르",
+                "aliases": "udyr 乌迪尔 兽灵行者 the Spirit Walker Udyr 精霊と歩む者 ウディア 정령 주술사 우디르"
+        },
+        {
+                "id": "Shyvana",
+                "slug": "shyvana",
+                "zh": "希瓦娜 龙血武姬",
+                "en": "the Half-Dragon Shyvana",
+                "ja": "半龍人 シヴァーナ",
+                "ko": "하프 드래곤 쉬바나",
+                "aliases": "shyvana 希瓦娜 龙血武姬 the Half-Dragon Shyvana 半龍人 シヴァーナ 하프 드래곤 쉬바나"
+        },
+        {
+                "id": "Sivir",
+                "slug": "sivir",
+                "zh": "希维尔 战争女神",
+                "en": "the Battle Mistress Sivir",
+                "ja": "戦場の女王 シヴィア",
+                "ko": "전장의 여제 시비르",
+                "aliases": "sivir 希维尔 战争女神 the Battle Mistress Sivir 戦場の女王 シヴィア 전장의 여제 시비르"
+        },
+        {
+                "id": "Xayah",
+                "slug": "xayah",
+                "zh": "霞 逆羽",
+                "en": "the Rebel Xayah",
+                "ja": "反逆の刃 ザヤ",
+                "ko": "저항하는 자 자야",
+                "aliases": "xayah 霞 逆羽 the Rebel Xayah 反逆の刃 ザヤ 저항하는 자 자야"
+        },
+        {
+                "id": "Syndra",
+                "slug": "syndra",
+                "zh": "辛德拉 暗黑元首",
+                "en": "the Dark Sovereign Syndra",
+                "ja": "暗黒の女王 シンドラ",
+                "ko": "어둠의 여제 신드라",
+                "aliases": "syndra 辛德拉 暗黑元首 the Dark Sovereign Syndra 暗黒の女王 シンドラ 어둠의 여제 신드라"
+        },
+        {
+                "id": "Singed",
+                "slug": "singed",
+                "zh": "辛吉德 炼金术士",
+                "en": "the Mad Chemist Singed",
+                "ja": "マッドケミスト シンジド",
+                "ko": "미친 화학자 신지드",
+                "aliases": "singed 辛吉德 炼金术士 the Mad Chemist Singed マッドケミスト シンジド 미친 화학자 신지드"
+        },
+        {
+                "id": "Zaahen",
+                "slug": "zaahen",
+                "zh": "亚恒 不落魔锋",
+                "en": "The Unsundered Zaahen",
+                "ja": "沈まぬ者 ザーヘン",
+                "ko": "저물지 않는 자 자헨",
+                "aliases": "zaahen 亚恒 不落魔锋 The Unsundered Zaahen 沈まぬ者 ザーヘン 저물지 않는 자 자헨"
+        },
+        {
+                "id": "Yasuo",
+                "slug": "yasuo",
+                "zh": "亚索 疾风剑豪",
+                "en": "the Unforgiven Yasuo",
+                "ja": "赦されざる者 ヤスオ",
+                "ko": "용서받지 못한 자 야스오",
+                "aliases": "yasuo 亚索 疾风剑豪 the Unforgiven Yasuo 赦されざる者 ヤスオ 용서받지 못한 자 야스오"
+        },
+        {
+                "id": "Aatrox",
+                "slug": "aatrox",
+                "zh": "亚托克斯 暗裔剑魔",
+                "en": "the Darkin Blade Aatrox",
+                "ja": "ダーキンの暴剣 エイトロックス",
+                "ko": "다르킨의 검 아트록스",
+                "aliases": "aatrox 亚托克斯 暗裔剑魔 the Darkin Blade Aatrox ダーキンの暴剣 エイトロックス 다르킨의 검 아트록스"
+        },
+        {
+                "id": "Evelynn",
+                "slug": "evelynn",
+                "zh": "伊芙琳 痛苦之拥",
+                "en": "Agony's Embrace Evelynn",
+                "ja": "苦悶の抱擁 イブリン",
+                "ko": "고통스런 포옹 이블린",
+                "aliases": "evelynn 伊芙琳 痛苦之拥 Agony's Embrace Evelynn 苦悶の抱擁 イブリン 고통스런 포옹 이블린"
+        },
+        {
+                "id": "Elise",
+                "slug": "elise",
+                "zh": "伊莉丝 蜘蛛女皇",
+                "en": "the Spider Queen Elise",
+                "ja": "蜘蛛の女帝 エリス",
+                "ko": "거미 여왕 엘리스",
+                "aliases": "elise 伊莉丝 蜘蛛女皇 the Spider Queen Elise 蜘蛛の女帝 エリス 거미 여왕 엘리스"
+        },
+        {
+                "id": "Ezreal",
+                "slug": "ezreal",
+                "zh": "伊泽瑞尔 探险家",
+                "en": "the Prodigal Explorer Ezreal",
+                "ja": "光の冒険心 エズリアル",
+                "ko": "무모한 탐험가 이즈리얼",
+                "aliases": "ezreal 伊泽瑞尔 探险家 the Prodigal Explorer Ezreal 光の冒険心 エズリアル 무모한 탐험가 이즈리얼"
+        },
+        {
+                "id": "MasterYi",
+                "slug": "master-yi",
+                "zh": "易 无极剑圣",
+                "en": "the Wuju Bladesman Master Yi",
+                "ja": "ウージューの剣客 マスター・イー",
+                "ko": "우주 검사 마스터 이",
+                "aliases": "master-yi 易 无极剑圣 the Wuju Bladesman Master Yi ウージューの剣客 マスター・イー 우주 검사 마스터 이"
+        },
+        {
+                "id": "Yone",
+                "slug": "yone",
+                "zh": "永恩 封魔剑魂",
+                "en": "the Unforgotten Yone",
+                "ja": "忘られざる者 ヨネ",
+                "ko": "잊히지 못한 자 요네",
+                "aliases": "yone 永恩 封魔剑魂 the Unforgotten Yone 忘られざる者 ヨネ 잊히지 못한 자 요네"
+        },
+        {
+                "id": "Yuumi",
+                "slug": "yuumi",
+                "zh": "悠米 魔法猫咪",
+                "en": "the Magical Cat Yuumi",
+                "ja": "マジカルキャット ユーミ",
+                "ko": "마법 고양이 유미",
+                "aliases": "yuumi 悠米 魔法猫咪 the Magical Cat Yuumi マジカルキャット ユーミ 마법 고양이 유미"
+        },
+        {
+                "id": "Yorick",
+                "slug": "yorick",
+                "zh": "约里克 牧魂人",
+                "en": "Shepherd of Souls Yorick",
+                "ja": "魂の導き手 ヨリック",
+                "ko": "영혼의 길잡이 요릭",
+                "aliases": "yorick 约里克 牧魂人 Shepherd of Souls Yorick 魂の導き手 ヨリック 영혼의 길잡이 요릭"
+        },
+        {
+                "id": "Yunara",
+                "slug": "yunara",
+                "zh": "芸阿娜 不破之誓",
+                "en": "the Unbroken Faith Yunara",
+                "ja": "揺るがぬ誓い ユナラ",
+                "ko": "꺾이지 않는 신념 유나라",
+                "aliases": "yunara 芸阿娜 不破之誓 the Unbroken Faith Yunara 揺るがぬ誓い ユナラ 꺾이지 않는 신념 유나라"
+        },
+        {
+                "id": "Xerath",
+                "slug": "xerath",
+                "zh": "泽拉斯 远古巫灵",
+                "en": "the Magus Ascendant Xerath",
+                "ja": "超越魔神 ゼラス",
+                "ko": "초월한 마법사 제라스",
+                "aliases": "xerath 泽拉斯 远古巫灵 the Magus Ascendant Xerath 超越魔神 ゼラス 초월한 마법사 제라스"
+        },
+        {
+                "id": "Zeri",
+                "slug": "zeri",
+                "zh": "泽丽 祖安花火",
+                "en": "The Spark of Zaun Zeri",
+                "ja": "ゾウンの火花 ゼリ",
+                "ko": "자운의 불꽃 제리",
+                "aliases": "zeri 泽丽 祖安花火 The Spark of Zaun Zeri ゾウンの火花 ゼリ 자운의 불꽃 제리"
+        },
+        {
+                "id": "Zac",
+                "slug": "zac",
+                "zh": "扎克 生化魔人",
+                "en": "the Secret Weapon Zac",
+                "ja": "親愛なる秘密兵器 ザック",
+                "ko": "비밀 병기 자크",
+                "aliases": "zac 扎克 生化魔人 the Secret Weapon Zac 親愛なる秘密兵器 ザック 비밀 병기 자크"
+        },
+        {
+                "id": "XinZhao",
+                "slug": "xin-zhao",
+                "zh": "赵信 德邦总管",
+                "en": "the Seneschal of Demacia Xin Zhao",
+                "ja": "デマーシアの家令長 シン・ジャオ",
+                "ko": "데마시아의 호위무사 신 짜오",
+                "aliases": "xin-zhao 赵信 德邦总管 the Seneschal of Demacia Xin Zhao デマーシアの家令長 シン・ジャオ 데마시아의 호위무사 신 짜오"
+        },
+        {
+                "id": "Zoe",
+                "slug": "zoe",
+                "zh": "佐伊 暮光星灵",
+                "en": "the Aspect of Twilight Zoe",
+                "ja": "超常の遊び ゾーイ",
+                "ko": "여명의 성위 조이",
+                "aliases": "zoe 佐伊 暮光星灵 the Aspect of Twilight Zoe 超常の遊び ゾーイ 여명의 성위 조이"
+        }
+];
+      const state = { lang: "zh", query: "" };
+      const elements = {
+        language: document.getElementById("languageSelect"),
+        title: document.getElementById("pageTitle"),
+        subtitle: document.getElementById("subtitle"),
+        search: document.getElementById("searchInput"),
+        section: document.getElementById("championSectionTitle"),
+        count: document.getElementById("countLabel"),
+        grid: document.getElementById("championGrid"),
+        empty: document.getElementById("emptyState"),
+        patch: document.getElementById("patchLabel"),
+        footer: document.getElementById("footerText")
+      };
+      function championImage(id) { return `https://ddragon.leagueoflegends.com/cdn/${ddragonVersion}/img/champion/${id}.png`; }
+      function getVisibleChampions() {
+        const query = state.query.trim().toLowerCase();
+        if (!query) return champions;
+        return champions.filter((champion) => [champion.zh, champion.en, champion.ja, champion.ko, champion.aliases].join(" ").toLowerCase().includes(query));
+      }
+      function renderText() {
+        const copy = i18n[state.lang];
+        document.documentElement.lang = state.lang === "zh" ? "zh-CN" : state.lang === "ja" ? "ja" : state.lang === "ko" ? "ko" : "en";
+        elements.title.textContent = copy.title;
+        elements.subtitle.textContent = copy.subtitle;
+        elements.search.placeholder = copy.search;
+        elements.search.setAttribute("aria-label", copy.search);
+        elements.section.textContent = copy.section;
+        elements.empty.textContent = copy.empty;
+        elements.patch.textContent = copy.patch;
+        elements.footer.textContent = copy.footer;
+      }
+      function renderChampions() {
+        const visible = getVisibleChampions();
+        elements.count.textContent = i18n[state.lang].count(visible.length);
+        elements.empty.style.display = visible.length ? "none" : "block";
+        elements.grid.innerHTML = visible.map((champion) => {
+          const name = champion[state.lang] || champion.en;
+          const href = `champions/${champion.slug || slugify(champion.en)}/hex-brawl/`;
+          return `<a class="champion-card" href="${href}" aria-label="${name}"><span class="portrait-frame"><img class="portrait" src="${championImage(champion.id)}" alt="${name}" loading="lazy" /></span><span class="champion-name">${name}</span></a>`;
+        }).join("");
+      }
+      function render() { renderText(); renderChampions(); }
+      elements.language.addEventListener("change", (event) => { state.lang = event.target.value; render(); });
+      elements.search.addEventListener("input", (event) => { state.query = event.target.value; renderChampions(); });
+      render();
+    </script>
+  </body>
+</html>

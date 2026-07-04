@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Mordekaiser",
+    "slug": "mordekaiser",
+    "names": {
+      "zh": "莫德凯撒 铁铠冥魂",
+      "en": "the Iron Revenant Mordekaiser",
+      "ja": "鋼の魂奪者 モルデカイザー",
+      "ko": "강철의 망령 모데카이저"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "铁铠冥魂 莫德凯撒 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装",
+        "steel-door": "肉装"
+      },
+      "buildTags": {
+        "standard": "AP 战士",
+        "steel-door": "坦度"
+      },
+      "buildScores": {
+        "standard": "稳",
+        "steel-door": "可选"
+      },
+      "hexNames": {
+        "Goredrink": "渴血",
+        "HeavyHitter": "重量级打击手",
+        "Evocation": "活力焕发",
+        "IceCold": "冰寒",
+        "ADAPt": "物理转魔法",
+        "Upgrade_Immolate": "升级：献祭",
+        "SustainingStrike": "虹吸",
+        "WitchfulThinking": "巫师式思考",
+        "WarlockJuicebox": "术士果汁盒",
+        "BloodMoneyBurn": "炽燃利息",
+        "EtherealWeapon": "虚幻武器",
+        "PressureCooker": "高压锅",
+        "PhenomenalEvil": "超凡邪恶",
+        "Marksmage": "神射法师",
+        "RabbleRousing": "活力焕发",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "InfernalConduit": "炼狱导管",
+        "FinalForm": "最终形态",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "InfiniteRecursion": "无限循环往复",
+        "Dropkick": "飞身踢",
+        "GiantSlayer": "巨人杀手",
+        "CircleofDeath": "死亡之环",
+        "SlowCooker": "慢炖"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Mordekaiser guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build",
+        "steel-door": "Tank Build"
+      },
+      "buildTags": {
+        "standard": "Default",
+        "steel-door": "Tank"
+      },
+      "buildScores": {
+        "standard": "Recommended",
+        "steel-door": "Optional"
+      },
+      "hexNames": {
+        "Goredrink": "Goredrink",
+        "HeavyHitter": "Heavy Hitter",
+        "Evocation": "Evocation",
+        "IceCold": "Ice Cold",
+        "ADAPt": "ADAPt",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "SustainingStrike": "Siphon",
+        "WitchfulThinking": "Witchful Thinking",
+        "WarlockJuicebox": "Warlock Juicebox",
+        "BloodMoneyBurn": "Combusting Interest",
+        "EtherealWeapon": "Ethereal Weapon",
+        "PressureCooker": "Pressure Cooker",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "Marksmage": "Marksmage",
+        "RabbleRousing": "Rejuvenation",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "InfernalConduit": "Infernal Conduit",
+        "FinalForm": "Final Form",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Dropkick": "Dropkick",
+        "GiantSlayer": "Giant Slayer",
+        "CircleofDeath": "Circle of Death",
+        "SlowCooker": "Slow Cooker"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "鋼の魂奪者 モルデカイザー Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド",
+        "steel-door": "タンクビルド"
+      },
+      "buildTags": {
+        "standard": "標準",
+        "steel-door": "タンク"
+      },
+      "buildScores": {
+        "standard": "Recommended",
+        "steel-door": "Optional"
+      },
+      "hexNames": {
+        "Goredrink": "ゴアドリンク",
+        "HeavyHitter": "ヘビーヒッター",
+        "Evocation": "降霊",
+        "IceCold": "結氷",
+        "ADAPt": "変力装置",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "SustainingStrike": "サイフォン",
+        "WitchfulThinking": "魔法的思考",
+        "WarlockJuicebox": "大魔導師のジュースボックス",
+        "BloodMoneyBurn": "燃える利回り",
+        "EtherealWeapon": "エーテル武器",
+        "PressureCooker": "圧力鍋",
+        "PhenomenalEvil": "偉大なる悪",
+        "Marksmage": "マークスメイジ",
+        "RabbleRousing": "再生",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "InfernalConduit": "獄炎路",
+        "FinalForm": "最終形態",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "InfiniteRecursion": "無限再帰",
+        "Dropkick": "ドロップキック",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "CircleofDeath": "死者の集い",
+        "SlowCooker": "スロウクッカー"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "강철의 망령 모데카이저 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드",
+        "steel-door": "탱커 빌드"
+      },
+      "buildTags": {
+        "standard": "기본",
+        "steel-door": "탱커"
+      },
+      "buildScores": {
+        "standard": "Recommended",
+        "steel-door": "Optional"
+      },
+      "hexNames": {
+        "Goredrink": "선혈포식",
+        "HeavyHitter": "강타자",
+        "Evocation": "깨우침",
+        "IceCold": "차가운 냉기",
+        "ADAPt": "적응형 능력치",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "SustainingStrike": "흡수",
+        "WitchfulThinking": "사악한 정신",
+        "WarlockJuicebox": "마도사의 주스 상자",
+        "BloodMoneyBurn": "타오르는 이자",
+        "EtherealWeapon": "환영 무기",
+        "PressureCooker": "압력솥",
+        "PhenomenalEvil": "극악무도",
+        "Marksmage": "마법 명사수",
+        "RabbleRousing": "원기 회복",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "InfernalConduit": "지옥의 전도체",
+        "FinalForm": "최종 형태",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "InfiniteRecursion": "무한 반복",
+        "Dropkick": "드롭킥",
+        "GiantSlayer": "거인 학살자",
+        "CircleofDeath": "죽음의 순환",
+        "SlowCooker": "찜솥"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        4633,
+        3116,
+        6653,
+        3073,
+        8010,
+        3111
+      ]
+    },
+    {
+      "key": "steel-door",
+      "items": [
+        3084,
+        2502,
+        3065,
+        3083,
+        6665,
+        4633
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 20.68
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 13.66
+        },
+        {
+          "id": "Evocation",
+          "icon": "assets/ux/cherry/augments/icons/evocation_small.png",
+          "pick": 9.58
+        },
+        {
+          "id": "IceCold",
+          "icon": "assets/ux/cherry/augments/icons/icecold_small.png",
+          "pick": 9.55
+        },
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": 8.51
+        },
+        {
+          "id": "Upgrade_Immolate",
+          "icon": "assets/ux/kiwi/augments/icons/upgradeimmolate_small.png",
+          "pick": 6.06
+        },
+        {
+          "id": "SustainingStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 5.6
+        },
+        {
+          "id": "WitchfulThinking",
+          "icon": "assets/ux/cherry/augments/icons/witchfulthinking_small.png",
+          "pick": 5.12
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "WarlockJuicebox",
+          "icon": "assets/ux/kiwi/augments/icons/warlockjuicebox_small.png",
+          "pick": 28.1
+        },
+        {
+          "id": "BloodMoneyBurn",
+          "icon": "assets/ux/kiwi/augments/icons/bloodmoney2_small.png",
+          "pick": 21.86
+        },
+        {
+          "id": "EtherealWeapon",
+          "icon": "assets/ux/cherry/augments/icons/etherealweapon_small.png",
+          "pick": 16.51
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 16.48
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": 12.73
+        },
+        {
+          "id": "Marksmage",
+          "icon": "assets/ux/cherry/augments/icons/marksmage_small.png",
+          "pick": 11.08
+        },
+        {
+          "id": "RabbleRousing",
+          "icon": "assets/ux/cherry/augments/icons/rabblerousing_small.png",
+          "pick": 9.58
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 7.81
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "InfernalConduit",
+          "icon": "assets/ux/cherry/augments/icons/infernalconduit_small.png",
+          "pick": 13.09
+        },
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 6.75
+        },
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": 5.67
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": 5.17
+        },
+        {
+          "id": "Dropkick",
+          "icon": "assets/ux/kiwi/augments/icons/dropkick_large.png",
+          "pick": 1.48
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 0.22
+        },
+        {
+          "id": "CircleofDeath",
+          "icon": "assets/ux/cherry/augments/icons/circleofdeath_small.png",
+          "pick": 0.02
+        },
+        {
+          "id": "SlowCooker",
+          "icon": "assets/ux/cherry/augments/icons/slowcooker_small.png",
+          "pick": null
+        }
+      ]
+    }
+  }
+}

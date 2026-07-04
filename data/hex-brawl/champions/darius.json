@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-06-29",
+  "dataStatus": "structured-review",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。",
+  "champion": {
+    "id": "Darius",
+    "slug": "darius",
+    "names": {
+      "zh": "德莱厄斯 诺克萨斯之手",
+      "en": "the Hand of Noxus Darius",
+      "ja": "ノクサスの戦斧 ダリウス",
+      "ko": "녹서스의 실력자 다리우스"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "诺克萨斯之手 德莱厄斯 结构化出装与海克斯交集推荐，待人工审核。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装",
+        "steel-door": "肉装"
+      },
+      "buildTags": {
+        "standard": "战士",
+        "steel-door": "坦度"
+      },
+      "buildScores": {
+        "standard": "稳",
+        "steel-door": "可选"
+      },
+      "hexNames": {
+        "SpinToWin": "旋转至胜",
+        "HeavyHitter": "重量级打击手",
+        "Goredrink": "渴血",
+        "BluntForce": "大力",
+        "SustainingStrike": "虹吸",
+        "TitansPulse": "保持坚定",
+        "OceanSoul": "海洋龙魂",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "Quickstep": "快步",
+        "PressureCooker": "高压锅",
+        "BloodMoneyBurn": "炽燃利息",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "SpecializedRecursion": "急速之追求",
+        "Bonk": "邦！",
+        "Vulnerability": "易损",
+        "GrowthSpurt": "生机迸发",
+        "FinalForm": "最终形态",
+        "JeweledGauntlet": "珠光护手",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "Goliath": "歌利亚巨人",
+        "PromQueen": "舞会女王",
+        "MadScientist": "科学狂人",
+        "GiantSlayer": "巨人杀手",
+        "ClownCollege": "小丑学院"
+      },
+      "guideTitle": "一图流攻略",
+      "guideHint": "装备和海克斯先以原图入库，便于人工审核。"
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "Darius guide images, item builds, hex recommendations, and captured rune ranking screens.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build",
+        "steel-door": "Tank Build"
+      },
+      "buildTags": {
+        "standard": "Default",
+        "steel-door": "Tank"
+      },
+      "buildScores": {
+        "standard": "Recommended",
+        "steel-door": "Optional"
+      },
+      "hexNames": {
+        "SpinToWin": "Spin To Win",
+        "HeavyHitter": "Heavy Hitter",
+        "Goredrink": "Goredrink",
+        "BluntForce": "Blunt Force",
+        "SustainingStrike": "Siphon",
+        "TitansPulse": "Stay Resolute",
+        "OceanSoul": "Ocean Soul",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "Quickstep": "Quickstep",
+        "PressureCooker": "Pressure Cooker",
+        "BloodMoneyBurn": "Combusting Interest",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "SpecializedRecursion": "Pursuit of Haste",
+        "Bonk": "BONK!",
+        "Vulnerability": "Vulnerability",
+        "GrowthSpurt": "Growth Spurt",
+        "FinalForm": "Final Form",
+        "JeweledGauntlet": "Jeweled Gauntlet",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "Goliath": "Goliath",
+        "PromQueen": "Prom Queen",
+        "MadScientist": "Mad Scientist",
+        "GiantSlayer": "Giant Slayer",
+        "ClownCollege": "Clown College"
+      },
+      "guideTitle": "Guide Images",
+      "guideHint": "The original guide images are kept intact for review."
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "ノクサスの戦斧 ダリウス Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド",
+        "steel-door": "タンクビルド"
+      },
+      "buildTags": {
+        "standard": "標準",
+        "steel-door": "タンク"
+      },
+      "buildScores": {
+        "standard": "Recommended",
+        "steel-door": "Optional"
+      },
+      "hexNames": {
+        "SpinToWin": "勝利への回転",
+        "HeavyHitter": "ヘビーヒッター",
+        "Goredrink": "ゴアドリンク",
+        "BluntForce": "無骨なる力",
+        "SustainingStrike": "サイフォン",
+        "TitansPulse": "固い決意",
+        "OceanSoul": "オーシャンソウル",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "Quickstep": "クイックステップ",
+        "PressureCooker": "圧力鍋",
+        "BloodMoneyBurn": "燃える利回り",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "SpecializedRecursion": "素早さの追求",
+        "Bonk": "ボカッ！",
+        "Vulnerability": "搦め手",
+        "GrowthSpurt": "成長期",
+        "FinalForm": "最終形態",
+        "JeweledGauntlet": "ジュエル ガントレット",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "Goliath": "大巨人",
+        "PromQueen": "プロムクイーン",
+        "MadScientist": "狂気の化学者",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "ClownCollege": "ピエロ大学"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "녹서스의 실력자 다리우스 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드",
+        "steel-door": "탱커 빌드"
+      },
+      "buildTags": {
+        "standard": "기본",
+        "steel-door": "탱커"
+      },
+      "buildScores": {
+        "standard": "Recommended",
+        "steel-door": "Optional"
+      },
+      "hexNames": {
+        "SpinToWin": "승리를 위한 회전",
+        "HeavyHitter": "강타자",
+        "Goredrink": "선혈포식",
+        "BluntForce": "육중한 힘",
+        "SustainingStrike": "흡수",
+        "TitansPulse": "확고한 의지로",
+        "OceanSoul": "바다의 영혼",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "Quickstep": "날쌘걸음",
+        "PressureCooker": "압력솥",
+        "BloodMoneyBurn": "타오르는 이자",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "SpecializedRecursion": "가속 추구",
+        "Bonk": "꽁!",
+        "Vulnerability": "취약",
+        "GrowthSpurt": "급속 성장",
+        "FinalForm": "최종 형태",
+        "JeweledGauntlet": "보석 건틀릿",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "Goliath": "거인",
+        "PromQueen": "퀸카",
+        "MadScientist": "미친 과학자",
+        "GiantSlayer": "거인 학살자",
+        "ClownCollege": "광대 대학"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "items": [
+        6610,
+        3161,
+        6333,
+        3071,
+        3053,
+        3111
+      ]
+    },
+    {
+      "key": "steel-door",
+      "items": [
+        3084,
+        3083,
+        2501,
+        3161,
+        3053,
+        3111
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "SpinToWin",
+          "icon": "assets/ux/cherry/augments/icons/spintowin_small.png",
+          "pick": 24.75
+        },
+        {
+          "id": "HeavyHitter",
+          "icon": "assets/ux/cherry/augments/icons/heavyhitter_small.png",
+          "pick": 11.25
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": 10.44
+        },
+        {
+          "id": "BluntForce",
+          "icon": "assets/ux/cherry/augments/icons/bluntforce_small.png",
+          "pick": 9.81
+        },
+        {
+          "id": "SustainingStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 5.18
+        },
+        {
+          "id": "TitansPulse",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": 4.49
+        },
+        {
+          "id": "OceanSoul",
+          "icon": "assets/ux/cherry/augments/icons/oceansoul_small.png",
+          "pick": 3.41
+        },
+        {
+          "id": "UltimateUnstoppable",
+          "icon": "assets/ux/cherry/augments/icons/ultimateunstoppable_small.png",
+          "pick": 3.37
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "Quickstep",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 27.9
+        },
+        {
+          "id": "PressureCooker",
+          "icon": "assets/ux/kiwi/augments/icons/questpressurecooker_small.png",
+          "pick": 12.44
+        },
+        {
+          "id": "BloodMoneyBurn",
+          "icon": "assets/ux/kiwi/augments/icons/bloodmoney2_small.png",
+          "pick": 12.09
+        },
+        {
+          "id": "DawnbringersResolve",
+          "icon": "assets/ux/cherry/augments/icons/dawnbringersresolve_small.png",
+          "pick": 11.68
+        },
+        {
+          "id": "SpecializedRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_gold.png",
+          "pick": 9.5
+        },
+        {
+          "id": "Bonk",
+          "icon": "assets/ux/kiwi/augments/icons/bonk_large.png",
+          "pick": 9.41
+        },
+        {
+          "id": "Vulnerability",
+          "icon": "assets/ux/cherry/augments/icons/vulnerability_small.png",
+          "pick": 8.87
+        },
+        {
+          "id": "GrowthSpurt",
+          "icon": "assets/ux/kiwi/augments/icons/growthspurt_large.png",
+          "pick": 6.28
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "FinalForm",
+          "icon": "assets/ux/kiwi/augments/icons/finalform_small.png",
+          "pick": 10.92
+        },
+        {
+          "id": "JeweledGauntlet",
+          "icon": "assets/ux/cherry/augments/icons/jeweledgauntlet_small.png",
+          "pick": 6.45
+        },
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": 4.48
+        },
+        {
+          "id": "Goliath",
+          "icon": "assets/ux/cherry/augments/icons/goliath_small.png",
+          "pick": 1.1
+        },
+        {
+          "id": "PromQueen",
+          "icon": "assets/ux/kiwi/augments/icons/promqueen_small.png",
+          "pick": 0.83
+        },
+        {
+          "id": "MadScientist",
+          "icon": "assets/ux/cherry/augments/icons/madscientist_small.png",
+          "pick": 0.66
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": 0.58
+        },
+        {
+          "id": "ClownCollege",
+          "icon": "assets/ux/cherry/augments/icons/clowncollege_small.png",
+          "pick": null
+        }
+      ]
+    }
+  }
+}

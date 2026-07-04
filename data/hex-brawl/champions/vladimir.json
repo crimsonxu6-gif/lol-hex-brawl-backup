@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 3,
+  "mode": "hex-brawl",
+  "dataStatus": "builds-needs-review",
+  "champion": {
+    "id": "Vladimir",
+    "slug": "vladimir",
+    "names": {
+      "zh": "弗拉基米尔 猩红收割者",
+      "en": "the Crimson Reaper Vladimir",
+      "ja": "真紅の死神 ブラッドミア",
+      "ko": "진홍빛 사신 블라디미르"
+    }
+  },
+  "localized": {
+    "zh": {
+      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "meta": "弗拉基米尔 猩红收割者 海克斯大乱斗数据页。",
+      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
+      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "builds": {
+        "standard": "常规出装"
+      },
+      "buildTags": {
+        "standard": "常规"
+      },
+      "buildScores": {
+        "standard": "待审核"
+      },
+      "hexNames": {
+        "TankEngine": "坦克引擎",
+        "HeavyHitter": "重量级打击手",
+        "Quest_SteelYourHeart": "钢化你心",
+        "Dropkick": "飞身踢",
+        "CelestialBody": "星界躯体",
+        "Goliath": "歌利亚巨人",
+        "DawnbringersResolve": "黎明使者的坚决",
+        "MysticPunch": "秘术冲拳",
+        "Goredrink": "渴血",
+        "Upgrade_Immolate": "升级：献祭",
+        "SlapAround": "扇巴掌",
+        "BluntForce": "大力",
+        "UltimateUnstoppable": "终极不可阻挡",
+        "TransmuteGold": "质变：黄金阶",
+        "SustainingStrike": "虹吸",
+        "SoulEater": "吞噬灵魂",
+        "PressureCooker": "高压锅",
+        "Upgrade_Sheen": "升级：耀光",
+        "DarkWind": "贪欲束缚",
+        "ADAPt": "物理转魔法",
+        "Firefox": "火狐",
+        "WeightedPopoffs": "负重爆气",
+        "LegDay": "练腿日",
+        "EscapePlan": "逃跑计划",
+        "GrowthSpurt": "生机迸发",
+        "FromBeginningToEnd": "有始有终",
+        "PhenomenalEvil": "超凡邪恶",
+        "Recursion": "循环往复",
+        "ShrinkEngine": "缩小引擎",
+        "Sonata": "咏叹奏鸣",
+        "Quest_VoidImmolation": "艾卡西亚的陷落",
+        "InfernalConduit": "炼狱导管",
+        "GiantSlayer": "巨人杀手",
+        "CircleofDeath": "死亡之环",
+        "OminousPact": "不祥契约",
+        "BacktoBasics": "回归基本功",
+        "UltimateAwakening": "终极唤醒",
+        "InfiniteRecursion": "无限循环往复",
+        "Eureka": "尤里卡",
+        "Quest_WoogletsWitchcap": "沃格勒特的巫师帽"
+      }
+    },
+    "en": {
+      "eyebrow": "Hex Brawl · Patch 16.13",
+      "meta": "the Crimson Reaper Vladimir Hex Brawl guide data.",
+      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
+      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "builds": {
+        "standard": "Standard Build"
+      },
+      "buildTags": {
+        "standard": "Standard"
+      },
+      "buildScores": {
+        "standard": "Needs review"
+      },
+      "hexNames": {
+        "TankEngine": "Tank Engine",
+        "HeavyHitter": "Heavy Hitter",
+        "Quest_SteelYourHeart": "Steel Your Heart",
+        "Dropkick": "Dropkick",
+        "CelestialBody": "Celestial Body",
+        "Goliath": "Goliath",
+        "DawnbringersResolve": "Dawnbringer's Resolve",
+        "MysticPunch": "Mystic Punch",
+        "Goredrink": "Goredrink",
+        "Upgrade_Immolate": "Upgrade Immolate",
+        "SlapAround": "Slap Around",
+        "BluntForce": "Blunt Force",
+        "UltimateUnstoppable": "Ultimate Unstoppable",
+        "TransmuteGold": "Transmute: Gold",
+        "SustainingStrike": "Siphon",
+        "SoulEater": "Soul Eater",
+        "PressureCooker": "Pressure Cooker",
+        "Upgrade_Sheen": "Upgrade Sheen",
+        "DarkWind": "Ravenous Bind",
+        "ADAPt": "ADAPt",
+        "Firefox": "FireFox",
+        "WeightedPopoffs": "Weighted Popoffs",
+        "LegDay": "Leg Day",
+        "EscapePlan": "Escape Plan",
+        "GrowthSpurt": "Growth Spurt",
+        "FromBeginningToEnd": "From Beginning To End",
+        "PhenomenalEvil": "Phenomenal Evil",
+        "Recursion": "Recursion",
+        "ShrinkEngine": "Shrink Engine",
+        "Sonata": "Sonata",
+        "Quest_VoidImmolation": "Icathia's Fall",
+        "InfernalConduit": "Infernal Conduit",
+        "GiantSlayer": "Giant Slayer",
+        "CircleofDeath": "Circle of Death",
+        "OminousPact": "Ominous Pact",
+        "BacktoBasics": "Back To Basics",
+        "UltimateAwakening": "Ultimate Awakening",
+        "InfiniteRecursion": "Infinite Recursion",
+        "Eureka": "Eureka",
+        "Quest_WoogletsWitchcap": "Wooglet's Witchcap"
+      }
+    },
+    "ja": {
+      "eyebrow": "ヘクスブロウル · Patch 16.13",
+      "meta": "真紅の死神 ブラッドミア Hex Brawl guide data.",
+      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
+      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "builds": {
+        "standard": "標準ビルド"
+      },
+      "buildTags": {
+        "standard": "標準"
+      },
+      "buildScores": {
+        "standard": "要確認"
+      },
+      "hexNames": {
+        "TankEngine": "タンクエンジン",
+        "HeavyHitter": "ヘビーヒッター",
+        "Quest_SteelYourHeart": "覚悟を決めろ",
+        "Dropkick": "ドロップキック",
+        "CelestialBody": "聖体",
+        "Goliath": "大巨人",
+        "DawnbringersResolve": "ドーンブリンガーの誓い",
+        "MysticPunch": "神秘の鉄拳",
+        "Goredrink": "ゴアドリンク",
+        "Upgrade_Immolate": "猛火 アップグレード",
+        "SlapAround": "叩きまくれ",
+        "BluntForce": "無骨なる力",
+        "UltimateUnstoppable": "破竹のアルティメット",
+        "TransmuteGold": "変質: ゴールド",
+        "SustainingStrike": "サイフォン",
+        "SoulEater": "ソウルイーター",
+        "PressureCooker": "圧力鍋",
+        "Upgrade_Sheen": "シーン アップグレード",
+        "DarkWind": "貪欲な束縛",
+        "ADAPt": "変力装置",
+        "Firefox": "ファイヤーフォックス",
+        "WeightedPopoffs": "加重ポップオフ",
+        "LegDay": "レッグデー",
+        "EscapePlan": "脱出プラン",
+        "GrowthSpurt": "成長期",
+        "FromBeginningToEnd": "徹頭徹尾",
+        "PhenomenalEvil": "偉大なる悪",
+        "Recursion": "再帰",
+        "ShrinkEngine": "縮小エンジン",
+        "Sonata": "ソナタ",
+        "Quest_VoidImmolation": "イカシアの滅亡",
+        "InfernalConduit": "獄炎路",
+        "GiantSlayer": "ジャイアント スレイヤー",
+        "CircleofDeath": "死者の集い",
+        "OminousPact": "不穏な盟約",
+        "BacktoBasics": "初志貫徹",
+        "UltimateAwakening": "究極の目覚め",
+        "InfiniteRecursion": "無限再帰",
+        "Eureka": "エウレカ",
+        "Quest_WoogletsWitchcap": "ウーグレット ウィッチキャップ"
+      }
+    },
+    "ko": {
+      "eyebrow": "헥스 난투 · Patch 16.13",
+      "meta": "진홍빛 사신 블라디미르 Hex Brawl guide data.",
+      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
+      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "builds": {
+        "standard": "기본 빌드"
+      },
+      "buildTags": {
+        "standard": "기본"
+      },
+      "buildScores": {
+        "standard": "검토 필요"
+      },
+      "hexNames": {
+        "TankEngine": "탱크 엔진",
+        "HeavyHitter": "강타자",
+        "Quest_SteelYourHeart": "강철 같은 심장",
+        "Dropkick": "드롭킥",
+        "CelestialBody": "천상의 신체",
+        "Goliath": "거인",
+        "DawnbringersResolve": "빛의 인도자 결의",
+        "MysticPunch": "신비한 주먹",
+        "Goredrink": "선혈포식",
+        "Upgrade_Immolate": "불사르기 업그레이드",
+        "SlapAround": "우당탕탕",
+        "BluntForce": "육중한 힘",
+        "UltimateUnstoppable": "궁극의 저지 불가",
+        "TransmuteGold": "전환: 골드",
+        "SustainingStrike": "흡수",
+        "SoulEater": "영혼의 포식자",
+        "PressureCooker": "압력솥",
+        "Upgrade_Sheen": "광휘의 검 업그레이드",
+        "DarkWind": "굶주린 속박",
+        "ADAPt": "적응형 능력치",
+        "Firefox": "불여우",
+        "WeightedPopoffs": "중량 폭주",
+        "LegDay": "하체 운동의 날",
+        "EscapePlan": "도주 계획",
+        "GrowthSpurt": "급속 성장",
+        "FromBeginningToEnd": "시작부터 끝까지",
+        "PhenomenalEvil": "극악무도",
+        "Recursion": "되풀이",
+        "ShrinkEngine": "축소 엔진",
+        "Sonata": "소나타",
+        "Quest_VoidImmolation": "이케시아의 몰락",
+        "InfernalConduit": "지옥의 전도체",
+        "GiantSlayer": "거인 학살자",
+        "CircleofDeath": "죽음의 순환",
+        "OminousPact": "불길한 서약",
+        "BacktoBasics": "기본으로 돌아가기",
+        "UltimateAwakening": "궁극의 각성",
+        "InfiniteRecursion": "무한 반복",
+        "Eureka": "유레카",
+        "Quest_WoogletsWitchcap": "우글렛의 마녀 모자"
+      }
+    }
+  },
+  "builds": [
+    {
+      "key": "standard",
+      "type": "ap",
+      "items": [
+        3087,
+        4645,
+        6653,
+        3118,
+        4633,
+        3020
+      ]
+    }
+  ],
+  "hexes": {
+    "silver": {
+      "rows": [
+        {
+          "id": "ADAPt",
+          "icon": "assets/ux/cherry/augments/icons/adapt_small.png",
+          "pick": null
+        },
+        {
+          "id": "Firefox",
+          "icon": "assets/ux/cherry/augments/icons/firfox_small.png",
+          "pick": null
+        },
+        {
+          "id": "Goredrink",
+          "icon": "assets/ux/cherry/augments/icons/goredrink_small.png",
+          "pick": null
+        },
+        {
+          "id": "WeightedPopoffs",
+          "icon": "assets/ux/kiwi/augments/icons/weightedpopoffs_large.png",
+          "pick": null
+        },
+        {
+          "id": "LegDay",
+          "icon": "assets/ux/cherry/augments/icons/legday_small.png",
+          "pick": null
+        },
+        {
+          "id": "EscapePlan",
+          "icon": "assets/ux/kiwi/augments/icons/escapeplan_small.png",
+          "pick": null
+        }
+      ]
+    },
+    "gold": {
+      "rows": [
+        {
+          "id": "SustainingStrike",
+          "icon": "assets/ux/kiwi/augments/icons/genericabilityaugmenticon_silver.png",
+          "pick": null
+        },
+        {
+          "id": "CelestialBody",
+          "icon": "assets/ux/cherry/augments/icons/celestialbody_small.png",
+          "pick": null
+        },
+        {
+          "id": "GrowthSpurt",
+          "icon": "assets/ux/kiwi/augments/icons/growthspurt_large.png",
+          "pick": null
+        },
+        {
+          "id": "FromBeginningToEnd",
+          "icon": "assets/ux/cherry/augments/icons/frombeginningtoend_small.png",
+          "pick": null
+        },
+        {
+          "id": "PhenomenalEvil",
+          "icon": "assets/ux/kiwi/augments/icons/aram_phenomenalevil_small.png",
+          "pick": null
+        },
+        {
+          "id": "Recursion",
+          "icon": "assets/ux/cherry/augments/icons/recursion_small.png",
+          "pick": null
+        },
+        {
+          "id": "ShrinkEngine",
+          "icon": "assets/ux/kiwi/augments/icons/shrinkengine_large.png",
+          "pick": null
+        },
+        {
+          "id": "Sonata",
+          "icon": "assets/ux/kiwi/augments/icons/sonata_large.png",
+          "pick": null
+        }
+      ]
+    },
+    "prismatic": {
+      "rows": [
+        {
+          "id": "Quest_VoidImmolation",
+          "icon": "assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfernalConduit",
+          "icon": "assets/ux/cherry/augments/icons/infernalconduit_small.png",
+          "pick": null
+        },
+        {
+          "id": "GiantSlayer",
+          "icon": "assets/ux/cherry/augments/icons/giantslayer_small.png",
+          "pick": null
+        },
+        {
+          "id": "CircleofDeath",
+          "icon": "assets/ux/cherry/augments/icons/circleofdeath_small.png",
+          "pick": null
+        },
+        {
+          "id": "OminousPact",
+          "icon": "assets/ux/cherry/augments/icons/wisdomofages_small.png",
+          "pick": null
+        },
+        {
+          "id": "BacktoBasics",
+          "icon": "assets/ux/cherry/augments/icons/backtobasics_small.png",
+          "pick": null
+        },
+        {
+          "id": "UltimateAwakening",
+          "icon": "assets/ux/kiwi/augments/icons/zerohour_small.png",
+          "pick": null
+        },
+        {
+          "id": "InfiniteRecursion",
+          "icon": "assets/ux/kiwi/augments/icons/infiniterecursion_small.png",
+          "pick": null
+        },
+        {
+          "id": "Eureka",
+          "icon": "assets/ux/cherry/augments/icons/eureka_small.png",
+          "pick": null
+        },
+        {
+          "id": "Quest_WoogletsWitchcap",
+          "icon": "assets/ux/cherry/augments/icons/quest_woogletswitchcap_small.png",
+          "pick": null
+        }
+      ]
+    }
+  },
+  "patch": "16.13",
+  "gameDataVersion": "16.13.1",
+  "updatedAt": "2026-07-04",
+  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+}

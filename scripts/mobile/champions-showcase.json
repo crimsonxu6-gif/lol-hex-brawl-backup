@@ -1,0 +1,23 @@
+[
+  { "name": "复仇焰魂", "slug": "brand" },
+  { "name": "疾风剑豪", "slug": "yasuo" },
+  { "name": "封魔剑魂", "slug": "yone" },
+  { "name": "腕豪", "slug": "sett" },
+  { "name": "德玛西亚之力", "slug": "garen" },
+  { "name": "暴走萝莉", "slug": "jinx" },
+  { "name": "寒冰射手", "slug": "ashe" },
+  { "name": "虚空之女", "slug": "kaisa" },
+  { "name": "暗夜猎手", "slug": "vayne" },
+  { "name": "影流之主", "slug": "zed" },
+  { "name": "不祥之刃", "slug": "katarina" },
+  { "name": "无极剑圣", "slug": "master-yi" },
+  { "name": "盲僧", "slug": "lee-sin" },
+  { "name": "光辉女郎", "slug": "lux" },
+  { "name": "九尾妖狐", "slug": "ahri" },
+  { "name": "探险家", "slug": "ezreal" },
+  { "name": "沙漠玫瑰", "slug": "samira" },
+  { "name": "诺克萨斯之手", "slug": "darius" },
+  { "name": "铁铠冥魂", "slug": "mordekaiser" },
+  { "name": "邪恶小法师", "slug": "veigar" },
+  { "name": "正义天使", "slug": "kayle" }
+]
