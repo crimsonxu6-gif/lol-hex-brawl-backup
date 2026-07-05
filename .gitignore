@@ -17,3 +17,6 @@ captures/logs/
 # OS/editor noise
 Thumbs.db
 .DS_Store
+
+.vercel
+.env*
