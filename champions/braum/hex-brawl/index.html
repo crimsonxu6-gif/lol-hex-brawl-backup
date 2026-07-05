@@ -157,6 +157,7 @@
           <option value="en">English</option>
           <option value="ja">日本語</option>
           <option value="ko">한국어</option>
+          <option value="es">Español</option>
         </select>
       </header>
 
@@ -220,9 +221,20 @@
       let championData = null;
       const dataUrl = "../../../data/hex-brawl/champions/braum.json";
       const cdragonBase = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/";
+      const languageStorageKey = "hexBrawlLanguage";
+      const supportedLanguages = ["zh", "en", "ja", "ko", "es"];
       const initialLang = new URLSearchParams(window.location.search).get("lang");
+      function storedLanguage() {
+        try { return localStorage.getItem(languageStorageKey); } catch (error) { return null; }
+      }
+      function saveLanguage(lang) {
+        try { localStorage.setItem(languageStorageKey, lang); } catch (error) {}
+      }
+      function documentLang(lang) {
+        return lang === "zh" ? "zh-CN" : lang === "ja" ? "ja" : lang === "ko" ? "ko" : lang === "es" ? "es" : "en";
+      }
       const state = {
-        lang: ["zh", "en", "ja", "ko"].includes(initialLang) ? initialLang : "zh",
+        lang: supportedLanguages.includes(initialLang) ? initialLang : (supportedLanguages.includes(storedLanguage()) ? storedLanguage() : "zh"),
         selectedBuild: null
       };
 
@@ -258,6 +270,14 @@
           silver: "실버", gold: "골드", prismatic: "프리즘",
           route: "경로", score: "평가", noBuilds: "구조화된 빌드가 아직 없습니다.", noHexes: "표시할 증강 데이터가 없습니다.",
           footer: "Riot 비공식 팬 프로젝트입니다.", loadError: "데이터 파일을 불러오지 못했습니다."
+        },
+        es: {
+          back: "Inicio", buildTab: "Builds", hexTab: "Aumentos",
+          buildTitle: "Rutas de build", buildHint: "Las rutas de build se organizan a partir de guias e informacion actual de objetos.",
+          hexTitle: "Mejores aumentos", hexHint: "Las recomendaciones se agrupan por Plata, Oro y Prismatico.",
+          silver: "Plata", gold: "Oro", prismatic: "Prismatico",
+          route: "Ruta", score: "Nota", noBuilds: "Aun no hay builds estructuradas para este campeon.", noHexes: "Aun no hay datos de aumentos disponibles.",
+          footer: "Proyecto no oficial de fans. Los datos de objetos y aumentos sirven como referencia para Hex Brawl.", loadError: "No se pudo cargar el archivo de datos. Abre esta pagina mediante un servidor local."
         }
       };
 
@@ -320,9 +340,9 @@
       function renderText() {
         const c = t();
         const dataCopy = localizedData();
-        const championName = championData?.champion?.names?.[state.lang] || championData?.seo?.name || "";
+        const championName = championData?.champion?.names?.[state.lang] || championData?.champion?.names?.en || championData?.seo?.name || "";
         elements.language.value = state.lang;
-        document.documentElement.lang = state.lang === "zh" ? "zh-CN" : state.lang === "ja" ? "ja" : state.lang === "ko" ? "ko" : "en";
+        document.documentElement.lang = documentLang(state.lang);
         document.title = championData?.seo?.title || (championName + " Hex Brawl Build & Best Augments Guide (2026 Meta)");
         elements.back.textContent = c.back;
         elements.eyebrow.textContent = dataCopy.eyebrow || ("Hex Brawl · Patch " + (championData?.patch || ""));
@@ -409,6 +429,7 @@
       }
       elements.language.addEventListener("change", function (event) {
         state.lang = event.target.value;
+        saveLanguage(state.lang);
         render();
       });
       document.querySelectorAll(".tab").forEach(function (tab) {

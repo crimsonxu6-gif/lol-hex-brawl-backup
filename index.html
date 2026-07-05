@@ -80,6 +80,7 @@
           <option value="en">English</option>
           <option value="ja">日本語</option>
           <option value="ko">한국어</option>
+          <option value="es">Español</option>
         </select>
       </header>
       <section class="hero" aria-labelledby="pageTitle">
@@ -106,7 +107,8 @@
         zh: { title: "海克斯大乱斗助手", subtitle: "Hex Brawl Helper", search: "搜索英雄，例如：亚索、Ashe、Yone...", section: "英雄图鉴", empty: "没有找到英雄", count: (n) => `${n} 位英雄`, patch: "Patch 16.13", footer: "非 Riot 官方项目。当前页面用于海克斯大乱斗出装与海克斯数据整理。" },
         en: { title: "Hex Brawl Helper", subtitle: "ARAM Hextech Brawl Guide", search: "Search champions, e.g. Yasuo, Ashe, Yone...", section: "Champion Index", empty: "No champions found", count: (n) => `${n} champions`, patch: "Patch 16.13", footer: "This is an unofficial fan-made guide prototype. It is not endorsed by Riot Games." },
         ja: { title: "ヘクスブロウル助手", subtitle: "Hex Brawl Helper", search: "チャンピオンを検索: Yasuo, Ashe, Yone...", section: "チャンピオン一覧", empty: "チャンピオンが見つかりません", count: (n) => `${n} 体`, patch: "Patch 16.13", footer: "Riot 非公式のファンプロジェクトです。" },
-        ko: { title: "헥스 난투 도우미", subtitle: "Hex Brawl Helper", search: "챔피언 검색: Yasuo, Ashe, Yone...", section: "챔피언 목록", empty: "챔피언을 찾을 수 없습니다", count: (n) => `${n} champions`, patch: "Patch 16.13", footer: "Riot 공식 프로젝트가 아닌 팬 제작 가이드입니다." }
+        ko: { title: "헥스 난투 도우미", subtitle: "Hex Brawl Helper", search: "챔피언 검색: Yasuo, Ashe, Yone...", section: "챔피언 목록", empty: "챔피언을 찾을 수 없습니다", count: (n) => `${n} champions`, patch: "Patch 16.13", footer: "Riot 공식 프로젝트가 아닌 팬 제작 가이드입니다." },
+        es: { title: "Asistente de Hex Brawl", subtitle: "Guia de builds y aumentos", search: "Buscar campeones, p. ej. Yasuo, Ashe, Yone...", section: "Indice de campeones", empty: "No se encontraron campeones", count: (n) => `${n} campeones`, patch: "Patch 16.13", footer: "Proyecto no oficial de fans. No esta respaldado por Riot Games." }
       };
       const champions = [
         {
@@ -1667,7 +1669,19 @@
                 "aliases": "zoe 佐伊 暮光星灵 the Aspect of Twilight Zoe 超常の遊び ゾーイ 여명의 성위 조이"
         }
 ];
-      const state = { lang: "zh", query: "" };
+      const languageStorageKey = "hexBrawlLanguage";
+      const supportedLanguages = ["zh", "en", "ja", "ko", "es"];
+      const initialLang = new URLSearchParams(window.location.search).get("lang");
+      function storedLanguage() {
+        try { return localStorage.getItem(languageStorageKey); } catch (error) { return null; }
+      }
+      function saveLanguage(lang) {
+        try { localStorage.setItem(languageStorageKey, lang); } catch (error) {}
+      }
+      function documentLang(lang) {
+        return lang === "zh" ? "zh-CN" : lang === "ja" ? "ja" : lang === "ko" ? "ko" : lang === "es" ? "es" : "en";
+      }
+      const state = { lang: supportedLanguages.includes(initialLang) ? initialLang : (supportedLanguages.includes(storedLanguage()) ? storedLanguage() : "zh"), query: "" };
       const elements = {
         language: document.getElementById("languageSelect"),
         title: document.getElementById("pageTitle"),
@@ -1687,8 +1701,9 @@
         return champions.filter((champion) => [champion.zh, champion.en, champion.ja, champion.ko, champion.aliases].join(" ").toLowerCase().includes(query));
       }
       function renderText() {
-        const copy = i18n[state.lang];
-        document.documentElement.lang = state.lang === "zh" ? "zh-CN" : state.lang === "ja" ? "ja" : state.lang === "ko" ? "ko" : "en";
+        const copy = i18n[state.lang] || i18n.zh;
+        document.documentElement.lang = documentLang(state.lang);
+        elements.language.value = state.lang;
         elements.title.textContent = copy.title;
         elements.subtitle.textContent = copy.subtitle;
         elements.search.placeholder = copy.search;
@@ -1704,12 +1719,12 @@
         elements.empty.style.display = visible.length ? "none" : "block";
         elements.grid.innerHTML = visible.map((champion) => {
           const name = champion[state.lang] || champion.en;
-          const href = `champions/${champion.slug || slugify(champion.en)}/hex-brawl/`;
+          const href = `champions/${champion.slug || slugify(champion.en)}/hex-brawl/?lang=${encodeURIComponent(state.lang)}`;
           return `<a class="champion-card" href="${href}" aria-label="${name}"><span class="portrait-frame"><img class="portrait" src="${championImage(champion.id)}" alt="${name}" loading="lazy" /></span><span class="champion-name">${name}</span></a>`;
         }).join("");
       }
       function render() { renderText(); renderChampions(); }
-      elements.language.addEventListener("change", (event) => { state.lang = event.target.value; render(); });
+      elements.language.addEventListener("change", (event) => { state.lang = event.target.value; saveLanguage(state.lang); render(); });
       elements.search.addEventListener("input", (event) => { state.query = event.target.value; renderChampions(); });
       render();
     </script>

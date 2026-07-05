@@ -96,6 +96,22 @@ D:\LOL\scripts\local-static-server.mjs
 
 `submit-indexnow.mjs` reads `sitemap.xml` and submits all URLs to IndexNow.
 
+## Language Behavior
+
+The public site now has five language options in the selector:
+
+- `zh`
+- `en`
+- `ja`
+- `ko`
+- `es`
+
+Homepage language state is saved in `localStorage` under `hexBrawlLanguage`.
+
+When a user changes language on `/`, champion card links include `?lang={language}`. Champion detail pages also read `?lang=...`, fall back to `localStorage`, and save future language changes to the same key. This keeps the selected language across all champion detail pages.
+
+Spanish currently localizes the site UI labels. Champion names, build names, and augment names fall back to English when no `localized.es` data exists.
+
 ## SEO Rules Already Implemented
 
 Each champion page should use this title template:
@@ -302,4 +318,3 @@ Possible monetization path:
    - run `node scripts\apply-hex-brawl-seo.mjs` if SEO/static pages need regeneration
    - deploy with `npx vercel --yes --prod`
    - run `node scripts\submit-indexnow.mjs`
-
