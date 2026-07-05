@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "mode": "hex-brawl",
-  "dataStatus": "builds-needs-review",
+  "dataStatus": "published",
   "champion": {
     "id": "Trundle",
     "slug": "trundle",
@@ -15,9 +15,9 @@
   "localized": {
     "zh": {
       "eyebrow": "海克斯大乱斗 · Patch 16.13",
-      "meta": "特朗德尔 巨魔之王 海克斯大乱斗数据页。",
-      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
-      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "meta": "特朗德尔 巨魔之王 海克斯乱斗出装与最佳海克斯推荐。",
+      "buildHint": "按不同玩法整理推荐出装。",
+      "hexHint": "海克斯使用当前版本图标，并结合一图流与掌盟数据整理。",
       "builds": {
         "terrain": "地形专家出装",
         "ap": "无地形专家出装",
@@ -29,9 +29,9 @@
         "bruiser": "战士"
       },
       "buildScores": {
-        "terrain": "待审核",
-        "ap": "待审核",
-        "bruiser": "待审核"
+        "terrain": "推荐",
+        "ap": "推荐",
+        "bruiser": "推荐"
       },
       "hexNames": {
         "SlapAround": "扇巴掌",
@@ -55,13 +55,14 @@
         "UltimateAwakening": "终极唤醒",
         "Quest_VoidImmolation": "艾卡西亚的陷落",
         "BacktoBasics": "回归基本功"
-      }
+      },
+      "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
     },
     "en": {
       "eyebrow": "Hex Brawl · Patch 16.13",
-      "meta": "the Troll King Trundle Hex Brawl guide data.",
-      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
-      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "meta": "Trundle Hex Brawl builds and best augment recommendations.",
+      "buildHint": "Build routes are organized from guide images and current item data.",
+      "hexHint": "Augments use current icons and are organized from guide images and app data.",
       "builds": {
         "terrain": "Terrain Expert Build",
         "ap": "No Terrain Expert Build",
@@ -73,9 +74,9 @@
         "bruiser": "Bruiser"
       },
       "buildScores": {
-        "terrain": "Needs review",
-        "ap": "Needs review",
-        "bruiser": "Needs review"
+        "terrain": "Recommended",
+        "ap": "Recommended",
+        "bruiser": "Recommended"
       },
       "hexNames": {
         "SlapAround": "Slap Around",
@@ -99,13 +100,14 @@
         "UltimateAwakening": "Ultimate Awakening",
         "Quest_VoidImmolation": "Icathia's Fall",
         "BacktoBasics": "Back To Basics"
-      }
+      },
+      "guideHint": "Guide images are used only as source material; detail pages show structured data."
     },
     "ja": {
       "eyebrow": "ヘクスブロウル · Patch 16.13",
       "meta": "トロールキング トランドル Hex Brawl guide data.",
-      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
-      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "buildHint": "ビルドルートはガイド画像と現在のアイテムデータをもとに整理しています。",
+      "hexHint": "オーグメントは現在のアイコンとガイド画像をもとに整理しています。",
       "builds": {
         "terrain": "地形専門ビルド",
         "ap": "地形専門なしビルド",
@@ -143,13 +145,14 @@
         "UltimateAwakening": "究極の目覚め",
         "Quest_VoidImmolation": "イカシアの滅亡",
         "BacktoBasics": "初志貫徹"
-      }
+      },
+      "guideHint": "ガイド画像は確認用で、詳細ページには構造化データを表示します。"
     },
     "ko": {
       "eyebrow": "헥스 난투 · Patch 16.13",
       "meta": "트롤 왕 트런들 Hex Brawl guide data.",
-      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
-      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "buildHint": "빌드 경로는 가이드 이미지와 현재 아이템 데이터를 기준으로 정리했습니다.",
+      "hexHint": "증강은 현재 아이콘과 가이드 이미지를 기준으로 정리했습니다.",
       "builds": {
         "terrain": "지형 전문가 빌드",
         "ap": "지형 전문가 없음 빌드",
@@ -187,7 +190,8 @@
         "UltimateAwakening": "궁극의 각성",
         "Quest_VoidImmolation": "이케시아의 몰락",
         "BacktoBasics": "기본으로 돌아가기"
-      }
+      },
+      "guideHint": "가이드 이미지는 확인용이며 상세 페이지에는 구조화 데이터를 표시합니다."
     }
   },
   "builds": [
@@ -347,5 +351,50 @@
   "patch": "16.13",
   "gameDataVersion": "16.13.1",
   "updatedAt": "2026-06-29",
-  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+  "sourceNote": "非 Riot 官方项目；装备和海克斯数据用于海克斯大乱斗出装与推荐参考。",
+  "seo": {
+    "name": "Trundle",
+    "zhName": "特朗德尔 巨魔之王",
+    "role": "fighter",
+    "roleLabel": "Fighter",
+    "title": "Trundle Hex Brawl Build & Best Augments Guide (2026 Meta)",
+    "zhTitle": "特朗德尔 巨魔之王 海克斯乱斗 出装与最佳海克斯推荐（回归玩家指南）",
+    "description": "Find the best Hex Brawl augments and builds for Trundle in the current meta. Includes tiered recommendations, item paths, and beginner-friendly explanations.",
+    "keywords": [
+      "trundle hex brawl build",
+      "best trundle augments",
+      "trundle item build guide",
+      "trundle reroll strategy",
+      "trundle beginner guide",
+      "lol hex brawl",
+      "hex brawl builds",
+      "lol augment guide",
+      "league of legends augments",
+      "特朗德尔 巨魔之王 海克斯乱斗 出装",
+      "特朗德尔 巨魔之王 最佳海克斯推荐"
+    ],
+    "canonical": "https://lol-hex-brawl-backup.vercel.app/champions/trundle/hex-brawl/",
+    "related": [
+      {
+        "slug": "tryndamere",
+        "name": "Tryndamere"
+      },
+      {
+        "slug": "twisted-fate",
+        "name": "Twisted Fate"
+      },
+      {
+        "slug": "udyr",
+        "name": "Udyr"
+      },
+      {
+        "slug": "urgot",
+        "name": "Urgot"
+      },
+      {
+        "slug": "vi",
+        "name": "Vi"
+      }
+    ]
+  }
 }

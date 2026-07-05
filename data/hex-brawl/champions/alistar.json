@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "mode": "hex-brawl",
-  "dataStatus": "builds-needs-review",
+  "dataStatus": "published",
   "champion": {
     "id": "Alistar",
     "slug": "alistar",
@@ -15,9 +15,9 @@
   "localized": {
     "zh": {
       "eyebrow": "海克斯大乱斗 · Patch 16.13",
-      "meta": "阿利斯塔 牛头酋长 海克斯大乱斗数据页。",
-      "buildHint": "出装按已审核数据展示；新增英雄会在装备复核后补齐。",
-      "hexHint": "海克斯使用最新版官方图标；新增英雄先按掌盟截图选取率排序。",
+      "meta": "阿利斯塔 牛头酋长 海克斯乱斗出装与最佳海克斯推荐。",
+      "buildHint": "按不同玩法整理推荐出装。",
+      "hexHint": "海克斯使用当前版本图标，并结合一图流与掌盟数据整理。",
       "builds": {
         "tank": "肉装",
         "ap": "AP 出装"
@@ -27,8 +27,8 @@
         "ap": "AP"
       },
       "buildScores": {
-        "tank": "待审核",
-        "ap": "待审核"
+        "tank": "推荐",
+        "ap": "推荐"
       },
       "hexNames": {
         "Upgrade_Immolate": "升级：献祭",
@@ -58,9 +58,9 @@
     },
     "en": {
       "eyebrow": "Hex Brawl · Patch 16.13",
-      "meta": "the Minotaur Alistar Hex Brawl guide data.",
-      "buildHint": "Reviewed builds are shown first. New champion builds will be added after item review.",
-      "hexHint": "Hexes use current official icons. New champions start from captured app rankings.",
+      "meta": "Alistar Hex Brawl builds and best augment recommendations.",
+      "buildHint": "Build routes are organized from guide images and current item data.",
+      "hexHint": "Augments use current icons and are organized from guide images and app data.",
       "builds": {
         "tank": "Tank Build",
         "ap": "AP Build"
@@ -70,8 +70,8 @@
         "ap": "AP"
       },
       "buildScores": {
-        "tank": "Needs review",
-        "ap": "Needs review"
+        "tank": "Recommended",
+        "ap": "Recommended"
       },
       "hexNames": {
         "Upgrade_Immolate": "Upgrade Immolate",
@@ -97,13 +97,13 @@
         "Cruelty": "Cruelty"
       },
       "guideTitle": "Guide Image",
-      "guideHint": "Guide images are kept only for checking items and hexes; the detail page shows structured data."
+      "guideHint": "Guide images are used only as source material; detail pages show structured data."
     },
     "ja": {
       "eyebrow": "ヘクスブロウル · Patch 16.13",
       "meta": "ミノタウロスの戦士 アリスター Hex Brawl guide data.",
-      "buildHint": "確認済みのビルドを表示します。新規チャンピオンの装備は確認後に追加します。",
-      "hexHint": "ヘクスは最新版の公式アイコンを使用します。",
+      "buildHint": "ビルドルートはガイド画像と現在のアイテムデータをもとに整理しています。",
+      "hexHint": "オーグメントは現在のアイコンとガイド画像をもとに整理しています。",
       "builds": {
         "tank": "タンクビルド",
         "ap": "APビルド"
@@ -140,13 +140,13 @@
         "Cruelty": "冷酷な一撃"
       },
       "guideTitle": "ガイド画像",
-      "guideHint": "ガイド画像は確認用です。詳細ページには構造化データを表示します。"
+      "guideHint": "ガイド画像は確認用で、詳細ページには構造化データを表示します。"
     },
     "ko": {
       "eyebrow": "헥스 난투 · Patch 16.13",
       "meta": "미노타우로스 알리스타 Hex Brawl guide data.",
-      "buildHint": "검수된 빌드를 먼저 표시합니다. 신규 챔피언 빌드는 장비 확인 후 추가됩니다.",
-      "hexHint": "증강은 최신 공식 아이콘을 사용합니다.",
+      "buildHint": "빌드 경로는 가이드 이미지와 현재 아이템 데이터를 기준으로 정리했습니다.",
+      "hexHint": "증강은 현재 아이콘과 가이드 이미지를 기준으로 정리했습니다.",
       "builds": {
         "tank": "탱커 빌드",
         "ap": "AP 빌드"
@@ -332,5 +332,50 @@
   "patch": "16.13",
   "gameDataVersion": "16.13.1",
   "updatedAt": "2026-06-29",
-  "sourceNote": "非 Riot 官方项目；装备来自人工审核数据，海克斯使用官方当前版本图标并结合掌盟截图整理。"
+  "sourceNote": "非 Riot 官方项目；装备和海克斯数据用于海克斯大乱斗出装与推荐参考。",
+  "seo": {
+    "name": "Alistar",
+    "zhName": "阿利斯塔 牛头酋长",
+    "role": "support",
+    "roleLabel": "Support",
+    "title": "Alistar Hex Brawl Build & Best Augments Guide (2026 Meta)",
+    "zhTitle": "阿利斯塔 牛头酋长 海克斯乱斗 出装与最佳海克斯推荐（回归玩家指南）",
+    "description": "Find the best Hex Brawl augments and builds for Alistar in the current meta. Includes tiered recommendations, item paths, and beginner-friendly explanations.",
+    "keywords": [
+      "alistar hex brawl build",
+      "best alistar augments",
+      "alistar item build guide",
+      "alistar reroll strategy",
+      "alistar beginner guide",
+      "lol hex brawl",
+      "hex brawl builds",
+      "lol augment guide",
+      "league of legends augments",
+      "阿利斯塔 牛头酋长 海克斯乱斗 出装",
+      "阿利斯塔 牛头酋长 最佳海克斯推荐"
+    ],
+    "canonical": "https://lol-hex-brawl-backup.vercel.app/champions/alistar/hex-brawl/",
+    "related": [
+      {
+        "slug": "bard",
+        "name": "Bard"
+      },
+      {
+        "slug": "blitzcrank",
+        "name": "Blitzcrank"
+      },
+      {
+        "slug": "braum",
+        "name": "Braum"
+      },
+      {
+        "slug": "ivern",
+        "name": "Ivern"
+      },
+      {
+        "slug": "janna",
+        "name": "Janna"
+      }
+    ]
+  }
 }
