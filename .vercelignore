@@ -1,0 +1,10 @@
+.git
+.cache
+.edge-profile*
+.server*.log
+.server.pid
+debug-*
+brand-detail-*.png
+lol-hex-brawl-backup-*.zip
+captures/debug
+captures/logs
