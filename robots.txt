@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lol-hex-brawl-backup.vercel.app/sitemap.xml
+Sitemap: https://lol-hex-brawl.vercel.app/sitemap.xml

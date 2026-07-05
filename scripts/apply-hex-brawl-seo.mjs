@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = path.join(rootDir, "data", "hex-brawl", "champions");
 const championsDir = path.join(rootDir, "champions");
-const siteUrl = "https://lol-hex-brawl-backup.vercel.app";
+const siteUrl = "https://lol-hex-brawl.vercel.app";
 
 const roleLabels = {
   mage: "Mage",
