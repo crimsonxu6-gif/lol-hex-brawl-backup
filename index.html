@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LOL Hex Brawl Builds & League of Legends Augments Guide (2026 Meta)</title>
-    <meta name="description" content="Browse LOL Hex Brawl builds, champion item paths, best augments, reroll strategy, and beginner-friendly League of Legends augment guides." />
-    <meta name="keywords" content="lol hex brawl, hex brawl builds, lol augment guide, league of legends augments, hex brawl champion builds" />
+    <title>ARAM Mayhem Builds, Tier List & League of Legends Augments Guide (2026 Meta)</title>
+    <meta name="description" content="Browse ARAM Mayhem builds, champion item paths, best augments, counters, tier list, and beginner-friendly League of Legends guide pages." />
+    <meta name="keywords" content="aram mayhem, aram mayhem tier list, aram mayhem builds, best champions aram mayhem, lol augment guide, league of legends augments" />
     <link rel="canonical" href="https://lol-hex-brawl.vercel.app/" />
     <style>
       :root {
@@ -85,7 +85,7 @@
       </header>
       <section class="hero" aria-labelledby="pageTitle">
         <h1 id="pageTitle" class="title">海克斯大乱斗助手</h1>
-        <p id="subtitle" class="subtitle">Hex Brawl Helper</p>
+        <p id="subtitle" class="subtitle">ARAM Mayhem Guide</p>
         <div class="search-wrap">
           <span class="search-icon" aria-hidden="true">⌕</span>
           <input id="searchInput" class="search" type="search" autocomplete="off" placeholder="搜索英雄，例如：亚索、Ashe、Yone..." aria-label="Search champions" />
@@ -104,11 +104,11 @@
     <script>
       const ddragonVersion = "16.13.1";
       const i18n = {
-        zh: { title: "海克斯大乱斗助手", subtitle: "Hex Brawl Helper", search: "搜索英雄，例如：亚索、Ashe、Yone...", section: "英雄图鉴", empty: "没有找到英雄", count: (n) => `${n} 位英雄`, patch: "Patch 16.13", footer: "非 Riot 官方项目。当前页面用于海克斯大乱斗出装与海克斯数据整理。" },
-        en: { title: "Hex Brawl Helper", subtitle: "ARAM Hextech Brawl Guide", search: "Search champions, e.g. Yasuo, Ashe, Yone...", section: "Champion Index", empty: "No champions found", count: (n) => `${n} champions`, patch: "Patch 16.13", footer: "This is an unofficial fan-made guide prototype. It is not endorsed by Riot Games." },
-        ja: { title: "ヘクスブロウル助手", subtitle: "Hex Brawl Helper", search: "チャンピオンを検索: Yasuo, Ashe, Yone...", section: "チャンピオン一覧", empty: "チャンピオンが見つかりません", count: (n) => `${n} 体`, patch: "Patch 16.13", footer: "Riot 非公式のファンプロジェクトです。" },
-        ko: { title: "헥스 난투 도우미", subtitle: "Hex Brawl Helper", search: "챔피언 검색: Yasuo, Ashe, Yone...", section: "챔피언 목록", empty: "챔피언을 찾을 수 없습니다", count: (n) => `${n} champions`, patch: "Patch 16.13", footer: "Riot 공식 프로젝트가 아닌 팬 제작 가이드입니다." },
-        es: { title: "Asistente de Hex Brawl", subtitle: "Guia de builds y aumentos", search: "Buscar campeones, p. ej. Yasuo, Ashe, Yone...", section: "Indice de campeones", empty: "No se encontraron campeones", count: (n) => `${n} campeones`, patch: "Patch 16.13", footer: "Proyecto no oficial de fans. No esta respaldado por Riot Games." }
+        zh: { title: "ARAM Mayhem 助手", subtitle: "出装、海克斯、克制与榜单", search: "搜索英雄，例如：亚索、Ashe、Yone...", section: "英雄图鉴", empty: "没有找到英雄", count: (n) => `${n} 位英雄`, patch: "Patch 16.13", footer: "非 Riot 官方项目。当前页面用于 ARAM Mayhem 出装、海克斯与克制数据整理。" },
+        en: { title: "ARAM Mayhem Helper", subtitle: "Builds, tier list, counters, and augments", search: "Search champions, e.g. Yasuo, Ashe, Yone...", section: "Champion Index", empty: "No champions found", count: (n) => `${n} champions`, patch: "Patch 16.13", footer: "This is an unofficial fan-made guide prototype. It is not endorsed by Riot Games." },
+        ja: { title: "ARAM Mayhem ガイド", subtitle: "ビルド、ティアリスト、カウンター、オーグメント", search: "チャンピオンを検索: Yasuo, Ashe, Yone...", section: "チャンピオン一覧", empty: "チャンピオンが見つかりません", count: (n) => `${n} 体`, patch: "Patch 16.13", footer: "Riot 非公式のファンプロジェクトです。" },
+        ko: { title: "ARAM Mayhem 가이드", subtitle: "빌드, 티어 리스트, 카운터, 증강", search: "챔피언 검색: Yasuo, Ashe, Yone...", section: "챔피언 목록", empty: "챔피언을 찾을 수 없습니다", count: (n) => `${n} champions`, patch: "Patch 16.13", footer: "Riot 공식 프로젝트가 아닌 팬 제작 가이드입니다." },
+        es: { title: "Guia de ARAM Mayhem", subtitle: "Builds, tier list, counters y aumentos", search: "Buscar campeones, p. ej. Yasuo, Ashe, Yone...", section: "Indice de campeones", empty: "No se encontraron campeones", count: (n) => `${n} campeones`, patch: "Patch 16.13", footer: "Proyecto no oficial de fans. No esta respaldado por Riot Games." }
       };
       const champions = [
         {
@@ -1719,7 +1719,7 @@
         elements.empty.style.display = visible.length ? "none" : "block";
         elements.grid.innerHTML = visible.map((champion) => {
           const name = champion[state.lang] || champion.en;
-          const href = `champions/${champion.slug || slugify(champion.en)}/hex-brawl/?lang=${encodeURIComponent(state.lang)}`;
+          const href = `aram-mayhem/${champion.slug || slugify(champion.en)}-build/?lang=${encodeURIComponent(state.lang)}`;
           return `<a class="champion-card" href="${href}" aria-label="${name}"><span class="portrait-frame"><img class="portrait" src="${championImage(champion.id)}" alt="${name}" loading="lazy" /></span><span class="champion-name">${name}</span></a>`;
         }).join("");
       }

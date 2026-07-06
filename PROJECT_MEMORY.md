@@ -1,5 +1,26 @@
 # LOL Hex Brawl Project Memory
 
+## 2026-07-06 SEO Direction Override
+
+The public SEO direction is now ARAM Mayhem, not Hex Brawl.
+
+Use these rules for all new public SEO work:
+
+- Main keyword: `ARAM Mayhem`.
+- Primary public hub: `https://lol-hex-brawl.vercel.app/aram-mayhem/`.
+- Champion build URLs: `/aram-mayhem/{champion}-build/`.
+- Champion counter URLs: `/aram-mayhem/{champion}-counter/`.
+- Champion guide URLs: `/aram-mayhem/{champion}-guide/`.
+- Hub pages: `/aram-mayhem/tier-list/`, `/aram-mayhem/meta/`, `/aram-mayhem/how-to-play/`, `/aram-mayhem/beginners-guide/`.
+- Patch pages: `/aram-mayhem/patches/26-13/`, `/aram-mayhem/patches/26-14/`.
+- Role/category pages: `/aram-mayhem/mage/`, `/aram-mayhem/adc/`, `/aram-mayhem/assassin/`, `/aram-mayhem/fighter/`, `/aram-mayhem/tank/`, `/aram-mayhem/support/`.
+- Legacy `/champions/{champion}/hex-brawl/` URLs should redirect to `/aram-mayhem/{champion}-build/` on Vercel.
+- Sitemap should index the ARAM Mayhem pages and should not list legacy champion Hex Brawl URLs.
+- Static SEO generator: `D:\LOL\scripts\apply-aram-mayhem-seo.mjs`.
+- After SEO/static updates, run `node scripts\apply-aram-mayhem-seo.mjs`, deploy with `npx vercel --yes --prod`, then submit the updated sitemap through `node scripts\submit-indexnow.mjs`.
+
+The old `data/hex-brawl/...` directory remains the internal reviewed data source. Do not rename or rewrite that data path unless the import/audit scripts are migrated too.
+
 Last updated: 2026-07-05
 
 This document records the important project state so future Codex sessions can recover context after conversation compaction or a new window.

@@ -2,1100 +2,2667 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lol-hex-brawl.vercel.app/</loc>
-    <lastmod>2026-07-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/tier-list/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/tier-list/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/meta/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/how-to-play/</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/meta/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/beginners-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/patches/26-13/</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/guides/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/patches/26-14/</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/guides/mage/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/mage/</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/guides/adc/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/adc/</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/guides/assassin/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/assassin/</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/guides/fighter/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/fighter/</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/guides/tank/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/tank/</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/guides/support/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/support/</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/aatrox/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aatrox-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/ahri/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aatrox-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/akali/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aatrox-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/akshan/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ahri-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/alistar/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ahri-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/ambessa/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ahri-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/amumu/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/akali-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/anivia/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/akali-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/annie/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/akali-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/aphelios/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/akshan-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/ashe/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/akshan-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/aurelion-sol/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/akshan-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/aurora/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/alistar-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/azir/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/alistar-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/bard/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/alistar-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/belveth/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ambessa-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/blitzcrank/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ambessa-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/brand/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ambessa-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/braum/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/amumu-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/briar/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/amumu-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/caitlyn/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/amumu-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/camille/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/anivia-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/cassiopeia/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/anivia-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/chogath/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/anivia-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/corki/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/annie-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/darius/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/annie-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/diana/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/annie-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/dr-mundo/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aphelios-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/draven/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aphelios-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/ekko/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aphelios-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/elise/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ashe-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/evelynn/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ashe-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/ezreal/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ashe-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/fiddlesticks/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aurelion-sol-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/fiora/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aurelion-sol-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/fizz/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aurelion-sol-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/galio/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aurora-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/gangplank/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aurora-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/garen/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/aurora-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/gnar/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/azir-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/gragas/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/azir-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/graves/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/azir-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/gwen/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/bard-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/hecarim/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/bard-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/heimerdinger/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/bard-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/hwei/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/belveth-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/illaoi/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/belveth-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/irelia/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/belveth-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/ivern/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/blitzcrank-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/janna/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/blitzcrank-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/jarvan-iv/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/blitzcrank-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/jax/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/brand-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/jayce/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/brand-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/jhin/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/brand-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/jinx/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/braum-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/kaisa/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/braum-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/kalista/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/braum-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/karma/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/briar-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/karthus/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/briar-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/kassadin/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/briar-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/katarina/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/caitlyn-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/kayle/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/caitlyn-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/kayn/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/caitlyn-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/kennen/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/camille-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/khazix/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/camille-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/kindred/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/camille-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/kled/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/cassiopeia-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/kogmaw/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/cassiopeia-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/ksante/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/cassiopeia-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/leblanc/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/chogath-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/lee-sin/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/chogath-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/leona/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/chogath-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/lillia/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/corki-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/lissandra/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/corki-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/locke/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/corki-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/lucian/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/darius-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/lulu/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/darius-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/lux/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/darius-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/malphite/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/diana-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/malzahar/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/diana-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/maokai/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/diana-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/master-yi/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/dr-mundo-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/mel/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/dr-mundo-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/milio/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/dr-mundo-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/miss-fortune/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/draven-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/mordekaiser/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/draven-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/morgana/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/draven-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/naafiri/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ekko-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/nami/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ekko-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/nasus/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ekko-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/nautilus/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/elise-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/neeko/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/elise-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/nidalee/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/elise-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/nilah/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/evelynn-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/nocturne/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/evelynn-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/nunu/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/evelynn-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/olaf/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ezreal-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/orianna/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ezreal-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/ornn/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ezreal-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/pantheon/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/fiddlesticks-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/poppy/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/fiddlesticks-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/pyke/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/fiddlesticks-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/qiyana/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/fiora-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/quinn/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/fiora-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/rakan/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/fiora-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/rammus/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/fizz-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/rek-sai/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/fizz-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/rell/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/fizz-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/renata-glasc/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/galio-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/renekton/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/galio-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/rengar/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/galio-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/riven/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gangplank-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/rumble/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gangplank-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/ryze/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gangplank-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/samira/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/garen-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/sejuani/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/garen-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/senna/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/garen-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/seraphine/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gnar-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/sett/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gnar-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/shaco/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gnar-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/shen/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gragas-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/shyvana/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gragas-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/singed/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gragas-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/sion/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/graves-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/sivir/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/graves-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/skarner/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/graves-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/smolder/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gwen-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/sona/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gwen-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/soraka/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/gwen-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/swain/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/hecarim-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/sylas/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/hecarim-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/syndra/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/hecarim-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/tahm-kench/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/heimerdinger-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/taliyah/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/heimerdinger-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/talon/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/heimerdinger-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/taric/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/hwei-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/teemo/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/hwei-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/thresh/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/hwei-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/tristana/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/illaoi-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/trundle/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/illaoi-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/tryndamere/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/illaoi-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/twisted-fate/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/irelia-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/twitch/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/irelia-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/udyr/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/irelia-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/urgot/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ivern-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/varus/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ivern-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/vayne/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ivern-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/veigar/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/janna-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/velkoz/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/janna-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/vex/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/janna-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/vi/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jarvan-iv-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/viego/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jarvan-iv-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/viktor/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jarvan-iv-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/vladimir/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jax-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/volibear/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jax-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/warwick/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jax-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/wukong/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jayce-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/xayah/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jayce-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/xerath/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jayce-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/xin-zhao/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jhin-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/yasuo/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jhin-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/yone/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jhin-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/yorick/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jinx-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/yunara/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jinx-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/yuumi/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/jinx-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/zaahen/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kaisa-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/zac/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kaisa-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/zed/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kaisa-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/zeri/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kalista-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/ziggs/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kalista-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/zilean/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kalista-guide/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/zoe/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/karma-build/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lol-hex-brawl.vercel.app/champions/zyra/hex-brawl/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/karma-counter/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/karma-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/karthus-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/karthus-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/karthus-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kassadin-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kassadin-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kassadin-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/katarina-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/katarina-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/katarina-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kayle-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kayle-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kayle-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kayn-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kayn-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kayn-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kennen-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kennen-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kennen-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/khazix-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/khazix-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/khazix-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kindred-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kindred-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kindred-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kled-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kled-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kled-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kogmaw-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kogmaw-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/kogmaw-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ksante-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ksante-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ksante-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/leblanc-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/leblanc-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/leblanc-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lee-sin-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lee-sin-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lee-sin-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/leona-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/leona-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/leona-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lillia-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lillia-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lillia-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lissandra-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lissandra-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lissandra-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/locke-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/locke-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/locke-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lucian-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lucian-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lucian-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lulu-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lulu-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lulu-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lux-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lux-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/lux-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/malphite-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/malphite-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/malphite-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/malzahar-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/malzahar-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/malzahar-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/maokai-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/maokai-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/maokai-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/master-yi-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/master-yi-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/master-yi-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/mel-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/mel-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/mel-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/milio-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/milio-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/milio-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/miss-fortune-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/miss-fortune-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/miss-fortune-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/mordekaiser-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/mordekaiser-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/mordekaiser-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/morgana-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/morgana-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/morgana-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/naafiri-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/naafiri-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/naafiri-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nami-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nami-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nami-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nasus-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nasus-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nasus-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nautilus-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nautilus-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nautilus-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/neeko-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/neeko-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/neeko-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nidalee-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nidalee-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nidalee-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nilah-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nilah-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nilah-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nocturne-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nocturne-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nocturne-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nunu-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nunu-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/nunu-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/olaf-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/olaf-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/olaf-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/orianna-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/orianna-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/orianna-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ornn-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ornn-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ornn-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/pantheon-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/pantheon-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/pantheon-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/poppy-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/poppy-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/poppy-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/pyke-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/pyke-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/pyke-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/qiyana-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/qiyana-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/qiyana-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/quinn-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/quinn-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/quinn-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rakan-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rakan-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rakan-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rammus-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rammus-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rammus-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rek-sai-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rek-sai-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rek-sai-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rell-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rell-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rell-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/renata-glasc-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/renata-glasc-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/renata-glasc-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/renekton-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/renekton-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/renekton-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rengar-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rengar-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rengar-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/riven-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/riven-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/riven-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rumble-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rumble-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/rumble-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ryze-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ryze-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ryze-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/samira-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/samira-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/samira-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sejuani-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sejuani-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sejuani-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/senna-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/senna-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/senna-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/seraphine-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/seraphine-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/seraphine-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sett-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sett-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sett-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/shaco-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/shaco-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/shaco-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/shen-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/shen-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/shen-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/shyvana-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/shyvana-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/shyvana-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/singed-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/singed-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/singed-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sion-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sion-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sion-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sivir-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sivir-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sivir-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/skarner-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/skarner-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/skarner-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/smolder-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/smolder-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/smolder-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sona-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sona-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sona-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/soraka-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/soraka-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/soraka-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/swain-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/swain-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/swain-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sylas-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sylas-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/sylas-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/syndra-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/syndra-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/syndra-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/tahm-kench-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/tahm-kench-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/tahm-kench-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/taliyah-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/taliyah-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/taliyah-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/talon-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/talon-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/talon-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/taric-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/taric-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/taric-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/teemo-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/teemo-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/teemo-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/thresh-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/thresh-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/thresh-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/tristana-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/tristana-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/tristana-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/trundle-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/trundle-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/trundle-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/tryndamere-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/tryndamere-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/tryndamere-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/twisted-fate-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/twisted-fate-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/twisted-fate-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/twitch-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/twitch-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/twitch-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/udyr-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/udyr-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/udyr-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/urgot-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/urgot-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/urgot-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/varus-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/varus-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/varus-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vayne-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vayne-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vayne-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/veigar-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/veigar-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/veigar-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/velkoz-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/velkoz-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/velkoz-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vex-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vex-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vex-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vi-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vi-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vi-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/viego-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/viego-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/viego-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/viktor-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/viktor-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/viktor-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vladimir-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vladimir-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/vladimir-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/volibear-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/volibear-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/volibear-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/warwick-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/warwick-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/warwick-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/wukong-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/wukong-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/wukong-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/xayah-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/xayah-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/xayah-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/xerath-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/xerath-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/xerath-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/xin-zhao-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/xin-zhao-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/xin-zhao-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yasuo-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yasuo-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yasuo-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yone-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yone-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yone-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yorick-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yorick-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yorick-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yunara-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yunara-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yunara-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yuumi-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yuumi-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/yuumi-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zaahen-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zaahen-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zaahen-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zac-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zac-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zac-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zed-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zed-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zed-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zeri-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zeri-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zeri-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ziggs-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ziggs-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/ziggs-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zilean-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zilean-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zilean-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zoe-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zoe-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zoe-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zyra-build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zyra-counter/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lol-hex-brawl.vercel.app/aram-mayhem/zyra-guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

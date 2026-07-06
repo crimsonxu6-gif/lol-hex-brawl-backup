@@ -1,0 +1,1764 @@
+{
+  "redirects": [
+    {
+      "source": "/tier-list",
+      "destination": "/aram-mayhem/tier-list/",
+      "permanent": true
+    },
+    {
+      "source": "/tier-list/",
+      "destination": "/aram-mayhem/tier-list/",
+      "permanent": true
+    },
+    {
+      "source": "/meta",
+      "destination": "/aram-mayhem/meta/",
+      "permanent": true
+    },
+    {
+      "source": "/meta/",
+      "destination": "/aram-mayhem/meta/",
+      "permanent": true
+    },
+    {
+      "source": "/guides",
+      "destination": "/aram-mayhem/how-to-play/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/",
+      "destination": "/aram-mayhem/how-to-play/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/aatrox/hex-brawl",
+      "destination": "/aram-mayhem/aatrox-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/aatrox/hex-brawl/",
+      "destination": "/aram-mayhem/aatrox-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ahri/hex-brawl",
+      "destination": "/aram-mayhem/ahri-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ahri/hex-brawl/",
+      "destination": "/aram-mayhem/ahri-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/akali/hex-brawl",
+      "destination": "/aram-mayhem/akali-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/akali/hex-brawl/",
+      "destination": "/aram-mayhem/akali-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/akshan/hex-brawl",
+      "destination": "/aram-mayhem/akshan-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/akshan/hex-brawl/",
+      "destination": "/aram-mayhem/akshan-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/alistar/hex-brawl",
+      "destination": "/aram-mayhem/alistar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/alistar/hex-brawl/",
+      "destination": "/aram-mayhem/alistar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ambessa/hex-brawl",
+      "destination": "/aram-mayhem/ambessa-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ambessa/hex-brawl/",
+      "destination": "/aram-mayhem/ambessa-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/amumu/hex-brawl",
+      "destination": "/aram-mayhem/amumu-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/amumu/hex-brawl/",
+      "destination": "/aram-mayhem/amumu-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/anivia/hex-brawl",
+      "destination": "/aram-mayhem/anivia-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/anivia/hex-brawl/",
+      "destination": "/aram-mayhem/anivia-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/annie/hex-brawl",
+      "destination": "/aram-mayhem/annie-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/annie/hex-brawl/",
+      "destination": "/aram-mayhem/annie-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/aphelios/hex-brawl",
+      "destination": "/aram-mayhem/aphelios-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/aphelios/hex-brawl/",
+      "destination": "/aram-mayhem/aphelios-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ashe/hex-brawl",
+      "destination": "/aram-mayhem/ashe-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ashe/hex-brawl/",
+      "destination": "/aram-mayhem/ashe-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/aurelion-sol/hex-brawl",
+      "destination": "/aram-mayhem/aurelion-sol-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/aurelion-sol/hex-brawl/",
+      "destination": "/aram-mayhem/aurelion-sol-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/aurora/hex-brawl",
+      "destination": "/aram-mayhem/aurora-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/aurora/hex-brawl/",
+      "destination": "/aram-mayhem/aurora-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/azir/hex-brawl",
+      "destination": "/aram-mayhem/azir-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/azir/hex-brawl/",
+      "destination": "/aram-mayhem/azir-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/bard/hex-brawl",
+      "destination": "/aram-mayhem/bard-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/bard/hex-brawl/",
+      "destination": "/aram-mayhem/bard-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/belveth/hex-brawl",
+      "destination": "/aram-mayhem/belveth-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/belveth/hex-brawl/",
+      "destination": "/aram-mayhem/belveth-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/blitzcrank/hex-brawl",
+      "destination": "/aram-mayhem/blitzcrank-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/blitzcrank/hex-brawl/",
+      "destination": "/aram-mayhem/blitzcrank-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/brand/hex-brawl",
+      "destination": "/aram-mayhem/brand-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/brand/hex-brawl/",
+      "destination": "/aram-mayhem/brand-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/braum/hex-brawl",
+      "destination": "/aram-mayhem/braum-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/braum/hex-brawl/",
+      "destination": "/aram-mayhem/braum-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/briar/hex-brawl",
+      "destination": "/aram-mayhem/briar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/briar/hex-brawl/",
+      "destination": "/aram-mayhem/briar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/caitlyn/hex-brawl",
+      "destination": "/aram-mayhem/caitlyn-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/caitlyn/hex-brawl/",
+      "destination": "/aram-mayhem/caitlyn-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/camille/hex-brawl",
+      "destination": "/aram-mayhem/camille-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/camille/hex-brawl/",
+      "destination": "/aram-mayhem/camille-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/cassiopeia/hex-brawl",
+      "destination": "/aram-mayhem/cassiopeia-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/cassiopeia/hex-brawl/",
+      "destination": "/aram-mayhem/cassiopeia-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/chogath/hex-brawl",
+      "destination": "/aram-mayhem/chogath-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/chogath/hex-brawl/",
+      "destination": "/aram-mayhem/chogath-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/corki/hex-brawl",
+      "destination": "/aram-mayhem/corki-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/corki/hex-brawl/",
+      "destination": "/aram-mayhem/corki-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/darius/hex-brawl",
+      "destination": "/aram-mayhem/darius-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/darius/hex-brawl/",
+      "destination": "/aram-mayhem/darius-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/diana/hex-brawl",
+      "destination": "/aram-mayhem/diana-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/diana/hex-brawl/",
+      "destination": "/aram-mayhem/diana-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/dr-mundo/hex-brawl",
+      "destination": "/aram-mayhem/dr-mundo-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/dr-mundo/hex-brawl/",
+      "destination": "/aram-mayhem/dr-mundo-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/draven/hex-brawl",
+      "destination": "/aram-mayhem/draven-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/draven/hex-brawl/",
+      "destination": "/aram-mayhem/draven-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ekko/hex-brawl",
+      "destination": "/aram-mayhem/ekko-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ekko/hex-brawl/",
+      "destination": "/aram-mayhem/ekko-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/elise/hex-brawl",
+      "destination": "/aram-mayhem/elise-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/elise/hex-brawl/",
+      "destination": "/aram-mayhem/elise-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/evelynn/hex-brawl",
+      "destination": "/aram-mayhem/evelynn-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/evelynn/hex-brawl/",
+      "destination": "/aram-mayhem/evelynn-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ezreal/hex-brawl",
+      "destination": "/aram-mayhem/ezreal-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ezreal/hex-brawl/",
+      "destination": "/aram-mayhem/ezreal-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/fiddlesticks/hex-brawl",
+      "destination": "/aram-mayhem/fiddlesticks-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/fiddlesticks/hex-brawl/",
+      "destination": "/aram-mayhem/fiddlesticks-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/fiora/hex-brawl",
+      "destination": "/aram-mayhem/fiora-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/fiora/hex-brawl/",
+      "destination": "/aram-mayhem/fiora-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/fizz/hex-brawl",
+      "destination": "/aram-mayhem/fizz-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/fizz/hex-brawl/",
+      "destination": "/aram-mayhem/fizz-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/galio/hex-brawl",
+      "destination": "/aram-mayhem/galio-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/galio/hex-brawl/",
+      "destination": "/aram-mayhem/galio-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/gangplank/hex-brawl",
+      "destination": "/aram-mayhem/gangplank-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/gangplank/hex-brawl/",
+      "destination": "/aram-mayhem/gangplank-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/garen/hex-brawl",
+      "destination": "/aram-mayhem/garen-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/garen/hex-brawl/",
+      "destination": "/aram-mayhem/garen-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/gnar/hex-brawl",
+      "destination": "/aram-mayhem/gnar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/gnar/hex-brawl/",
+      "destination": "/aram-mayhem/gnar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/gragas/hex-brawl",
+      "destination": "/aram-mayhem/gragas-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/gragas/hex-brawl/",
+      "destination": "/aram-mayhem/gragas-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/graves/hex-brawl",
+      "destination": "/aram-mayhem/graves-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/graves/hex-brawl/",
+      "destination": "/aram-mayhem/graves-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/gwen/hex-brawl",
+      "destination": "/aram-mayhem/gwen-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/gwen/hex-brawl/",
+      "destination": "/aram-mayhem/gwen-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/hecarim/hex-brawl",
+      "destination": "/aram-mayhem/hecarim-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/hecarim/hex-brawl/",
+      "destination": "/aram-mayhem/hecarim-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/heimerdinger/hex-brawl",
+      "destination": "/aram-mayhem/heimerdinger-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/heimerdinger/hex-brawl/",
+      "destination": "/aram-mayhem/heimerdinger-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/hwei/hex-brawl",
+      "destination": "/aram-mayhem/hwei-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/hwei/hex-brawl/",
+      "destination": "/aram-mayhem/hwei-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/illaoi/hex-brawl",
+      "destination": "/aram-mayhem/illaoi-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/illaoi/hex-brawl/",
+      "destination": "/aram-mayhem/illaoi-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/irelia/hex-brawl",
+      "destination": "/aram-mayhem/irelia-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/irelia/hex-brawl/",
+      "destination": "/aram-mayhem/irelia-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ivern/hex-brawl",
+      "destination": "/aram-mayhem/ivern-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ivern/hex-brawl/",
+      "destination": "/aram-mayhem/ivern-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/janna/hex-brawl",
+      "destination": "/aram-mayhem/janna-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/janna/hex-brawl/",
+      "destination": "/aram-mayhem/janna-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/jarvan-iv/hex-brawl",
+      "destination": "/aram-mayhem/jarvan-iv-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/jarvan-iv/hex-brawl/",
+      "destination": "/aram-mayhem/jarvan-iv-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/jax/hex-brawl",
+      "destination": "/aram-mayhem/jax-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/jax/hex-brawl/",
+      "destination": "/aram-mayhem/jax-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/jayce/hex-brawl",
+      "destination": "/aram-mayhem/jayce-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/jayce/hex-brawl/",
+      "destination": "/aram-mayhem/jayce-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/jhin/hex-brawl",
+      "destination": "/aram-mayhem/jhin-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/jhin/hex-brawl/",
+      "destination": "/aram-mayhem/jhin-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/jinx/hex-brawl",
+      "destination": "/aram-mayhem/jinx-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/jinx/hex-brawl/",
+      "destination": "/aram-mayhem/jinx-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kaisa/hex-brawl",
+      "destination": "/aram-mayhem/kaisa-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kaisa/hex-brawl/",
+      "destination": "/aram-mayhem/kaisa-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kalista/hex-brawl",
+      "destination": "/aram-mayhem/kalista-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kalista/hex-brawl/",
+      "destination": "/aram-mayhem/kalista-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/karma/hex-brawl",
+      "destination": "/aram-mayhem/karma-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/karma/hex-brawl/",
+      "destination": "/aram-mayhem/karma-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/karthus/hex-brawl",
+      "destination": "/aram-mayhem/karthus-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/karthus/hex-brawl/",
+      "destination": "/aram-mayhem/karthus-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kassadin/hex-brawl",
+      "destination": "/aram-mayhem/kassadin-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kassadin/hex-brawl/",
+      "destination": "/aram-mayhem/kassadin-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/katarina/hex-brawl",
+      "destination": "/aram-mayhem/katarina-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/katarina/hex-brawl/",
+      "destination": "/aram-mayhem/katarina-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kayle/hex-brawl",
+      "destination": "/aram-mayhem/kayle-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kayle/hex-brawl/",
+      "destination": "/aram-mayhem/kayle-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kayn/hex-brawl",
+      "destination": "/aram-mayhem/kayn-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kayn/hex-brawl/",
+      "destination": "/aram-mayhem/kayn-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kennen/hex-brawl",
+      "destination": "/aram-mayhem/kennen-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kennen/hex-brawl/",
+      "destination": "/aram-mayhem/kennen-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/khazix/hex-brawl",
+      "destination": "/aram-mayhem/khazix-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/khazix/hex-brawl/",
+      "destination": "/aram-mayhem/khazix-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kindred/hex-brawl",
+      "destination": "/aram-mayhem/kindred-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kindred/hex-brawl/",
+      "destination": "/aram-mayhem/kindred-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kled/hex-brawl",
+      "destination": "/aram-mayhem/kled-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kled/hex-brawl/",
+      "destination": "/aram-mayhem/kled-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kogmaw/hex-brawl",
+      "destination": "/aram-mayhem/kogmaw-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/kogmaw/hex-brawl/",
+      "destination": "/aram-mayhem/kogmaw-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ksante/hex-brawl",
+      "destination": "/aram-mayhem/ksante-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ksante/hex-brawl/",
+      "destination": "/aram-mayhem/ksante-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/leblanc/hex-brawl",
+      "destination": "/aram-mayhem/leblanc-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/leblanc/hex-brawl/",
+      "destination": "/aram-mayhem/leblanc-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lee-sin/hex-brawl",
+      "destination": "/aram-mayhem/lee-sin-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lee-sin/hex-brawl/",
+      "destination": "/aram-mayhem/lee-sin-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/leona/hex-brawl",
+      "destination": "/aram-mayhem/leona-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/leona/hex-brawl/",
+      "destination": "/aram-mayhem/leona-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lillia/hex-brawl",
+      "destination": "/aram-mayhem/lillia-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lillia/hex-brawl/",
+      "destination": "/aram-mayhem/lillia-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lissandra/hex-brawl",
+      "destination": "/aram-mayhem/lissandra-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lissandra/hex-brawl/",
+      "destination": "/aram-mayhem/lissandra-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/locke/hex-brawl",
+      "destination": "/aram-mayhem/locke-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/locke/hex-brawl/",
+      "destination": "/aram-mayhem/locke-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lucian/hex-brawl",
+      "destination": "/aram-mayhem/lucian-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lucian/hex-brawl/",
+      "destination": "/aram-mayhem/lucian-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lulu/hex-brawl",
+      "destination": "/aram-mayhem/lulu-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lulu/hex-brawl/",
+      "destination": "/aram-mayhem/lulu-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lux/hex-brawl",
+      "destination": "/aram-mayhem/lux-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/lux/hex-brawl/",
+      "destination": "/aram-mayhem/lux-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/malphite/hex-brawl",
+      "destination": "/aram-mayhem/malphite-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/malphite/hex-brawl/",
+      "destination": "/aram-mayhem/malphite-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/malzahar/hex-brawl",
+      "destination": "/aram-mayhem/malzahar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/malzahar/hex-brawl/",
+      "destination": "/aram-mayhem/malzahar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/maokai/hex-brawl",
+      "destination": "/aram-mayhem/maokai-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/maokai/hex-brawl/",
+      "destination": "/aram-mayhem/maokai-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/master-yi/hex-brawl",
+      "destination": "/aram-mayhem/master-yi-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/master-yi/hex-brawl/",
+      "destination": "/aram-mayhem/master-yi-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/mel/hex-brawl",
+      "destination": "/aram-mayhem/mel-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/mel/hex-brawl/",
+      "destination": "/aram-mayhem/mel-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/milio/hex-brawl",
+      "destination": "/aram-mayhem/milio-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/milio/hex-brawl/",
+      "destination": "/aram-mayhem/milio-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/miss-fortune/hex-brawl",
+      "destination": "/aram-mayhem/miss-fortune-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/miss-fortune/hex-brawl/",
+      "destination": "/aram-mayhem/miss-fortune-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/mordekaiser/hex-brawl",
+      "destination": "/aram-mayhem/mordekaiser-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/mordekaiser/hex-brawl/",
+      "destination": "/aram-mayhem/mordekaiser-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/morgana/hex-brawl",
+      "destination": "/aram-mayhem/morgana-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/morgana/hex-brawl/",
+      "destination": "/aram-mayhem/morgana-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/naafiri/hex-brawl",
+      "destination": "/aram-mayhem/naafiri-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/naafiri/hex-brawl/",
+      "destination": "/aram-mayhem/naafiri-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nami/hex-brawl",
+      "destination": "/aram-mayhem/nami-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nami/hex-brawl/",
+      "destination": "/aram-mayhem/nami-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nasus/hex-brawl",
+      "destination": "/aram-mayhem/nasus-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nasus/hex-brawl/",
+      "destination": "/aram-mayhem/nasus-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nautilus/hex-brawl",
+      "destination": "/aram-mayhem/nautilus-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nautilus/hex-brawl/",
+      "destination": "/aram-mayhem/nautilus-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/neeko/hex-brawl",
+      "destination": "/aram-mayhem/neeko-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/neeko/hex-brawl/",
+      "destination": "/aram-mayhem/neeko-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nidalee/hex-brawl",
+      "destination": "/aram-mayhem/nidalee-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nidalee/hex-brawl/",
+      "destination": "/aram-mayhem/nidalee-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nilah/hex-brawl",
+      "destination": "/aram-mayhem/nilah-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nilah/hex-brawl/",
+      "destination": "/aram-mayhem/nilah-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nocturne/hex-brawl",
+      "destination": "/aram-mayhem/nocturne-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nocturne/hex-brawl/",
+      "destination": "/aram-mayhem/nocturne-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nunu/hex-brawl",
+      "destination": "/aram-mayhem/nunu-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/nunu/hex-brawl/",
+      "destination": "/aram-mayhem/nunu-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/olaf/hex-brawl",
+      "destination": "/aram-mayhem/olaf-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/olaf/hex-brawl/",
+      "destination": "/aram-mayhem/olaf-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/orianna/hex-brawl",
+      "destination": "/aram-mayhem/orianna-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/orianna/hex-brawl/",
+      "destination": "/aram-mayhem/orianna-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ornn/hex-brawl",
+      "destination": "/aram-mayhem/ornn-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ornn/hex-brawl/",
+      "destination": "/aram-mayhem/ornn-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/pantheon/hex-brawl",
+      "destination": "/aram-mayhem/pantheon-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/pantheon/hex-brawl/",
+      "destination": "/aram-mayhem/pantheon-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/poppy/hex-brawl",
+      "destination": "/aram-mayhem/poppy-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/poppy/hex-brawl/",
+      "destination": "/aram-mayhem/poppy-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/pyke/hex-brawl",
+      "destination": "/aram-mayhem/pyke-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/pyke/hex-brawl/",
+      "destination": "/aram-mayhem/pyke-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/qiyana/hex-brawl",
+      "destination": "/aram-mayhem/qiyana-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/qiyana/hex-brawl/",
+      "destination": "/aram-mayhem/qiyana-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/quinn/hex-brawl",
+      "destination": "/aram-mayhem/quinn-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/quinn/hex-brawl/",
+      "destination": "/aram-mayhem/quinn-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rakan/hex-brawl",
+      "destination": "/aram-mayhem/rakan-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rakan/hex-brawl/",
+      "destination": "/aram-mayhem/rakan-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rammus/hex-brawl",
+      "destination": "/aram-mayhem/rammus-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rammus/hex-brawl/",
+      "destination": "/aram-mayhem/rammus-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rek-sai/hex-brawl",
+      "destination": "/aram-mayhem/rek-sai-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rek-sai/hex-brawl/",
+      "destination": "/aram-mayhem/rek-sai-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rell/hex-brawl",
+      "destination": "/aram-mayhem/rell-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rell/hex-brawl/",
+      "destination": "/aram-mayhem/rell-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/renata-glasc/hex-brawl",
+      "destination": "/aram-mayhem/renata-glasc-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/renata-glasc/hex-brawl/",
+      "destination": "/aram-mayhem/renata-glasc-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/renekton/hex-brawl",
+      "destination": "/aram-mayhem/renekton-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/renekton/hex-brawl/",
+      "destination": "/aram-mayhem/renekton-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rengar/hex-brawl",
+      "destination": "/aram-mayhem/rengar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rengar/hex-brawl/",
+      "destination": "/aram-mayhem/rengar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/riven/hex-brawl",
+      "destination": "/aram-mayhem/riven-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/riven/hex-brawl/",
+      "destination": "/aram-mayhem/riven-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rumble/hex-brawl",
+      "destination": "/aram-mayhem/rumble-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/rumble/hex-brawl/",
+      "destination": "/aram-mayhem/rumble-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ryze/hex-brawl",
+      "destination": "/aram-mayhem/ryze-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ryze/hex-brawl/",
+      "destination": "/aram-mayhem/ryze-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/samira/hex-brawl",
+      "destination": "/aram-mayhem/samira-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/samira/hex-brawl/",
+      "destination": "/aram-mayhem/samira-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sejuani/hex-brawl",
+      "destination": "/aram-mayhem/sejuani-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sejuani/hex-brawl/",
+      "destination": "/aram-mayhem/sejuani-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/senna/hex-brawl",
+      "destination": "/aram-mayhem/senna-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/senna/hex-brawl/",
+      "destination": "/aram-mayhem/senna-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/seraphine/hex-brawl",
+      "destination": "/aram-mayhem/seraphine-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/seraphine/hex-brawl/",
+      "destination": "/aram-mayhem/seraphine-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sett/hex-brawl",
+      "destination": "/aram-mayhem/sett-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sett/hex-brawl/",
+      "destination": "/aram-mayhem/sett-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/shaco/hex-brawl",
+      "destination": "/aram-mayhem/shaco-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/shaco/hex-brawl/",
+      "destination": "/aram-mayhem/shaco-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/shen/hex-brawl",
+      "destination": "/aram-mayhem/shen-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/shen/hex-brawl/",
+      "destination": "/aram-mayhem/shen-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/shyvana/hex-brawl",
+      "destination": "/aram-mayhem/shyvana-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/shyvana/hex-brawl/",
+      "destination": "/aram-mayhem/shyvana-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/singed/hex-brawl",
+      "destination": "/aram-mayhem/singed-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/singed/hex-brawl/",
+      "destination": "/aram-mayhem/singed-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sion/hex-brawl",
+      "destination": "/aram-mayhem/sion-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sion/hex-brawl/",
+      "destination": "/aram-mayhem/sion-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sivir/hex-brawl",
+      "destination": "/aram-mayhem/sivir-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sivir/hex-brawl/",
+      "destination": "/aram-mayhem/sivir-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/skarner/hex-brawl",
+      "destination": "/aram-mayhem/skarner-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/skarner/hex-brawl/",
+      "destination": "/aram-mayhem/skarner-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/smolder/hex-brawl",
+      "destination": "/aram-mayhem/smolder-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/smolder/hex-brawl/",
+      "destination": "/aram-mayhem/smolder-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sona/hex-brawl",
+      "destination": "/aram-mayhem/sona-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sona/hex-brawl/",
+      "destination": "/aram-mayhem/sona-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/soraka/hex-brawl",
+      "destination": "/aram-mayhem/soraka-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/soraka/hex-brawl/",
+      "destination": "/aram-mayhem/soraka-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/swain/hex-brawl",
+      "destination": "/aram-mayhem/swain-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/swain/hex-brawl/",
+      "destination": "/aram-mayhem/swain-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sylas/hex-brawl",
+      "destination": "/aram-mayhem/sylas-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/sylas/hex-brawl/",
+      "destination": "/aram-mayhem/sylas-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/syndra/hex-brawl",
+      "destination": "/aram-mayhem/syndra-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/syndra/hex-brawl/",
+      "destination": "/aram-mayhem/syndra-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/tahm-kench/hex-brawl",
+      "destination": "/aram-mayhem/tahm-kench-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/tahm-kench/hex-brawl/",
+      "destination": "/aram-mayhem/tahm-kench-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/taliyah/hex-brawl",
+      "destination": "/aram-mayhem/taliyah-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/taliyah/hex-brawl/",
+      "destination": "/aram-mayhem/taliyah-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/talon/hex-brawl",
+      "destination": "/aram-mayhem/talon-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/talon/hex-brawl/",
+      "destination": "/aram-mayhem/talon-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/taric/hex-brawl",
+      "destination": "/aram-mayhem/taric-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/taric/hex-brawl/",
+      "destination": "/aram-mayhem/taric-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/teemo/hex-brawl",
+      "destination": "/aram-mayhem/teemo-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/teemo/hex-brawl/",
+      "destination": "/aram-mayhem/teemo-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/thresh/hex-brawl",
+      "destination": "/aram-mayhem/thresh-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/thresh/hex-brawl/",
+      "destination": "/aram-mayhem/thresh-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/tristana/hex-brawl",
+      "destination": "/aram-mayhem/tristana-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/tristana/hex-brawl/",
+      "destination": "/aram-mayhem/tristana-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/trundle/hex-brawl",
+      "destination": "/aram-mayhem/trundle-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/trundle/hex-brawl/",
+      "destination": "/aram-mayhem/trundle-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/tryndamere/hex-brawl",
+      "destination": "/aram-mayhem/tryndamere-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/tryndamere/hex-brawl/",
+      "destination": "/aram-mayhem/tryndamere-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/twisted-fate/hex-brawl",
+      "destination": "/aram-mayhem/twisted-fate-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/twisted-fate/hex-brawl/",
+      "destination": "/aram-mayhem/twisted-fate-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/twitch/hex-brawl",
+      "destination": "/aram-mayhem/twitch-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/twitch/hex-brawl/",
+      "destination": "/aram-mayhem/twitch-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/udyr/hex-brawl",
+      "destination": "/aram-mayhem/udyr-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/udyr/hex-brawl/",
+      "destination": "/aram-mayhem/udyr-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/urgot/hex-brawl",
+      "destination": "/aram-mayhem/urgot-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/urgot/hex-brawl/",
+      "destination": "/aram-mayhem/urgot-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/varus/hex-brawl",
+      "destination": "/aram-mayhem/varus-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/varus/hex-brawl/",
+      "destination": "/aram-mayhem/varus-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/vayne/hex-brawl",
+      "destination": "/aram-mayhem/vayne-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/vayne/hex-brawl/",
+      "destination": "/aram-mayhem/vayne-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/veigar/hex-brawl",
+      "destination": "/aram-mayhem/veigar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/veigar/hex-brawl/",
+      "destination": "/aram-mayhem/veigar-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/velkoz/hex-brawl",
+      "destination": "/aram-mayhem/velkoz-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/velkoz/hex-brawl/",
+      "destination": "/aram-mayhem/velkoz-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/vex/hex-brawl",
+      "destination": "/aram-mayhem/vex-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/vex/hex-brawl/",
+      "destination": "/aram-mayhem/vex-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/vi/hex-brawl",
+      "destination": "/aram-mayhem/vi-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/vi/hex-brawl/",
+      "destination": "/aram-mayhem/vi-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/viego/hex-brawl",
+      "destination": "/aram-mayhem/viego-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/viego/hex-brawl/",
+      "destination": "/aram-mayhem/viego-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/viktor/hex-brawl",
+      "destination": "/aram-mayhem/viktor-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/viktor/hex-brawl/",
+      "destination": "/aram-mayhem/viktor-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/vladimir/hex-brawl",
+      "destination": "/aram-mayhem/vladimir-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/vladimir/hex-brawl/",
+      "destination": "/aram-mayhem/vladimir-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/volibear/hex-brawl",
+      "destination": "/aram-mayhem/volibear-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/volibear/hex-brawl/",
+      "destination": "/aram-mayhem/volibear-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/warwick/hex-brawl",
+      "destination": "/aram-mayhem/warwick-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/warwick/hex-brawl/",
+      "destination": "/aram-mayhem/warwick-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/wukong/hex-brawl",
+      "destination": "/aram-mayhem/wukong-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/wukong/hex-brawl/",
+      "destination": "/aram-mayhem/wukong-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/xayah/hex-brawl",
+      "destination": "/aram-mayhem/xayah-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/xayah/hex-brawl/",
+      "destination": "/aram-mayhem/xayah-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/xerath/hex-brawl",
+      "destination": "/aram-mayhem/xerath-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/xerath/hex-brawl/",
+      "destination": "/aram-mayhem/xerath-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/xin-zhao/hex-brawl",
+      "destination": "/aram-mayhem/xin-zhao-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/xin-zhao/hex-brawl/",
+      "destination": "/aram-mayhem/xin-zhao-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/yasuo/hex-brawl",
+      "destination": "/aram-mayhem/yasuo-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/yasuo/hex-brawl/",
+      "destination": "/aram-mayhem/yasuo-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/yone/hex-brawl",
+      "destination": "/aram-mayhem/yone-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/yone/hex-brawl/",
+      "destination": "/aram-mayhem/yone-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/yorick/hex-brawl",
+      "destination": "/aram-mayhem/yorick-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/yorick/hex-brawl/",
+      "destination": "/aram-mayhem/yorick-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/yunara/hex-brawl",
+      "destination": "/aram-mayhem/yunara-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/yunara/hex-brawl/",
+      "destination": "/aram-mayhem/yunara-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/yuumi/hex-brawl",
+      "destination": "/aram-mayhem/yuumi-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/yuumi/hex-brawl/",
+      "destination": "/aram-mayhem/yuumi-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zaahen/hex-brawl",
+      "destination": "/aram-mayhem/zaahen-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zaahen/hex-brawl/",
+      "destination": "/aram-mayhem/zaahen-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zac/hex-brawl",
+      "destination": "/aram-mayhem/zac-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zac/hex-brawl/",
+      "destination": "/aram-mayhem/zac-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zed/hex-brawl",
+      "destination": "/aram-mayhem/zed-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zed/hex-brawl/",
+      "destination": "/aram-mayhem/zed-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zeri/hex-brawl",
+      "destination": "/aram-mayhem/zeri-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zeri/hex-brawl/",
+      "destination": "/aram-mayhem/zeri-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ziggs/hex-brawl",
+      "destination": "/aram-mayhem/ziggs-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/ziggs/hex-brawl/",
+      "destination": "/aram-mayhem/ziggs-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zilean/hex-brawl",
+      "destination": "/aram-mayhem/zilean-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zilean/hex-brawl/",
+      "destination": "/aram-mayhem/zilean-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zoe/hex-brawl",
+      "destination": "/aram-mayhem/zoe-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zoe/hex-brawl/",
+      "destination": "/aram-mayhem/zoe-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zyra/hex-brawl",
+      "destination": "/aram-mayhem/zyra-build/",
+      "permanent": true
+    },
+    {
+      "source": "/champions/zyra/hex-brawl/",
+      "destination": "/aram-mayhem/zyra-build/",
+      "permanent": true
+    }
+  ]
+}

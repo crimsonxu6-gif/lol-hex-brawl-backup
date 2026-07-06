@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Mundo Build Guide - ARAM Mayhem Meta 2026</title>
+    <meta name="description" content="Best Dr. Mundo build for ARAM Mayhem. Updated patch 2026 meta tier list, runes, items, and counters." />
+    <meta name="keywords" content="best dr. mundo build aram mayhem, dr. mundo aram mayhem build, best dr. mundo augments, dr. mundo item build guide, dr. mundo reroll strategy, dr. mundo beginner guide, aram mayhem, aram mayhem tier list, best champions aram mayhem, lol augment guide, league of legends augments" />
+    <link rel="canonical" href="https://lol-hex-brawl.vercel.app/aram-mayhem/dr-mundo-build/" />
+    <style>
+      :root { color-scheme: dark; --bg:#18130f; --panel:#211812; --card:#30241b; --line:#584532; --text:#f2eadc; --muted:#b59a7b; --accent:#d39a4e; --cyan:#52d6dc; }
+      * { box-sizing: border-box; }
+      body { margin:0; background:linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px), linear-gradient(0deg, rgba(255,255,255,.012) 1px, transparent 1px), var(--bg); background-size:34px 34px; color:var(--text); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      a { color:inherit; }
+      .shell { width:min(100%, 1080px); margin:0 auto; padding:22px 18px 52px; }
+      .top { display:flex; justify-content:space-between; align-items:center; gap:14px; margin-bottom:18px; color:var(--muted); font-size:14px; }
+      .nav { display:flex; gap:10px; flex-wrap:wrap; }
+      .nav a, .chip { border:1px solid var(--line); border-radius:8px; padding:8px 11px; text-decoration:none; background:rgba(48,36,27,.72); }
+      .hero { border:1px solid var(--line); border-radius:8px; background:linear-gradient(135deg, rgba(48,36,27,.96), rgba(30,22,16,.94)); padding:26px; display:flex; gap:18px; align-items:center; }
+      .hero img { width:88px; height:88px; border-radius:8px; border:1px solid var(--accent); background:#111; object-fit:cover; }
+      h1 { margin:0; font-size:clamp(34px, 6vw, 56px); line-height:1.02; letter-spacing:0; }
+      h2 { margin:0 0 14px; font-size:26px; line-height:1.2; }
+      h3 { margin:0 0 10px; font-size:19px; }
+      p { color:var(--muted); line-height:1.7; }
+      .eyebrow { color:var(--accent); font-weight:700; font-size:13px; margin-bottom:7px; }
+      .tabs { display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; margin:18px 0; }
+      .tabs a { text-align:center; text-decoration:none; border:1px solid var(--line); border-radius:8px; padding:12px; background:#261c15; font-weight:700; }
+      .tabs a.active { border-color:var(--accent); color:#fff0d7; }
+      .section { margin-top:18px; border:1px solid var(--line); border-radius:8px; background:rgba(33,24,18,.9); padding:18px; }
+      .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:12px; }
+      .card { border:1px solid rgba(88,69,50,.82); border-radius:8px; background:var(--card); padding:14px; }
+      .items, .augments { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+      .item, .augment { width:46px; height:46px; border-radius:7px; border:1px solid var(--accent); background:#111; object-fit:cover; display:inline-flex; align-items:center; justify-content:center; overflow:hidden; }
+      .augment { width:40px; height:40px; border-color:#4a3a2c; }
+      .item img, .augment img { width:100%; height:100%; object-fit:cover; display:block; }
+      .table { width:100%; border-collapse:collapse; overflow:hidden; border-radius:8px; }
+      .table th, .table td { border-bottom:1px solid var(--line); padding:11px; text-align:left; vertical-align:top; }
+      .table th { color:#ffd89e; font-size:13px; }
+      .list { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:10px; padding:0; margin:0; list-style:none; }
+      .list li { border:1px solid var(--line); border-radius:8px; padding:12px; background:#2a2018; }
+      .footer { margin-top:24px; color:#8e7962; font-size:12px; line-height:1.7; }
+      @media (max-width: 640px) { .hero { align-items:flex-start; padding:18px; } .hero img { width:64px; height:64px; } .tabs { grid-template-columns:1fr; } .shell { padding:14px; } }
+    </style>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the best Dr. Mundo build in ARAM Mayhem?","acceptedAnswer":{"@type":"Answer","text":"Use the first curated Dr. Mundo route, then adapt defensive or penetration items to the enemy composition."}},{"@type":"Question","name":"What are the best Dr. Mundo augments?","acceptedAnswer":{"@type":"Answer","text":"Use the listed silver, gold, and prismatic augment groups as the reroll reference."}}]}</script>
+  </head>
+  <body>
+    <main class="shell">
+      <div class="top">
+        <a href="/aram-mayhem/">ARAM Mayhem</a>
+        <nav class="nav" aria-label="ARAM Mayhem navigation">
+          <a href="/aram-mayhem/tier-list/">Tier List</a>
+          <a href="/aram-mayhem/meta/">Meta</a>
+          <a href="/aram-mayhem/how-to-play/">How to Play</a>
+          <a href="/">Champion Index</a>
+        </nav>
+      </div>
+      <section class="hero">
+        <img src="https://ddragon.leagueoflegends.com/cdn/16.13.1/img/champion/DrMundo.png" alt="Dr. Mundo icon" />
+        <div>
+          <div class="eyebrow">ARAM Mayhem · Patch 26.13</div>
+          <h1>Dr. Mundo Build Guide - ARAM Mayhem</h1>
+          <p>蒙多医生 祖安狂人 Dr. Mundo ARAM Mayhem data page.</p>
+        </div>
+      </section>
+      <div class="tabs"><a class="active" href="/aram-mayhem/dr-mundo-build/">Build</a><a class="" href="/aram-mayhem/dr-mundo-counter/">Counter</a><a class="" href="/aram-mayhem/dr-mundo-guide/">Guide</a></div>
+      <section class="section">
+        <h2>Best Dr. Mundo Items</h2>
+        <p>This page targets dr. mundo ARAM Mayhem build search intent. Item paths come from curated guide data in this project.</p>
+        <div class="grid"><article class="card">
+          <h3>Tank Build</h3>
+          <p><strong>Route:</strong> Tank · <strong>Rating:</strong> Recommended</p>
+          <div class="items"><span class="item"><img src="https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3084.png" alt="Item 3084" loading="lazy" /></span><span class="item"><img src="https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3083.png" alt="Item 3083" loading="lazy" /></span><span class="item"><img src="https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2501.png" alt="Item 2501" loading="lazy" /></span><span class="item"><img src="https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3748.png" alt="Item 3748" loading="lazy" /></span><span class="item"><img src="https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2517.png" alt="Item 2517" loading="lazy" /></span><span class="item"><img src="https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3111.png" alt="Item 3111" loading="lazy" /></span></div>
+        </article></div>
+      </section>
+      <section class="section">
+        <h2>Best Dr. Mundo Augments and Runes</h2>
+        <p>Use these tiered augment groups as the reroll reference for Dr. Mundo. The page also covers best dr. mundo augments, item build guide, reroll strategy, and beginner guide queries.</p>
+        <div class="grid"><article class="card">
+          <h3>Silver Augments</h3>
+          <div class="augments"><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/heavyhitter_small.png" alt="Heavy Hitter" loading="lazy" /></span> Heavy Hitter</span><span class="chip"><span class="augment"><img src="/assets/ux/kiwi/augments/icons/upgradeimmolate_small.png" alt="Upgrade Immolate" loading="lazy" /></span> Upgrade Immolate</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/bluntforce_small.png" alt="Blunt Force" loading="lazy" /></span> Blunt Force</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/transmutegold_small.png" alt="Transmute: Gold" loading="lazy" /></span> Transmute: Gold</span><span class="chip"><span class="augment"><img src="/assets/ux/kiwi/augments/icons/forgedbythemaster_small.png" alt="Forged By The Master" loading="lazy" /></span> Forged By The Master</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/escapade_small.png" alt="escAPADe" loading="lazy" /></span> escAPADe</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/goredrink_small.png" alt="Goredrink" loading="lazy" /></span> Goredrink</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/ultimateunstoppable_small.png" alt="Ultimate Unstoppable" loading="lazy" /></span> Ultimate Unstoppable</span></div>
+        </article><article class="card">
+          <h3>Gold Augments</h3>
+          <div class="augments"><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/tank_engine_small.png" alt="Tank Engine" loading="lazy" /></span> Tank Engine</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/quest_steelyourheart_small.png" alt="Steel Your Heart" loading="lazy" /></span> Steel Your Heart</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/celestialbody_small.png" alt="Celestial Body" loading="lazy" /></span> Celestial Body</span><span class="chip"><span class="augment"><img src="/assets/ux/kiwi/augments/icons/questpressurecooker_small.png" alt="Pressure Cooker" loading="lazy" /></span> Pressure Cooker</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/dawnbringersresolve_small.png" alt="Dawnbringer&#039;s Resolve" loading="lazy" /></span> Dawnbringer&#039;s Resolve</span><span class="chip"><span class="augment"><img src="/assets/ux/kiwi/augments/icons/bonk_large.png" alt="BONK!" loading="lazy" /></span> BONK!</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/transmuteprismatic_small.png" alt="Transmute: Prismatic" loading="lazy" /></span> Transmute: Prismatic</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/apexinventor_small.png" alt="Apex Inventor" loading="lazy" /></span> Apex Inventor</span></div>
+        </article><article class="card">
+          <h3>Prismatic Augments</h3>
+          <div class="augments"><span class="chip"><span class="augment"><img src="/assets/ux/kiwi/augments/icons/dropkick_large.png" alt="Dropkick" loading="lazy" /></span> Dropkick</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/goliath_small.png" alt="Goliath" loading="lazy" /></span> Goliath</span><span class="chip"><span class="augment"><img src="/assets/ux/kiwi/augments/icons/quest_voidimmolation_small.png" alt="Icathia&#039;s Fall" loading="lazy" /></span> Icathia&#039;s Fall</span><span class="chip"><span class="augment"><img src="/assets/ux/kiwi/augments/icons/finalform_small.png" alt="Final Form" loading="lazy" /></span> Final Form</span><span class="chip"><span class="augment"><img src="/assets/ux/cherry/augments/icons/giantslayer_small.png" alt="Giant Slayer" loading="lazy" /></span> Giant Slayer</span></div>
+        </article></div>
+      </section>
+      <section class="section">
+        <h2>Related ARAM Mayhem Pages</h2>
+        <ul class="list"><li><a href="/aram-mayhem/alistar-build/">Alistar ARAM Mayhem build</a></li><li><a href="/aram-mayhem/amumu-build/">Amumu ARAM Mayhem build</a></li><li><a href="/aram-mayhem/blitzcrank-build/">Blitzcrank ARAM Mayhem build</a></li><li><a href="/aram-mayhem/braum-build/">Braum ARAM Mayhem build</a></li><li><a href="/aram-mayhem/chogath-build/">Cho&#039;Gath ARAM Mayhem build</a></li>
+        <li><a href="/aram-mayhem/tank/">Tank ARAM Mayhem category</a></li>
+        <li><a href="/aram-mayhem/how-to-play/">ARAM Mayhem beginner guide</a></li>
+      </ul>
+      </section>
+      <section class="section">
+        <h2>FAQ</h2>
+        <h3>What is the best Dr. Mundo build in ARAM Mayhem?</h3>
+        <p>Start with the first curated route above, then adapt defensive or penetration items to the enemy composition.</p>
+        <h3>Which augments should Dr. Mundo reroll for?</h3>
+        <p>Prioritize the listed prismatic and gold augments when they match the selected item route.</p>
+      </section>
+      <footer class="footer">Unofficial League of Legends fan project. ARAM Mayhem build, item, augment, and counter pages are generated from curated local guide data.</footer>
+    </main>
+  </body>
+</html>
