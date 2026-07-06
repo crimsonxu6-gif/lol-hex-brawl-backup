@@ -1719,7 +1719,7 @@
         elements.empty.style.display = visible.length ? "none" : "block";
         elements.grid.innerHTML = visible.map((champion) => {
           const name = champion[state.lang] || champion.en;
-          const href = `aram-mayhem/${champion.slug || slugify(champion.en)}-build/?lang=${encodeURIComponent(state.lang)}`;
+          const href = `champions/${champion.slug || slugify(champion.en)}/hex-brawl/?lang=${encodeURIComponent(state.lang)}`;
           return `<a class="champion-card" href="${href}" aria-label="${name}"><span class="portrait-frame"><img class="portrait" src="${championImage(champion.id)}" alt="${name}" loading="lazy" /></span><span class="champion-name">${name}</span></a>`;
         }).join("");
       }

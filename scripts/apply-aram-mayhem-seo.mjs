@@ -8,6 +8,7 @@ const aramDir = path.join(rootDir, "aram-mayhem");
 const siteUrl = "https://lol-hex-brawl.vercel.app";
 const patchVersion = "26.13";
 const ddragonFallback = "16.13.1";
+const cdragonBase = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/";
 
 const roleLabels = {
   mage: "Mage",
@@ -463,11 +464,12 @@ function augmentGroups(entry) {
     ["gold", "Gold"],
     ["prismatic", "Prismatic"]
   ];
+  const augmentIcon = (row) => row.icon ? `${cdragonBase}${row.icon}` : "";
   return tiers.map(([key, label]) => {
     const rows = entry.data.hexes?.[key]?.rows || [];
     return `<article class="card">
           <h3>${label} Augments</h3>
-          <div class="augments">${rows.slice(0, 8).map((row) => `<span class="chip"><span class="augment">${row.icon ? `<img src="/${escapeAttr(row.icon)}" alt="${escapeAttr(augmentName(row, entry.data))}" loading="lazy" />` : ""}</span> ${escapeHtml(augmentName(row, entry.data))}</span>`).join("")}</div>
+          <div class="augments">${rows.slice(0, 8).map((row) => `<span class="chip"><span class="augment">${row.icon ? `<img src="${escapeAttr(augmentIcon(row))}" alt="${escapeAttr(augmentName(row, entry.data))}" loading="lazy" />` : ""}</span> ${escapeHtml(augmentName(row, entry.data))}</span>`).join("")}</div>
         </article>`;
   }).join("");
 }
@@ -729,11 +731,7 @@ async function writeVercelConfig(entries) {
     { source: "/meta", destination: "/aram-mayhem/meta/", permanent: true },
     { source: "/meta/", destination: "/aram-mayhem/meta/", permanent: true },
     { source: "/guides", destination: "/aram-mayhem/how-to-play/", permanent: true },
-    { source: "/guides/", destination: "/aram-mayhem/how-to-play/", permanent: true },
-    ...entries.flatMap((entry) => [
-      { source: `/champions/${entry.slug}/hex-brawl`, destination: `/aram-mayhem/${entry.slug}-build/`, permanent: true },
-      { source: `/champions/${entry.slug}/hex-brawl/`, destination: `/aram-mayhem/${entry.slug}-build/`, permanent: true }
-    ])
+    { source: "/guides/", destination: "/aram-mayhem/how-to-play/", permanent: true }
   ];
   await writeFile(path.join(rootDir, "vercel.json"), `${JSON.stringify({ redirects }, null, 2)}\n`, "utf8");
 }
