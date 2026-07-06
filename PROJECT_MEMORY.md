@@ -14,14 +14,51 @@ Use these rules for all new public SEO work:
 - Hub pages: `/aram-mayhem/tier-list/`, `/aram-mayhem/meta/`, `/aram-mayhem/how-to-play/`, `/aram-mayhem/beginners-guide/`.
 - Patch pages: `/aram-mayhem/patches/26-13/`, `/aram-mayhem/patches/26-14/`.
 - Role/category pages: `/aram-mayhem/mage/`, `/aram-mayhem/adc/`, `/aram-mayhem/assassin/`, `/aram-mayhem/fighter/`, `/aram-mayhem/tank/`, `/aram-mayhem/support/`.
-- Legacy `/champions/{champion}/hex-brawl/` URLs should redirect to `/aram-mayhem/{champion}-build/` on Vercel.
+- Do not redirect legacy `/champions/{champion}/hex-brawl/` URLs. These are the real multilingual champion detail pages used by visitors.
 - Sitemap should index the ARAM Mayhem pages and should not list legacy champion Hex Brawl URLs.
 - Static SEO generator: `D:\LOL\scripts\apply-aram-mayhem-seo.mjs`.
 - After SEO/static updates, run `node scripts\apply-aram-mayhem-seo.mjs`, deploy with `npx vercel --yes --prod`, then submit the updated sitemap through `node scripts\submit-indexnow.mjs`.
 
 The old `data/hex-brawl/...` directory remains the internal reviewed data source. Do not rename or rewrite that data path unless the import/audit scripts are migrated too.
 
-Last updated: 2026-07-05
+## 2026-07-06 Routing and Multilingual Detail Page Fix
+
+Important fixed rule after the SEO refactor:
+
+- Homepage champion cards must link to `/champions/{champion}/hex-brawl/?lang={lang}`.
+- `/champions/{champion}/hex-brawl/` pages are the user-facing detail pages with five languages: `zh`, `en`, `ja`, `ko`, `es`.
+- Language preference is stored with `hexBrawlLanguage` and must persist from homepage to champion detail pages.
+- `/aram-mayhem/{champion}-build/`, `/aram-mayhem/{champion}-counter/`, and `/aram-mayhem/{champion}-guide/` are English static SEO landing pages, not replacements for the app detail pages.
+- `vercel.json` must not contain redirects from `/champions/{champion}/hex-brawl/` to `/aram-mayhem/{champion}-build/`.
+- Augment/hex icons should use CommunityDragon remote assets:
+  `https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/`
+- Do not generate SEO pages with local `/assets/ux/...` augment icon URLs unless those files are actually committed locally.
+
+Regression checks before deploying:
+
+```powershell
+node --check scripts\apply-aram-mayhem-seo.mjs
+node scripts\apply-aram-mayhem-seo.mjs
+Invoke-WebRequest -UseBasicParsing "http://127.0.0.1:5173/champions/akali/hex-brawl/?lang=zh"
+Invoke-WebRequest -UseBasicParsing "http://127.0.0.1:5173/aram-mayhem/akali-build/"
+rg -n "champions/.*/hex-brawl" vercel.json
+rg -n "raw.communitydragon|/assets/ux" aram-mayhem\akali-build\index.html
+```
+
+Expected:
+
+- The first local detail URL returns 200 and contains `supportedLanguages`, `hexBrawlLanguage`, and `raw.communitydragon`.
+- The SEO build URL returns 200 and contains `raw.communitydragon`.
+- `vercel.json` should not contain champion detail redirects.
+
+Latest confirmed production deploy:
+
+- Commit: `dd3616d` - `Restore multilingual champion detail links`
+- Vercel deployment: `https://lol-hex-brawl-backup-608m9q4xh-750827349-6667s-projects.vercel.app`
+- Production alias: `https://lol-hex-brawl.vercel.app`
+- IndexNow submission after deploy: 533 URLs, `200 OK`
+
+Last updated: 2026-07-06
 
 This document records the important project state so future Codex sessions can recover context after conversation compaction or a new window.
 
@@ -107,13 +144,15 @@ D:\LOL\champions\{slug}\hex-brawl\index.html
 Important scripts:
 
 ```text
-D:\LOL\scripts\apply-hex-brawl-seo.mjs
+D:\LOL\scripts\apply-aram-mayhem-seo.mjs
 D:\LOL\scripts\submit-indexnow.mjs
 D:\LOL\scripts\serve-static.mjs
 D:\LOL\scripts\local-static-server.mjs
 ```
 
-`apply-hex-brawl-seo.mjs` regenerates SEO metadata, sitemap, robots, guide pages, tier/meta pages, and champion page SEO shells.
+`apply-aram-mayhem-seo.mjs` regenerates the ARAM Mayhem static SEO pages, sitemap, robots, role pages, tier/meta pages, patch pages, and Vercel redirect config.
+
+`apply-hex-brawl-seo.mjs` is legacy. Do not use it for the current public SEO direction unless intentionally restoring the old Hex Brawl SEO model.
 
 `submit-indexnow.mjs` reads `sitemap.xml` and submits all URLs to IndexNow.
 
@@ -226,9 +265,9 @@ c19f6cfb5cdd176ff02d254e4bd1dc60
 ```
 
 - Last IndexNow submission:
-  - submitted 183 URLs
+  - submitted 533 URLs
   - endpoint: `https://api.indexnow.org/indexnow`
-  - response: `202 Accepted`
+  - response: `200 OK`
 
 To resubmit after major content updates:
 
@@ -336,6 +375,6 @@ Possible monetization path:
 4. Add About / Contact / Privacy Policy / Disclaimer pages.
 5. Consider buying a custom domain.
 6. After future data changes:
-   - run `node scripts\apply-hex-brawl-seo.mjs` if SEO/static pages need regeneration
+   - run `node scripts\apply-aram-mayhem-seo.mjs` if SEO/static pages need regeneration
    - deploy with `npx vercel --yes --prod`
    - run `node scripts\submit-indexnow.mjs`
