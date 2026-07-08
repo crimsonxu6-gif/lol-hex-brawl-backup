@@ -14,7 +14,7 @@
   },
   "localized": {
     "zh": {
-      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "eyebrow": "海克斯大乱斗 · Patch 26.13",
       "meta": "诺提勒斯 深海泰坦 海克斯乱斗出装与最佳海克斯推荐。",
       "buildHint": "按不同玩法整理推荐出装。",
       "hexHint": "海克斯使用当前版本图标，并结合一图流与掌盟数据整理。",
@@ -54,8 +54,8 @@
       "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
     },
     "en": {
-      "eyebrow": "Hex Brawl · Patch 16.13",
-      "meta": "Nautilus Hex Brawl builds and best augment recommendations.",
+      "eyebrow": "ARAM Mayhem · Patch 26.13",
+      "meta": "Nautilus ARAM Mayhem builds and best augment recommendations.",
       "buildHint": "Build routes are organized from guide images and current item data.",
       "hexHint": "Augments use current icons and are organized from guide images and app data.",
       "builds": {
@@ -94,8 +94,8 @@
       "guideHint": "Guide images are used only as source material; detail pages show structured data."
     },
     "ja": {
-      "eyebrow": "ヘクスブロウル · Patch 16.13",
-      "meta": "深海の巨人 ノーチラス Hex Brawl guide data.",
+      "eyebrow": "ヘクスブロウル · Patch 26.13",
+      "meta": "深海の巨人 ノーチラス ARAM Mayhem guide data.",
       "buildHint": "ビルドルートはガイド画像と現在のアイテムデータをもとに整理しています。",
       "hexHint": "オーグメントは現在のアイコンとガイド画像をもとに整理しています。",
       "builds": {
@@ -134,8 +134,8 @@
       "guideHint": "ガイド画像は確認用で、詳細ページには構造化データを表示します。"
     },
     "ko": {
-      "eyebrow": "헥스 난투 · Patch 16.13",
-      "meta": "심해의 타이탄 노틸러스 Hex Brawl guide data.",
+      "eyebrow": "헥스 난투 · Patch 26.13",
+      "meta": "심해의 타이탄 노틸러스 ARAM Mayhem guide data.",
       "buildHint": "빌드 경로는 가이드 이미지와 현재 아이템 데이터를 기준으로 정리했습니다.",
       "hexHint": "증강은 현재 아이콘과 가이드 이미지를 기준으로 정리했습니다.",
       "builds": {
@@ -306,30 +306,31 @@
       ]
     }
   },
-  "patch": "16.13",
+  "patch": "26.13",
   "gameDataVersion": "16.13.1",
-  "updatedAt": "2026-06-29",
-  "sourceNote": "非 Riot 官方项目；装备和海克斯数据用于海克斯大乱斗出装与推荐参考。",
+  "updatedAt": "2026-07-07",
+  "sourceNote": "Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games.",
   "seo": {
     "name": "Nautilus",
     "zhName": "诺提勒斯 深海泰坦",
     "role": "support",
     "roleLabel": "Support",
-    "title": "Nautilus Hex Brawl Build & Best Augments Guide (2026 Meta)",
+    "title": "Nautilus ARAM Mayhem Build & Best Augments Guide (2026 Meta)",
     "zhTitle": "诺提勒斯 深海泰坦 海克斯乱斗 出装与最佳海克斯推荐（回归玩家指南）",
-    "description": "Find the best Hex Brawl augments and builds for Nautilus in the current meta. Includes tiered recommendations, item paths, and beginner-friendly explanations.",
+    "description": "Find the best ARAM Mayhem augments and builds for Nautilus in the current meta. Includes tiered recommendations, item paths, and beginner-friendly explanations.",
     "keywords": [
-      "nautilus hex brawl build",
+      "nautilus aram mayhem build",
       "best nautilus augments",
       "nautilus item build guide",
       "nautilus reroll strategy",
       "nautilus beginner guide",
-      "lol hex brawl",
-      "hex brawl builds",
+      "lol aram mayhem",
+      "aram mayhem builds",
       "lol augment guide",
       "league of legends augments",
       "诺提勒斯 深海泰坦 海克斯乱斗 出装",
-      "诺提勒斯 深海泰坦 最佳海克斯推荐"
+      "诺提勒斯 深海泰坦 最佳海克斯推荐",
+      "aram mayhem"
     ],
     "canonical": "https://lol-hex-brawl.vercel.app/champions/nautilus/hex-brawl/",
     "related": [
@@ -354,5 +355,12 @@
         "name": "Taric"
       }
     ]
+  },
+  "sourceNoteLocalized": {
+    "zh": "当前版本：26.13。最后更新：2026-07-07。内容基于公开版本环境、实战体验与资料整理，非 Riot 官方项目。",
+    "en": "Updated for Patch 26.13. Last updated: 2026-07-07. Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games.",
+    "ja": "Patch 26.13 対応。最終更新：2026-07-07。公開メタ情報とプレイテストをもとに手動整理した非公式ファンプロジェクトです。",
+    "ko": "Patch 26.13 기준. 마지막 업데이트: 2026-07-07. 공개 메타 자료와 플레이 테스트를 바탕으로 수동 정리한 비공식 팬 프로젝트입니다.",
+    "es": "Actualizado para Patch 26.13. Ultima actualizacion: 2026-07-07. Datos curados manualmente a partir de fuentes publicas del meta y pruebas de juego. No afiliado a Riot Games."
   }
 }

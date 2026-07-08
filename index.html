@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ARAM Mayhem Builds, Tier List & League of Legends Augments Guide (2026 Meta)</title>
-    <meta name="description" content="Browse ARAM Mayhem builds, champion item paths, best augments, counters, tier list, and beginner-friendly League of Legends guide pages." />
+    <title>Pick Better ARAM Mayhem Augments in 10 Seconds - Builds for Every Champion</title>
+    <meta name="description" content="Updated for Patch 26.13. Browse ARAM Mayhem builds, champion item paths, best augments, counters, tier list, and beginner-friendly League of Legends guide pages." />
     <meta name="keywords" content="aram mayhem, aram mayhem tier list, aram mayhem builds, best champions aram mayhem, lol augment guide, league of legends augments" />
     <link rel="canonical" href="https://lol-hex-brawl.vercel.app/" />
     <style>
@@ -40,7 +40,7 @@
       .language { min-width: 112px; height: 38px; border: 1px solid var(--line); border-radius: 8px; background: #211912; color: var(--text); padding: 0 12px; outline: none; }
       .hero { padding: 52px 0 28px; text-align: center; }
       .title { margin: 0; font-size: clamp(34px, 8vw, 64px); line-height: 1.04; font-weight: 800; letter-spacing: 0; color: #f4ead8; text-shadow: 0 5px 20px rgba(0,0,0,.36); }
-      .subtitle { margin: 14px 0 0; color: var(--muted); font-size: 14px; letter-spacing: .28em; text-transform: uppercase; }
+      .subtitle { margin: 14px auto 0; max-width: 680px; color: var(--muted); font-size: 16px; line-height: 1.6; letter-spacing: 0; text-transform: none; }
       .search-wrap { margin: 28px auto 0; width: min(100%, 720px); position: relative; }
       .search-icon { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 20px; pointer-events: none; }
       .search { width: 100%; height: 64px; border: 1px solid var(--line); border-radius: 8px; background: rgba(42,33,25,.92); color: var(--text); padding: 0 20px 0 52px; outline: none; box-shadow: 0 18px 38px var(--shadow); font-size: 17px; }
@@ -57,6 +57,10 @@
       .portrait { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 5px; }
       .champion-name { display: block; min-height: 38px; color: var(--text); font-weight: 700; font-size: 14px; line-height: 1.25; text-align: center; overflow-wrap: anywhere; }
       .empty { display: none; padding: 34px 18px; border: 1px dashed var(--line); border-radius: 8px; color: var(--muted); text-align: center; }
+      .trust-panel { width: min(100%, 720px); margin: 16px auto 0; border: 1px solid rgba(91,73,56,.72); border-radius: 8px; background: rgba(34,26,20,.76); padding: 12px 14px; text-align: left; }
+      .trust-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+      .trust-chip { border: 1px solid rgba(197,150,92,.55); border-radius: 8px; padding: 6px 9px; background: rgba(197,150,92,.12); color: #f6ddb4; font-size: 12px; font-weight: 800; }
+      .trust-note { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
       .footer { margin-top: 34px; color: #806f5d; font-size: 12px; line-height: 1.7; text-align: center; }
       @media (max-width: 560px) {
         .shell { padding: 14px 14px 34px; }
@@ -74,7 +78,7 @@
   <body>
     <main class="shell">
       <header class="topbar" aria-label="Page header">
-        <div class="mark"><span class="mark-dot" aria-hidden="true"></span><span id="patchLabel">Patch 16.13</span></div>
+        <div class="mark"><span class="mark-dot" aria-hidden="true"></span><span id="patchLabel">Updated for Patch 26.13</span></div>
         <select id="languageSelect" class="language" aria-label="Language">
           <option value="zh">中文</option>
           <option value="en">English</option>
@@ -84,12 +88,13 @@
         </select>
       </header>
       <section class="hero" aria-labelledby="pageTitle">
-        <h1 id="pageTitle" class="title">海克斯大乱斗助手</h1>
-        <p id="subtitle" class="subtitle">ARAM Mayhem Guide</p>
+        <h1 id="pageTitle" class="title">10 秒选对海克斯</h1>
+        <p id="subtitle" class="subtitle">173 位英雄的 ARAM Mayhem 出装与强化推荐。</p>
         <div class="search-wrap">
           <span class="search-icon" aria-hidden="true">⌕</span>
           <input id="searchInput" class="search" type="search" autocomplete="off" placeholder="搜索英雄，例如：亚索、Ashe、Yone..." aria-label="Search champions" />
         </div>
+        <div id="trustPanel" class="trust-panel" aria-label="Update and data note"></div>
       </section>
       <section aria-labelledby="championSectionTitle">
         <div class="content-head">
@@ -104,12 +109,26 @@
     <script>
       const ddragonVersion = "16.13.1";
       const i18n = {
-        zh: { title: "ARAM Mayhem 助手", subtitle: "出装、海克斯、克制与榜单", search: "搜索英雄，例如：亚索、Ashe、Yone...", section: "英雄图鉴", empty: "没有找到英雄", count: (n) => `${n} 位英雄`, patch: "Patch 16.13", footer: "非 Riot 官方项目。当前页面用于 ARAM Mayhem 出装、海克斯与克制数据整理。" },
-        en: { title: "ARAM Mayhem Helper", subtitle: "Builds, tier list, counters, and augments", search: "Search champions, e.g. Yasuo, Ashe, Yone...", section: "Champion Index", empty: "No champions found", count: (n) => `${n} champions`, patch: "Patch 16.13", footer: "This is an unofficial fan-made guide prototype. It is not endorsed by Riot Games." },
-        ja: { title: "ARAM Mayhem ガイド", subtitle: "ビルド、ティアリスト、カウンター、オーグメント", search: "チャンピオンを検索: Yasuo, Ashe, Yone...", section: "チャンピオン一覧", empty: "チャンピオンが見つかりません", count: (n) => `${n} 体`, patch: "Patch 16.13", footer: "Riot 非公式のファンプロジェクトです。" },
-        ko: { title: "ARAM Mayhem 가이드", subtitle: "빌드, 티어 리스트, 카운터, 증강", search: "챔피언 검색: Yasuo, Ashe, Yone...", section: "챔피언 목록", empty: "챔피언을 찾을 수 없습니다", count: (n) => `${n} champions`, patch: "Patch 16.13", footer: "Riot 공식 프로젝트가 아닌 팬 제작 가이드입니다." },
-        es: { title: "Guia de ARAM Mayhem", subtitle: "Builds, tier list, counters y aumentos", search: "Buscar campeones, p. ej. Yasuo, Ashe, Yone...", section: "Indice de campeones", empty: "No se encontraron campeones", count: (n) => `${n} campeones`, patch: "Patch 16.13", footer: "Proyecto no oficial de fans. No esta respaldado por Riot Games." }
+        zh: { title: "ARAM Mayhem 助手", subtitle: "出装、海克斯、克制与榜单", search: "搜索英雄，例如：亚索、Ashe、Yone...", section: "英雄图鉴", empty: "没有找到英雄", count: (n) => `${n} 位英雄`, patch: "当前版本：26.13", footer: "非 Riot 官方项目。当前页面用于 ARAM Mayhem 出装、海克斯与克制数据整理。" },
+        en: { title: "ARAM Mayhem Helper", subtitle: "Builds, tier list, counters, and augments", search: "Search champions, e.g. Yasuo, Ashe, Yone...", section: "Champion Index", empty: "No champions found", count: (n) => `${n} champions`, patch: "Updated for Patch 26.13", footer: "This is an unofficial fan-made guide prototype. It is not endorsed by Riot Games." },
+        ja: { title: "ARAM Mayhem ガイド", subtitle: "ビルド、ティアリスト、カウンター、オーグメント", search: "チャンピオンを検索: Yasuo, Ashe, Yone...", section: "チャンピオン一覧", empty: "チャンピオンが見つかりません", count: (n) => `${n} 体`, patch: "Patch 26.13 対応", footer: "Riot 非公式のファンプロジェクトです。" },
+        ko: { title: "ARAM Mayhem 가이드", subtitle: "빌드, 티어 리스트, 카운터, 증강", search: "챔피언 검색: Yasuo, Ashe, Yone...", section: "챔피언 목록", empty: "챔피언을 찾을 수 없습니다", count: (n) => `${n} champions`, patch: "Patch 26.13 기준", footer: "Riot 공식 프로젝트가 아닌 팬 제작 가이드입니다." },
+        es: { title: "Guia de ARAM Mayhem", subtitle: "Builds, tier list, counters y aumentos", search: "Buscar campeones, p. ej. Yasuo, Ashe, Yone...", section: "Indice de campeones", empty: "No se encontraron campeones", count: (n) => `${n} campeones`, patch: "Actualizado para Patch 26.13", footer: "Proyecto no oficial de fans. No esta respaldado por Riot Games." }
       };
+      const publicPatch = "26.13";
+      const lastUpdated = "2026-07-07";
+      const trustHtml = {
+        zh: `<div class="trust-row"><span class="trust-chip">当前版本：${publicPatch}</span><span class="trust-chip">最后更新：${lastUpdated}</span></div><p class="trust-note">内容基于公开版本环境、实战体验与资料整理，非 Riot 官方项目。</p>`,
+        en: `<div class="trust-row"><span class="trust-chip">Updated for Patch ${publicPatch}</span><span class="trust-chip">Last updated: ${lastUpdated}</span></div><p class="trust-note">Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games.</p>`,
+        ja: `<div class="trust-row"><span class="trust-chip">Patch ${publicPatch} 対応</span><span class="trust-chip">最終更新：${lastUpdated}</span></div><p class="trust-note">公開メタ情報とプレイテストをもとに手動整理した非公式ファンプロジェクトです。</p>`,
+        ko: `<div class="trust-row"><span class="trust-chip">Patch ${publicPatch} 기준</span><span class="trust-chip">마지막 업데이트: ${lastUpdated}</span></div><p class="trust-note">공개 메타 자료와 플레이 테스트를 바탕으로 수동 정리한 비공식 팬 프로젝트입니다.</p>`,
+        es: `<div class="trust-row"><span class="trust-chip">Actualizado para Patch ${publicPatch}</span><span class="trust-chip">Ultima actualizacion: ${lastUpdated}</span></div><p class="trust-note">Datos curados manualmente a partir de fuentes publicas del meta y pruebas de juego. No afiliado a Riot Games.</p>`
+      };
+      Object.assign(i18n.zh, { title: "10 秒选对海克斯", subtitle: "173 位英雄的 ARAM Mayhem 出装与强化推荐。", patch: `当前版本：${publicPatch}`, footer: "非 Riot 官方项目。内容基于公开版本环境、实战体验与资料整理。" });
+      Object.assign(i18n.en, { title: "Pick better augments in 10 seconds", subtitle: "ARAM Mayhem builds for every champion.", patch: `Updated for Patch ${publicPatch}`, footer: "Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games." });
+      Object.assign(i18n.ja, { title: "10秒でオーグメントを選ぶ", subtitle: "全チャンピオン向けの ARAM Mayhem ビルド。", patch: `Patch ${publicPatch} 対応`, footer: "公開メタ情報とプレイテストをもとに手動整理した非公式ファンプロジェクトです。" });
+      Object.assign(i18n.ko, { title: "10초 안에 증강 선택", subtitle: "모든 챔피언을 위한 ARAM Mayhem 빌드.", patch: `Patch ${publicPatch} 기준`, footer: "공개 메타 자료와 플레이 테스트를 바탕으로 수동 정리한 비공식 팬 프로젝트입니다." });
+      Object.assign(i18n.es, { title: "Elige aumentos en 10 segundos", subtitle: "Builds de ARAM Mayhem para cada campeon.", patch: `Actualizado para Patch ${publicPatch}`, footer: "Datos curados manualmente a partir de fuentes publicas del meta y pruebas de juego. No afiliado a Riot Games." });
       const champions = [
         {
                 "id": "Akali",
@@ -1692,7 +1711,8 @@
         grid: document.getElementById("championGrid"),
         empty: document.getElementById("emptyState"),
         patch: document.getElementById("patchLabel"),
-        footer: document.getElementById("footerText")
+        footer: document.getElementById("footerText"),
+        trust: document.getElementById("trustPanel")
       };
       function championImage(id) { return `https://ddragon.leagueoflegends.com/cdn/${ddragonVersion}/img/champion/${id}.png`; }
       function getVisibleChampions() {
@@ -1712,6 +1732,7 @@
         elements.empty.textContent = copy.empty;
         elements.patch.textContent = copy.patch;
         elements.footer.textContent = copy.footer;
+        elements.trust.innerHTML = trustHtml[state.lang] || trustHtml.zh;
       }
       function renderChampions() {
         const visible = getVisibleChampions();

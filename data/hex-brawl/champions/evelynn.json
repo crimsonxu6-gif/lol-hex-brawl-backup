@@ -14,7 +14,7 @@
   },
   "localized": {
     "zh": {
-      "eyebrow": "海克斯大乱斗 · Patch 16.13",
+      "eyebrow": "海克斯大乱斗 · Patch 26.13",
       "meta": "伊芙琳 痛苦之拥 海克斯乱斗出装与最佳海克斯推荐。",
       "buildHint": "按不同玩法整理推荐出装。",
       "hexHint": "海克斯使用当前版本图标，并结合一图流与掌盟数据整理。",
@@ -53,8 +53,8 @@
       "guideHint": "导图仅用于核对装备和海克斯，详情页展示结构化数据。"
     },
     "en": {
-      "eyebrow": "Hex Brawl · Patch 16.13",
-      "meta": "Evelynn Hex Brawl builds and best augment recommendations.",
+      "eyebrow": "ARAM Mayhem · Patch 26.13",
+      "meta": "Evelynn ARAM Mayhem builds and best augment recommendations.",
       "buildHint": "Build routes are organized from guide images and current item data.",
       "hexHint": "Augments use current icons and are organized from guide images and app data.",
       "builds": {
@@ -92,8 +92,8 @@
       "guideHint": "Guide images are used only as source material; detail pages show structured data."
     },
     "ja": {
-      "eyebrow": "ヘクスブロウル · Patch 16.13",
-      "meta": "苦悶の抱擁 イブリン Hex Brawl guide data.",
+      "eyebrow": "ヘクスブロウル · Patch 26.13",
+      "meta": "苦悶の抱擁 イブリン ARAM Mayhem guide data.",
       "buildHint": "ビルドルートはガイド画像と現在のアイテムデータをもとに整理しています。",
       "hexHint": "オーグメントは現在のアイコンとガイド画像をもとに整理しています。",
       "builds": {
@@ -131,8 +131,8 @@
       "guideHint": "ガイド画像は確認用で、詳細ページには構造化データを表示します。"
     },
     "ko": {
-      "eyebrow": "헥스 난투 · Patch 16.13",
-      "meta": "고통스런 포옹 이블린 Hex Brawl guide data.",
+      "eyebrow": "헥스 난투 · Patch 26.13",
+      "meta": "고통스런 포옹 이블린 ARAM Mayhem guide data.",
       "buildHint": "빌드 경로는 가이드 이미지와 현재 아이템 데이터를 기준으로 정리했습니다.",
       "hexHint": "증강은 현재 아이콘과 가이드 이미지를 기준으로 정리했습니다.",
       "builds": {
@@ -302,30 +302,31 @@
       ]
     }
   },
-  "patch": "16.13",
+  "patch": "26.13",
   "gameDataVersion": "16.13.1",
-  "updatedAt": "2026-06-29",
-  "sourceNote": "非 Riot 官方项目；装备和海克斯数据用于海克斯大乱斗出装与推荐参考。",
+  "updatedAt": "2026-07-07",
+  "sourceNote": "Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games.",
   "seo": {
     "name": "Evelynn",
     "zhName": "伊芙琳 痛苦之拥",
     "role": "assassin",
     "roleLabel": "Assassin",
-    "title": "Evelynn Hex Brawl Build & Best Augments Guide (2026 Meta)",
+    "title": "Evelynn ARAM Mayhem Build & Best Augments Guide (2026 Meta)",
     "zhTitle": "伊芙琳 痛苦之拥 海克斯乱斗 出装与最佳海克斯推荐（回归玩家指南）",
-    "description": "Find the best Hex Brawl augments and builds for Evelynn in the current meta. Includes tiered recommendations, item paths, and beginner-friendly explanations.",
+    "description": "Find the best ARAM Mayhem augments and builds for Evelynn in the current meta. Includes tiered recommendations, item paths, and beginner-friendly explanations.",
     "keywords": [
-      "evelynn hex brawl build",
+      "evelynn aram mayhem build",
       "best evelynn augments",
       "evelynn item build guide",
       "evelynn reroll strategy",
       "evelynn beginner guide",
-      "lol hex brawl",
-      "hex brawl builds",
+      "lol aram mayhem",
+      "aram mayhem builds",
       "lol augment guide",
       "league of legends augments",
       "伊芙琳 痛苦之拥 海克斯乱斗 出装",
-      "伊芙琳 痛苦之拥 最佳海克斯推荐"
+      "伊芙琳 痛苦之拥 最佳海克斯推荐",
+      "aram mayhem"
     ],
     "canonical": "https://lol-hex-brawl.vercel.app/champions/evelynn/hex-brawl/",
     "related": [
@@ -350,5 +351,12 @@
         "name": "LeBlanc"
       }
     ]
+  },
+  "sourceNoteLocalized": {
+    "zh": "当前版本：26.13。最后更新：2026-07-07。内容基于公开版本环境、实战体验与资料整理，非 Riot 官方项目。",
+    "en": "Updated for Patch 26.13. Last updated: 2026-07-07. Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games.",
+    "ja": "Patch 26.13 対応。最終更新：2026-07-07。公開メタ情報とプレイテストをもとに手動整理した非公式ファンプロジェクトです。",
+    "ko": "Patch 26.13 기준. 마지막 업데이트: 2026-07-07. 공개 메타 자료와 플레이 테스트를 바탕으로 수동 정리한 비공식 팬 프로젝트입니다.",
+    "es": "Actualizado para Patch 26.13. Ultima actualizacion: 2026-07-07. Datos curados manualmente a partir de fuentes publicas del meta y pruebas de juego. No afiliado a Riot Games."
   }
 }

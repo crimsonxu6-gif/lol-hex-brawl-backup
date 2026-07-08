@@ -7,6 +7,8 @@ const dataDir = path.join(rootDir, "data", "hex-brawl", "champions");
 const aramDir = path.join(rootDir, "aram-mayhem");
 const siteUrl = "https://lol-hex-brawl.vercel.app";
 const patchVersion = "26.13";
+const lastUpdated = "2026-07-07";
+const trustNote = "Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games.";
 const ddragonFallback = "16.13.1";
 const cdragonBase = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/";
 
@@ -367,6 +369,10 @@ function styleBlock() {
       h3 { margin:0 0 10px; font-size:19px; }
       p { color:var(--muted); line-height:1.7; }
       .eyebrow { color:var(--accent); font-weight:700; font-size:13px; margin-bottom:7px; }
+      .trust { margin-top:18px; border:1px solid var(--line); border-radius:8px; background:rgba(33,24,18,.9); padding:14px 16px; display:grid; gap:10px; }
+      .trust-row { display:flex; flex-wrap:wrap; gap:8px; }
+      .trust-chip { border:1px solid rgba(211,154,78,.5); border-radius:8px; padding:7px 10px; background:rgba(211,154,78,.1); color:#f8e5bf; font-size:13px; font-weight:800; }
+      .trust p, .share-copy p { margin:0; }
       .tabs { display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; margin:18px 0; }
       .tabs a { text-align:center; text-decoration:none; border:1px solid var(--line); border-radius:8px; padding:12px; background:#261c15; font-weight:700; }
       .tabs a.active { border-color:var(--accent); color:#fff0d7; }
@@ -382,6 +388,12 @@ function styleBlock() {
       .table th { color:#ffd89e; font-size:13px; }
       .list { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:10px; padding:0; margin:0; list-style:none; }
       .list li { border:1px solid var(--line); border-radius:8px; padding:12px; background:#2a2018; }
+      .share-actions { display:flex; flex-wrap:wrap; gap:8px; }
+      .copy-button { min-height:34px; border:1px solid rgba(211,154,78,.62); border-radius:8px; background:#352719; color:var(--text); padding:0 11px; cursor:pointer; font-weight:800; }
+      .copy-button.copied { border-color:var(--cyan); color:#c9fbff; }
+      .share-copy { display:grid; gap:8px; color:var(--muted); line-height:1.65; }
+      .share-copy div { border:1px solid rgba(88,69,50,.7); border-radius:8px; background:#261c15; padding:10px; }
+      .share-copy strong { color:#f8e5bf; }
       .footer { margin-top:24px; color:#8e7962; font-size:12px; line-height:1.7; }
       @media (max-width: 640px) { .hero { align-items:flex-start; padding:18px; } .hero img { width:64px; height:64px; } .tabs { grid-template-columns:1fr; } .shell { padding:14px; } }
     </style>`;
@@ -416,21 +428,72 @@ function pageShell({ title, description, keywords, canonical, body, jsonLd = [] 
         </nav>
       </div>
       ${body}
-      <footer class="footer">Unofficial League of Legends fan project. ARAM Mayhem build, item, augment, and counter pages are generated from curated local guide data.</footer>
+      <footer class="footer">Updated for Patch ${patchVersion}. Last updated: ${lastUpdated}. ${trustNote}</footer>
     </main>
+    <script>
+      document.addEventListener("click", async function (event) {
+        const button = event.target.closest("[data-copy-share]");
+        if (!button) return;
+        const original = button.textContent;
+        const text = button.getAttribute("data-share-text") || "";
+        try {
+          await navigator.clipboard.writeText(text);
+          button.textContent = "Copied";
+          button.classList.add("copied");
+          window.setTimeout(function () {
+            button.textContent = original;
+            button.classList.remove("copied");
+          }, 1400);
+        } catch {
+          button.textContent = "Select text";
+        }
+      });
+    </script>
   </body>
 </html>
 `;
+}
+
+function trustPanel() {
+  return `<section class="trust" aria-label="Update and data note">
+        <div class="trust-row">
+          <span class="trust-chip">Updated for Patch ${patchVersion}</span>
+          <span class="trust-chip">Last updated: ${lastUpdated}</span>
+        </div>
+        <p>${escapeHtml(trustNote)}</p>
+      </section>`;
 }
 
 function heroBlock(entry, subtitle) {
   return `<section class="hero">
         <img src="${escapeAttr(championIcon(entry.data))}" alt="${escapeAttr(entry.name)} icon" />
         <div>
-          <div class="eyebrow">ARAM Mayhem · Patch ${patchVersion}</div>
+          <div class="eyebrow">ARAM Mayhem - Patch ${patchVersion}</div>
           <h1>${escapeHtml(subtitle)}</h1>
-          <p>${escapeHtml(entry.zh)} ${escapeHtml(entry.name)} ARAM Mayhem data page.</p>
+          <p>${escapeHtml(entry.name)} ARAM Mayhem quick guide for augments, item path, counters, and beginner decisions.</p>
         </div>
+      </section>${trustPanel()}`;
+}
+
+function shareLines(entry, canonical) {
+  const url = canonical || `${siteUrl}/aram-mayhem/${entry.slug}-build/`;
+  return [
+    ["EN", `${entry.name} ARAM Mayhem quick guide: best augments, item path, and beginner tips. ${url}`],
+    ["ZH", `${entry.name} ARAM Mayhem 快速攻略：最佳强化、出装路线和新手提示。${url}`],
+    ["JA", `${entry.name} ARAM Mayhem クイックガイド：おすすめオーグメント、アイテムルート、初心者向け tips。${url}`],
+    ["KO", `${entry.name} ARAM Mayhem 빠른 가이드: 추천 증강, 아이템 경로, 초보 팁. ${url}`],
+    ["ES", `${entry.name} guia rapida de ARAM Mayhem: mejores aumentos, ruta de objetos y consejos para principiantes. ${url}`]
+  ];
+}
+
+function sharePanel(entry, canonical) {
+  const lines = shareLines(entry, canonical);
+  return `<section class="section" aria-label="Share this build">
+        <div class="section-head">
+          <h2>Share this build</h2>
+          <div class="share-actions">${lines.map(([label, text]) => `<button class="copy-button" type="button" data-copy-share data-share-text="${escapeAttr(text)}">Copy ${label}</button>`).join("")}</div>
+        </div>
+        <div class="share-copy">${lines.map(([label, text]) => `<div><strong>${label}:</strong> ${escapeHtml(text)}</div>`).join("")}</div>
       </section>`;
 }
 
@@ -490,7 +553,7 @@ function buildPage(entry, entries) {
       ${tabBlock(entry, "build")}
       <section class="section">
         <h2>Best ${escapeHtml(entry.name)} Items</h2>
-        <p>This page targets ${escapeHtml(entry.name.toLowerCase())} ARAM Mayhem build search intent. Item paths come from curated guide data in this project.</p>
+        <p>Pick better augments in 10 seconds. Item paths come from curated guide data and gameplay testing, then stay grouped for fast in-game lookup.</p>
         ${buildCards(entry)}
       </section>
       <section class="section">
@@ -508,7 +571,8 @@ function buildPage(entry, entries) {
         <p>Start with the first curated route above, then adapt defensive or penetration items to the enemy composition.</p>
         <h3>Which augments should ${escapeHtml(entry.name)} reroll for?</h3>
         <p>Prioritize the listed prismatic and gold augments when they match the selected item route.</p>
-      </section>`;
+      </section>
+      ${sharePanel(entry, canonical)}`;
   const faq = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -617,7 +681,8 @@ async function writeIndexPages(entries) {
     title: "ARAM Mayhem Builds, Tier List, Counters and Guides",
     description: "ARAM Mayhem answer hub with champion builds, counter pages, tier list, patch meta, and beginner-friendly League of Legends augment guides.",
     keywords: ["aram mayhem", "aram mayhem builds", "aram mayhem tier list", "best champions aram mayhem", "lol augment guide"],
-    body: `<section class="hero"><div><div class="eyebrow">League of Legends · 2026 Meta</div><h1>ARAM Mayhem Builds and Tier List</h1><p>Programmatic answer hub for builds, counters, guides, tier list, and patch meta pages.</p></div></section>
+    body: `<section class="hero"><div><div class="eyebrow">League of Legends - Patch ${patchVersion}</div><h1>Pick better augments in 10 seconds</h1><p>ARAM Mayhem builds, item paths, counters, and beginner tips for every champion.</p></div></section>
+      ${trustPanel()}
       <section class="section"><h2>Champion Build Pages</h2><div class="grid">${championCards}</div></section>`
   }));
 
@@ -627,7 +692,8 @@ async function writeIndexPages(entries) {
     title: "ARAM Mayhem Tier List (2026 Meta)",
     description: "Latest ARAM Mayhem tier list with best champions, role categories, build links, and counter pages for the 2026 meta.",
     keywords: ["aram mayhem tier list", "best champions aram mayhem", "aram mayhem best picks", "aram meta tier list 2026"],
-    body: `<section class="hero"><div><div class="eyebrow">ARAM Mayhem · Tier List</div><h1>ARAM Mayhem Tier List (2026 Meta)</h1><p>Latest internal champion index for ARAM Mayhem builds and counters.</p></div></section>
+    body: `<section class="hero"><div><div class="eyebrow">ARAM Mayhem - Tier List</div><h1>ARAM Mayhem Tier List (2026 Meta)</h1><p>Quick comparison hub for champion builds, counters, and role categories.</p></div></section>
+      ${trustPanel()}
       <section class="section"><h2>Tier List Table</h2><table class="table"><tr><th>Tier</th><th>Champion</th><th>Role</th><th>Counter Page</th></tr>${rows}</table></section>`
   }));
 
@@ -636,7 +702,8 @@ async function writeIndexPages(entries) {
     title: "ARAM Mayhem Meta July 2026 - Patch 26.13",
     description: "Current ARAM Mayhem meta overview for July 2026 with patch 26.13 champion builds, augment guide links, and tier list navigation.",
     keywords: ["aram mayhem patch 26.13 meta", "aram mayhem meta july 2026", "best items aram mayhem", "best runes aram mayhem"],
-    body: `<section class="hero"><div><div class="eyebrow">Patch ${patchVersion}</div><h1>ARAM Mayhem Meta July 2026</h1><p>Use this page as the meta index for champion builds, counters, and role categories.</p></div></section>
+    body: `<section class="hero"><div><div class="eyebrow">Patch ${patchVersion}</div><h1>ARAM Mayhem Meta July 2026</h1><p>Use this page as the current meta index for champion builds, counters, and role categories.</p></div></section>
+      ${trustPanel()}
       <section class="section"><h2>Meta Champion Links</h2><div class="grid">${championCards}</div></section>`
   }));
 
@@ -645,7 +712,8 @@ async function writeIndexPages(entries) {
     title: "How to Play ARAM Mayhem - Beginner Guide",
     description: "Learn how to play ARAM Mayhem with beginner tips for rerolls, augments, item builds, teamfights, and champion role selection.",
     keywords: ["how to play aram mayhem", "aram mayhem beginner guide", "what is aram mayhem", "lol augment guide"],
-    body: `<section class="hero"><div><div class="eyebrow">Beginner Guide</div><h1>How to Play ARAM Mayhem</h1><p>ARAM Mayhem rewards quick build decisions, augment rerolls, and role-aware teamfight planning.</p></div></section>
+    body: `<section class="hero"><div><div class="eyebrow">Beginner Guide - Patch ${patchVersion}</div><h1>How to Play ARAM Mayhem</h1><p>ARAM Mayhem rewards quick build decisions, augment rerolls, and role-aware teamfight planning.</p></div></section>
+      ${trustPanel()}
       <section class="section"><h2>Core Rules</h2><ul class="list"><li>Pick a route before rerolling augments.</li><li>Use role category pages to compare similar champions.</li><li>Adapt defensive items when burst or engage pressure is too high.</li></ul></section>`
   }));
 
@@ -654,7 +722,8 @@ async function writeIndexPages(entries) {
     title: "ARAM Mayhem Beginner Guide - Builds, Augments and Rerolls",
     description: "Beginner-friendly ARAM Mayhem guide explaining builds, augments, reroll strategy, counters, and patch meta navigation.",
     keywords: ["beginner guide aram mayhem", "how to play aram mayhem", "lol augment guide", "aram mayhem builds"],
-    body: `<section class="hero"><div><div class="eyebrow">New Player Guide</div><h1>ARAM Mayhem Beginner Guide</h1><p>Start with a champion build page, check counters, then use the tier list and meta pages to compare picks.</p></div></section>
+    body: `<section class="hero"><div><div class="eyebrow">New Player Guide - Patch ${patchVersion}</div><h1>ARAM Mayhem Beginner Guide</h1><p>Start with a champion build page, check counters, then use the tier list and meta pages to compare picks.</p></div></section>
+      ${trustPanel()}
       <section class="section"><h2>Recommended Flow</h2><ul class="list"><li>Open a champion build page.</li><li>Compare items and augment tiers.</li><li>Check the counter page for pressure picks.</li></ul></section>`
   }));
 
@@ -665,6 +734,7 @@ async function writeIndexPages(entries) {
       description: `ARAM Mayhem patch ${patch.replace("-", ".")} meta page with champion build links, tier list navigation, and update notes.`,
       keywords: [`aram mayhem patch ${patch.replace("-", ".")} meta`, "aram mayhem meta july 2026", "aram mayhem tier list"],
       body: `<section class="hero"><div><div class="eyebrow">Patch ${patch.replace("-", ".")}</div><h1>ARAM Mayhem Patch ${patch.replace("-", ".")} Meta</h1><p>${patch === "26-13" ? "Curated local data is currently aligned to patch 26.13." : "Patch 26.14 tracker page is prepared for future updates."}</p></div></section>
+        ${patch === "26-13" ? trustPanel() : ""}
         <section class="section"><h2>Champion Links</h2><div class="grid">${championCards}</div></section>`
     }));
   }
@@ -676,7 +746,8 @@ async function writeIndexPages(entries) {
       title: `${label} ARAM Mayhem Builds and Counters`,
       description: `${label} ARAM Mayhem category page with related champion builds, counter pages, item routes, and augment guides.`,
       keywords: [`${label.toLowerCase()} aram mayhem builds`, "aram mayhem builds", "best champions aram mayhem", "lol augment guide"],
-      body: `<section class="hero"><div><div class="eyebrow">Category</div><h1>${label} ARAM Mayhem Builds</h1><p>Related ${label.toLowerCase()} champions for internal linking and role-based comparison.</p></div></section>
+      body: `<section class="hero"><div><div class="eyebrow">Category - Patch ${patchVersion}</div><h1>${label} ARAM Mayhem Builds</h1><p>Related ${label.toLowerCase()} champions for fast build and augment comparison.</p></div></section>
+        ${trustPanel()}
         <section class="section"><h2>${label} Champions</h2><div class="grid">${members.map((entry) => championCard(entry)).join("")}</div></section>`
     }));
   }
