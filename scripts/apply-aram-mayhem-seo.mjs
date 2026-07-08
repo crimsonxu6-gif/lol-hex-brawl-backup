@@ -501,6 +501,138 @@ function pageShell({ title, description, keywords, canonical, body, jsonLd = [] 
           footer: "Actualizado para Patch ${patchVersion}. Ultima actualizacion: ${lastUpdated}. Datos curados manualmente a partir de fuentes publicas del meta y pruebas de juego. No afiliado a Riot Games."
         }
       };
+      const seoContentCopy = {
+        zh: {
+          text: {
+            championBuildPages: "英雄出装页面",
+            tierListTable: "梯度榜表格",
+            tier: "梯度",
+            champion: "英雄",
+            role: "定位",
+            counterPage: "克制页面",
+            counters: "克制",
+            metaChampionLinks: "版本英雄链接",
+            coreRules: "核心规则",
+            coreRuleRoute: "先确定出装路线，再重随强化。",
+            coreRuleCompare: "使用定位分类页面对比相似英雄。",
+            coreRuleDefensive: "爆发或开团压力太高时，及时补防御装备。",
+            recommendedFlow: "推荐流程",
+            flowOpen: "打开一个英雄出装页面。",
+            flowCompare: "对比装备路线和强化阶级。",
+            flowCheck: "查看克制页面，确认压力英雄。",
+            championLinks: "英雄链接",
+            categoryChampions: "分类英雄",
+            currentPatchAligned: "当前整理数据已对齐 Patch 26.13。",
+            futurePatchTracker: "Patch 26.14 追踪页已预留，等待后续更新。"
+          },
+          roles: { fighter: "战士", mage: "法师", assassin: "刺客", adc: "射手", tank: "坦克", support: "辅助" },
+          tiers: { S: "S 级", A: "A 级", B: "B 级" }
+        },
+        en: {
+          text: {
+            championBuildPages: "Champion Build Pages",
+            tierListTable: "Tier List Table",
+            tier: "Tier",
+            champion: "Champion",
+            role: "Role",
+            counterPage: "Counter Page",
+            counters: "Counters",
+            metaChampionLinks: "Meta Champion Links",
+            coreRules: "Core Rules",
+            coreRuleRoute: "Pick a route before rerolling augments.",
+            coreRuleCompare: "Use role category pages to compare similar champions.",
+            coreRuleDefensive: "Adapt defensive items when burst or engage pressure is too high.",
+            recommendedFlow: "Recommended Flow",
+            flowOpen: "Open a champion build page.",
+            flowCompare: "Compare items and augment tiers.",
+            flowCheck: "Check the counter page for pressure picks.",
+            championLinks: "Champion Links",
+            categoryChampions: "Category Champions",
+            currentPatchAligned: "Curated local data is currently aligned to patch 26.13.",
+            futurePatchTracker: "Patch 26.14 tracker page is prepared for future updates."
+          },
+          roles: { fighter: "Fighter", mage: "Mage", assassin: "Assassin", adc: "ADC", tank: "Tank", support: "Support" },
+          tiers: { S: "S Tier", A: "A Tier", B: "B Tier" }
+        },
+        ja: {
+          text: {
+            championBuildPages: "チャンピオンビルドページ",
+            tierListTable: "ティアリスト表",
+            tier: "ティア",
+            champion: "チャンピオン",
+            role: "ロール",
+            counterPage: "カウンターページ",
+            counters: "カウンター",
+            metaChampionLinks: "メタチャンピオンリンク",
+            coreRules: "基本ルール",
+            coreRuleRoute: "オーグメントをリロールする前にビルドルートを決める。",
+            coreRuleCompare: "ロール別ページで似たチャンピオンを比較する。",
+            coreRuleDefensive: "バーストやエンゲージ圧が高い時は防御アイテムに切り替える。",
+            recommendedFlow: "おすすめの流れ",
+            flowOpen: "チャンピオンのビルドページを開く。",
+            flowCompare: "アイテムとオーグメントのティアを比較する。",
+            flowCheck: "カウンターページで圧力の高い相手を確認する。",
+            championLinks: "チャンピオンリンク",
+            categoryChampions: "カテゴリ内チャンピオン",
+            currentPatchAligned: "現在の整理データは Patch 26.13 に対応しています。",
+            futurePatchTracker: "Patch 26.14 の追跡ページは今後の更新用に準備済みです。"
+          },
+          roles: { fighter: "ファイター", mage: "メイジ", assassin: "アサシン", adc: "ADC", tank: "タンク", support: "サポート" },
+          tiers: { S: "S ティア", A: "A ティア", B: "B ティア" }
+        },
+        ko: {
+          text: {
+            championBuildPages: "챔피언 빌드 페이지",
+            tierListTable: "티어 리스트 표",
+            tier: "티어",
+            champion: "챔피언",
+            role: "역할",
+            counterPage: "카운터 페이지",
+            counters: "카운터",
+            metaChampionLinks: "메타 챔피언 링크",
+            coreRules: "핵심 규칙",
+            coreRuleRoute: "증강을 다시 굴리기 전에 빌드 경로를 먼저 정하세요.",
+            coreRuleCompare: "역할별 페이지로 비슷한 챔피언을 비교하세요.",
+            coreRuleDefensive: "폭딜이나 이니시 압박이 강하면 방어 아이템으로 전환하세요.",
+            recommendedFlow: "추천 흐름",
+            flowOpen: "챔피언 빌드 페이지를 엽니다.",
+            flowCompare: "아이템과 증강 티어를 비교합니다.",
+            flowCheck: "카운터 페이지에서 압박 픽을 확인합니다.",
+            championLinks: "챔피언 링크",
+            categoryChampions: "분류별 챔피언",
+            currentPatchAligned: "현재 정리된 데이터는 Patch 26.13에 맞춰져 있습니다.",
+            futurePatchTracker: "Patch 26.14 추적 페이지는 향후 업데이트를 위해 준비되어 있습니다."
+          },
+          roles: { fighter: "전사", mage: "마법사", assassin: "암살자", adc: "원딜", tank: "탱커", support: "서포터" },
+          tiers: { S: "S 티어", A: "A 티어", B: "B 티어" }
+        },
+        es: {
+          text: {
+            championBuildPages: "Paginas de builds de campeones",
+            tierListTable: "Tabla de tier list",
+            tier: "Tier",
+            champion: "Campeon",
+            role: "Rol",
+            counterPage: "Pagina de counters",
+            counters: "Counters",
+            metaChampionLinks: "Enlaces de campeones meta",
+            coreRules: "Reglas clave",
+            coreRuleRoute: "Elige una ruta antes de volver a tirar aumentos.",
+            coreRuleCompare: "Usa las paginas por rol para comparar campeones similares.",
+            coreRuleDefensive: "Adapta objetos defensivos cuando haya demasiado burst o engage.",
+            recommendedFlow: "Flujo recomendado",
+            flowOpen: "Abre una pagina de build de campeon.",
+            flowCompare: "Compara objetos y tiers de aumentos.",
+            flowCheck: "Revisa la pagina de counters para detectar picks de presion.",
+            championLinks: "Enlaces de campeones",
+            categoryChampions: "Campeones de la categoria",
+            currentPatchAligned: "Los datos curados actualmente estan alineados con Patch 26.13.",
+            futurePatchTracker: "La pagina de seguimiento de Patch 26.14 esta preparada para futuras actualizaciones."
+          },
+          roles: { fighter: "Luchador", mage: "Mago", assassin: "Asesino", adc: "ADC", tank: "Tanque", support: "Soporte" },
+          tiers: { S: "Tier S", A: "Tier A", B: "Tier B" }
+        }
+      };
       function seoStoredLanguage() {
         try { return localStorage.getItem(seoLanguageStorageKey); } catch { return null; }
       }
@@ -518,6 +650,7 @@ function pageShell({ title, description, keywords, canonical, body, jsonLd = [] 
       }
       function applySeoLanguage(lang) {
         const copy = seoCopy[lang] || seoCopy.en;
+        const content = seoContentCopy[lang] || seoContentCopy.en;
         document.documentElement.lang = seoDocumentLang(lang);
         document.querySelectorAll("[data-i18n-nav]").forEach(function (link) {
           const key = link.getAttribute("data-i18n-nav");
@@ -532,6 +665,18 @@ function pageShell({ title, description, keywords, canonical, body, jsonLd = [] 
           button.textContent = copy.copyPrefix + (label ? " " + label : "");
         });
         document.querySelectorAll("[data-i18n-footer]").forEach(function (node) { node.textContent = copy.footer; });
+        document.querySelectorAll("[data-i18n-text]").forEach(function (node) {
+          const key = node.getAttribute("data-i18n-text");
+          if (content.text[key]) node.textContent = content.text[key];
+        });
+        document.querySelectorAll("[data-i18n-role]").forEach(function (node) {
+          const key = node.getAttribute("data-role-key");
+          if (content.roles[key]) node.textContent = content.roles[key];
+        });
+        document.querySelectorAll("[data-i18n-tier]").forEach(function (node) {
+          const key = node.getAttribute("data-tier-key");
+          if (content.tiers[key]) node.textContent = content.tiers[key];
+        });
       }
       const languageSelect = document.getElementById("languageSelect");
       if (languageSelect) {
@@ -768,7 +913,7 @@ function guidePage(entry, entries) {
 }
 
 function championCard(entry, suffix = "build") {
-  return `<article class="card"><h3><a href="/aram-mayhem/${escapeAttr(entry.slug)}-${suffix}/">${escapeHtml(entry.name)}</a></h3><p>${escapeHtml(entry.roleLabel)} · ${escapeHtml(entry.zh)}</p></article>`;
+  return `<article class="card"><h3><a href="/aram-mayhem/${escapeAttr(entry.slug)}-${suffix}/">${escapeHtml(entry.name)}</a></h3><p><span data-i18n-role data-role-key="${escapeAttr(entry.role)}">${escapeHtml(entry.roleLabel)}</span> · ${escapeHtml(entry.zh)}</p></article>`;
 }
 
 function simplePage({ slug, title, description, keywords, body }) {
@@ -801,10 +946,13 @@ async function writeIndexPages(entries) {
     keywords: ["aram mayhem", "aram mayhem builds", "aram mayhem tier list", "best champions aram mayhem", "lol augment guide"],
     body: `<section class="hero"><div><div class="eyebrow">League of Legends - Patch ${patchVersion}</div><h1>Pick better augments in 10 seconds</h1><p>ARAM Mayhem builds, item paths, counters, and beginner tips for every champion.</p></div></section>
       ${trustPanel()}
-      <section class="section"><h2>Champion Build Pages</h2><div class="grid">${championCards}</div></section>`
+      <section class="section"><h2 data-i18n-text="championBuildPages">Champion Build Pages</h2><div class="grid">${championCards}</div></section>`
   }));
 
-  const rows = entries.map((entry) => `<tr><td>${tierLabel(entry.role)} Tier</td><td><a href="/aram-mayhem/${escapeAttr(entry.slug)}-build/">${escapeHtml(entry.name)}</a></td><td>${escapeHtml(entry.roleLabel)}</td><td><a href="/aram-mayhem/${escapeAttr(entry.slug)}-counter/">Counters</a></td></tr>`).join("");
+  const rows = entries.map((entry) => {
+    const tier = tierLabel(entry.role);
+    return `<tr><td><span data-i18n-tier data-tier-key="${escapeAttr(tier)}">${tier} Tier</span></td><td><a href="/aram-mayhem/${escapeAttr(entry.slug)}-build/">${escapeHtml(entry.name)}</a></td><td><span data-i18n-role data-role-key="${escapeAttr(entry.role)}">${escapeHtml(entry.roleLabel)}</span></td><td><a href="/aram-mayhem/${escapeAttr(entry.slug)}-counter/" data-i18n-text="counters">Counters</a></td></tr>`;
+  }).join("");
   await writeFileEnsured(path.join(aramDir, "tier-list", "index.html"), simplePage({
     slug: "/aram-mayhem/tier-list/",
     title: "ARAM Mayhem Tier List (2026 Meta)",
@@ -812,7 +960,7 @@ async function writeIndexPages(entries) {
     keywords: ["aram mayhem tier list", "best champions aram mayhem", "aram mayhem best picks", "aram meta tier list 2026"],
     body: `<section class="hero"><div><div class="eyebrow">ARAM Mayhem - Tier List</div><h1>ARAM Mayhem Tier List (2026 Meta)</h1><p>Quick comparison hub for champion builds, counters, and role categories.</p></div></section>
       ${trustPanel()}
-      <section class="section"><h2>Tier List Table</h2><table class="table"><tr><th>Tier</th><th>Champion</th><th>Role</th><th>Counter Page</th></tr>${rows}</table></section>`
+      <section class="section"><h2 data-i18n-text="tierListTable">Tier List Table</h2><table class="table"><tr><th data-i18n-text="tier">Tier</th><th data-i18n-text="champion">Champion</th><th data-i18n-text="role">Role</th><th data-i18n-text="counterPage">Counter Page</th></tr>${rows}</table></section>`
   }));
 
   await writeFileEnsured(path.join(aramDir, "meta", "index.html"), simplePage({
@@ -822,7 +970,7 @@ async function writeIndexPages(entries) {
     keywords: ["aram mayhem patch 26.13 meta", "aram mayhem meta july 2026", "best items aram mayhem", "best runes aram mayhem"],
     body: `<section class="hero"><div><div class="eyebrow">Patch ${patchVersion}</div><h1>ARAM Mayhem Meta July 2026</h1><p>Use this page as the current meta index for champion builds, counters, and role categories.</p></div></section>
       ${trustPanel()}
-      <section class="section"><h2>Meta Champion Links</h2><div class="grid">${championCards}</div></section>`
+      <section class="section"><h2 data-i18n-text="metaChampionLinks">Meta Champion Links</h2><div class="grid">${championCards}</div></section>`
   }));
 
   await writeFileEnsured(path.join(aramDir, "how-to-play", "index.html"), simplePage({
@@ -832,7 +980,7 @@ async function writeIndexPages(entries) {
     keywords: ["how to play aram mayhem", "aram mayhem beginner guide", "what is aram mayhem", "lol augment guide"],
     body: `<section class="hero"><div><div class="eyebrow">Beginner Guide - Patch ${patchVersion}</div><h1>How to Play ARAM Mayhem</h1><p>ARAM Mayhem rewards quick build decisions, augment rerolls, and role-aware teamfight planning.</p></div></section>
       ${trustPanel()}
-      <section class="section"><h2>Core Rules</h2><ul class="list"><li>Pick a route before rerolling augments.</li><li>Use role category pages to compare similar champions.</li><li>Adapt defensive items when burst or engage pressure is too high.</li></ul></section>`
+      <section class="section"><h2 data-i18n-text="coreRules">Core Rules</h2><ul class="list"><li data-i18n-text="coreRuleRoute">Pick a route before rerolling augments.</li><li data-i18n-text="coreRuleCompare">Use role category pages to compare similar champions.</li><li data-i18n-text="coreRuleDefensive">Adapt defensive items when burst or engage pressure is too high.</li></ul></section>`
   }));
 
   await writeFileEnsured(path.join(aramDir, "beginners-guide", "index.html"), simplePage({
@@ -842,7 +990,7 @@ async function writeIndexPages(entries) {
     keywords: ["beginner guide aram mayhem", "how to play aram mayhem", "lol augment guide", "aram mayhem builds"],
     body: `<section class="hero"><div><div class="eyebrow">New Player Guide - Patch ${patchVersion}</div><h1>ARAM Mayhem Beginner Guide</h1><p>Start with a champion build page, check counters, then use the tier list and meta pages to compare picks.</p></div></section>
       ${trustPanel()}
-      <section class="section"><h2>Recommended Flow</h2><ul class="list"><li>Open a champion build page.</li><li>Compare items and augment tiers.</li><li>Check the counter page for pressure picks.</li></ul></section>`
+      <section class="section"><h2 data-i18n-text="recommendedFlow">Recommended Flow</h2><ul class="list"><li data-i18n-text="flowOpen">Open a champion build page.</li><li data-i18n-text="flowCompare">Compare items and augment tiers.</li><li data-i18n-text="flowCheck">Check the counter page for pressure picks.</li></ul></section>`
   }));
 
   for (const patch of ["26-13", "26-14"]) {
@@ -851,9 +999,9 @@ async function writeIndexPages(entries) {
       title: `ARAM Mayhem Patch ${patch.replace("-", ".")} Meta`,
       description: `ARAM Mayhem patch ${patch.replace("-", ".")} meta page with champion build links, tier list navigation, and update notes.`,
       keywords: [`aram mayhem patch ${patch.replace("-", ".")} meta`, "aram mayhem meta july 2026", "aram mayhem tier list"],
-      body: `<section class="hero"><div><div class="eyebrow">Patch ${patch.replace("-", ".")}</div><h1>ARAM Mayhem Patch ${patch.replace("-", ".")} Meta</h1><p>${patch === "26-13" ? "Curated local data is currently aligned to patch 26.13." : "Patch 26.14 tracker page is prepared for future updates."}</p></div></section>
+      body: `<section class="hero"><div><div class="eyebrow">Patch ${patch.replace("-", ".")}</div><h1>ARAM Mayhem Patch ${patch.replace("-", ".")} Meta</h1><p data-i18n-text="${patch === "26-13" ? "currentPatchAligned" : "futurePatchTracker"}">${patch === "26-13" ? "Curated local data is currently aligned to patch 26.13." : "Patch 26.14 tracker page is prepared for future updates."}</p></div></section>
         ${patch === "26-13" ? trustPanel() : ""}
-        <section class="section"><h2>Champion Links</h2><div class="grid">${championCards}</div></section>`
+        <section class="section"><h2 data-i18n-text="championLinks">Champion Links</h2><div class="grid">${championCards}</div></section>`
     }));
   }
 
@@ -866,7 +1014,7 @@ async function writeIndexPages(entries) {
       keywords: [`${label.toLowerCase()} aram mayhem builds`, "aram mayhem builds", "best champions aram mayhem", "lol augment guide"],
       body: `<section class="hero"><div><div class="eyebrow">Category - Patch ${patchVersion}</div><h1>${label} ARAM Mayhem Builds</h1><p>Related ${label.toLowerCase()} champions for fast build and augment comparison.</p></div></section>
         ${trustPanel()}
-        <section class="section"><h2>${label} Champions</h2><div class="grid">${members.map((entry) => championCard(entry)).join("")}</div></section>`
+        <section class="section"><h2><span data-i18n-role data-role-key="${escapeAttr(role)}">${escapeHtml(label)}</span> <span data-i18n-text="categoryChampions">Champions</span></h2><div class="grid">${members.map((entry) => championCard(entry)).join("")}</div></section>`
     }));
   }
 }
