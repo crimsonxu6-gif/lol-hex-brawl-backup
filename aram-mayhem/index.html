@@ -14,8 +14,10 @@
       a { color:inherit; }
       .shell { width:min(100%, 1080px); margin:0 auto; padding:22px 18px 52px; }
       .top { display:flex; justify-content:space-between; align-items:center; gap:14px; margin-bottom:18px; color:var(--muted); font-size:14px; }
+      .top-actions { display:flex; align-items:center; justify-content:flex-end; gap:10px; flex-wrap:wrap; }
       .nav { display:flex; gap:10px; flex-wrap:wrap; }
       .nav a, .chip { border:1px solid var(--line); border-radius:8px; padding:8px 11px; text-decoration:none; background:rgba(48,36,27,.72); }
+      .language { min-width:112px; height:36px; border:1px solid var(--line); border-radius:8px; background:#211912; color:var(--text); padding:0 10px; outline:none; }
       .hero { border:1px solid var(--line); border-radius:8px; background:linear-gradient(135deg, rgba(48,36,27,.96), rgba(30,22,16,.94)); padding:26px; display:flex; gap:18px; align-items:center; }
       .hero img { width:88px; height:88px; border-radius:8px; border:1px solid var(--accent); background:#111; object-fit:cover; }
       h1 { margin:0; font-size:clamp(34px, 6vw, 56px); line-height:1.02; letter-spacing:0; }
@@ -49,7 +51,7 @@
       .share-copy div { border:1px solid rgba(88,69,50,.7); border-radius:8px; background:#261c15; padding:10px; }
       .share-copy strong { color:#f8e5bf; }
       .footer { margin-top:24px; color:#8e7962; font-size:12px; line-height:1.7; }
-      @media (max-width: 640px) { .hero { align-items:flex-start; padding:18px; } .hero img { width:64px; height:64px; } .tabs { grid-template-columns:1fr; } .shell { padding:14px; } }
+      @media (max-width: 640px) { .top { align-items:flex-start; flex-direction:column; } .top-actions { justify-content:flex-start; } .hero { align-items:flex-start; padding:18px; } .hero img { width:64px; height:64px; } .tabs { grid-template-columns:1fr; } .shell { padding:14px; } }
     </style>
     
   </head>
@@ -57,25 +59,139 @@
     <main class="shell">
       <div class="top">
         <a href="/aram-mayhem/">ARAM Mayhem</a>
-        <nav class="nav" aria-label="ARAM Mayhem navigation">
-          <a href="/aram-mayhem/tier-list/">Tier List</a>
-          <a href="/aram-mayhem/meta/">Meta</a>
-          <a href="/aram-mayhem/how-to-play/">How to Play</a>
-          <a href="/">Champion Index</a>
-        </nav>
+        <div class="top-actions">
+          <nav class="nav" aria-label="ARAM Mayhem navigation">
+            <a href="/aram-mayhem/tier-list/" data-i18n-nav="tier">Tier List</a>
+            <a href="/aram-mayhem/meta/" data-i18n-nav="meta">Meta</a>
+            <a href="/aram-mayhem/how-to-play/" data-i18n-nav="how">How to Play</a>
+            <a href="/" data-i18n-nav="index">Champion Index</a>
+          </nav>
+          <select id="languageSelect" class="language" aria-label="Language">
+            <option value="zh">中文</option>
+            <option value="en">English</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+            <option value="es">Español</option>
+          </select>
+        </div>
       </div>
       <section class="hero"><div><div class="eyebrow">League of Legends - Patch 26.13</div><h1>Pick better augments in 10 seconds</h1><p>ARAM Mayhem builds, item paths, counters, and beginner tips for every champion.</p></div></section>
       <section class="trust" aria-label="Update and data note">
         <div class="trust-row">
-          <span class="trust-chip">Updated for Patch 26.13</span>
-          <span class="trust-chip">Last updated: 2026-07-07</span>
+          <span class="trust-chip" data-i18n-trust-patch>Updated for Patch 26.13</span>
+          <span class="trust-chip" data-i18n-trust-updated>Last updated: 2026-07-07</span>
         </div>
-        <p>Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games.</p>
+        <p data-i18n-trust-note>Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games.</p>
       </section>
       <section class="section"><h2>Champion Build Pages</h2><div class="grid"><article class="card"><h3><a href="/aram-mayhem/aatrox-build/">Aatrox</a></h3><p>Fighter · 亚托克斯 暗裔剑魔</p></article><article class="card"><h3><a href="/aram-mayhem/ahri-build/">Ahri</a></h3><p>Mage · 阿狸 九尾妖狐</p></article><article class="card"><h3><a href="/aram-mayhem/akali-build/">Akali</a></h3><p>Assassin · 阿卡丽 离群之刺</p></article><article class="card"><h3><a href="/aram-mayhem/akshan-build/">Akshan</a></h3><p>ADC · 阿克尚 影哨</p></article><article class="card"><h3><a href="/aram-mayhem/alistar-build/">Alistar</a></h3><p>Tank · 阿利斯塔 牛头酋长</p></article><article class="card"><h3><a href="/aram-mayhem/ambessa-build/">Ambessa</a></h3><p>Fighter · 安蓓萨 铁血狼母</p></article><article class="card"><h3><a href="/aram-mayhem/amumu-build/">Amumu</a></h3><p>Tank · 阿木木 殇之木乃伊</p></article><article class="card"><h3><a href="/aram-mayhem/anivia-build/">Anivia</a></h3><p>Mage · 艾尼维亚 冰晶凤凰</p></article><article class="card"><h3><a href="/aram-mayhem/annie-build/">Annie</a></h3><p>Mage · 安妮 黑暗之女</p></article><article class="card"><h3><a href="/aram-mayhem/aphelios-build/">Aphelios</a></h3><p>ADC · 厄斐琉斯 残月之肃</p></article><article class="card"><h3><a href="/aram-mayhem/ashe-build/">Ashe</a></h3><p>ADC · 艾希 寒冰射手</p></article><article class="card"><h3><a href="/aram-mayhem/aurelion-sol-build/">Aurelion Sol</a></h3><p>Mage · 奥瑞利安·索尔 铸星龙王</p></article><article class="card"><h3><a href="/aram-mayhem/aurora-build/">Aurora</a></h3><p>Mage · 阿萝拉 双界灵兔</p></article><article class="card"><h3><a href="/aram-mayhem/azir-build/">Azir</a></h3><p>Mage · 阿兹尔 沙漠皇帝</p></article><article class="card"><h3><a href="/aram-mayhem/bard-build/">Bard</a></h3><p>Support · 巴德 星界游神</p></article><article class="card"><h3><a href="/aram-mayhem/belveth-build/">Bel&#039;Veth</a></h3><p>Fighter · 卑尔维斯 虚空女皇</p></article><article class="card"><h3><a href="/aram-mayhem/blitzcrank-build/">Blitzcrank</a></h3><p>Tank · 布里茨 蒸汽机器人</p></article><article class="card"><h3><a href="/aram-mayhem/brand-build/">Brand</a></h3><p>Mage · 布兰德 复仇焰魂</p></article><article class="card"><h3><a href="/aram-mayhem/braum-build/">Braum</a></h3><p>Tank · 布隆 弗雷尔卓德之心</p></article><article class="card"><h3><a href="/aram-mayhem/briar-build/">Briar</a></h3><p>Fighter · 贝蕾亚 狂厄蔷薇</p></article><article class="card"><h3><a href="/aram-mayhem/caitlyn-build/">Caitlyn</a></h3><p>ADC · 凯特琳 皮城女警</p></article><article class="card"><h3><a href="/aram-mayhem/camille-build/">Camille</a></h3><p>Fighter · 卡蜜尔 青钢影</p></article><article class="card"><h3><a href="/aram-mayhem/cassiopeia-build/">Cassiopeia</a></h3><p>Mage · 卡西奥佩娅 魔蛇之拥</p></article><article class="card"><h3><a href="/aram-mayhem/chogath-build/">Cho&#039;Gath</a></h3><p>Tank · 科加斯 虚空恐惧</p></article><article class="card"><h3><a href="/aram-mayhem/corki-build/">Corki</a></h3><p>ADC · 库奇 英勇投弹手</p></article><article class="card"><h3><a href="/aram-mayhem/darius-build/">Darius</a></h3><p>Fighter · 德莱厄斯 诺克萨斯之手</p></article><article class="card"><h3><a href="/aram-mayhem/diana-build/">Diana</a></h3><p>Mage · 黛安娜 皎月女神</p></article><article class="card"><h3><a href="/aram-mayhem/dr-mundo-build/">Dr. Mundo</a></h3><p>Tank · 蒙多医生 祖安狂人</p></article><article class="card"><h3><a href="/aram-mayhem/draven-build/">Draven</a></h3><p>ADC · 德莱文 荣耀行刑官</p></article><article class="card"><h3><a href="/aram-mayhem/ekko-build/">Ekko</a></h3><p>Assassin · 艾克 时间刺客</p></article><article class="card"><h3><a href="/aram-mayhem/elise-build/">Elise</a></h3><p>Fighter · 伊莉丝 蜘蛛女皇</p></article><article class="card"><h3><a href="/aram-mayhem/evelynn-build/">Evelynn</a></h3><p>Assassin · 伊芙琳 痛苦之拥</p></article><article class="card"><h3><a href="/aram-mayhem/ezreal-build/">Ezreal</a></h3><p>ADC · 伊泽瑞尔 探险家</p></article><article class="card"><h3><a href="/aram-mayhem/fiddlesticks-build/">Fiddlesticks</a></h3><p>Mage · 费德提克 远古恐惧</p></article><article class="card"><h3><a href="/aram-mayhem/fiora-build/">Fiora</a></h3><p>Fighter · 菲奥娜 无双剑姬</p></article><article class="card"><h3><a href="/aram-mayhem/fizz-build/">Fizz</a></h3><p>Assassin · 菲兹 潮汐海灵</p></article><article class="card"><h3><a href="/aram-mayhem/galio-build/">Galio</a></h3><p>Mage · 加里奥 正义巨像</p></article><article class="card"><h3><a href="/aram-mayhem/gangplank-build/">Gangplank</a></h3><p>Fighter · 普朗克 海洋之灾</p></article><article class="card"><h3><a href="/aram-mayhem/garen-build/">Garen</a></h3><p>Fighter · 盖伦 德玛西亚之力</p></article><article class="card"><h3><a href="/aram-mayhem/gnar-build/">Gnar</a></h3><p>Fighter · 纳尔 迷失之牙</p></article><article class="card"><h3><a href="/aram-mayhem/gragas-build/">Gragas</a></h3><p>Mage · 古拉加斯 酒桶</p></article><article class="card"><h3><a href="/aram-mayhem/graves-build/">Graves</a></h3><p>ADC · 格雷福斯 法外狂徒</p></article><article class="card"><h3><a href="/aram-mayhem/gwen-build/">Gwen</a></h3><p>Fighter · 格温 灵罗娃娃</p></article><article class="card"><h3><a href="/aram-mayhem/hecarim-build/">Hecarim</a></h3><p>Fighter · 赫卡里姆 战争之影</p></article><article class="card"><h3><a href="/aram-mayhem/heimerdinger-build/">Heimerdinger</a></h3><p>Fighter · 黑默丁格 大发明家</p></article><article class="card"><h3><a href="/aram-mayhem/hwei-build/">Hwei</a></h3><p>Mage · 彗 异画师</p></article><article class="card"><h3><a href="/aram-mayhem/illaoi-build/">Illaoi</a></h3><p>Fighter · 俄洛伊 海兽祭司</p></article><article class="card"><h3><a href="/aram-mayhem/irelia-build/">Irelia</a></h3><p>Fighter · 艾瑞莉娅 刀锋舞者</p></article><article class="card"><h3><a href="/aram-mayhem/ivern-build/">Ivern</a></h3><p>Support · 艾翁 翠神</p></article><article class="card"><h3><a href="/aram-mayhem/janna-build/">Janna</a></h3><p>Support · 迦娜 风暴之怒</p></article><article class="card"><h3><a href="/aram-mayhem/jarvan-iv-build/">Jarvan IV</a></h3><p>Fighter · 嘉文四世 德玛西亚皇子</p></article><article class="card"><h3><a href="/aram-mayhem/jax-build/">Jax</a></h3><p>Fighter · 贾克斯 武器大师</p></article><article class="card"><h3><a href="/aram-mayhem/jayce-build/">Jayce</a></h3><p>Fighter · 杰斯 未来守护者</p></article><article class="card"><h3><a href="/aram-mayhem/jhin-build/">Jhin</a></h3><p>Fighter · 烬 戏命师</p></article><article class="card"><h3><a href="/aram-mayhem/jinx-build/">Jinx</a></h3><p>ADC · 金克丝 暴走萝莉</p></article><article class="card"><h3><a href="/aram-mayhem/kaisa-build/">Kai&#039;Sa</a></h3><p>ADC · 卡莎 虚空之女</p></article><article class="card"><h3><a href="/aram-mayhem/kalista-build/">Kalista</a></h3><p>ADC · 卡莉丝塔 复仇之矛</p></article><article class="card"><h3><a href="/aram-mayhem/karma-build/">Karma</a></h3><p>Support · 卡尔玛 天启者</p></article><article class="card"><h3><a href="/aram-mayhem/karthus-build/">Karthus</a></h3><p>Mage · 卡尔萨斯 死亡颂唱者</p></article><article class="card"><h3><a href="/aram-mayhem/kassadin-build/">Kassadin</a></h3><p>Assassin · 卡萨丁 虚空行者</p></article><article class="card"><h3><a href="/aram-mayhem/katarina-build/">Katarina</a></h3><p>Assassin · 卡特琳娜 不祥之刃</p></article><article class="card"><h3><a href="/aram-mayhem/kayle-build/">Kayle</a></h3><p>Fighter · 凯尔 正义天使</p></article><article class="card"><h3><a href="/aram-mayhem/kayn-build/">Kayn</a></h3><p>Assassin · 凯隐 影流之镰</p></article><article class="card"><h3><a href="/aram-mayhem/kennen-build/">Kennen</a></h3><p>Fighter · 凯南 狂暴之心</p></article><article class="card"><h3><a href="/aram-mayhem/khazix-build/">Kha&#039;Zix</a></h3><p>Assassin · 卡兹克 虚空掠夺者</p></article><article class="card"><h3><a href="/aram-mayhem/kindred-build/">Kindred</a></h3><p>ADC · 千珏 永猎双子</p></article><article class="card"><h3><a href="/aram-mayhem/kled-build/">Kled</a></h3><p>Fighter · 克烈 暴怒骑士</p></article><article class="card"><h3><a href="/aram-mayhem/kogmaw-build/">Kog&#039;Maw</a></h3><p>ADC · 克格莫 深渊巨口</p></article><article class="card"><h3><a href="/aram-mayhem/ksante-build/">K&#039;Sante</a></h3><p>Tank · 奎桑提 纳祖芒荣耀</p></article><article class="card"><h3><a href="/aram-mayhem/leblanc-build/">LeBlanc</a></h3><p>Mage · 乐芙兰 诡术妖姬</p></article><article class="card"><h3><a href="/aram-mayhem/lee-sin-build/">Lee Sin</a></h3><p>Assassin · 李青 盲僧</p></article><article class="card"><h3><a href="/aram-mayhem/leona-build/">Leona</a></h3><p>Tank · 蕾欧娜 曙光女神</p></article><article class="card"><h3><a href="/aram-mayhem/lillia-build/">Lillia</a></h3><p>Mage · 莉莉娅 含羞蓓蕾</p></article><article class="card"><h3><a href="/aram-mayhem/lissandra-build/">Lissandra</a></h3><p>Mage · 丽桑卓 冰霜女巫</p></article><article class="card"><h3><a href="/aram-mayhem/locke-build/">Locke</a></h3><p>Mage · 洛克 灰烬驱魔人</p></article><article class="card"><h3><a href="/aram-mayhem/lucian-build/">Lucian</a></h3><p>ADC · 卢锡安 圣枪游侠</p></article><article class="card"><h3><a href="/aram-mayhem/lulu-build/">Lulu</a></h3><p>Support · 璐璐 仙灵女巫</p></article><article class="card"><h3><a href="/aram-mayhem/lux-build/">Lux</a></h3><p>Mage · 拉克丝 光辉女郎</p></article><article class="card"><h3><a href="/aram-mayhem/malphite-build/">Malphite</a></h3><p>Tank · 墨菲特 熔岩巨兽</p></article><article class="card"><h3><a href="/aram-mayhem/malzahar-build/">Malzahar</a></h3><p>Mage · 玛尔扎哈 虚空先知</p></article><article class="card"><h3><a href="/aram-mayhem/maokai-build/">Maokai</a></h3><p>Tank · 茂凯 扭曲树精</p></article><article class="card"><h3><a href="/aram-mayhem/master-yi-build/">Master Yi</a></h3><p>Assassin · 易 无极剑圣</p></article><article class="card"><h3><a href="/aram-mayhem/mel-build/">Mel</a></h3><p>ADC · 梅尔 流光镜影</p></article><article class="card"><h3><a href="/aram-mayhem/milio-build/">Milio</a></h3><p>Support · 米利欧 明烛</p></article><article class="card"><h3><a href="/aram-mayhem/miss-fortune-build/">Miss Fortune</a></h3><p>ADC · 厄运小姐 赏金猎人</p></article><article class="card"><h3><a href="/aram-mayhem/mordekaiser-build/">Mordekaiser</a></h3><p>Fighter · 莫德凯撒 铁铠冥魂</p></article><article class="card"><h3><a href="/aram-mayhem/morgana-build/">Morgana</a></h3><p>Mage · 莫甘娜 堕落天使</p></article><article class="card"><h3><a href="/aram-mayhem/naafiri-build/">Naafiri</a></h3><p>Assassin · 纳亚菲利 百裂冥犬</p></article><article class="card"><h3><a href="/aram-mayhem/nami-build/">Nami</a></h3><p>Support · 娜美 唤潮鲛姬</p></article><article class="card"><h3><a href="/aram-mayhem/nasus-build/">Nasus</a></h3><p>Fighter · 内瑟斯 沙漠死神</p></article><article class="card"><h3><a href="/aram-mayhem/nautilus-build/">Nautilus</a></h3><p>Tank · 诺提勒斯 深海泰坦</p></article><article class="card"><h3><a href="/aram-mayhem/neeko-build/">Neeko</a></h3><p>Mage · 妮蔻 万花通灵</p></article><article class="card"><h3><a href="/aram-mayhem/nidalee-build/">Nidalee</a></h3><p>Mage · 奈德丽 狂野女猎手</p></article><article class="card"><h3><a href="/aram-mayhem/nilah-build/">Nilah</a></h3><p>ADC · 尼菈 不羁之悦</p></article><article class="card"><h3><a href="/aram-mayhem/nocturne-build/">Nocturne</a></h3><p>Assassin · 魔腾 永恒梦魇</p></article><article class="card"><h3><a href="/aram-mayhem/nunu-build/">Nunu &amp; Willump</a></h3><p>Tank · 努努和威朗普 雪原双子</p></article><article class="card"><h3><a href="/aram-mayhem/olaf-build/">Olaf</a></h3><p>Fighter · 奥拉夫 狂战士</p></article><article class="card"><h3><a href="/aram-mayhem/orianna-build/">Orianna</a></h3><p>Mage · 奥莉安娜 发条魔灵</p></article><article class="card"><h3><a href="/aram-mayhem/ornn-build/">Ornn</a></h3><p>Tank · 奥恩 山隐之焰</p></article><article class="card"><h3><a href="/aram-mayhem/pantheon-build/">Pantheon</a></h3><p>Assassin · 潘森 不屈之枪</p></article><article class="card"><h3><a href="/aram-mayhem/poppy-build/">Poppy</a></h3><p>Tank · 波比 圣锤之毅</p></article><article class="card"><h3><a href="/aram-mayhem/pyke-build/">Pyke</a></h3><p>Assassin · 派克 血港鬼影</p></article><article class="card"><h3><a href="/aram-mayhem/qiyana-build/">Qiyana</a></h3><p>Mage · 奇亚娜 元素女皇</p></article><article class="card"><h3><a href="/aram-mayhem/quinn-build/">Quinn</a></h3><p>ADC · 奎因 德玛西亚之翼</p></article><article class="card"><h3><a href="/aram-mayhem/rakan-build/">Rakan</a></h3><p>Support · 洛 幻翎</p></article><article class="card"><h3><a href="/aram-mayhem/rammus-build/">Rammus</a></h3><p>Tank · 拉莫斯 披甲龙龟</p></article><article class="card"><h3><a href="/aram-mayhem/rek-sai-build/">Rek&#039;Sai</a></h3><p>Fighter · 雷克塞 虚空遁地兽</p></article><article class="card"><h3><a href="/aram-mayhem/rell-build/">Rell</a></h3><p>Tank · 芮尔 镕铁少女</p></article><article class="card"><h3><a href="/aram-mayhem/renata-glasc-build/">Renata Glasc</a></h3><p>Support · 烈娜塔 · 戈拉斯克 炼金男爵</p></article><article class="card"><h3><a href="/aram-mayhem/renekton-build/">Renekton</a></h3><p>Fighter · 雷克顿 荒漠屠夫</p></article><article class="card"><h3><a href="/aram-mayhem/rengar-build/">Rengar</a></h3><p>Assassin · 雷恩加尔 傲之追猎者</p></article><article class="card"><h3><a href="/aram-mayhem/riven-build/">Riven</a></h3><p>Fighter · 锐雯 放逐之刃</p></article><article class="card"><h3><a href="/aram-mayhem/rumble-build/">Rumble</a></h3><p>Mage · 兰博 机械公敌</p></article><article class="card"><h3><a href="/aram-mayhem/ryze-build/">Ryze</a></h3><p>Mage · 瑞兹 符文法师</p></article><article class="card"><h3><a href="/aram-mayhem/samira-build/">Samira</a></h3><p>ADC · 莎弥拉 沙漠玫瑰</p></article><article class="card"><h3><a href="/aram-mayhem/sejuani-build/">Sejuani</a></h3><p>Tank · 瑟庄妮 北地之怒</p></article><article class="card"><h3><a href="/aram-mayhem/senna-build/">Senna</a></h3><p>ADC · 赛娜 涤魂圣枪</p></article><article class="card"><h3><a href="/aram-mayhem/seraphine-build/">Seraphine</a></h3><p>Mage · 萨勒芬妮 星籁歌姬</p></article><article class="card"><h3><a href="/aram-mayhem/sett-build/">Sett</a></h3><p>Fighter · 瑟提 腕豪</p></article><article class="card"><h3><a href="/aram-mayhem/shaco-build/">Shaco</a></h3><p>Assassin · 萨科 恶魔小丑</p></article><article class="card"><h3><a href="/aram-mayhem/shen-build/">Shen</a></h3><p>Tank · 慎 暮光之眼</p></article><article class="card"><h3><a href="/aram-mayhem/shyvana-build/">Shyvana</a></h3><p>Fighter · 希瓦娜 龙血武姬</p></article><article class="card"><h3><a href="/aram-mayhem/singed-build/">Singed</a></h3><p>Tank · 辛吉德 炼金术士</p></article><article class="card"><h3><a href="/aram-mayhem/sion-build/">Sion</a></h3><p>Tank · 赛恩 亡灵战神</p></article><article class="card"><h3><a href="/aram-mayhem/sivir-build/">Sivir</a></h3><p>ADC · 希维尔 战争女神</p></article><article class="card"><h3><a href="/aram-mayhem/skarner-build/">Skarner</a></h3><p>Tank · 斯卡纳 上古领主</p></article><article class="card"><h3><a href="/aram-mayhem/smolder-build/">Smolder</a></h3><p>ADC · 斯莫德 炽炎雏龙</p></article><article class="card"><h3><a href="/aram-mayhem/sona-build/">Sona</a></h3><p>Support · 娑娜 琴瑟仙女</p></article><article class="card"><h3><a href="/aram-mayhem/soraka-build/">Soraka</a></h3><p>Support · 索拉卡 众星之子</p></article><article class="card"><h3><a href="/aram-mayhem/swain-build/">Swain</a></h3><p>Mage · 斯维因 诺克萨斯统领</p></article><article class="card"><h3><a href="/aram-mayhem/sylas-build/">Sylas</a></h3><p>Fighter · 塞拉斯 解脱者</p></article><article class="card"><h3><a href="/aram-mayhem/syndra-build/">Syndra</a></h3><p>Mage · 辛德拉 暗黑元首</p></article><article class="card"><h3><a href="/aram-mayhem/tahm-kench-build/">Tahm Kench</a></h3><p>Tank · 塔姆 河流之王</p></article><article class="card"><h3><a href="/aram-mayhem/taliyah-build/">Taliyah</a></h3><p>Mage · 塔莉垭 岩雀</p></article><article class="card"><h3><a href="/aram-mayhem/talon-build/">Talon</a></h3><p>Assassin · 泰隆 刀锋之影</p></article><article class="card"><h3><a href="/aram-mayhem/taric-build/">Taric</a></h3><p>Tank · 塔里克 瓦洛兰之盾</p></article><article class="card"><h3><a href="/aram-mayhem/teemo-build/">Teemo</a></h3><p>Mage · 提莫 迅捷斥候</p></article><article class="card"><h3><a href="/aram-mayhem/thresh-build/">Thresh</a></h3><p>Tank · 锤石 魂锁典狱长</p></article><article class="card"><h3><a href="/aram-mayhem/tristana-build/">Tristana</a></h3><p>ADC · 崔丝塔娜 麦林炮手</p></article><article class="card"><h3><a href="/aram-mayhem/trundle-build/">Trundle</a></h3><p>Fighter · 特朗德尔 巨魔之王</p></article><article class="card"><h3><a href="/aram-mayhem/tryndamere-build/">Tryndamere</a></h3><p>Fighter · 泰达米尔 蛮族之王</p></article><article class="card"><h3><a href="/aram-mayhem/twisted-fate-build/">Twisted Fate</a></h3><p>Mage · 崔斯特 卡牌大师</p></article><article class="card"><h3><a href="/aram-mayhem/twitch-build/">Twitch</a></h3><p>ADC · 图奇 瘟疫之源</p></article><article class="card"><h3><a href="/aram-mayhem/udyr-build/">Udyr</a></h3><p>Fighter · 乌迪尔 兽灵行者</p></article><article class="card"><h3><a href="/aram-mayhem/urgot-build/">Urgot</a></h3><p>Fighter · 厄加特 无畏战车</p></article><article class="card"><h3><a href="/aram-mayhem/varus-build/">Varus</a></h3><p>ADC · 韦鲁斯 惩戒之箭</p></article><article class="card"><h3><a href="/aram-mayhem/vayne-build/">Vayne</a></h3><p>ADC · 薇恩 暗夜猎手</p></article><article class="card"><h3><a href="/aram-mayhem/veigar-build/">Veigar</a></h3><p>Mage · 维迦 邪恶小法师</p></article><article class="card"><h3><a href="/aram-mayhem/velkoz-build/">Vel&#039;Koz</a></h3><p>Mage · 维克兹 虚空之眼</p></article><article class="card"><h3><a href="/aram-mayhem/vex-build/">Vex</a></h3><p>Mage · 薇古丝 愁云使者</p></article><article class="card"><h3><a href="/aram-mayhem/vi-build/">Vi</a></h3><p>Fighter · 蔚 皮城执法官</p></article><article class="card"><h3><a href="/aram-mayhem/viego-build/">Viego</a></h3><p>Assassin · 佛耶戈 破败之王</p></article><article class="card"><h3><a href="/aram-mayhem/viktor-build/">Viktor</a></h3><p>Mage · 维克托 奥术先驱</p></article><article class="card"><h3><a href="/aram-mayhem/vladimir-build/">Vladimir</a></h3><p>Mage · 弗拉基米尔 猩红收割者</p></article><article class="card"><h3><a href="/aram-mayhem/volibear-build/">Volibear</a></h3><p>Fighter · 沃利贝尔 不灭狂雷</p></article><article class="card"><h3><a href="/aram-mayhem/warwick-build/">Warwick</a></h3><p>Fighter · 沃里克 祖安怒兽</p></article><article class="card"><h3><a href="/aram-mayhem/wukong-build/">Wukong</a></h3><p>Fighter · 孙悟空 齐天大圣</p></article><article class="card"><h3><a href="/aram-mayhem/xayah-build/">Xayah</a></h3><p>ADC · 霞 逆羽</p></article><article class="card"><h3><a href="/aram-mayhem/xerath-build/">Xerath</a></h3><p>Mage · 泽拉斯 远古巫灵</p></article><article class="card"><h3><a href="/aram-mayhem/xin-zhao-build/">Xin Zhao</a></h3><p>Fighter · 赵信 德邦总管</p></article><article class="card"><h3><a href="/aram-mayhem/yasuo-build/">Yasuo</a></h3><p>Fighter · 亚索 疾风剑豪</p></article><article class="card"><h3><a href="/aram-mayhem/yone-build/">Yone</a></h3><p>Fighter · 永恩 封魔剑魂</p></article><article class="card"><h3><a href="/aram-mayhem/yorick-build/">Yorick</a></h3><p>Fighter · 约里克 牧魂人</p></article><article class="card"><h3><a href="/aram-mayhem/yunara-build/">Yunara</a></h3><p>ADC · 芸阿娜 不破之誓</p></article><article class="card"><h3><a href="/aram-mayhem/yuumi-build/">Yuumi</a></h3><p>Support · 悠米 魔法猫咪</p></article><article class="card"><h3><a href="/aram-mayhem/zaahen-build/">Zaahen</a></h3><p>Fighter · 亚恒 不落魔锋</p></article><article class="card"><h3><a href="/aram-mayhem/zac-build/">Zac</a></h3><p>Tank · 扎克 生化魔人</p></article><article class="card"><h3><a href="/aram-mayhem/zed-build/">Zed</a></h3><p>Assassin · 劫 影流之主</p></article><article class="card"><h3><a href="/aram-mayhem/zeri-build/">Zeri</a></h3><p>ADC · 泽丽 祖安花火</p></article><article class="card"><h3><a href="/aram-mayhem/ziggs-build/">Ziggs</a></h3><p>Mage · 吉格斯 爆破鬼才</p></article><article class="card"><h3><a href="/aram-mayhem/zilean-build/">Zilean</a></h3><p>Support · 基兰 时光守护者</p></article><article class="card"><h3><a href="/aram-mayhem/zoe-build/">Zoe</a></h3><p>Mage · 佐伊 暮光星灵</p></article><article class="card"><h3><a href="/aram-mayhem/zyra-build/">Zyra</a></h3><p>Mage · 婕拉 荆棘之兴</p></article></div></section>
-      <footer class="footer">Updated for Patch 26.13. Last updated: 2026-07-07. Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games.</footer>
+      <footer class="footer" data-i18n-footer>Updated for Patch 26.13. Last updated: 2026-07-07. Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games.</footer>
     </main>
     <script>
+      const seoLanguageStorageKey = "hexBrawlLanguage";
+      const seoSupportedLanguages = ["zh", "en", "ja", "ko", "es"];
+      const seoCopy = {
+        zh: {
+          nav: { tier: "梯度榜", meta: "版本环境", how: "玩法说明", index: "英雄索引" },
+          trustPatch: "当前版本：26.13",
+          trustUpdated: "最后更新：2026-07-07",
+          trustNote: "内容基于公开版本环境、实战体验与资料整理，非 Riot 官方项目。",
+          shareTitle: "分享这套出装",
+          copyPrefix: "复制",
+          copied: "已复制",
+          selectText: "请选择文本",
+          footer: "当前版本：26.13。最后更新：2026-07-07。内容基于公开版本环境、实战体验与资料整理，非 Riot 官方项目。"
+        },
+        en: {
+          nav: { tier: "Tier List", meta: "Meta", how: "How to Play", index: "Champion Index" },
+          trustPatch: "Updated for Patch 26.13",
+          trustUpdated: "Last updated: 2026-07-07",
+          trustNote: "Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games.",
+          shareTitle: "Share this build",
+          copyPrefix: "Copy",
+          copied: "Copied",
+          selectText: "Select text",
+          footer: "Updated for Patch 26.13. Last updated: 2026-07-07. Data is manually curated from public meta sources and gameplay testing. Not affiliated with Riot Games."
+        },
+        ja: {
+          nav: { tier: "ティアリスト", meta: "メタ", how: "遊び方", index: "チャンピオン一覧" },
+          trustPatch: "Patch 26.13 対応",
+          trustUpdated: "最終更新：2026-07-07",
+          trustNote: "公開メタ情報とプレイテストをもとに手動整理した非公式ファンプロジェクトです。",
+          shareTitle: "このビルドを共有",
+          copyPrefix: "コピー",
+          copied: "コピー済み",
+          selectText: "テキストを選択",
+          footer: "Patch 26.13 対応。最終更新：2026-07-07。公開メタ情報とプレイテストをもとに手動整理した非公式ファンプロジェクトです。"
+        },
+        ko: {
+          nav: { tier: "티어 리스트", meta: "메타", how: "플레이 방법", index: "챔피언 목록" },
+          trustPatch: "Patch 26.13 기준",
+          trustUpdated: "마지막 업데이트: 2026-07-07",
+          trustNote: "공개 메타 자료와 플레이 테스트를 바탕으로 수동 정리한 비공식 팬 프로젝트입니다.",
+          shareTitle: "이 빌드 공유",
+          copyPrefix: "복사",
+          copied: "복사됨",
+          selectText: "텍스트 선택",
+          footer: "Patch 26.13 기준. 마지막 업데이트: 2026-07-07. 공개 메타 자료와 플레이 테스트를 바탕으로 수동 정리한 비공식 팬 프로젝트입니다."
+        },
+        es: {
+          nav: { tier: "Tier List", meta: "Meta", how: "Como jugar", index: "Indice de campeones" },
+          trustPatch: "Actualizado para Patch 26.13",
+          trustUpdated: "Ultima actualizacion: 2026-07-07",
+          trustNote: "Datos curados manualmente a partir de fuentes publicas del meta y pruebas de juego. No afiliado a Riot Games.",
+          shareTitle: "Comparte esta build",
+          copyPrefix: "Copiar",
+          copied: "Copiado",
+          selectText: "Selecciona el texto",
+          footer: "Actualizado para Patch 26.13. Ultima actualizacion: 2026-07-07. Datos curados manualmente a partir de fuentes publicas del meta y pruebas de juego. No afiliado a Riot Games."
+        }
+      };
+      function seoStoredLanguage() {
+        try { return localStorage.getItem(seoLanguageStorageKey); } catch { return null; }
+      }
+      function seoSaveLanguage(lang) {
+        try { localStorage.setItem(seoLanguageStorageKey, lang); } catch {}
+      }
+      function seoDocumentLang(lang) {
+        return lang === "zh" ? "zh-CN" : lang === "ja" ? "ja" : lang === "ko" ? "ko" : lang === "es" ? "es" : "en";
+      }
+      function seoInitialLanguage() {
+        const queryLang = new URLSearchParams(window.location.search).get("lang");
+        if (seoSupportedLanguages.includes(queryLang)) return queryLang;
+        const stored = seoStoredLanguage();
+        return seoSupportedLanguages.includes(stored) ? stored : "en";
+      }
+      function applySeoLanguage(lang) {
+        const copy = seoCopy[lang] || seoCopy.en;
+        document.documentElement.lang = seoDocumentLang(lang);
+        document.querySelectorAll("[data-i18n-nav]").forEach(function (link) {
+          const key = link.getAttribute("data-i18n-nav");
+          if (copy.nav[key]) link.textContent = copy.nav[key];
+        });
+        document.querySelectorAll("[data-i18n-trust-patch]").forEach(function (node) { node.textContent = copy.trustPatch; });
+        document.querySelectorAll("[data-i18n-trust-updated]").forEach(function (node) { node.textContent = copy.trustUpdated; });
+        document.querySelectorAll("[data-i18n-trust-note]").forEach(function (node) { node.textContent = copy.trustNote; });
+        document.querySelectorAll("[data-i18n-share-title]").forEach(function (node) { node.textContent = copy.shareTitle; });
+        document.querySelectorAll("[data-copy-share]").forEach(function (button) {
+          const label = button.getAttribute("data-copy-label") || "";
+          button.textContent = copy.copyPrefix + (label ? " " + label : "");
+        });
+        document.querySelectorAll("[data-i18n-footer]").forEach(function (node) { node.textContent = copy.footer; });
+      }
+      const languageSelect = document.getElementById("languageSelect");
+      if (languageSelect) {
+        const currentLanguage = seoInitialLanguage();
+        languageSelect.value = currentLanguage;
+        applySeoLanguage(currentLanguage);
+        languageSelect.addEventListener("change", function (event) {
+          const lang = event.target.value;
+          seoSaveLanguage(lang);
+          applySeoLanguage(lang);
+          const url = new URL(window.location.href);
+          url.searchParams.set("lang", lang);
+          window.history.replaceState({}, "", url);
+        });
+      }
       document.addEventListener("click", async function (event) {
         const button = event.target.closest("[data-copy-share]");
         if (!button) return;
@@ -83,14 +199,16 @@
         const text = button.getAttribute("data-share-text") || "";
         try {
           await navigator.clipboard.writeText(text);
-          button.textContent = "Copied";
+          const copy = seoCopy[languageSelect?.value] || seoCopy.en;
+          button.textContent = copy.copied;
           button.classList.add("copied");
           window.setTimeout(function () {
             button.textContent = original;
             button.classList.remove("copied");
           }, 1400);
         } catch {
-          button.textContent = "Select text";
+          const copy = seoCopy[languageSelect?.value] || seoCopy.en;
+          button.textContent = copy.selectText;
         }
       });
     </script>

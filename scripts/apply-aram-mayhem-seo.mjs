@@ -360,8 +360,10 @@ function styleBlock() {
       a { color:inherit; }
       .shell { width:min(100%, 1080px); margin:0 auto; padding:22px 18px 52px; }
       .top { display:flex; justify-content:space-between; align-items:center; gap:14px; margin-bottom:18px; color:var(--muted); font-size:14px; }
+      .top-actions { display:flex; align-items:center; justify-content:flex-end; gap:10px; flex-wrap:wrap; }
       .nav { display:flex; gap:10px; flex-wrap:wrap; }
       .nav a, .chip { border:1px solid var(--line); border-radius:8px; padding:8px 11px; text-decoration:none; background:rgba(48,36,27,.72); }
+      .language { min-width:112px; height:36px; border:1px solid var(--line); border-radius:8px; background:#211912; color:var(--text); padding:0 10px; outline:none; }
       .hero { border:1px solid var(--line); border-radius:8px; background:linear-gradient(135deg, rgba(48,36,27,.96), rgba(30,22,16,.94)); padding:26px; display:flex; gap:18px; align-items:center; }
       .hero img { width:88px; height:88px; border-radius:8px; border:1px solid var(--accent); background:#111; object-fit:cover; }
       h1 { margin:0; font-size:clamp(34px, 6vw, 56px); line-height:1.02; letter-spacing:0; }
@@ -395,7 +397,7 @@ function styleBlock() {
       .share-copy div { border:1px solid rgba(88,69,50,.7); border-radius:8px; background:#261c15; padding:10px; }
       .share-copy strong { color:#f8e5bf; }
       .footer { margin-top:24px; color:#8e7962; font-size:12px; line-height:1.7; }
-      @media (max-width: 640px) { .hero { align-items:flex-start; padding:18px; } .hero img { width:64px; height:64px; } .tabs { grid-template-columns:1fr; } .shell { padding:14px; } }
+      @media (max-width: 640px) { .top { align-items:flex-start; flex-direction:column; } .top-actions { justify-content:flex-start; } .hero { align-items:flex-start; padding:18px; } .hero img { width:64px; height:64px; } .tabs { grid-template-columns:1fr; } .shell { padding:14px; } }
     </style>`;
 }
 
@@ -420,17 +422,131 @@ function pageShell({ title, description, keywords, canonical, body, jsonLd = [] 
     <main class="shell">
       <div class="top">
         <a href="/aram-mayhem/">ARAM Mayhem</a>
-        <nav class="nav" aria-label="ARAM Mayhem navigation">
-          <a href="/aram-mayhem/tier-list/">Tier List</a>
-          <a href="/aram-mayhem/meta/">Meta</a>
-          <a href="/aram-mayhem/how-to-play/">How to Play</a>
-          <a href="/">Champion Index</a>
-        </nav>
+        <div class="top-actions">
+          <nav class="nav" aria-label="ARAM Mayhem navigation">
+            <a href="/aram-mayhem/tier-list/" data-i18n-nav="tier">Tier List</a>
+            <a href="/aram-mayhem/meta/" data-i18n-nav="meta">Meta</a>
+            <a href="/aram-mayhem/how-to-play/" data-i18n-nav="how">How to Play</a>
+            <a href="/" data-i18n-nav="index">Champion Index</a>
+          </nav>
+          <select id="languageSelect" class="language" aria-label="Language">
+            <option value="zh">中文</option>
+            <option value="en">English</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+            <option value="es">Español</option>
+          </select>
+        </div>
       </div>
       ${body}
-      <footer class="footer">Updated for Patch ${patchVersion}. Last updated: ${lastUpdated}. ${trustNote}</footer>
+      <footer class="footer" data-i18n-footer>Updated for Patch ${patchVersion}. Last updated: ${lastUpdated}. ${trustNote}</footer>
     </main>
     <script>
+      const seoLanguageStorageKey = "hexBrawlLanguage";
+      const seoSupportedLanguages = ["zh", "en", "ja", "ko", "es"];
+      const seoCopy = {
+        zh: {
+          nav: { tier: "梯度榜", meta: "版本环境", how: "玩法说明", index: "英雄索引" },
+          trustPatch: "当前版本：${patchVersion}",
+          trustUpdated: "最后更新：${lastUpdated}",
+          trustNote: "内容基于公开版本环境、实战体验与资料整理，非 Riot 官方项目。",
+          shareTitle: "分享这套出装",
+          copyPrefix: "复制",
+          copied: "已复制",
+          selectText: "请选择文本",
+          footer: "当前版本：${patchVersion}。最后更新：${lastUpdated}。内容基于公开版本环境、实战体验与资料整理，非 Riot 官方项目。"
+        },
+        en: {
+          nav: { tier: "Tier List", meta: "Meta", how: "How to Play", index: "Champion Index" },
+          trustPatch: "Updated for Patch ${patchVersion}",
+          trustUpdated: "Last updated: ${lastUpdated}",
+          trustNote: "${trustNote}",
+          shareTitle: "Share this build",
+          copyPrefix: "Copy",
+          copied: "Copied",
+          selectText: "Select text",
+          footer: "Updated for Patch ${patchVersion}. Last updated: ${lastUpdated}. ${trustNote}"
+        },
+        ja: {
+          nav: { tier: "ティアリスト", meta: "メタ", how: "遊び方", index: "チャンピオン一覧" },
+          trustPatch: "Patch ${patchVersion} 対応",
+          trustUpdated: "最終更新：${lastUpdated}",
+          trustNote: "公開メタ情報とプレイテストをもとに手動整理した非公式ファンプロジェクトです。",
+          shareTitle: "このビルドを共有",
+          copyPrefix: "コピー",
+          copied: "コピー済み",
+          selectText: "テキストを選択",
+          footer: "Patch ${patchVersion} 対応。最終更新：${lastUpdated}。公開メタ情報とプレイテストをもとに手動整理した非公式ファンプロジェクトです。"
+        },
+        ko: {
+          nav: { tier: "티어 리스트", meta: "메타", how: "플레이 방법", index: "챔피언 목록" },
+          trustPatch: "Patch ${patchVersion} 기준",
+          trustUpdated: "마지막 업데이트: ${lastUpdated}",
+          trustNote: "공개 메타 자료와 플레이 테스트를 바탕으로 수동 정리한 비공식 팬 프로젝트입니다.",
+          shareTitle: "이 빌드 공유",
+          copyPrefix: "복사",
+          copied: "복사됨",
+          selectText: "텍스트 선택",
+          footer: "Patch ${patchVersion} 기준. 마지막 업데이트: ${lastUpdated}. 공개 메타 자료와 플레이 테스트를 바탕으로 수동 정리한 비공식 팬 프로젝트입니다."
+        },
+        es: {
+          nav: { tier: "Tier List", meta: "Meta", how: "Como jugar", index: "Indice de campeones" },
+          trustPatch: "Actualizado para Patch ${patchVersion}",
+          trustUpdated: "Ultima actualizacion: ${lastUpdated}",
+          trustNote: "Datos curados manualmente a partir de fuentes publicas del meta y pruebas de juego. No afiliado a Riot Games.",
+          shareTitle: "Comparte esta build",
+          copyPrefix: "Copiar",
+          copied: "Copiado",
+          selectText: "Selecciona el texto",
+          footer: "Actualizado para Patch ${patchVersion}. Ultima actualizacion: ${lastUpdated}. Datos curados manualmente a partir de fuentes publicas del meta y pruebas de juego. No afiliado a Riot Games."
+        }
+      };
+      function seoStoredLanguage() {
+        try { return localStorage.getItem(seoLanguageStorageKey); } catch { return null; }
+      }
+      function seoSaveLanguage(lang) {
+        try { localStorage.setItem(seoLanguageStorageKey, lang); } catch {}
+      }
+      function seoDocumentLang(lang) {
+        return lang === "zh" ? "zh-CN" : lang === "ja" ? "ja" : lang === "ko" ? "ko" : lang === "es" ? "es" : "en";
+      }
+      function seoInitialLanguage() {
+        const queryLang = new URLSearchParams(window.location.search).get("lang");
+        if (seoSupportedLanguages.includes(queryLang)) return queryLang;
+        const stored = seoStoredLanguage();
+        return seoSupportedLanguages.includes(stored) ? stored : "en";
+      }
+      function applySeoLanguage(lang) {
+        const copy = seoCopy[lang] || seoCopy.en;
+        document.documentElement.lang = seoDocumentLang(lang);
+        document.querySelectorAll("[data-i18n-nav]").forEach(function (link) {
+          const key = link.getAttribute("data-i18n-nav");
+          if (copy.nav[key]) link.textContent = copy.nav[key];
+        });
+        document.querySelectorAll("[data-i18n-trust-patch]").forEach(function (node) { node.textContent = copy.trustPatch; });
+        document.querySelectorAll("[data-i18n-trust-updated]").forEach(function (node) { node.textContent = copy.trustUpdated; });
+        document.querySelectorAll("[data-i18n-trust-note]").forEach(function (node) { node.textContent = copy.trustNote; });
+        document.querySelectorAll("[data-i18n-share-title]").forEach(function (node) { node.textContent = copy.shareTitle; });
+        document.querySelectorAll("[data-copy-share]").forEach(function (button) {
+          const label = button.getAttribute("data-copy-label") || "";
+          button.textContent = copy.copyPrefix + (label ? " " + label : "");
+        });
+        document.querySelectorAll("[data-i18n-footer]").forEach(function (node) { node.textContent = copy.footer; });
+      }
+      const languageSelect = document.getElementById("languageSelect");
+      if (languageSelect) {
+        const currentLanguage = seoInitialLanguage();
+        languageSelect.value = currentLanguage;
+        applySeoLanguage(currentLanguage);
+        languageSelect.addEventListener("change", function (event) {
+          const lang = event.target.value;
+          seoSaveLanguage(lang);
+          applySeoLanguage(lang);
+          const url = new URL(window.location.href);
+          url.searchParams.set("lang", lang);
+          window.history.replaceState({}, "", url);
+        });
+      }
       document.addEventListener("click", async function (event) {
         const button = event.target.closest("[data-copy-share]");
         if (!button) return;
@@ -438,14 +554,16 @@ function pageShell({ title, description, keywords, canonical, body, jsonLd = [] 
         const text = button.getAttribute("data-share-text") || "";
         try {
           await navigator.clipboard.writeText(text);
-          button.textContent = "Copied";
+          const copy = seoCopy[languageSelect?.value] || seoCopy.en;
+          button.textContent = copy.copied;
           button.classList.add("copied");
           window.setTimeout(function () {
             button.textContent = original;
             button.classList.remove("copied");
           }, 1400);
         } catch {
-          button.textContent = "Select text";
+          const copy = seoCopy[languageSelect?.value] || seoCopy.en;
+          button.textContent = copy.selectText;
         }
       });
     </script>
@@ -457,10 +575,10 @@ function pageShell({ title, description, keywords, canonical, body, jsonLd = [] 
 function trustPanel() {
   return `<section class="trust" aria-label="Update and data note">
         <div class="trust-row">
-          <span class="trust-chip">Updated for Patch ${patchVersion}</span>
-          <span class="trust-chip">Last updated: ${lastUpdated}</span>
+          <span class="trust-chip" data-i18n-trust-patch>Updated for Patch ${patchVersion}</span>
+          <span class="trust-chip" data-i18n-trust-updated>Last updated: ${lastUpdated}</span>
         </div>
-        <p>${escapeHtml(trustNote)}</p>
+        <p data-i18n-trust-note>${escapeHtml(trustNote)}</p>
       </section>`;
 }
 
@@ -490,8 +608,8 @@ function sharePanel(entry, canonical) {
   const lines = shareLines(entry, canonical);
   return `<section class="section" aria-label="Share this build">
         <div class="section-head">
-          <h2>Share this build</h2>
-          <div class="share-actions">${lines.map(([label, text]) => `<button class="copy-button" type="button" data-copy-share data-share-text="${escapeAttr(text)}">Copy ${label}</button>`).join("")}</div>
+          <h2 data-i18n-share-title>Share this build</h2>
+          <div class="share-actions">${lines.map(([label, text]) => `<button class="copy-button" type="button" data-copy-share data-copy-label="${escapeAttr(label)}" data-share-text="${escapeAttr(text)}">Copy ${label}</button>`).join("")}</div>
         </div>
         <div class="share-copy">${lines.map(([label, text]) => `<div><strong>${label}:</strong> ${escapeHtml(text)}</div>`).join("")}</div>
       </section>`;
